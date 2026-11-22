@@ -1,0 +1,166 @@
+{
+  "method": "Conservative terminal selection among already public-matching SQLs, with optional budgeted projection continuation. All 120 endpoint trajectories replayed and graded on all official instances. No fresh LM inference.",
+  "cue_rule": "1-3 contiguous question tokens, support >=8 training tasks spanning >=5 train schemas, operation prevalence >=0.95 and >=0.30 above training marginal. When incumbent violates some requirements, switch only if precisely one checked public match satisfies them all.",
+  "scope": "Phrase rule derived only from train; thresholds fixed before the validation probe. Direction motivated by prior aggregate validation results. Wrapper was discovered using validation; the combined score is exploratory. No test tasks used.",
+  "cue_count": 20,
+  "operators_in_learned_cues": 12,
+  "rules": {
+    "and the number": [
+      "Count",
+      "Group"
+    ],
+    "are there": [
+      "Count"
+    ],
+    "ascending": [
+      "Order"
+    ],
+    "at least": [
+      "GTE"
+    ],
+    "average": [
+      "Avg"
+    ],
+    "both": [
+      "Intersect",
+      "MultiSelect"
+    ],
+    "common": [
+      "Count",
+      "Group",
+      "Limit",
+      "LimitOne",
+      "Order"
+    ],
+    "descending": [
+      "Order"
+    ],
+    "descending order": [
+      "Order",
+      "OrderDesc"
+    ],
+    "descending order of": [
+      "Order",
+      "OrderDesc"
+    ],
+    "how many": [
+      "Count"
+    ],
+    "in ascending": [
+      "Order"
+    ],
+    "many": [
+      "Count"
+    ],
+    "more than": [
+      "GT"
+    ],
+    "order of": [
+      "Order"
+    ],
+    "ordered": [
+      "Order"
+    ],
+    "the average": [
+      "Avg"
+    ],
+    "the number of": [
+      "Count"
+    ],
+    "there": [
+      "Count"
+    ],
+    "they": [
+      "Join"
+    ]
+  },
+  "train_pool": {
+    "fit_ids": {
+      "tasks": 382,
+      "correct_before": 297,
+      "correct_after": 297,
+      "changes": 1,
+      "wins": 0,
+      "losses": 0
+    },
+    "holdout_ids": {
+      "tasks": 98,
+      "correct_before": 75,
+      "correct_after": 75,
+      "changes": 0,
+      "wins": 0,
+      "losses": 0
+    }
+  },
+  "validation": {
+    "baseline": {
+      "n": 120,
+      "correct": 96,
+      "wins_vs_v8": 0,
+      "losses_vs_v8": 0,
+      "drafts_preserved": 46,
+      "right_drafts": 47,
+      "hidden_repaired": 10,
+      "hidden_total": 16,
+      "submissions_changed_vs_v8": 0,
+      "charged_tools": 550,
+      "max_tools_per_task": 8,
+      "extra_lm_generations": 0
+    },
+    "intent": {
+      "n": 120,
+      "correct": 97,
+      "wins_vs_v8": 1,
+      "losses_vs_v8": 0,
+      "drafts_preserved": 46,
+      "right_drafts": 47,
+      "hidden_repaired": 11,
+      "hidden_total": 16,
+      "submissions_changed_vs_v8": 1,
+      "charged_tools": 550,
+      "max_tools_per_task": 8,
+      "extra_lm_generations": 0
+    },
+    "wrapper": {
+      "n": 120,
+      "correct": 97,
+      "wins_vs_v8": 1,
+      "losses_vs_v8": 0,
+      "drafts_preserved": 46,
+      "right_drafts": 47,
+      "hidden_repaired": 10,
+      "hidden_total": 16,
+      "submissions_changed_vs_v8": 2,
+      "charged_tools": 552,
+      "max_tools_per_task": 8,
+      "extra_lm_generations": 0
+    },
+    "combined": {
+      "n": 120,
+      "correct": 98,
+      "wins_vs_v8": 2,
+      "losses_vs_v8": 0,
+      "drafts_preserved": 46,
+      "right_drafts": 47,
+      "hidden_repaired": 11,
+      "hidden_total": 16,
+      "submissions_changed_vs_v8": 3,
+      "charged_tools": 552,
+      "max_tools_per_task": 8,
+      "extra_lm_generations": 0
+    }
+  },
+  "intent_changes_overlapping_wrapper_checks": 0,
+  "inputs_sha256": {
+    "scripts/probe_v9_intent.py": "472c3968c187e078ef1e1a2ee4fca3940845ab9a2d971a48906bb115188b3c5c",
+    "scripts/probe_v9_wrapper.py": "34a0a4f39aa815fa6e6451533d19d8fa742d8392cb4ba75027baa272545d8317",
+    "mp3_sql/data/train_references.json": "def39effca9b1efe78f7316d71739111b8c8290dd0897db5e6655293fca24da7",
+    "runs/v8_pool_train/train_pool.jsonl": "9eccb81592de169b4d81887af2b05655f17673fc6b33c34b0d9cb18f7839d2f2",
+    "artifacts/prepared_data/v6/split.json": "3a374d00a176a1fc224c1d029c9b5e011e990dfab176b3dff40f68bdcc3d2ec7",
+    "submission/configs/pool_v8_weights.json": "84df88169b7e815973cb95d111854f2d53bd63d02413cd29c89cf843f4f6ed03",
+    "runs/e82_v8_struct/validation/r001/predictions.json": "2a4926adf07e9c4dd6d9dd0b077d82bce26e7b176e313db11baf32d9abe56377",
+    "runs/e82_v8_struct/validation/r001/score.json": "18f6db7c3da2e51993362fc0b6cc327f1e27859f4ea4ef2e0a5f347abe90521d",
+    "mp3_sql/data/validation_references.json": "5bfdd63ca75dd6b58c4ae3a7c72227ecfe0315655721ecaaef8e412ec3d6521d",
+    "mp3_sql/score.py": "87870af26173fbe6d8994e4de179fb272ef1fadf7dcaafc2e7b4c814c61ec95b"
+  }
+}

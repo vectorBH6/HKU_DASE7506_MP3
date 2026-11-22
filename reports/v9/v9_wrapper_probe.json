@@ -1,0 +1,42 @@
+{
+  "method": "Validation-discovered exploratory rule. After a frozen no-public-match prefix, project a strictly narrower list of uniquely named output columns over successful checked queries with matching row counts. Recheck in reverse observation order and adopt the first public match, within the original 8-call budget. Ordered tasks additionally require explicit outermost LIMIT 1. No new model invocations.",
+  "validation": {
+    "n": 120,
+    "baseline_correct": 96,
+    "new_correct": 97,
+    "gains": 1,
+    "losses": 0,
+    "no_public_match": 10,
+    "unmatched_with_remaining_budget": 8,
+    "tasks_with_wrapper_checks": 2,
+    "additional_wrapper_checks": 2,
+    "new_public_matches_selected": 2,
+    "selected_wrappers_failing_three_instances": 1,
+    "selected_empty_public": 2,
+    "empty_public_match_but_wrong": 1,
+    "max_tool_calls": 8,
+    "input_predictions_sha256": "2a4926adf07e9c4dd6d9dd0b077d82bce26e7b176e313db11baf32d9abe56377",
+    "input_scores_sha256": "18f6db7c3da2e51993362fc0b6cc327f1e27859f4ea4ef2e0a5f347abe90521d"
+  },
+  "train_holdout_historical_v4b": {
+    "n": 98,
+    "baseline_correct": 94,
+    "new_correct": 94,
+    "gains": 0,
+    "losses": 0,
+    "no_public_match": 2,
+    "unmatched_with_remaining_budget": 2,
+    "tasks_with_wrapper_checks": 0,
+    "additional_wrapper_checks": 0,
+    "new_public_matches_selected": 0,
+    "selected_wrappers_failing_three_instances": 0,
+    "selected_empty_public": 0,
+    "empty_public_match_but_wrong": 0,
+    "max_tool_calls": 6,
+    "input_predictions_sha256": "7c26038a7246d5bddd1e93eb3d0c01ff240b20ac0018c309d2cab84a1541f008",
+    "input_scores_sha256": "b3e5b7a973f82e91f88672889d6cfa148136343c541121ad3a23f5af40f1e858"
+  },
+  "train_scope": "98 historical V4b trajectories on training schemas held out for V8 comparator fitting. Their prefixes differ from the validation V8 prefixes.",
+  "script_sha256": "34a0a4f39aa815fa6e6451533d19d8fa742d8392cb4ba75027baa272545d8317",
+  "official_scorer_sha256": "87870af26173fbe6d8994e4de179fb272ef1fadf7dcaafc2e7b4c814c61ec95b"
+}

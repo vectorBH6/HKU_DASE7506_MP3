@@ -1,0 +1,86 @@
+{
+  "mode": "qwen",
+  "controller": "review_terminal_v9",
+  "use_adapter": true,
+  "use_hints": true,
+  "use_retrieval": true,
+  "use_variants": true,
+  "review_matched": "risk",
+  "max_completions": 4,
+  "max_new_tokens": 384,
+  "seed": 42,
+  "max_retries_per_observation": 1,
+  "max_contract_checks": 2,
+  "review_pool_policy": "struct",
+  "replacement_margin": 0.12,
+  "intent_rules": {
+    "and the number": [
+      "Count",
+      "Group"
+    ],
+    "are there": [
+      "Count"
+    ],
+    "ascending": [
+      "Order"
+    ],
+    "at least": [
+      "GTE"
+    ],
+    "average": [
+      "Avg"
+    ],
+    "both": [
+      "Intersect",
+      "MultiSelect"
+    ],
+    "common": [
+      "Count",
+      "Group",
+      "Limit",
+      "LimitOne",
+      "Order"
+    ],
+    "descending": [
+      "Order"
+    ],
+    "descending order": [
+      "Order",
+      "OrderDesc"
+    ],
+    "descending order of": [
+      "Order",
+      "OrderDesc"
+    ],
+    "how many": [
+      "Count"
+    ],
+    "in ascending": [
+      "Order"
+    ],
+    "many": [
+      "Count"
+    ],
+    "more than": [
+      "GT"
+    ],
+    "order of": [
+      "Order"
+    ],
+    "ordered": [
+      "Order"
+    ],
+    "the average": [
+      "Avg"
+    ],
+    "the number of": [
+      "Count"
+    ],
+    "there": [
+      "Count"
+    ],
+    "they": [
+      "Join"
+    ]
+  }
+}

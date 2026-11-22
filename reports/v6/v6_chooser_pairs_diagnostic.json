@@ -1,0 +1,101 @@
+{
+  "dataset": {
+    "source": "artifacts/prepared_data/v6/chooser/holdout.jsonl",
+    "source_sha256": "6d9170951ff4064ed2218cc67ef8105b55c70dbbd3fa39bc2631ae8f148c21dc",
+    "prompts_sha256": "69776ae5d381a1eab325042229ac636e2c4fa1bf24429d447d6a986305387601",
+    "labels_sha256": "8a7ff23b73a42dcf3b125ba008f71145f47caddd5dd7728dd6213c3661d33944",
+    "source_contexts": 17,
+    "distinct_pairs": 16,
+    "prompts": 32,
+    "tasks": 12,
+    "schemas": 8,
+    "sampling": "All held-out contrast pairs; one earliest sample index per task + normalized positive/negative SQL pair, in original and swapped order. Other choices retained."
+  },
+  "old": {
+    "identity": {
+      "adapter": "artifacts/adapters/onpolicy_v001/epoch_02",
+      "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+      "device": "cuda",
+      "config_sha256": "98916aadbc66212d64e595e87698f7aace3d13777f5ece11938957327fdcf2af",
+      "generations_sha256": "f90aa49f49d5624383069fe59b1746c957338deba13588dcd7e094d99f0c2db5"
+    },
+    "outcomes": {
+      "non_submit": 12,
+      "selected_target": 13,
+      "selected_counterexample": 7
+    },
+    "action_counts": {
+      "check": 12,
+      "submit": 20
+    },
+    "outcomes_by_order": {
+      "original": {
+        "non_submit": 2,
+        "selected_target": 13,
+        "selected_counterexample": 1
+      },
+      "swapped": {
+        "non_submit": 10,
+        "selected_counterexample": 6
+      }
+    },
+    "outcomes_by_target_position": {
+      "target_later": {
+        "non_submit": 2,
+        "selected_target": 13,
+        "selected_counterexample": 1
+      },
+      "target_earlier": {
+        "non_submit": 10,
+        "selected_counterexample": 6
+      }
+    },
+    "target_selected_in_both_orders": 0,
+    "target_selected_in_at_least_one_order": 13
+  },
+  "chooser": {
+    "identity": {
+      "adapter": "artifacts/adapters/v6_chooser/epoch_01",
+      "adapter_sha256": "8deb404604ca4711c3044c096fc277de76688d042548c55d2c30b92519409983",
+      "device": "cuda",
+      "config_sha256": "98916aadbc66212d64e595e87698f7aace3d13777f5ece11938957327fdcf2af",
+      "generations_sha256": "53a9add19ef1340fbe375bba4a5f966c0bcf6901c57102e5871c50a4c7609421"
+    },
+    "outcomes": {
+      "selected_target": 28,
+      "selected_counterexample": 4
+    },
+    "action_counts": {
+      "submit": 32
+    },
+    "outcomes_by_order": {
+      "original": {
+        "selected_target": 14,
+        "selected_counterexample": 2
+      },
+      "swapped": {
+        "selected_target": 14,
+        "selected_counterexample": 2
+      }
+    },
+    "outcomes_by_target_position": {
+      "target_later": {
+        "selected_target": 13,
+        "selected_counterexample": 3
+      },
+      "target_earlier": {
+        "selected_target": 15,
+        "selected_counterexample": 1
+      }
+    },
+    "target_selected_in_both_orders": 13,
+    "target_selected_in_at_least_one_order": 15
+  },
+  "paired": {
+    "newly_correct_displays": 16,
+    "regressed_displays": 1,
+    "newly_correct_both_order_pairs": 13,
+    "regressed_both_order_pairs": 0
+  },
+  "method": "One unconstrained, greedy first action per fixed prompt. The actor received only messages. A valid submit can name a candidate or give equivalent normalized SQL; other actions are counted separately, without running a controller or a database. Held out only from V6 incremental fine-tuning. Diagnostic is independent of checkpoint selection."
+}

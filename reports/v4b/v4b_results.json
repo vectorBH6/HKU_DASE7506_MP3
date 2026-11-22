@@ -1,0 +1,304 @@
+{
+  "old": {
+    "experiment": "e22_recovery_selected",
+    "split": "test",
+    "run": "r001",
+    "source": "runs/e22_recovery_selected/test/r001",
+    "correct": 182,
+    "n": 240,
+    "accuracy": 75.83333333333333,
+    "prediction_seconds": 2655.307113064002,
+    "scoring_seconds": 4.495828038001491,
+    "mean_tool_calls": 3.65,
+    "model_calls": 610,
+    "input_tokens": 555690,
+    "output_tokens": 19275,
+    "max_model_calls": 4,
+    "max_new_tokens": 174,
+    "max_tool_calls": 8,
+    "peak_rss_mib": 4990.2578125,
+    "cpu_seconds": 10563.34,
+    "public_matches": 210,
+    "public_match_final_failed": 28,
+    "original_match_final_failed": 8,
+    "guard_reasons": {
+      "model_hint_request": 157,
+      "model_query": 203,
+      "model_candidate_selection": 181,
+      "duplicate_action": 63,
+      "recovery_retry": 32,
+      "model_budget_fallback": 88,
+      "invalid_query": 5,
+      "recovery_limit_fallback": 5,
+      "prefer_matching_or_continue": 1
+    },
+    "model_selected_actions": {
+      "repair_hint": 157,
+      "check": 203,
+      "submit": 181
+    },
+    "tool_actions": {
+      "check": 489,
+      "schema": 230,
+      "repair_hint": 157,
+      "submit": 240
+    },
+    "device": "cpu",
+    "config": {
+      "mode": "qwen",
+      "controller": "recovery_v3",
+      "use_adapter": true,
+      "use_hints": true,
+      "use_retrieval": true,
+      "use_variants": true,
+      "review_matched": "risk",
+      "max_completions": 4,
+      "max_new_tokens": 384,
+      "seed": 42,
+      "max_retries_per_observation": 1
+    },
+    "adapter": {
+      "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/onpolicy_v001/epoch_02",
+      "sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613"
+    },
+    "review_records": 735,
+    "model_accepted_proposals": 541,
+    "original_match_tasks": 106,
+    "original_match_final_changed": 20,
+    "affinity_changes": [],
+    "duplicate_tasks": 44,
+    "duplicate_task_failures": 27,
+    "duplicate_proposals": 63,
+    "early_fallback_tasks": 2,
+    "early_fallback_failures": 2,
+    "recovery_retries": 32,
+    "accepted_recovery_retries": 11,
+    "recovery_tasks": 32,
+    "generation_cap_tasks": 66,
+    "early_fallback_ids": [
+      "test-19a86ac705aca208",
+      "test-8767a866984b3660"
+    ]
+  },
+  "trained": {
+    "experiment": "e35_feedback_selected",
+    "split": "test",
+    "run": "r001",
+    "source": "runs/e35_feedback_selected/test/r001",
+    "correct": 180,
+    "n": 240,
+    "accuracy": 75.0,
+    "prediction_seconds": 3172.8721027499996,
+    "scoring_seconds": 4.523359644001175,
+    "mean_tool_calls": 3.5125,
+    "model_calls": 552,
+    "input_tokens": 648409,
+    "output_tokens": 19902,
+    "max_model_calls": 4,
+    "max_new_tokens": 138,
+    "max_tool_calls": 8,
+    "peak_rss_mib": 4991.0234375,
+    "cpu_seconds": 12609.16,
+    "public_matches": 210,
+    "public_match_final_failed": 30,
+    "original_match_final_failed": 12,
+    "guard_reasons": {
+      "model_query": 189,
+      "model_candidate_selection": 172,
+      "model_hint_request": 79,
+      "static_projection_contract": 10,
+      "duplicate_action": 108,
+      "recovery_retry": 46,
+      "recovery_limit_fallback": 22,
+      "model_budget_fallback": 122,
+      "invalid_query": 2,
+      "static_contract_selection": 2,
+      "static_explicit_distinct": 2
+    },
+    "model_selected_actions": {
+      "check": 189,
+      "submit": 172,
+      "repair_hint": 79
+    },
+    "tool_actions": {
+      "check": 503,
+      "schema": 229,
+      "submit": 240,
+      "repair_hint": 111
+    },
+    "device": "cpu",
+    "config": {
+      "mode": "qwen",
+      "controller": "semantic_v4",
+      "use_adapter": true,
+      "use_hints": true,
+      "use_retrieval": true,
+      "use_variants": true,
+      "review_matched": "risk",
+      "max_completions": 4,
+      "max_new_tokens": 384,
+      "seed": 42,
+      "max_retries_per_observation": 1,
+      "max_contract_checks": 2
+    },
+    "adapter": {
+      "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/feedback_v4/epoch_01",
+      "sha256": "3deda01e89b10e00524bfce83ae27aaeb415a4291f4f0b5691d1b5e65f780b81"
+    },
+    "review_records": 754,
+    "model_accepted_proposals": 440,
+    "original_match_tasks": 106,
+    "original_match_final_changed": 11,
+    "affinity_changes": [],
+    "duplicate_tasks": 53,
+    "duplicate_task_failures": 28,
+    "duplicate_proposals": 108,
+    "early_fallback_tasks": 2,
+    "early_fallback_failures": 2,
+    "recovery_retries": 46,
+    "accepted_recovery_retries": 10,
+    "recovery_tasks": 45,
+    "generation_cap_tasks": 62,
+    "early_fallback_ids": [
+      "test-19a86ac705aca208",
+      "test-8767a866984b3660"
+    ]
+  },
+  "control": {
+    "experiment": "e42_contract_control",
+    "split": "test",
+    "run": "r001",
+    "source": "runs/e42_contract_control/test/r001",
+    "correct": 184,
+    "n": 240,
+    "accuracy": 76.66666666666667,
+    "prediction_seconds": 2481.343641737003,
+    "scoring_seconds": 4.527758270000049,
+    "mean_tool_calls": 3.654166666666667,
+    "model_calls": 601,
+    "input_tokens": 549627,
+    "output_tokens": 19085,
+    "max_model_calls": 4,
+    "max_new_tokens": 174,
+    "max_tool_calls": 8,
+    "peak_rss_mib": 4990.8984375,
+    "cpu_seconds": 9860.11,
+    "public_matches": 211,
+    "public_match_final_failed": 27,
+    "original_match_final_failed": 7,
+    "guard_reasons": {
+      "model_hint_request": 154,
+      "model_query": 199,
+      "model_candidate_selection": 182,
+      "static_projection_contract": 8,
+      "duplicate_action": 61,
+      "recovery_retry": 30,
+      "model_budget_fallback": 85,
+      "invalid_query": 5,
+      "recovery_limit_fallback": 5,
+      "static_explicit_distinct": 2
+    },
+    "model_selected_actions": {
+      "repair_hint": 154,
+      "check": 199,
+      "submit": 182
+    },
+    "tool_actions": {
+      "check": 494,
+      "schema": 229,
+      "repair_hint": 154,
+      "submit": 240
+    },
+    "device": "cpu",
+    "config": {
+      "mode": "qwen",
+      "controller": "contract_v4",
+      "use_adapter": true,
+      "use_hints": true,
+      "use_retrieval": true,
+      "use_variants": true,
+      "review_matched": "risk",
+      "max_completions": 4,
+      "max_new_tokens": 384,
+      "seed": 42,
+      "max_retries_per_observation": 1,
+      "max_contract_checks": 2
+    },
+    "adapter": {
+      "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/onpolicy_v001/epoch_02",
+      "sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613"
+    },
+    "review_records": 731,
+    "model_accepted_proposals": 535,
+    "original_match_tasks": 106,
+    "original_match_final_changed": 22,
+    "affinity_changes": [],
+    "duplicate_tasks": 43,
+    "duplicate_task_failures": 26,
+    "duplicate_proposals": 61,
+    "early_fallback_tasks": 2,
+    "early_fallback_failures": 2,
+    "recovery_retries": 30,
+    "accepted_recovery_retries": 10,
+    "recovery_tasks": 30,
+    "generation_cap_tasks": 64,
+    "early_fallback_ids": [
+      "test-19a86ac705aca208",
+      "test-8767a866984b3660"
+    ]
+  },
+  "paired_vs_v3": [
+    {
+      "experiment": "e35_feedback_selected",
+      "wins": [
+        "test-fa097b64a47cd1c2",
+        "test-a9601bc8da0bfa57",
+        "test-41e95a4382b5a381",
+        "test-70b6504ede766492",
+        "test-f3f0286945ea2ccf",
+        "test-2b945f68199483a3",
+        "test-9d0333af61df8e61",
+        "test-4e6198c6940dca9e"
+      ],
+      "losses": [
+        "test-750c21e4ae9b7ad1",
+        "test-43689cbe73aa8738",
+        "test-29fb575688847a8a",
+        "test-f9ee423b9cfcd416",
+        "test-d7824905d10995a3",
+        "test-17452a7f98a02c84",
+        "test-b347bdf78d8ca898",
+        "test-469f22a3a541ed03",
+        "test-b61fd5f32241bb53",
+        "test-5569c76b86e09542"
+      ],
+      "net": -2
+    },
+    {
+      "experiment": "e42_contract_control",
+      "wins": [
+        "test-fa097b64a47cd1c2",
+        "test-9d0333af61df8e61"
+      ],
+      "losses": [],
+      "net": 2
+    }
+  ],
+  "deployment": {
+    "decided_at": "2026-11-13T16:11:51.664636+00:00",
+    "selected_experiment": "e42_contract_control",
+    "config_path": "submission/configs/contract_v4_selected.json",
+    "adapter_path": "artifacts/adapters/onpolicy_v001/epoch_02",
+    "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+    "test_correct": 184,
+    "test_n": 240,
+    "public_test_aggregate_used_for_deployment": true,
+    "test_question_labels_used_for_training_or_rules": false,
+    "rule": "One additional prevalidated old-weight control after the trained candidate regressed. Keep highest measured public test score; retain v3 on ties. No further experiments this round.",
+    "results": {
+      "e22_recovery_selected": 182,
+      "e35_feedback_selected": 180,
+      "e42_contract_control": 184
+    }
+  }
+}

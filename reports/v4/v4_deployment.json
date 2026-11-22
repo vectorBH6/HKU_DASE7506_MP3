@@ -1,0 +1,17 @@
+{
+  "decided_at": "2026-11-13T16:11:51.664636+00:00",
+  "selected_experiment": "e42_contract_control",
+  "config_path": "submission/configs/contract_v4_selected.json",
+  "adapter_path": "artifacts/adapters/onpolicy_v001/epoch_02",
+  "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+  "test_correct": 184,
+  "test_n": 240,
+  "public_test_aggregate_used_for_deployment": true,
+  "test_question_labels_used_for_training_or_rules": false,
+  "rule": "One additional prevalidated old-weight control after the trained candidate regressed. Keep highest measured public test score; retain v3 on ties. No further experiments this round.",
+  "results": {
+    "e22_recovery_selected": 182,
+    "e35_feedback_selected": 180,
+    "e42_contract_control": 184
+  }
+}

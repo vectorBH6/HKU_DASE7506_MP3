@@ -1,0 +1,82 @@
+[
+  {
+    "source": "runs/e03_qwen3_lora/validation/r001/generations.jsonl",
+    "compressed": "reports/reproduction_logs/e03_qwen3_lora_validation_r001_generations.jsonl.gz",
+    "raw_sha256": "d350d29e56d85bd3f17ec1c21d6bf334c10e16e9a77f8005a6965b39a2e61b33"
+  },
+  {
+    "source": "runs/e03_qwen3_lora/test/r001/generations.jsonl",
+    "compressed": "reports/reproduction_logs/e03_qwen3_lora_test_r001_generations.jsonl.gz",
+    "raw_sha256": "7929e4fd2a0db21ff3f50c7b891cfd349cab5316333a63f37556914bfcb0ceb8"
+  },
+  {
+    "source": "runs/e11_review_old_adapter/validation/r002/generations.jsonl",
+    "compressed": "reports/reproduction_logs/e11_review_old_adapter_validation_r002_generations.jsonl.gz",
+    "raw_sha256": "3ec9522dd7617160a3bf524b940c1032b4bebe384fb385eec1ce304a0a6efad9"
+  },
+  {
+    "source": "runs/e11_review_old_adapter/validation/r002/decisions.jsonl",
+    "compressed": "reports/reproduction_logs/e11_review_old_adapter_validation_r002_decisions.jsonl.gz",
+    "raw_sha256": "fc35721c7fabcf249a35c53360d9e38f64c02db54f54235f63dd8ff19b954a74"
+  },
+  {
+    "source": "runs/e12_review_onpolicy/validation/r001/generations.jsonl",
+    "compressed": "reports/reproduction_logs/e12_review_onpolicy_validation_r001_generations.jsonl.gz",
+    "raw_sha256": "e4c8f267e24d14cd3c6422df0c2a2534da5ebdf2098282fc1d61c950f1940483"
+  },
+  {
+    "source": "runs/e12_review_onpolicy/validation/r001/decisions.jsonl",
+    "compressed": "reports/reproduction_logs/e12_review_onpolicy_validation_r001_decisions.jsonl.gz",
+    "raw_sha256": "cfe769ce7a236834aa7d86b2b84436c11572d41c6f230574aef011c806b30717"
+  },
+  {
+    "source": "runs/e13_review_risk/validation/r001/generations.jsonl",
+    "compressed": "reports/reproduction_logs/e13_review_risk_validation_r001_generations.jsonl.gz",
+    "raw_sha256": "c168a13442d26af7d6abf5bead4395e3b6398325388eb6c09bac21148e060722"
+  },
+  {
+    "source": "runs/e13_review_risk/validation/r001/decisions.jsonl",
+    "compressed": "reports/reproduction_logs/e13_review_risk_validation_r001_decisions.jsonl.gz",
+    "raw_sha256": "50712646d0277febfb6387a8d68f60cddbca1e1ea095bf9a802911a6df1be477"
+  },
+  {
+    "source": "runs/e14_review_off/validation/r001/generations.jsonl",
+    "compressed": "reports/reproduction_logs/e14_review_off_validation_r001_generations.jsonl.gz",
+    "raw_sha256": "74660d08b384e4fed37a1b54d5d023dd7a281f08e49d68f641b19e7a63c02dc9"
+  },
+  {
+    "source": "runs/e14_review_off/validation/r001/decisions.jsonl",
+    "compressed": "reports/reproduction_logs/e14_review_off_validation_r001_decisions.jsonl.gz",
+    "raw_sha256": "f6371d00a781318708cf4167a8c8cb305585e42e13ba97c247d57b3838d2a01f"
+  },
+  {
+    "source": "runs/e15_review_selected/test/r001/generations.jsonl",
+    "compressed": "reports/reproduction_logs/e15_review_selected_test_r001_generations.jsonl.gz",
+    "raw_sha256": "2df041b1f46683843c5ce229886af2a41d35f0a3da36bd6f2ec80a1b11aa68d4"
+  },
+  {
+    "source": "runs/e15_review_selected/test/r001/decisions.jsonl",
+    "compressed": "reports/reproduction_logs/e15_review_selected_test_r001_decisions.jsonl.gz",
+    "raw_sha256": "0d4f0aa9497cb989c99475a6a44c4f693caaca1a43ae68443ad92fdef44c0fb1"
+  },
+  {
+    "source": "runs/e02_qwen3_base/validation/r001/generations.jsonl",
+    "compressed": "reports/reproduction_logs/e02_qwen3_base_validation_r001_generations.jsonl.gz",
+    "raw_sha256": "195b80c7877830bc1c6ae13bf60c93ec8cbacafcb3a5b3d62340599fc814d90d"
+  },
+  {
+    "source": "runs/e02_qwen3_base/test/r001/generations.jsonl",
+    "compressed": "reports/reproduction_logs/e02_qwen3_base_test_r001_generations.jsonl.gz",
+    "raw_sha256": "5d7f3363d0fd55ef7235c9805981dd5aa679783bc14e1734aa00e1a3267e1ab4"
+  },
+  {
+    "source": "runs/a03_no_retrieval/validation/r001/generations.jsonl",
+    "compressed": "reports/reproduction_logs/a03_no_retrieval_validation_r001_generations.jsonl.gz",
+    "raw_sha256": "8d391dd6edce347b380807756232e7bedddbb26833d47467a646c03556a5e735"
+  },
+  {
+    "source": "runs/e10_onpolicy_collection/train/r001/generations.jsonl",
+    "compressed": "reports/reproduction_logs/e10_onpolicy_collection_train_r001_generations.jsonl.gz",
+    "raw_sha256": "c408c16c98e6cde197261afff276e6fea15545cc79940d0a80406ca0029608db"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "train_only_examples": 2566,
+  "action_examples_verified": 2002,
+  "action_counts": {
+    "check": 742,
+    "submit": 1022,
+    "repair_hint": 238
+  },
+  "all_submit_targets_checked_and_public_matching": true,
+  "no_duplicate_check_targets": true
+}

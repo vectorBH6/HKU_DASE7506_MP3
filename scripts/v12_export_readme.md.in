@@ -1,0 +1,30 @@
+# V12 SQL repair agent
+
+**Li Shanghang · Student ID 3036705979 · DASE7506 Project 3**
+
+V12 scored **191/240 (79.58%)** on the public test and **99/120 (82.50%)** on validation. Both results come from fresh offline CPU model inference and the original three-instance scorer. The public test score is self-reported. The [English report](reports/v12/FINAL_REPORT.md) and [illustrated PDF](reports/v12/FINAL_REPORT.pdf) cover the agent loop, ablations, costs and failure analysis.
+
+## Reproduce
+
+Use a clean copy of the released course starter and a Linux Python 3.11 or 3.12 environment with the dependencies in `requirements.txt` installed. The reference run used Python 3.12.3. Provision the unmodified `Qwen/Qwen3-0.6B` model and tokenizer at revision `c1899de289a04d12100db370d81485cdf75e47ca` and unpack the separate adapter ZIP into its own directory. The commands below run from the source ZIP's root.
+
+```bash
+export MP3_BASE_MODEL=/absolute/path/to/Qwen3-0.6B
+export MP3_ADAPTER_DIR=/absolute/path/to/extracted-adapter
+python reproduce.py --starter /absolute/path/to/clean-starter --split test --output-dir /absolute/path/to/new-test
+python reproduce.py --starter /absolute/path/to/clean-starter --split validation --output-dir /absolute/path/to/new-validation
+```
+
+The launcher uses four logical CPUs, one live-model prediction worker, four official scoring workers and offline safetensors loading. Each fresh output directory receives the predictions, complete score, generation log and measured resources. To independently score the bundled test predictions without generating new SQL, use the following command.
+
+```bash
+python reproduce.py --starter /absolute/path/to/clean-starter --split test --score-only --output-dir /absolute/path/to/new-rescore
+```
+
+## Submitted files
+
+- [Test score](outputs/test-score.json) and [test predictions](outputs/test.json) are byte-for-byte copies of the official V12 run. [Validation score](outputs/validation-score.json) and [validation predictions](outputs/validation.json) use the same configuration.
+- `submission.py` is the scored factory. `configs/selected.json` and `configs/v12_v9_fallback.json` contain identical settings. The V8 candidate ranking coefficients are in `configs/pool_v8_weights.json`.
+- `audit/{validation,test}/generations.jsonl.gz` contains every recorded prompt, rendered prompt, reply, token count, decoding setting and model identity. The two machine-local paths in each identity record use the portable names `$MP3_BASE_MODEL` and `$MP3_ADAPTER_DIR`. Exact timing values are retained. The adjacent JSON files summarize runtime and tools.
+- `training_records/` includes configurations, loss traces, metadata and training-data provenance for the SFT initialization, on-policy tuning and V7 paired training. It also carries the V8 ranker audit.
+- The separate adapter ZIP contains the original `adapter_model.safetensors` with SHA-256 `2af3b904143eaffbf4a76267357c30f474a9c7408b38c76bc5f9ee8d63394aab` and its PEFT configuration. In the exported configuration, the training-machine path in `base_model_name_or_path` is replaced with `Qwen/Qwen3-0.6B`. Every other configuration value is preserved. The loader opens the local base supplied via `MP3_BASE_MODEL` and attaches the separate adapter.

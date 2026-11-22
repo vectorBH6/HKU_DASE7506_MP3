@@ -1,0 +1,103 @@
+{
+  "all_checks_passed": true,
+  "official_files_checked": 497,
+  "official_modified": [],
+  "base_files_modified": [],
+  "README_cn_unchanged": true,
+  "fresh_task_memory": true,
+  "single_venv": "/home/rvector/MP3_SQL_student_package/.venv",
+  "train_only": true,
+  "extra_instances_only_in_offline_train_grader": true,
+  "two_challengers_locked_before_tests": true,
+  "public_test_aggregate_used_for_deployment": true,
+  "test_labels_used_for_training_or_rules": false,
+  "runtime": {
+    "architecture": {
+      "model_generations": 784,
+      "max_generations": 6,
+      "max_new_tokens": 174,
+      "max_tools": 8,
+      "model_actions": {
+        "repair_hint": 154,
+        "check": 209,
+        "submit": 180
+      },
+      "all_actions": {
+        "check": 536,
+        "schema": 229,
+        "repair_hint": 229,
+        "submit": 240,
+        "retrieve": 37
+      },
+      "public_match_final_wrong": 28,
+      "duplicate_proposals": 152
+    },
+    "grpo": {
+      "model_generations": 577,
+      "max_generations": 4,
+      "max_new_tokens": 174,
+      "max_tools": 8,
+      "model_actions": {
+        "repair_hint": 128,
+        "check": 184,
+        "submit": 171
+      },
+      "all_actions": {
+        "check": 492,
+        "schema": 229,
+        "repair_hint": 133,
+        "submit": 240
+      },
+      "public_match_final_wrong": 28,
+      "duplicate_proposals": 91
+    }
+  },
+  "adapters": [
+    {
+      "path": "artifacts/adapters/grpo_v5/update_008",
+      "sha256": "4dfa538149e40d13e9577508a85fdfd596204376723dca945bdf3527ce95e2fa",
+      "updates": 8,
+      "groups": 45,
+      "tensors": 392,
+      "parameters": 10092544,
+      "bytes": 40422168
+    },
+    {
+      "path": "artifacts/adapters/grpo_v5/update_016",
+      "sha256": "f78c4892cefb329e55c648697ba1f97a103bc2179d73d780673d9d52d3eff108",
+      "updates": 16,
+      "groups": 59,
+      "tensors": 392,
+      "parameters": 10092544,
+      "bytes": 40422168
+    },
+    {
+      "path": "artifacts/adapters/grpo_v5/update_032",
+      "sha256": "a980b052da758daeebc8eabcb8c1e3ca565c49444fa9b54ab72ace8d40b90488",
+      "updates": 32,
+      "groups": 124,
+      "tensors": 392,
+      "parameters": 10092544,
+      "bytes": 40422168
+    },
+    {
+      "path": "artifacts/adapters/grpo_v5/update_064",
+      "sha256": "4258b27ace6abf435d7abc61ab4852583864a246dc2290e297be0a6d1a818519",
+      "updates": 64,
+      "groups": 264,
+      "tensors": 392,
+      "parameters": 10092544,
+      "bytes": 40422168
+    },
+    {
+      "path": "artifacts/adapters/grpo_v5/final",
+      "sha256": "4258b27ace6abf435d7abc61ab4852583864a246dc2290e297be0a6d1a818519",
+      "updates": 64,
+      "groups": 264,
+      "tensors": 392,
+      "parameters": 10092544,
+      "bytes": 40422168
+    }
+  ],
+  "selected": "incumbent_v4b"
+}

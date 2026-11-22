@@ -1,0 +1,18 @@
+{
+  "weight_ablation": "e11 vs e12: identical controller/config/prompt; old vs new single adapter",
+  "stopping_ablation": "e12 vs e13/e14: only review_matched config differs",
+  "frozen_inference_sources": {
+    "submission/sql_repair_agent/review_agent.py": "d96c544997b51fc97a2e037c39bb63fdc67c8febb8743c961433710eebf2bb05",
+    "submission/sql_repair_agent/review_prompts.py": "4212ff16eb48be8354131f89f99d30a8413652e0de4a3f7fb9e449effffc1f94",
+    "submission/sql_repair_agent/sql_utils.py": "c066a65a299a3d91d5e9db1dc5ddc717cf3e21a6fed75e2758757be6bb81b2d2",
+    "submission/sql_repair_agent/model.py": "fa4aec0e54e938d3573ae0f372baa5486a0bb39c3167ece3ae5b25f6a7f3b092"
+  },
+  "runs": [
+    "e11_review_old_adapter/validation/r002",
+    "e12_review_onpolicy/validation/r001",
+    "e13_review_risk/validation/r001",
+    "e14_review_off/validation/r001"
+  ],
+  "all_checks_passed": true,
+  "timing_note": "Four-core limit preserved; concurrent heterogeneous CPU timing and logged core migration are not a strict exclusive-core speed comparison."
+}

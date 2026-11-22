@@ -1,0 +1,36 @@
+{
+  "benchmark": "spider-sql-repair-shared-untrained-hints-v2",
+  "model": {
+    "repo": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "config_sha256": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+    "adapter": null
+  },
+  "parameters": {
+    "mode": "repair",
+    "draws": 4,
+    "refine_draws": 0,
+    "thinking": false,
+    "max_new_tokens": 512,
+    "batch_size": 8,
+    "seed": 751110,
+    "quantize_4bit": false,
+    "generator_sha256": "374c4d9850961698416731006c225e93bfab01606816bc8981bb856f265b4e83",
+    "prompt_code_sha256": "5bdf818b64b4364f364f87f01b78158c7799cdd1ad0ba02d8775b8323995d8a4"
+  },
+  "coverage": {
+    "train": 480,
+    "validation": 120,
+    "test": 240
+  },
+  "hints_per_task": 4,
+  "source_generation_sha256": {
+    "train": "92fa6e429101487679d426c65ef48ea196327fe3aeb51b985284502b0c18c3ad",
+    "validation": "2ec77fc89926a4c1e07c003c34e342a22b9150209aad59816089b7364b3026db",
+    "test": "0a2c009c044ffbe1db42da8114445e9ee2b4e7a592f6b619cb93128cfb07ab57"
+  },
+  "inputs": "Question, schema, draft, public example and causal public SQL feedback only",
+  "cache_semantics": "Original-draft root proposals only; no adaptive future feedback.",
+  "weights_distributed": false,
+  "student_release": true
+}

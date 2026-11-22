@@ -1,0 +1,111 @@
+{
+  "scope": "Exploratory validation replay only. No test predictions or labels used.",
+  "method": "Replay archived official V4 semantic CPU actions and verify every observation. Continue to submit with unchanged V8 or V9 controller and real tools within the same eight-call episode. Both arms share the previously generated V4 prefix. Grade all 120 final SQL on three official instances.",
+  "prefix": "runs/e34_feedback_variant/validation/r001",
+  "prefix_controller": {
+    "mode": "qwen",
+    "controller": "semantic_v4",
+    "use_adapter": true,
+    "use_hints": true,
+    "use_retrieval": true,
+    "use_variants": true,
+    "review_matched": "risk",
+    "max_completions": 4,
+    "max_new_tokens": 384,
+    "seed": 42,
+    "max_retries_per_observation": 1,
+    "max_contract_checks": 2
+  },
+  "adapter": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/feedback_v4/epoch_01",
+  "prefix_device": "cpu",
+  "prefix_generations": 254,
+  "v10_factory_exact_replayed_predictions": 120,
+  "replayed_predictions_file": "runs/v10_prefix_probe/validation/predictions.json",
+  "replayed_predictions_sha256": "dcb25496596a089fc2dee38c9a34d3d62fd6c3c184aa84c52f16994382dd2d9d",
+  "v10_factory_prompts_matching_prefix": 254,
+  "config_sha256": {
+    "v8_struct": "829ed79c383726fe64f6a0dd1b87b59d6e287a9702fcda9723123f4ebbec12e5",
+    "v9_combined": "1d0897c2d65716b91d37f1995252dd9d7bfd88bef233010159ca384b5fc1b852"
+  },
+  "score_sha256": {
+    "v4": "9976ca0a30c08ce05912b58e3ac8d3218a326d40502bc34b2edee0840ca771c5",
+    "v8": "18f6db7c3da2e51993362fc0b6cc327f1e27859f4ea4ef2e0a5f347abe90521d",
+    "v9": "97b168f896d88870f7bb97c1ffb07f2826585dbc7c9a3fc3f3531e47ce5480f7",
+    "draft": "c61a9db07f3d73d81b7653d99faf361a00c5593a5016b20e07998a31e3210b58"
+  },
+  "prefix_predictions_sha256": "ddd0d21a5cbd013152a820124b7c808b1bd4b26fd87b232c970088112bbe233a",
+  "arms": {
+    "v8_struct": {
+      "correct": 100,
+      "n": 120,
+      "paired": {
+        "v4": {
+          "wins": 6,
+          "losses": 1,
+          "net": 5
+        },
+        "v8": {
+          "wins": 5,
+          "losses": 1,
+          "net": 4
+        },
+        "v9": {
+          "wins": 4,
+          "losses": 2,
+          "net": 2
+        }
+      },
+      "originally_correct": {
+        "correct": 46,
+        "n": 47
+      },
+      "wrong_but_publicly_matched": {
+        "correct": 10,
+        "n": 16
+      },
+      "visibly_wrong": {
+        "correct": 44,
+        "n": 57
+      },
+      "charged_tools": 558,
+      "max_tools": 8,
+      "new_generations": 0
+    },
+    "v9_combined": {
+      "correct": 100,
+      "n": 120,
+      "paired": {
+        "v4": {
+          "wins": 6,
+          "losses": 1,
+          "net": 5
+        },
+        "v8": {
+          "wins": 5,
+          "losses": 1,
+          "net": 4
+        },
+        "v9": {
+          "wins": 4,
+          "losses": 2,
+          "net": 2
+        }
+      },
+      "originally_correct": {
+        "correct": 46,
+        "n": 47
+      },
+      "wrong_but_publicly_matched": {
+        "correct": 10,
+        "n": 16
+      },
+      "visibly_wrong": {
+        "correct": 44,
+        "n": 57
+      },
+      "charged_tools": 559,
+      "max_tools": 8,
+      "new_generations": 0
+    }
+  }
+}

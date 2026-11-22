@@ -1,0 +1,193 @@
+{
+  "selected_at": "2026-11-13T14:34:36.021594+00:00",
+  "rule": "Highest CPU validation correct, then fewer model calls, then experiment name. Promote only if strictly above v3 89/120.",
+  "selected_experiment": "e34_feedback_variant",
+  "locked_config": "submission/configs/feedback_v4_selected.json",
+  "config_sha256": "bba46e2402159e2691b18bbc5ee68596c38e479ec80a04018e16be94db2c3420",
+  "adapter_path": "artifacts/adapters/feedback_v4/epoch_01",
+  "adapter_sha256": "3deda01e89b10e00524bfce83ae27aaeb415a4291f4f0b5691d1b5e65f780b81",
+  "base_revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+  "promote": true,
+  "test_metrics_used": false,
+  "validation": [
+    {
+      "experiment": "e31_feedback_old_weights",
+      "correct": 83,
+      "n": 120,
+      "accuracy": 69.16666666666667,
+      "model_calls": 281,
+      "source": "runs/e31_feedback_old_weights/validation/r002",
+      "config": {
+        "mode": "qwen",
+        "controller": "feedback_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/onpolicy_v001/epoch_02",
+        "sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613"
+      }
+    },
+    {
+      "experiment": "e33_feedback_new_weights",
+      "correct": 89,
+      "n": 120,
+      "accuracy": 74.16666666666667,
+      "model_calls": 265,
+      "source": "runs/e33_feedback_new_weights/validation/r001",
+      "config": {
+        "mode": "qwen",
+        "controller": "feedback_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/feedback_v4/epoch_01",
+        "sha256": "3deda01e89b10e00524bfce83ae27aaeb415a4291f4f0b5691d1b5e65f780b81"
+      }
+    },
+    {
+      "experiment": "e34_feedback_variant",
+      "correct": 95,
+      "n": 120,
+      "accuracy": 79.16666666666667,
+      "model_calls": 254,
+      "source": "runs/e34_feedback_variant/validation/r001",
+      "config": {
+        "mode": "qwen",
+        "controller": "semantic_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 2
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/feedback_v4/epoch_01",
+        "sha256": "3deda01e89b10e00524bfce83ae27aaeb415a4291f4f0b5691d1b5e65f780b81"
+      }
+    },
+    {
+      "experiment": "e36_semantic_old_weights",
+      "correct": 87,
+      "n": 120,
+      "accuracy": 72.5,
+      "model_calls": 269,
+      "source": "runs/e36_semantic_old_weights/validation/r001",
+      "config": {
+        "mode": "qwen",
+        "controller": "semantic_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 2
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/onpolicy_v001/epoch_02",
+        "sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613"
+      }
+    },
+    {
+      "experiment": "e37_contract_old_weights",
+      "correct": 92,
+      "n": 120,
+      "accuracy": 76.66666666666667,
+      "model_calls": 278,
+      "source": "runs/e37_contract_old_weights/validation/r001",
+      "config": {
+        "mode": "qwen",
+        "controller": "contract_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 2
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/onpolicy_v001/epoch_02",
+        "sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613"
+      }
+    },
+    {
+      "experiment": "e38_recovery_epoch1",
+      "correct": 86,
+      "n": 120,
+      "accuracy": 71.66666666666667,
+      "model_calls": 253,
+      "source": "runs/e38_recovery_epoch1/validation/r001",
+      "config": {
+        "mode": "qwen",
+        "controller": "recovery_v3",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/feedback_v4/epoch_01",
+        "sha256": "3deda01e89b10e00524bfce83ae27aaeb415a4291f4f0b5691d1b5e65f780b81"
+      }
+    },
+    {
+      "experiment": "e39_constraint_old_weights",
+      "correct": 92,
+      "n": 120,
+      "accuracy": 76.66666666666667,
+      "model_calls": 278,
+      "source": "runs/e39_constraint_old_weights/validation/r001",
+      "config": {
+        "mode": "qwen",
+        "controller": "constraint_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 3
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/onpolicy_v001/epoch_02",
+        "sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613"
+      }
+    }
+  ]
+}

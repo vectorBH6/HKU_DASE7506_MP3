@@ -1,0 +1,11 @@
+{
+  "all_checks_passed": true,
+  "local_document_links_checked": 18,
+  "payload_files_verified": 627,
+  "payload_bytes": 16472735,
+  "source_budget_including_256KiB_administrative_reserve": 16734879,
+  "source_limit_bytes": 16777216,
+  "no_archive_or_dist_created": true,
+  "single_venv": "/home/rvector/MP3_SQL_student_package/.venv",
+  "canonical_test_score_exact_copy": true
+}

@@ -1,0 +1,14 @@
+{
+  "overall_best": {
+    "experiment": "dev_v4_e1_semantic",
+    "epoch": 1,
+    "config": "submission/configs/semantic_v4.json",
+    "correct": 95,
+    "n": 120,
+    "calls": 246,
+    "device": "cuda",
+    "source": "runs/dev_v4_e1_semantic/validation/r001"
+  },
+  "formal_CPU_required": true,
+  "development_only": true
+}

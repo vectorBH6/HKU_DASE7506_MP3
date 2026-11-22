@@ -1,0 +1,37 @@
+train: 480 tasks, 118 schemas, hashes verified
+validation: 120 tasks, 20 schemas, hashes verified
+test: 240 tasks, 19 schemas, hashes verified
+Public data OK; all three evaluation cases per test task are available.
+{
+  "official_files_checked": 497,
+  "official_files_modified": [],
+  "database_validation": "unchanged mp3_sql.check_data",
+  "base_and_tokenizer_files_checked": 9,
+  "base_files_modified": [],
+  "only_lora_A_B_trainable": true,
+  "adapters": [
+    {
+      "path": "artifacts/adapters/sft_v002/epoch_01",
+      "tensor_count": 392,
+      "parameters": 10092544,
+      "bytes": 40423145,
+      "sha256": "6a0b4790bf37377ead66008b65ee878169554ce24dd18786fffd3bf43f82c7a3"
+    },
+    {
+      "path": "artifacts/adapters/sft_v002/epoch_02",
+      "tensor_count": 392,
+      "parameters": 10092544,
+      "bytes": 40423145,
+      "sha256": "2116c2794f4af28bad41a184cf68dee0dea09e712e614cc4a496bfd353dcd8d4"
+    },
+    {
+      "path": "artifacts/adapters/sft_v002/epoch_03",
+      "tensor_count": 392,
+      "parameters": 10092544,
+      "bytes": 40423145,
+      "sha256": "68c9c4bf5ecef524d69f88b937ec1223d67edfb8240504801d3d26e8caed0555"
+    }
+  ],
+  "base_parameters": 596049920,
+  "total_parameters": 606142464
+}

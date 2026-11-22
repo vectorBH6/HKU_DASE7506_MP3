@@ -1,0 +1,16 @@
+{
+  "selected_at": "2026-11-13T15:30:21.306970+00:00",
+  "experiment": "e42_contract_control",
+  "validation_experiment": "e37_contract_old_weights",
+  "validation_correct": 92,
+  "validation_n": 120,
+  "locked_config": "submission/configs/contract_v4_selected.json",
+  "config_sha256": "98916aadbc66212d64e595e87698f7aace3d13777f5ece11938957327fdcf2af",
+  "adapter_path": "artifacts/adapters/onpolicy_v001/epoch_02",
+  "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+  "rule": "Highest CPU validation among old-weight controls, ties fewer calls then name. Existing controller/weights unchanged. Complete this single additional control, then retain the highest reproducible public test score; ties retain v3.",
+  "trigger": "Initial v4 CPU-validation winner scored 180/240 versus existing v3 182/240. Aggregate only observed before this lock.",
+  "test_question_labels_used_for_selection": false,
+  "new_training": false,
+  "controller_modified_after_validation": false
+}

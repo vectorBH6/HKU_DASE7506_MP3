@@ -1,0 +1,21 @@
+{
+  "method": "Post-hoc normalization of the JSON action name repair for archived validation generations only. Parse SELECT from sql and issue actual public check. All original prompts and legal prefix observations verified; only public matches selected. Same 4 generations per arm; unchanged official scoring pipeline.",
+  "n": 120,
+  "baseline": 100,
+  "groups": {
+    "control": {
+      "additional_recoverable_sql": 1,
+      "additional_checked": 1,
+      "correct": 101,
+      "wins": 1,
+      "losses": 0
+    },
+    "retrieved": {
+      "additional_recoverable_sql": 2,
+      "additional_checked": 2,
+      "correct": 101,
+      "wins": 1,
+      "losses": 0
+    }
+  }
+}

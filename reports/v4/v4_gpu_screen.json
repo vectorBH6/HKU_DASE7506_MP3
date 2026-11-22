@@ -1,0 +1,160 @@
+[
+  {
+    "experiment": "dev_v4_e1_contract",
+    "epoch": 1,
+    "config": "submission/configs/contract_v4.json",
+    "correct": 91,
+    "n": 120,
+    "calls": 245,
+    "device": "cuda",
+    "source": "runs/dev_v4_e1_contract/validation/r001"
+  },
+  {
+    "experiment": "dev_v4_e1_feedback",
+    "epoch": 1,
+    "config": "submission/configs/feedback_v4.json",
+    "correct": 89,
+    "n": 120,
+    "calls": 257,
+    "device": "cuda",
+    "source": "runs/dev_v4_e1_feedback/validation/r001"
+  },
+  {
+    "experiment": "dev_v4_e1_feedback6",
+    "epoch": 1,
+    "config": "submission/configs/feedback_screen_feedback6.json",
+    "correct": 89,
+    "n": 120,
+    "calls": 288,
+    "device": "cuda",
+    "source": "runs/dev_v4_e1_feedback6/validation/r001"
+  },
+  {
+    "experiment": "dev_v4_e1_prefer_model",
+    "epoch": 1,
+    "config": "submission/configs/feedback_screen_prefer_model.json",
+    "correct": 89,
+    "n": 120,
+    "calls": 257,
+    "device": "cuda",
+    "source": "runs/dev_v4_e1_prefer_model/validation/r001"
+  },
+  {
+    "experiment": "dev_v4_e1_recovery",
+    "epoch": 1,
+    "config": "submission/configs/recovery_v3_selected.json",
+    "correct": 87,
+    "n": 120,
+    "calls": 253,
+    "device": "cuda",
+    "source": "runs/dev_v4_e1_recovery/validation/r001"
+  },
+  {
+    "experiment": "dev_v4_e1_recovery6",
+    "epoch": 1,
+    "config": "submission/configs/feedback_screen_recovery6.json",
+    "correct": 89,
+    "n": 120,
+    "calls": 305,
+    "device": "cuda",
+    "source": "runs/dev_v4_e1_recovery6/validation/r001"
+  },
+  {
+    "experiment": "dev_v4_e1_semantic",
+    "epoch": 1,
+    "config": "submission/configs/semantic_v4.json",
+    "correct": 95,
+    "n": 120,
+    "calls": 246,
+    "device": "cuda",
+    "source": "runs/dev_v4_e1_semantic/validation/r001"
+  },
+  {
+    "experiment": "dev_v4_e2_contract",
+    "epoch": 2,
+    "config": "submission/configs/contract_v4.json",
+    "correct": 91,
+    "n": 120,
+    "calls": 256,
+    "device": "cuda",
+    "source": "runs/dev_v4_e2_contract/validation/r001"
+  },
+  {
+    "experiment": "dev_v4_e2_feedback",
+    "epoch": 2,
+    "config": "submission/configs/feedback_v4.json",
+    "correct": 87,
+    "n": 120,
+    "calls": 271,
+    "device": "cuda",
+    "source": "runs/dev_v4_e2_feedback/validation/r001"
+  },
+  {
+    "experiment": "dev_v4_e2_recovery",
+    "epoch": 2,
+    "config": "submission/configs/recovery_v3_selected.json",
+    "correct": 89,
+    "n": 120,
+    "calls": 265,
+    "device": "cuda",
+    "source": "runs/dev_v4_e2_recovery/validation/r001"
+  },
+  {
+    "experiment": "dev_v4_e2_semantic",
+    "epoch": 2,
+    "config": "submission/configs/semantic_v4.json",
+    "correct": 89,
+    "n": 120,
+    "calls": 261,
+    "device": "cuda",
+    "source": "runs/dev_v4_e2_semantic/validation/r001"
+  },
+  {
+    "experiment": "dev_v4_extra_constraint",
+    "epoch": "alt1",
+    "training_run": "feedback_v4_extra",
+    "adapter_path": "artifacts/adapters/feedback_v4_extra/epoch_01",
+    "config": "submission/configs/synthesis_constraint_v4.json",
+    "correct": 80,
+    "n": 120,
+    "calls": 290,
+    "device": "cuda",
+    "source": "runs/dev_v4_extra_constraint/validation/r001"
+  },
+  {
+    "experiment": "dev_v4_extra_plan",
+    "epoch": "alt1",
+    "training_run": "feedback_v4_extra",
+    "adapter_path": "artifacts/adapters/feedback_v4_extra/epoch_01",
+    "config": "submission/configs/synthesis_plan_v4.json",
+    "correct": 86,
+    "n": 120,
+    "calls": 260,
+    "device": "cuda",
+    "source": "runs/dev_v4_extra_plan/validation/r001"
+  },
+  {
+    "experiment": "dev_v4_extra_plan_constraint",
+    "epoch": "alt1",
+    "training_run": "feedback_v4_extra",
+    "adapter_path": "artifacts/adapters/feedback_v4_extra/epoch_01",
+    "config": "submission/configs/synthesis_plan_constraint_v4.json",
+    "correct": 86,
+    "n": 120,
+    "calls": 260,
+    "device": "cuda",
+    "source": "runs/dev_v4_extra_plan_constraint/validation/r001"
+  },
+  {
+    "experiment": "dev_v4_extra_recovery",
+    "epoch": "alt1",
+    "training_run": "feedback_v4_extra",
+    "adapter_path": "artifacts/adapters/feedback_v4_extra/epoch_01",
+    "config": "submission/configs/synthesis_recovery_v4.json",
+    "correct": 73,
+    "n": 120,
+    "calls": 299,
+    "device": "cuda",
+    "source": "runs/dev_v4_extra_recovery/validation/r001"
+  }
+]

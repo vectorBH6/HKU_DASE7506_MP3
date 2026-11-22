@@ -1,0 +1,47 @@
+{
+  "train_only": true,
+  "tasks": 480,
+  "episodes": 1920,
+  "sampled_final_correct": 1670,
+  "tasks_with_correct_final": 459,
+  "tasks_with_correct_checked_candidate": 461,
+  "mixed_reward_groups": 95,
+  "all_failed_groups": [
+    "train-5f36a874df0ce42d",
+    "train-1a1ca6ce36878e21",
+    "train-14056f233609c04f",
+    "train-d677270382049598",
+    "train-2b14d66b7b30cb1d",
+    "train-f11f91817ee4e21f",
+    "train-51950b86af56b224",
+    "train-089b7c47a0376925",
+    "train-b84fb522b942b8cf",
+    "train-29c5d9be52ea3ae5",
+    "train-4133b076bc478ebc",
+    "train-4e6cbf10d5f51acc",
+    "train-861897e88cd4c97b",
+    "train-aa4b644a869ad5cf",
+    "train-5d25a4ac6a798445",
+    "train-83686e71fd80cf6c",
+    "train-ca364df9233f8fbd",
+    "train-0364a71934f98011",
+    "train-35c758cd23d51deb",
+    "train-83a9fa1e6cece7e0",
+    "train-fe5f1350463bb4e6"
+  ],
+  "public_match_wrong_candidates": 353,
+  "seconds_this_invocation": 5708.913279268,
+  "episodes_sha256": "8da68321a0714538cb1edacec1f63d65e588469cd5bc621251123533d949b279",
+  "tasks_with_no_model_generations": 20,
+  "all_failed_tasks_with_no_model_generations": [],
+  "selection_loss_tasks": [
+    "train-14056f233609c04f",
+    "train-5d25a4ac6a798445"
+  ],
+  "correct_by_sample": [
+    408,
+    418,
+    421,
+    423
+  ]
+}

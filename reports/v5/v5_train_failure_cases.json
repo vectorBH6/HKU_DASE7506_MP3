@@ -1,0 +1,145 @@
+{
+  "train_only": true,
+  "source": "official train memory gold and current-policy official train replay labels",
+  "used_as_actor_input": false,
+  "used_for_posthoc_diagnosis_only": true,
+  "examples": [
+    {
+      "id": "train-5f36a874df0ce42d",
+      "question": "What is the least common media type in all tracks?",
+      "issue_sql": "SELECT MediaTypeId\nFROM Track\nWHERE MediaTypeId IN (\n    SELECT MediaTypeId\n    FROM Track\n    GROUP BY MediaTypeId\n    HAVING COUNT(*) = (SELECT COUNT(*) FROM Track)\n)\nORDER BY MediaTypeId ASC\nLIMIT 1;",
+      "train_gold_sql": "SELECT T1.Name FROM MEDIATYPE AS T1 JOIN TRACK AS T2 ON T1.MediaTypeId  =  T2.MediaTypeId GROUP BY T2.MediaTypeId ORDER BY COUNT(*) ASC LIMIT 1",
+      "failure_kind": "no_correct_checked_candidate",
+      "samples": [
+        {
+          "sample": 0,
+          "final_sql": "SELECT MediaTypeId\nFROM Track\nWHERE MediaTypeId IN (\n    SELECT MediaTypeId\n    FROM Track\n    GROUP BY MediaTypeId\n    HAVING COUNT(*) = (SELECT COUNT(*) FROM Track)\n)\nORDER BY MediaTypeId ASC\nLIMIT 1;",
+          "passed": false,
+          "correct_checked_sql": []
+        },
+        {
+          "sample": 1,
+          "final_sql": "SELECT T2.Name FROM MediaType AS T1 JOIN TRACK AS T2 ON T1.MediaTypeId = T2.MediaTypeId GROUP BY T1.MediaTypeId ORDER BY COUNT(*) ASC LIMIT 1",
+          "passed": false,
+          "correct_checked_sql": []
+        },
+        {
+          "sample": 2,
+          "final_sql": "SELECT Name FROM MediaType GROUP BY Name ORDER BY COUNT(*) ASC LIMIT 1",
+          "passed": false,
+          "correct_checked_sql": []
+        },
+        {
+          "sample": 3,
+          "final_sql": "SELECT t1.Name FROM TRACK AS t1 JOIN MediaType AS t2 ON t1.MediaTypeId = t2.MediaTypeId GROUP BY t1.MediaTypeId ORDER BY COUNT(*) ASC LIMIT 1",
+          "passed": false,
+          "correct_checked_sql": []
+        }
+      ]
+    },
+    {
+      "id": "train-1a1ca6ce36878e21",
+      "question": "What are the name and the nationality of the host of the highest age?",
+      "issue_sql": "SELECT host.Name, host.Nationality\nFROM host\nWHERE host.Age = (\n    SELECT MAX(host.Age)\n    FROM host\n) AND host.Host_ID IN (\n    SELECT host.Host_ID\n    FROM host\n    JOIN party_host ON host.Host_ID = party_host.Host_ID\n    GROUP BY host.Host_ID\n    ORDER BY party_host.Is_Main_in_Charge = TRUE\n    LIMIT 1\n);",
+      "train_gold_sql": "SELECT Name ,  Nationality FROM HOST ORDER BY Age DESC LIMIT 1",
+      "failure_kind": "no_correct_checked_candidate",
+      "samples": [
+        {
+          "sample": 0,
+          "final_sql": "SELECT h.Name, h.Nationality FROM host AS h JOIN party_host AS ph ON h.Host_ID = ph.Host_ID WHERE h.Age = (SELECT MAX(Age) FROM host) ORDER BY ph.Is_Main_in_Charge DESC LIMIT 1",
+          "passed": false,
+          "correct_checked_sql": []
+        },
+        {
+          "sample": 1,
+          "final_sql": "SELECT h.Name, h.Nationality FROM host AS h JOIN party_host AS ph ON h.Host_ID = ph.Host_ID WHERE h.Age = (SELECT MAX(Age) FROM host) ORDER BY ph.Is_Main_in_Charge DESC LIMIT 1",
+          "passed": false,
+          "correct_checked_sql": []
+        },
+        {
+          "sample": 2,
+          "final_sql": "SELECT T1.Name, T1.Nationality FROM host AS T1 JOIN party_host AS T2 ON T1.Host_ID = T2.Host_ID WHERE T1.Age = (SELECT MAX(Age) FROM host) ORDER BY T2.Is_Main_in_Charge DESC LIMIT 1",
+          "passed": false,
+          "correct_checked_sql": []
+        },
+        {
+          "sample": 3,
+          "final_sql": "SELECT T1.Name, T1.Nationality FROM host AS T1 JOIN party_host AS T2 ON T1.Host_ID = T2.Host_ID WHERE T1.Age = (SELECT MAX(Age) FROM host)",
+          "passed": false,
+          "correct_checked_sql": []
+        }
+      ]
+    },
+    {
+      "id": "train-14056f233609c04f",
+      "question": "Show the station name with greatest number of trains.",
+      "issue_sql": "SELECT station.Name\nFROM station\nJOIN train ON station.Station_ID = train.Train_ID\nWHERE train.Service = 'Main' AND station.Number_of_Platforms = (SELECT MAX(station.Number_of_Platforms) FROM station);",
+      "train_gold_sql": "SELECT T2.name FROM train_station AS T1 JOIN station AS T2 ON T1.station_id  =  T2.station_id GROUP BY T1.station_id ORDER BY count(*) DESC LIMIT 1",
+      "failure_kind": "correct_checked_candidate_not_selected",
+      "samples": [
+        {
+          "sample": 0,
+          "final_sql": "SELECT station.Name FROM station JOIN train_station ON station.Station_ID = train_station.Station_ID GROUP BY station.Name ORDER BY COUNT(DISTINCT train_station.Train_ID) DESC LIMIT 1",
+          "passed": false,
+          "correct_checked_sql": []
+        },
+        {
+          "sample": 1,
+          "final_sql": "SELECT station.Name FROM station JOIN train_station ON station.Station_ID = train_station.Station_ID GROUP BY station.Name ORDER BY COUNT(DISTINCT train_station.Train_ID) DESC LIMIT 1",
+          "passed": false,
+          "correct_checked_sql": [
+            "SELECT T2.Name FROM train_station AS T1 JOIN station AS T2 ON T1.station_id = T2.station_id GROUP BY T1.station_id ORDER BY COUNT(*) DESC LIMIT 1"
+          ]
+        },
+        {
+          "sample": 2,
+          "final_sql": "SELECT station.Name FROM station JOIN train_station ON station.Station_ID = train_station.Station_ID GROUP BY station.Name ORDER BY COUNT(DISTINCT train_station.Train_ID) DESC LIMIT 1",
+          "passed": false,
+          "correct_checked_sql": []
+        },
+        {
+          "sample": 3,
+          "final_sql": "SELECT station.Name FROM station JOIN train_station ON station.Station_ID = train_station.Station_ID GROUP BY station.Name ORDER BY COUNT(DISTINCT train_station.Train_ID) DESC LIMIT 1",
+          "passed": false,
+          "correct_checked_sql": []
+        }
+      ]
+    },
+    {
+      "id": "train-5d25a4ac6a798445",
+      "question": "Find the name and email for the users who have more than one follower.",
+      "issue_sql": "SELECT name, email\nFROM user_profiles\nWHERE followers > 1;",
+      "train_gold_sql": "SELECT T1.name ,  T1.email FROM user_profiles AS T1 JOIN follows AS T2 ON T1.uid  =  T2.f1 GROUP BY T2.f1 HAVING count(*)  >  1",
+      "failure_kind": "correct_checked_candidate_not_selected",
+      "samples": [
+        {
+          "sample": 0,
+          "final_sql": "SELECT up.name, up.email FROM user_profiles AS up JOIN follows AS f ON up.uid = f.f2 GROUP BY up.uid HAVING COUNT(f.f1) > 1",
+          "passed": false,
+          "correct_checked_sql": []
+        },
+        {
+          "sample": 1,
+          "final_sql": "SELECT name, email FROM user_profiles JOIN follows ON user_profiles.uid = follows.f2 GROUP BY user_profiles.uid HAVING COUNT(*) > 1",
+          "passed": false,
+          "correct_checked_sql": []
+        },
+        {
+          "sample": 2,
+          "final_sql": "SELECT Up.name, Up.email FROM user_profiles AS Up JOIN follows AS F ON Up.uid = F.f2 GROUP BY Up.uid HAVING COUNT(*) > 1",
+          "passed": false,
+          "correct_checked_sql": []
+        },
+        {
+          "sample": 3,
+          "final_sql": "SELECT name, email FROM user_profiles JOIN follows ON user_profiles.uid = follows.f2 GROUP BY user_profiles.uid HAVING COUNT(*) > 1",
+          "passed": false,
+          "correct_checked_sql": [
+            "SELECT name, email FROM user_profiles JOIN follows ON user_profiles.uid = follows.f1 GROUP BY user_profiles.uid HAVING COUNT(*) > 1",
+            "SELECT up.name, up.email FROM user_profiles AS up JOIN follows AS f ON up.uid = f.f1 GROUP BY up.uid HAVING COUNT(*) > 1"
+          ]
+        }
+      ]
+    }
+  ]
+}

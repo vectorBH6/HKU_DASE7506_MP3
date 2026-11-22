@@ -1,0 +1,2289 @@
+{
+  "tasks": {
+    "validation-3c4d5ecbd3a4ffc8": [
+      {
+        "path": "databases/public/company_employee.sqlite",
+        "database_sha256": "931b8c72e1e1f161a085753810b2ed3203cd00c10a182706e87e262b5d98f491",
+        "expected": "89d0653b35c396c00d64a064dcbcaabbeafaa7c2385a69a3a4d784695be0d285"
+      },
+      {
+        "path": "databases/evaluation/original/company_employee.sqlite",
+        "database_sha256": "86574c9edbecd80ded437d9439d6f81def0973816b1c8af8d007335e62565378",
+        "expected": "a318b35169ac81216966f8aec38b54e3f7e9155cbfb4374dca11732f689ab298"
+      },
+      {
+        "path": "databases/evaluation/variant/company_employee.sqlite",
+        "database_sha256": "b25152b86f6f70dd9c207e82303b78efbb947bf90122b5e2c88a014e62dc9d4b",
+        "expected": "a318b35169ac81216966f8aec38b54e3f7e9155cbfb4374dca11732f689ab298"
+      }
+    ],
+    "validation-a402046f584d4813": [
+      {
+        "path": "databases/public/restaurant_1.sqlite",
+        "database_sha256": "02b0b91f615921558e7ffd9f5d04dcc235e5b06dde1fc9f29970f86130718d0b",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/restaurant_1.sqlite",
+        "database_sha256": "f5295466d92e97bd241caa942228793c09b2c1e42382337fbb5d90a6d797de0b",
+        "expected": "29e8ce50ac71c8e01095c190da2c3a2de5b224af297469ae1fcd6adfa494eebf"
+      },
+      {
+        "path": "databases/evaluation/variant/restaurant_1.sqlite",
+        "database_sha256": "33903651321430c6014e636180822689a71fd515a672bb12ab393c4d9e7f812f",
+        "expected": "29e8ce50ac71c8e01095c190da2c3a2de5b224af297469ae1fcd6adfa494eebf"
+      }
+    ],
+    "validation-8be8e9f30c5ed3cc": [
+      {
+        "path": "databases/public/sports_competition.sqlite",
+        "database_sha256": "442bfc73da43a06f72798bdab392df1df24d61e997a2f4db948597ce80abcf1b",
+        "expected": "d73400a7a18948287ef88fd00f77f727e6cb47b4f0fe9a0c615c6f843479b7b6"
+      },
+      {
+        "path": "databases/evaluation/original/sports_competition.sqlite",
+        "database_sha256": "ae8f322b30d1634e2cf0e3e9f033082096d469152a567e0e3014c000386f7c2f",
+        "expected": "d73400a7a18948287ef88fd00f77f727e6cb47b4f0fe9a0c615c6f843479b7b6"
+      },
+      {
+        "path": "databases/evaluation/variant/sports_competition.sqlite",
+        "database_sha256": "85ac4be8e4ccf7fad47427c693853c449dc58abf2ce0e4380980828a7e5953b9",
+        "expected": "a5a3f771febc7afb8eebee3435789933f6aa2262bf8fa17823ebc7a776c92625"
+      }
+    ],
+    "validation-bb46eb4c224f4193": [
+      {
+        "path": "databases/public/e_government.sqlite",
+        "database_sha256": "cf495bbf09bcee9281f73c10a270194a895bf93a73fc9b02d4c3cff06de7ae2c",
+        "expected": "36e8b0d242962ad04aa0a949594b3e65c45cf3d5ea713320a9cc8f870ef5535c"
+      },
+      {
+        "path": "databases/evaluation/original/e_government.sqlite",
+        "database_sha256": "3fd703754d0334da78878f0f2544c7b44c75a7e86dee938d4f0ebd033c265636",
+        "expected": "ba19820c92552a2ce11d7b555da4fef558e09fe5fe4cdbcc58f3ce2d21cbbd51"
+      },
+      {
+        "path": "databases/evaluation/variant/e_government.sqlite",
+        "database_sha256": "82a1e9543cff54957aae5ea980926f445bd75a59559310a6d68585d21d2966e8",
+        "expected": "13f6796c08250910f61b5b58e76f505fe397f91b6994e77982f2b5580e1ebeb1"
+      }
+    ],
+    "validation-fff3bd324494b9bb": [
+      {
+        "path": "databases/public/roller_coaster.sqlite",
+        "database_sha256": "642307c60f004c0b01ce66ea084be733b5408f7270062fd4da5135a217e2c983",
+        "expected": "956f7bb6c48019d2ffa5548d0632e0bd513aeef783b3e822f667dd58ba8c2901"
+      },
+      {
+        "path": "databases/evaluation/original/roller_coaster.sqlite",
+        "database_sha256": "d0b3dcaf97a601063cf65b05fd251b223d22e75e7f05d4bad9539f0fb368b6c6",
+        "expected": "8b2e500dfff6ace493036c1f2ebc0878484de7f6b9632ddfba78b039964034e5"
+      },
+      {
+        "path": "databases/evaluation/variant/roller_coaster.sqlite",
+        "database_sha256": "a3de49a8bc92adba162d3052f66bbfb48c78c1b9627cdd1a84fe6a4a782816eb",
+        "expected": "8b2e500dfff6ace493036c1f2ebc0878484de7f6b9632ddfba78b039964034e5"
+      }
+    ],
+    "validation-cf4f7eb157c5f56f": [
+      {
+        "path": "databases/public/entertainment_awards.sqlite",
+        "database_sha256": "012ac46431b18425698edd1bd2e61c053f358a84f74b85b005adfb2b20c5a85f",
+        "expected": "336a05f48e825b6736dbf58e2628e4c834a3b0c99fd52099d91fec25a315b857"
+      },
+      {
+        "path": "databases/evaluation/original/entertainment_awards.sqlite",
+        "database_sha256": "35c7b2b1532c63139784543c2465b9a149f9c46c925c1316f9e78b45e054c32b",
+        "expected": "4bf39f45191b5c68c11420bfbe3368eb3b8bf763eeed4858ffe2bb7124a3aa6c"
+      },
+      {
+        "path": "databases/evaluation/variant/entertainment_awards.sqlite",
+        "database_sha256": "3c2e06732779500cf01e88e92e8e883b996300964c85dc96b296bf087b39a1c7",
+        "expected": "b236eb94f68d4cce992f921c0933e42336c44338c288854fc96bd7f6bbbafb41"
+      }
+    ],
+    "validation-6d8add77db18ef60": [
+      {
+        "path": "databases/public/program_share.sqlite",
+        "database_sha256": "ab960198b7b0c0028bd4e43238771adeebfededb127fbc1e34cabceb6616a039",
+        "expected": "bdf98de6e66fe99f88b2993276c3e3af1ed6f97830fa298e7a5d28436807863d"
+      },
+      {
+        "path": "databases/evaluation/original/program_share.sqlite",
+        "database_sha256": "76b2a7ef2e13b04c3085998e08c7c9224a1c195b76073b29e96b2bdb007c98c6",
+        "expected": "0d9bf10068f7e82a7bb88c5b94de1ea243293efda5d4a6a36f07efecb1828583"
+      },
+      {
+        "path": "databases/evaluation/variant/program_share.sqlite",
+        "database_sha256": "839f3be5591369f50f6b53f2552854a8f6a9cf781fa409005dc529e6b3bd5264",
+        "expected": "0d9bf10068f7e82a7bb88c5b94de1ea243293efda5d4a6a36f07efecb1828583"
+      }
+    ],
+    "validation-83b76ccf03ae3d7a": [
+      {
+        "path": "databases/public/customer_deliveries.sqlite",
+        "database_sha256": "0b58e23303df440fc113ff46ce4176b88004528c6d339de23c7cc46db4d803ec",
+        "expected": "9f2f0bda94c8859c513666b0a972790a5c8fdcdd7a939688ab4e034a533dbcb3"
+      },
+      {
+        "path": "databases/evaluation/original/customer_deliveries.sqlite",
+        "database_sha256": "e4d269a357190432d3f0b154070dccf1cc5f7f7715571c1597e2fdd9ee47d485",
+        "expected": "04de5c9043fc45840962bd5eaca35b2fc56776445be98c7a688dc7c843658e74"
+      },
+      {
+        "path": "databases/evaluation/variant/customer_deliveries.sqlite",
+        "database_sha256": "f4b0a92c61ac70d0544fe96de990ffd5b35eaf6c3403244bce10575462c96b99",
+        "expected": "9f2f0bda94c8859c513666b0a972790a5c8fdcdd7a939688ab4e034a533dbcb3"
+      }
+    ],
+    "validation-1e5f20eb954308a2": [
+      {
+        "path": "databases/public/wedding.sqlite",
+        "database_sha256": "1a224eb9d1bf5f42eb27aa89290ee731c2a82caa491c3a641378194a3cb334be",
+        "expected": "e07848748c37e280c6efa55c20a88f4553e84cbde7176b0047a1f514fc66e4aa"
+      },
+      {
+        "path": "databases/evaluation/original/wedding.sqlite",
+        "database_sha256": "d73acad10719e5616f4ded960b5341a0e34e7c5780f5182bb996b5887c5a6f6e",
+        "expected": "d5dd183caca1ce43793b18d98b0140cb2f06c30b15cc6ee1f0eb175dba744cb6"
+      },
+      {
+        "path": "databases/evaluation/variant/wedding.sqlite",
+        "database_sha256": "88cbda9f628f443e797c47a37e40079c9651cc4da059866af5cdb15945920701",
+        "expected": "ae96286a3d56cc7d162d5528cee6194c7be5340c4b030f4c13686e14f6ee1dab"
+      }
+    ],
+    "validation-60551b2217de7d97": [
+      {
+        "path": "databases/public/culture_company.sqlite",
+        "database_sha256": "9b56e417d4795e66607075ba1406b7a0c8831db02d651908f09c3aa94cee1fa8",
+        "expected": "417b41571c664a7bb7d567041056e4f07f57241053b95af34c588f07da4c4a00"
+      },
+      {
+        "path": "databases/evaluation/original/culture_company.sqlite",
+        "database_sha256": "d73d31db2c91dadeb67b8ed0c9366fbbe7658774dfa110161c168ee13e781820",
+        "expected": "f62b5da446bccb3f95ab135153d7b85eaf32ba4c19c2aaa32935153f89292e5b"
+      },
+      {
+        "path": "databases/evaluation/variant/culture_company.sqlite",
+        "database_sha256": "f63778f2d11857d1b3885f8413d4c5da8425624050f3e76ca21384666564c6a6",
+        "expected": "fc211df76a7cc7240b1205cba49ccd8bd900b12049a812edbe135d653b4b85f2"
+      }
+    ],
+    "validation-52bfe326b751abaf": [
+      {
+        "path": "databases/public/customers_and_invoices.sqlite",
+        "database_sha256": "e2a2d7b06f33939421cd9caba8a3484679d1cb43b0212ea53b9d4e7e4afb189b",
+        "expected": "a61c274a6ea45c0f1574a77c7ac581236525c56eb6fa5c2204b20bc82f96ed68"
+      },
+      {
+        "path": "databases/evaluation/original/customers_and_invoices.sqlite",
+        "database_sha256": "19621a734777eefff77544c93f5da387f086e53b9dc0aa6266bc2da55dbd7103",
+        "expected": "815ecc1daadd0d5eeeb3159bc5a21fecd0fccc89399d1e85c9abe27cf1ba33d9"
+      },
+      {
+        "path": "databases/evaluation/variant/customers_and_invoices.sqlite",
+        "database_sha256": "2d4eaadb7ed2200e58298ff1e14b53f6e2b059e40fa71a86a465cff6dd44646c",
+        "expected": "4e08d2b4cfff2e15dcbb85ef563b5a1d2d1c9cc027f3cddd0ebebdd691d29a97"
+      }
+    ],
+    "validation-9a3d5d1c1dfe328b": [
+      {
+        "path": "databases/public/local_govt_mdm.sqlite",
+        "database_sha256": "7cb5ad32b564fbb6c816834555b1fd11c72aa740297f11b8df261f450ed70d26",
+        "expected": "8e3d5fd55069689f7ff8ae37521467480a37c26e934e00d3bb33ee5c2e403097"
+      },
+      {
+        "path": "databases/evaluation/original/local_govt_mdm.sqlite",
+        "database_sha256": "d0ebfc3700908467260642cd68906225899d55f4932a2fa65f84001f871f396c",
+        "expected": "534047081c91d7e5cbc679c50a7196fdec2d92e667c7431a1ded954cedce1894"
+      },
+      {
+        "path": "databases/evaluation/variant/local_govt_mdm.sqlite",
+        "database_sha256": "8d1e577f4580ab20e10333b7eec7e9750680d1096b1bb5bf818ccd0e5fbc7ec7",
+        "expected": "cc6daa195df2bb7f568c22d84e7aa534f33f87276f2d95fb03587c143be4e19e"
+      }
+    ],
+    "validation-fa96b1ccd568803a": [
+      {
+        "path": "databases/public/products_for_hire.sqlite",
+        "database_sha256": "b428800257b50c05fed08c246df2f9b4fbf91037b95d8e089d2d1fbb5a549b9b",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/products_for_hire.sqlite",
+        "database_sha256": "f8ee0888cf7788ae89576350484a5045fe8416c727ba5f623096540c82c89c3f",
+        "expected": "8fae22616051315fe94473b341fb265fbc07523b5b3cd0b25d84e8e3085eb1f1"
+      },
+      {
+        "path": "databases/evaluation/variant/products_for_hire.sqlite",
+        "database_sha256": "5bd72cfff4a69493be9f38b51d528e8cb19557cf6f8ba1f88cdce7758a137e69",
+        "expected": "8fae22616051315fe94473b341fb265fbc07523b5b3cd0b25d84e8e3085eb1f1"
+      }
+    ],
+    "validation-536cac19f45fc4fc": [
+      {
+        "path": "databases/public/architecture.sqlite",
+        "database_sha256": "addc7b9a3f57624c705869ba98c355bdb966521d1de738b88c8a63858536ce84",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/architecture.sqlite",
+        "database_sha256": "ea405f3511d01a3f7d688fbec2b214b7fb82ed9f5795f424a0e1a655f704d406",
+        "expected": "204c2be77b78b7ca44f58c102ddb0eba9a160a8e39506f3d3a6452609977792d"
+      },
+      {
+        "path": "databases/evaluation/variant/architecture.sqlite",
+        "database_sha256": "96829bd97dcae4bdb0b06970235a2a9883a035995e7c12c146081879283ced93",
+        "expected": "204c2be77b78b7ca44f58c102ddb0eba9a160a8e39506f3d3a6452609977792d"
+      }
+    ],
+    "validation-6ff42b00b3afd128": [
+      {
+        "path": "databases/public/department_store.sqlite",
+        "database_sha256": "7968c73cea57d5c39e1fb919aedbfa8e37696036d53aab55f84dd70e136c83d7",
+        "expected": "fabee337622b3720a7a3f1c1cff7596b558b9d43eb4cae0656d5b72d5e9217f2"
+      },
+      {
+        "path": "databases/evaluation/original/department_store.sqlite",
+        "database_sha256": "48cd35afc5b1b2eb9c10817ef20e5ce77f607d5cf27d8aeff6171446f2b904a2",
+        "expected": "8b98fe365ee72b72a035ecdf50c41f6c32e3e4e9ba5a2b225358180c5f44b9b5"
+      },
+      {
+        "path": "databases/evaluation/variant/department_store.sqlite",
+        "database_sha256": "c2baf73f00b8d44788064729b36c4295dd7382c7f9d8a648c6ffd0e3150e4933",
+        "expected": "a747f11211c82d0254705676b463ec7ad3b470153882d1e738ef63ae94c698b3"
+      }
+    ],
+    "validation-1b6e5a6dd2d6aa32": [
+      {
+        "path": "databases/public/music_1.sqlite",
+        "database_sha256": "ea91ad8658666390f96740e15928be1fed8327dc0706621dda2256ef0f5f202d",
+        "expected": "86c18ffcfd5da6e831e885be166f9326ffd313ea4cd3b5c5e1c4c31ee4c97d95"
+      },
+      {
+        "path": "databases/evaluation/original/music_1.sqlite",
+        "database_sha256": "e6f56185952431c5cf6c036e463a8e8755ea9ff3e2cbe14f5ac3ebe2e850b603",
+        "expected": "86c18ffcfd5da6e831e885be166f9326ffd313ea4cd3b5c5e1c4c31ee4c97d95"
+      },
+      {
+        "path": "databases/evaluation/variant/music_1.sqlite",
+        "database_sha256": "cca83cb7adea4cc1de8335e39349b27306071c7e25af1c27833549c9de3e4567",
+        "expected": "805ff8c370d07df2a9795c173b18b3fbc42c03178fd0c04f8c9046c4ea8e3984"
+      }
+    ],
+    "validation-b21ef0b87ce0afd3": [
+      {
+        "path": "databases/public/wrestler.sqlite",
+        "database_sha256": "7b82a4227c6e498420c3fe5ebc2ac9bb930a8c9091ef86e6e4bedd9123b0feef",
+        "expected": "13bc0f49055b1b0a8a71d020f9dc2a489065e90039cc2df3cdcc654c6184fab0"
+      },
+      {
+        "path": "databases/evaluation/original/wrestler.sqlite",
+        "database_sha256": "ef538c66862d997561619be1ac1b0c488bc54e7171ad33f7fe6195e903619ae4",
+        "expected": "e81828759519e92bbd51ced6664402bddd91f422fe269fe4bc947900f033bbb9"
+      },
+      {
+        "path": "databases/evaluation/variant/wrestler.sqlite",
+        "database_sha256": "c90abe741d096bc40be0ed95cea889d65b6603a923e97d37da7830782e92b20e",
+        "expected": "e27fb4074ce4ff925a94f28261353d3a8e2d8e91e5672cfbdd70b387a07da843"
+      }
+    ],
+    "validation-ab68d815813fb4b7": [
+      {
+        "path": "databases/public/journal_committee.sqlite",
+        "database_sha256": "6419b48792167b7759edbe199904885b09e76fa1d547716e2313094f751d4904",
+        "expected": "93634b496526b39fe87c199eeb537451e6b28190644a9e2094d23186919d2ec1"
+      },
+      {
+        "path": "databases/evaluation/original/journal_committee.sqlite",
+        "database_sha256": "669e6bc2ca07838e7a3d225b190387fc003e267d3a9fc4ae03056f5699dfae39",
+        "expected": "d901c853da94d3055718cd32589d8310f439b9d8df7e033b6cd6cb13c3aacf6e"
+      },
+      {
+        "path": "databases/evaluation/variant/journal_committee.sqlite",
+        "database_sha256": "bf0dd04f80d6e21c0aeea321a1b3e443cf3558aa370e64c7f8a56711a39607bd",
+        "expected": "4ccfb096954b1fe76ff05177d5b8a3a4f80edd05e8ea63a8d4eb90fcc67e402c"
+      }
+    ],
+    "validation-2feff7a83ef167ff": [
+      {
+        "path": "databases/public/e_learning.sqlite",
+        "database_sha256": "02530c3f5b28b3adec986e63181e701ca48472463b4258982c88e6340e7f8077",
+        "expected": "b717b3c9a6ef04df5c491760aeb8255f9b23135839e22ac8841054816e58d622"
+      },
+      {
+        "path": "databases/evaluation/original/e_learning.sqlite",
+        "database_sha256": "dc06b485f9e041c8af060593fb31746ad1f97b07543ca69a94560dd6c89f3d1b",
+        "expected": "f561e4efb1e2e60421b998c9d0b026fc9b692005ec50c75f289a885a1b92a230"
+      },
+      {
+        "path": "databases/evaluation/variant/e_learning.sqlite",
+        "database_sha256": "876e75f65530edf70da65725aae4cbd8b9f338bfb8e58ffb0948963a52aceece",
+        "expected": "b717b3c9a6ef04df5c491760aeb8255f9b23135839e22ac8841054816e58d622"
+      }
+    ],
+    "validation-a75b7764fcacce68": [
+      {
+        "path": "databases/public/dorm_1.sqlite",
+        "database_sha256": "3d52143466a97a9daec7a63adfff1d54f6018ec74a329ec6f9ac178c770e1800",
+        "expected": "c11d888bc3b75304fbf53195c27f94c5c116801871ba37d521dfe312687439ca"
+      },
+      {
+        "path": "databases/evaluation/original/dorm_1.sqlite",
+        "database_sha256": "2f836de861ed2b67679990d12b57814feda426f88e62509201277a7200a2c20b",
+        "expected": "e80f079460a6b3ebf4ea718b79e09d53a44769307edc4d88d9782db2c54a6f5b"
+      },
+      {
+        "path": "databases/evaluation/variant/dorm_1.sqlite",
+        "database_sha256": "5f8c9de6dfa3864aecf09f3bcfa20f77cf8a86dcdf408b257a6ec1fa6b9249f9",
+        "expected": "a6f851ca7965c76f82f583546e3163b38437e44aaae69990a0e8a65b00bd089e"
+      }
+    ],
+    "validation-0e21eef6ed8ada4e": [
+      {
+        "path": "databases/public/company_employee.sqlite",
+        "database_sha256": "931b8c72e1e1f161a085753810b2ed3203cd00c10a182706e87e262b5d98f491",
+        "expected": "a61c274a6ea45c0f1574a77c7ac581236525c56eb6fa5c2204b20bc82f96ed68"
+      },
+      {
+        "path": "databases/evaluation/original/company_employee.sqlite",
+        "database_sha256": "86574c9edbecd80ded437d9439d6f81def0973816b1c8af8d007335e62565378",
+        "expected": "fa6d5d38eabf2a983c807cb323de7d6f4b35127ea24a6d7f750a97707e97cce1"
+      },
+      {
+        "path": "databases/evaluation/variant/company_employee.sqlite",
+        "database_sha256": "b25152b86f6f70dd9c207e82303b78efbb947bf90122b5e2c88a014e62dc9d4b",
+        "expected": "bff304beec128e1dec3afc4cc517df57b7a274523ca77d8c359fcbf850954954"
+      }
+    ],
+    "validation-de306200a6efff23": [
+      {
+        "path": "databases/public/restaurant_1.sqlite",
+        "database_sha256": "02b0b91f615921558e7ffd9f5d04dcc235e5b06dde1fc9f29970f86130718d0b",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/restaurant_1.sqlite",
+        "database_sha256": "f5295466d92e97bd241caa942228793c09b2c1e42382337fbb5d90a6d797de0b",
+        "expected": "86c18ffcfd5da6e831e885be166f9326ffd313ea4cd3b5c5e1c4c31ee4c97d95"
+      },
+      {
+        "path": "databases/evaluation/variant/restaurant_1.sqlite",
+        "database_sha256": "33903651321430c6014e636180822689a71fd515a672bb12ab393c4d9e7f812f",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      }
+    ],
+    "validation-ca9775c857b7431d": [
+      {
+        "path": "databases/public/sports_competition.sqlite",
+        "database_sha256": "442bfc73da43a06f72798bdab392df1df24d61e997a2f4db948597ce80abcf1b",
+        "expected": "06317454ea9e3504557f88f1c26843479657ea69aaedc82e80be4d66639d4322"
+      },
+      {
+        "path": "databases/evaluation/original/sports_competition.sqlite",
+        "database_sha256": "ae8f322b30d1634e2cf0e3e9f033082096d469152a567e0e3014c000386f7c2f",
+        "expected": "53589e74e63b6c5be87549781d0664d0ef21e674ed967f5d9bc31a6d5f91ed13"
+      },
+      {
+        "path": "databases/evaluation/variant/sports_competition.sqlite",
+        "database_sha256": "85ac4be8e4ccf7fad47427c693853c449dc58abf2ce0e4380980828a7e5953b9",
+        "expected": "3bc2e24de5d01be29221da8acf1807465737de765fedde7cdab474bb7dde5fba"
+      }
+    ],
+    "validation-f76a31ffe49ff88d": [
+      {
+        "path": "databases/public/e_government.sqlite",
+        "database_sha256": "cf495bbf09bcee9281f73c10a270194a895bf93a73fc9b02d4c3cff06de7ae2c",
+        "expected": "cc1ed15a20b44a4525482de1ccbd24ff1761cb2b68a5b336c9d6700ccdbc764c"
+      },
+      {
+        "path": "databases/evaluation/original/e_government.sqlite",
+        "database_sha256": "3fd703754d0334da78878f0f2544c7b44c75a7e86dee938d4f0ebd033c265636",
+        "expected": "19a8e930a649eb187d50246a13dda68b8c1e1fcaa47b3ef61ccecf97c9fb038d"
+      },
+      {
+        "path": "databases/evaluation/variant/e_government.sqlite",
+        "database_sha256": "82a1e9543cff54957aae5ea980926f445bd75a59559310a6d68585d21d2966e8",
+        "expected": "19a8e930a649eb187d50246a13dda68b8c1e1fcaa47b3ef61ccecf97c9fb038d"
+      }
+    ],
+    "validation-61511bf35997c117": [
+      {
+        "path": "databases/public/roller_coaster.sqlite",
+        "database_sha256": "642307c60f004c0b01ce66ea084be733b5408f7270062fd4da5135a217e2c983",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/roller_coaster.sqlite",
+        "database_sha256": "d0b3dcaf97a601063cf65b05fd251b223d22e75e7f05d4bad9539f0fb368b6c6",
+        "expected": "5c17b23b076a20be09cae3be11280566878b7d86637ef695d95509059698c640"
+      },
+      {
+        "path": "databases/evaluation/variant/roller_coaster.sqlite",
+        "database_sha256": "a3de49a8bc92adba162d3052f66bbfb48c78c1b9627cdd1a84fe6a4a782816eb",
+        "expected": "5c17b23b076a20be09cae3be11280566878b7d86637ef695d95509059698c640"
+      }
+    ],
+    "validation-c1adc4cfbb04e562": [
+      {
+        "path": "databases/public/entertainment_awards.sqlite",
+        "database_sha256": "012ac46431b18425698edd1bd2e61c053f358a84f74b85b005adfb2b20c5a85f",
+        "expected": "29548b8ac975f4fcf107d05be8ad38ebc82d5b5efb86c5111be6b4569781c250"
+      },
+      {
+        "path": "databases/evaluation/original/entertainment_awards.sqlite",
+        "database_sha256": "35c7b2b1532c63139784543c2465b9a149f9c46c925c1316f9e78b45e054c32b",
+        "expected": "fbc03ca9cb1fc5e6fbc4730e6cf967d06d144ee0e7448afd32a694e75b46f8ed"
+      },
+      {
+        "path": "databases/evaluation/variant/entertainment_awards.sqlite",
+        "database_sha256": "3c2e06732779500cf01e88e92e8e883b996300964c85dc96b296bf087b39a1c7",
+        "expected": "81aeed5dde8b3aa7422b918200ce7718198f5ddad021e45bf0304fcca4ce941b"
+      }
+    ],
+    "validation-f1a67e3024ea10f2": [
+      {
+        "path": "databases/public/program_share.sqlite",
+        "database_sha256": "ab960198b7b0c0028bd4e43238771adeebfededb127fbc1e34cabceb6616a039",
+        "expected": "c015df0554af5d47095bcd09198291ec29f77f934e40f43c08b8ea0d0569ff43"
+      },
+      {
+        "path": "databases/evaluation/original/program_share.sqlite",
+        "database_sha256": "76b2a7ef2e13b04c3085998e08c7c9224a1c195b76073b29e96b2bdb007c98c6",
+        "expected": "86c18ffcfd5da6e831e885be166f9326ffd313ea4cd3b5c5e1c4c31ee4c97d95"
+      },
+      {
+        "path": "databases/evaluation/variant/program_share.sqlite",
+        "database_sha256": "839f3be5591369f50f6b53f2552854a8f6a9cf781fa409005dc529e6b3bd5264",
+        "expected": "86c18ffcfd5da6e831e885be166f9326ffd313ea4cd3b5c5e1c4c31ee4c97d95"
+      }
+    ],
+    "validation-ed6f64d1f362df5a": [
+      {
+        "path": "databases/public/customer_deliveries.sqlite",
+        "database_sha256": "0b58e23303df440fc113ff46ce4176b88004528c6d339de23c7cc46db4d803ec",
+        "expected": "e6dad2daedd993df4edd2d85f66d104598eb8ba71e18496dde607067f0171265"
+      },
+      {
+        "path": "databases/evaluation/original/customer_deliveries.sqlite",
+        "database_sha256": "e4d269a357190432d3f0b154070dccf1cc5f7f7715571c1597e2fdd9ee47d485",
+        "expected": "e6dad2daedd993df4edd2d85f66d104598eb8ba71e18496dde607067f0171265"
+      },
+      {
+        "path": "databases/evaluation/variant/customer_deliveries.sqlite",
+        "database_sha256": "f4b0a92c61ac70d0544fe96de990ffd5b35eaf6c3403244bce10575462c96b99",
+        "expected": "e6dad2daedd993df4edd2d85f66d104598eb8ba71e18496dde607067f0171265"
+      }
+    ],
+    "validation-fad437395e6b6486": [
+      {
+        "path": "databases/public/wedding.sqlite",
+        "database_sha256": "1a224eb9d1bf5f42eb27aa89290ee731c2a82caa491c3a641378194a3cb334be",
+        "expected": "188fa4c3710087c6762b4b10ede6263b7f36628cc8928297944c8e820b19be58"
+      },
+      {
+        "path": "databases/evaluation/original/wedding.sqlite",
+        "database_sha256": "d73acad10719e5616f4ded960b5341a0e34e7c5780f5182bb996b5887c5a6f6e",
+        "expected": "7e7b828bdaf3c062b26e879aae1051b4a2471c140337f7b8e7e6a046a01cf062"
+      },
+      {
+        "path": "databases/evaluation/variant/wedding.sqlite",
+        "database_sha256": "88cbda9f628f443e797c47a37e40079c9651cc4da059866af5cdb15945920701",
+        "expected": "bc941a239965892eb42c292d5f9b55a191c0ab7799f036eeb961cce43bc4c1c1"
+      }
+    ],
+    "validation-30b61a74da23f747": [
+      {
+        "path": "databases/public/culture_company.sqlite",
+        "database_sha256": "9b56e417d4795e66607075ba1406b7a0c8831db02d651908f09c3aa94cee1fa8",
+        "expected": "a61c274a6ea45c0f1574a77c7ac581236525c56eb6fa5c2204b20bc82f96ed68"
+      },
+      {
+        "path": "databases/evaluation/original/culture_company.sqlite",
+        "database_sha256": "d73d31db2c91dadeb67b8ed0c9366fbbe7658774dfa110161c168ee13e781820",
+        "expected": "72ee92c12eccb2967b262f057827565fc10fa8d3fdb097a6e7e17eec5af2a01f"
+      },
+      {
+        "path": "databases/evaluation/variant/culture_company.sqlite",
+        "database_sha256": "f63778f2d11857d1b3885f8413d4c5da8425624050f3e76ca21384666564c6a6",
+        "expected": "91ba74dcb67c40886fb1cfe9d151a702d42dbac0e432b6c751569e05656ea9d3"
+      }
+    ],
+    "validation-889009eee36761d6": [
+      {
+        "path": "databases/public/customers_and_invoices.sqlite",
+        "database_sha256": "e2a2d7b06f33939421cd9caba8a3484679d1cb43b0212ea53b9d4e7e4afb189b",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/customers_and_invoices.sqlite",
+        "database_sha256": "19621a734777eefff77544c93f5da387f086e53b9dc0aa6266bc2da55dbd7103",
+        "expected": "e1a4d1701362bf032ab25568d91c24e87fa233e1d2aa785323d36254a83eaed9"
+      },
+      {
+        "path": "databases/evaluation/variant/customers_and_invoices.sqlite",
+        "database_sha256": "2d4eaadb7ed2200e58298ff1e14b53f6e2b059e40fa71a86a465cff6dd44646c",
+        "expected": "7623e70f06f30b9ebfb1467dae9956c28b230f602dca40c82b699717cca51f9a"
+      }
+    ],
+    "validation-3625496ea0b7be64": [
+      {
+        "path": "databases/public/local_govt_mdm.sqlite",
+        "database_sha256": "7cb5ad32b564fbb6c816834555b1fd11c72aa740297f11b8df261f450ed70d26",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/local_govt_mdm.sqlite",
+        "database_sha256": "d0ebfc3700908467260642cd68906225899d55f4932a2fa65f84001f871f396c",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/variant/local_govt_mdm.sqlite",
+        "database_sha256": "8d1e577f4580ab20e10333b7eec7e9750680d1096b1bb5bf818ccd0e5fbc7ec7",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      }
+    ],
+    "validation-15c0ae475aa5b12c": [
+      {
+        "path": "databases/public/products_for_hire.sqlite",
+        "database_sha256": "b428800257b50c05fed08c246df2f9b4fbf91037b95d8e089d2d1fbb5a549b9b",
+        "expected": "6f09481ff149999fc883a1850e59d47e6cb0d94e233d1e629366d3862b11f9e3"
+      },
+      {
+        "path": "databases/evaluation/original/products_for_hire.sqlite",
+        "database_sha256": "f8ee0888cf7788ae89576350484a5045fe8416c727ba5f623096540c82c89c3f",
+        "expected": "f6c6384c620a6543f452921a481b5ec04f339f6342b70793a68423ef1013da8c"
+      },
+      {
+        "path": "databases/evaluation/variant/products_for_hire.sqlite",
+        "database_sha256": "5bd72cfff4a69493be9f38b51d528e8cb19557cf6f8ba1f88cdce7758a137e69",
+        "expected": "f8307da012b8ab58609617884fc73feaa742d0461aab23a95cea413e5124993d"
+      }
+    ],
+    "validation-085ce3159bf51a4d": [
+      {
+        "path": "databases/public/architecture.sqlite",
+        "database_sha256": "addc7b9a3f57624c705869ba98c355bdb966521d1de738b88c8a63858536ce84",
+        "expected": "83f89b562bf399622371ca692aa1464d141b68c246ba51f8ac2a630cd14452c1"
+      },
+      {
+        "path": "databases/evaluation/original/architecture.sqlite",
+        "database_sha256": "ea405f3511d01a3f7d688fbec2b214b7fb82ed9f5795f424a0e1a655f704d406",
+        "expected": "5771d8f1ce7f7391d41bdd7b5b7f3577ee06a303d42253808e12cfd84f38d86e"
+      },
+      {
+        "path": "databases/evaluation/variant/architecture.sqlite",
+        "database_sha256": "96829bd97dcae4bdb0b06970235a2a9883a035995e7c12c146081879283ced93",
+        "expected": "5771d8f1ce7f7391d41bdd7b5b7f3577ee06a303d42253808e12cfd84f38d86e"
+      }
+    ],
+    "validation-5cca36d225fdead7": [
+      {
+        "path": "databases/public/department_store.sqlite",
+        "database_sha256": "7968c73cea57d5c39e1fb919aedbfa8e37696036d53aab55f84dd70e136c83d7",
+        "expected": "7f224ea4b515e87bfb64fdfdfc5269ad9dd283e9721dc806a64449981ec97742"
+      },
+      {
+        "path": "databases/evaluation/original/department_store.sqlite",
+        "database_sha256": "48cd35afc5b1b2eb9c10817ef20e5ce77f607d5cf27d8aeff6171446f2b904a2",
+        "expected": "e49521231d8d068acada3d04f56f3b78a2694df70407fa88bc7ed359f581b67e"
+      },
+      {
+        "path": "databases/evaluation/variant/department_store.sqlite",
+        "database_sha256": "c2baf73f00b8d44788064729b36c4295dd7382c7f9d8a648c6ffd0e3150e4933",
+        "expected": "2d2efec43c33f234ec8719faa2581184e24a36f6c1386a8555c9a8b728fec60a"
+      }
+    ],
+    "validation-2c892f2ef042cedd": [
+      {
+        "path": "databases/public/music_1.sqlite",
+        "database_sha256": "ea91ad8658666390f96740e15928be1fed8327dc0706621dda2256ef0f5f202d",
+        "expected": "86c18ffcfd5da6e831e885be166f9326ffd313ea4cd3b5c5e1c4c31ee4c97d95"
+      },
+      {
+        "path": "databases/evaluation/original/music_1.sqlite",
+        "database_sha256": "e6f56185952431c5cf6c036e463a8e8755ea9ff3e2cbe14f5ac3ebe2e850b603",
+        "expected": "86c18ffcfd5da6e831e885be166f9326ffd313ea4cd3b5c5e1c4c31ee4c97d95"
+      },
+      {
+        "path": "databases/evaluation/variant/music_1.sqlite",
+        "database_sha256": "cca83cb7adea4cc1de8335e39349b27306071c7e25af1c27833549c9de3e4567",
+        "expected": "b91f637d704dc41f7c4b7f846ea4c34605c29ff401d2d1137ba08e32c351ad73"
+      }
+    ],
+    "validation-de485b76b4616b8e": [
+      {
+        "path": "databases/public/wrestler.sqlite",
+        "database_sha256": "7b82a4227c6e498420c3fe5ebc2ac9bb930a8c9091ef86e6e4bedd9123b0feef",
+        "expected": "46b63508f8112c4c76b9feab022137d54995b0f56b5a0adb27f510893fee9b30"
+      },
+      {
+        "path": "databases/evaluation/original/wrestler.sqlite",
+        "database_sha256": "ef538c66862d997561619be1ac1b0c488bc54e7171ad33f7fe6195e903619ae4",
+        "expected": "17c637eb47cc3d121862f96cafa28fc4efd4fabf87f5b1c620970a238ffc7d65"
+      },
+      {
+        "path": "databases/evaluation/variant/wrestler.sqlite",
+        "database_sha256": "c90abe741d096bc40be0ed95cea889d65b6603a923e97d37da7830782e92b20e",
+        "expected": "1252c6c61912a5e0622d27841b565d25503e70a46bfa40acdf59696e7ee22eb3"
+      }
+    ],
+    "validation-4b4f8024a5980978": [
+      {
+        "path": "databases/public/journal_committee.sqlite",
+        "database_sha256": "6419b48792167b7759edbe199904885b09e76fa1d547716e2313094f751d4904",
+        "expected": "9fbc24111cc2b31dd096e548e21190c16ee3d2b0afd4f86655830de371852fd3"
+      },
+      {
+        "path": "databases/evaluation/original/journal_committee.sqlite",
+        "database_sha256": "669e6bc2ca07838e7a3d225b190387fc003e267d3a9fc4ae03056f5699dfae39",
+        "expected": "cf34e0cab07294f53634ea20f2ebda5fed69d2d39eb76c5c8692eb4250967b1d"
+      },
+      {
+        "path": "databases/evaluation/variant/journal_committee.sqlite",
+        "database_sha256": "bf0dd04f80d6e21c0aeea321a1b3e443cf3558aa370e64c7f8a56711a39607bd",
+        "expected": "ed39c535fbfc00babca788ec7cec681b46caf994cdca9bc98dbc57d12b9296cd"
+      }
+    ],
+    "validation-f1ea6b8f0e7f285d": [
+      {
+        "path": "databases/public/e_learning.sqlite",
+        "database_sha256": "02530c3f5b28b3adec986e63181e701ca48472463b4258982c88e6340e7f8077",
+        "expected": "a61c274a6ea45c0f1574a77c7ac581236525c56eb6fa5c2204b20bc82f96ed68"
+      },
+      {
+        "path": "databases/evaluation/original/e_learning.sqlite",
+        "database_sha256": "dc06b485f9e041c8af060593fb31746ad1f97b07543ca69a94560dd6c89f3d1b",
+        "expected": "deae29246288d8b46da84c110f6b9fe8e32eff254c7d007d50a728fb23d9fed2"
+      },
+      {
+        "path": "databases/evaluation/variant/e_learning.sqlite",
+        "database_sha256": "876e75f65530edf70da65725aae4cbd8b9f338bfb8e58ffb0948963a52aceece",
+        "expected": "a61c274a6ea45c0f1574a77c7ac581236525c56eb6fa5c2204b20bc82f96ed68"
+      }
+    ],
+    "validation-e3956a7be9311093": [
+      {
+        "path": "databases/public/dorm_1.sqlite",
+        "database_sha256": "3d52143466a97a9daec7a63adfff1d54f6018ec74a329ec6f9ac178c770e1800",
+        "expected": "2c50607fa425b6c064c8270a74e3f86d2143df3ffcbbbf466e50dfbc1e83f06d"
+      },
+      {
+        "path": "databases/evaluation/original/dorm_1.sqlite",
+        "database_sha256": "2f836de861ed2b67679990d12b57814feda426f88e62509201277a7200a2c20b",
+        "expected": "f7825e5ba94cdc4762c14139b973bbc1fc79aaa99b9473ccac5ec9b93cd08a3f"
+      },
+      {
+        "path": "databases/evaluation/variant/dorm_1.sqlite",
+        "database_sha256": "5f8c9de6dfa3864aecf09f3bcfa20f77cf8a86dcdf408b257a6ec1fa6b9249f9",
+        "expected": "5ec880c697ef0c08285f4bb50eba0aee7876f04a795b03a8a69a21de4809439f"
+      }
+    ],
+    "validation-e1927c97d2899fdd": [
+      {
+        "path": "databases/public/company_employee.sqlite",
+        "database_sha256": "931b8c72e1e1f161a085753810b2ed3203cd00c10a182706e87e262b5d98f491",
+        "expected": "967020c7aee1bbc76a2390187099a956db69df4fdca3042f800171e5f9ffd85e"
+      },
+      {
+        "path": "databases/evaluation/original/company_employee.sqlite",
+        "database_sha256": "86574c9edbecd80ded437d9439d6f81def0973816b1c8af8d007335e62565378",
+        "expected": "9fc4f58ca30008ca143e0e64c67883469d044d1628dad2d9cc4dc37ccaa308d5"
+      },
+      {
+        "path": "databases/evaluation/variant/company_employee.sqlite",
+        "database_sha256": "b25152b86f6f70dd9c207e82303b78efbb947bf90122b5e2c88a014e62dc9d4b",
+        "expected": "c4c7c2926530b72166b5c1bfc6dbfe6cffd39943adefc3fd8df89e8c460ed7f9"
+      }
+    ],
+    "validation-5dad6a54f441726e": [
+      {
+        "path": "databases/public/restaurant_1.sqlite",
+        "database_sha256": "02b0b91f615921558e7ffd9f5d04dcc235e5b06dde1fc9f29970f86130718d0b",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/restaurant_1.sqlite",
+        "database_sha256": "f5295466d92e97bd241caa942228793c09b2c1e42382337fbb5d90a6d797de0b",
+        "expected": "d76556d86cf3223119fb5cc8585bc928546a7d7061343182b77aaa9ab959f67b"
+      },
+      {
+        "path": "databases/evaluation/variant/restaurant_1.sqlite",
+        "database_sha256": "33903651321430c6014e636180822689a71fd515a672bb12ab393c4d9e7f812f",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      }
+    ],
+    "validation-5cf3b447b4af02c2": [
+      {
+        "path": "databases/public/sports_competition.sqlite",
+        "database_sha256": "442bfc73da43a06f72798bdab392df1df24d61e997a2f4db948597ce80abcf1b",
+        "expected": "64333c3ba9cad2db742c8ea6e05f926fa1bc2570e95f92c08ec674a170d6e890"
+      },
+      {
+        "path": "databases/evaluation/original/sports_competition.sqlite",
+        "database_sha256": "ae8f322b30d1634e2cf0e3e9f033082096d469152a567e0e3014c000386f7c2f",
+        "expected": "64333c3ba9cad2db742c8ea6e05f926fa1bc2570e95f92c08ec674a170d6e890"
+      },
+      {
+        "path": "databases/evaluation/variant/sports_competition.sqlite",
+        "database_sha256": "85ac4be8e4ccf7fad47427c693853c449dc58abf2ce0e4380980828a7e5953b9",
+        "expected": "64333c3ba9cad2db742c8ea6e05f926fa1bc2570e95f92c08ec674a170d6e890"
+      }
+    ],
+    "validation-f763b72754a444d8": [
+      {
+        "path": "databases/public/e_government.sqlite",
+        "database_sha256": "cf495bbf09bcee9281f73c10a270194a895bf93a73fc9b02d4c3cff06de7ae2c",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/e_government.sqlite",
+        "database_sha256": "3fd703754d0334da78878f0f2544c7b44c75a7e86dee938d4f0ebd033c265636",
+        "expected": "f9cf9c3266937d7bf4b29bfcc00de33cb4097eec5a8f50a5b061bcf626b991e3"
+      },
+      {
+        "path": "databases/evaluation/variant/e_government.sqlite",
+        "database_sha256": "82a1e9543cff54957aae5ea980926f445bd75a59559310a6d68585d21d2966e8",
+        "expected": "700cfd633daa9c352e8add781e74a627960e8ad5cfeef6045a3f93b8075208dd"
+      }
+    ],
+    "validation-ef4c177afd66ae16": [
+      {
+        "path": "databases/public/roller_coaster.sqlite",
+        "database_sha256": "642307c60f004c0b01ce66ea084be733b5408f7270062fd4da5135a217e2c983",
+        "expected": "b717b3c9a6ef04df5c491760aeb8255f9b23135839e22ac8841054816e58d622"
+      },
+      {
+        "path": "databases/evaluation/original/roller_coaster.sqlite",
+        "database_sha256": "d0b3dcaf97a601063cf65b05fd251b223d22e75e7f05d4bad9539f0fb368b6c6",
+        "expected": "c015df0554af5d47095bcd09198291ec29f77f934e40f43c08b8ea0d0569ff43"
+      },
+      {
+        "path": "databases/evaluation/variant/roller_coaster.sqlite",
+        "database_sha256": "a3de49a8bc92adba162d3052f66bbfb48c78c1b9627cdd1a84fe6a4a782816eb",
+        "expected": "c015df0554af5d47095bcd09198291ec29f77f934e40f43c08b8ea0d0569ff43"
+      }
+    ],
+    "validation-2643a95fe295b32a": [
+      {
+        "path": "databases/public/entertainment_awards.sqlite",
+        "database_sha256": "012ac46431b18425698edd1bd2e61c053f358a84f74b85b005adfb2b20c5a85f",
+        "expected": "a0d7ca019244915e4f8a42a80540a8190d922c839328f0cfec83585c562aaa30"
+      },
+      {
+        "path": "databases/evaluation/original/entertainment_awards.sqlite",
+        "database_sha256": "35c7b2b1532c63139784543c2465b9a149f9c46c925c1316f9e78b45e054c32b",
+        "expected": "a36c48d62ed29f1fb36653cff6b71a1cf71d5bea292b3c74483e74b823025551"
+      },
+      {
+        "path": "databases/evaluation/variant/entertainment_awards.sqlite",
+        "database_sha256": "3c2e06732779500cf01e88e92e8e883b996300964c85dc96b296bf087b39a1c7",
+        "expected": "b5277da44f2f488a6963f38d56c32f4be6d838384038fbafaa604fb4aa25f8aa"
+      }
+    ],
+    "validation-0a26d7c1c332029e": [
+      {
+        "path": "databases/public/program_share.sqlite",
+        "database_sha256": "ab960198b7b0c0028bd4e43238771adeebfededb127fbc1e34cabceb6616a039",
+        "expected": "bdf98de6e66fe99f88b2993276c3e3af1ed6f97830fa298e7a5d28436807863d"
+      },
+      {
+        "path": "databases/evaluation/original/program_share.sqlite",
+        "database_sha256": "76b2a7ef2e13b04c3085998e08c7c9224a1c195b76073b29e96b2bdb007c98c6",
+        "expected": "b9e49e14a9724d816fd11a4425f4522220eca3b93b3783b3212275686601c92c"
+      },
+      {
+        "path": "databases/evaluation/variant/program_share.sqlite",
+        "database_sha256": "839f3be5591369f50f6b53f2552854a8f6a9cf781fa409005dc529e6b3bd5264",
+        "expected": "b9e49e14a9724d816fd11a4425f4522220eca3b93b3783b3212275686601c92c"
+      }
+    ],
+    "validation-e313605ab240e9e5": [
+      {
+        "path": "databases/public/customer_deliveries.sqlite",
+        "database_sha256": "0b58e23303df440fc113ff46ce4176b88004528c6d339de23c7cc46db4d803ec",
+        "expected": "54d6213bed329544713868abe9683aa11c956871a6e4fbe647e6f644f2c5f1ab"
+      },
+      {
+        "path": "databases/evaluation/original/customer_deliveries.sqlite",
+        "database_sha256": "e4d269a357190432d3f0b154070dccf1cc5f7f7715571c1597e2fdd9ee47d485",
+        "expected": "27ba7fb741172bfb2b96b40672c6b4ef2b3e1ebacd42253bb84fdab1e649263e"
+      },
+      {
+        "path": "databases/evaluation/variant/customer_deliveries.sqlite",
+        "database_sha256": "f4b0a92c61ac70d0544fe96de990ffd5b35eaf6c3403244bce10575462c96b99",
+        "expected": "3c4be70260d19e6340a4aaa177c8496c383c5b1f55cd054729d8a3f3a0840b83"
+      }
+    ],
+    "validation-80d75a584db5c4e7": [
+      {
+        "path": "databases/public/wedding.sqlite",
+        "database_sha256": "1a224eb9d1bf5f42eb27aa89290ee731c2a82caa491c3a641378194a3cb334be",
+        "expected": "c8401ea2b201e7a1bea9e1bcaf72b50b41a66fd3a39be63c9d6d0202b7838665"
+      },
+      {
+        "path": "databases/evaluation/original/wedding.sqlite",
+        "database_sha256": "d73acad10719e5616f4ded960b5341a0e34e7c5780f5182bb996b5887c5a6f6e",
+        "expected": "a253efdfa3f7a3e28ecbf3a402b3e419ba4e0b97bac9df67d1dabcdcc9d93406"
+      },
+      {
+        "path": "databases/evaluation/variant/wedding.sqlite",
+        "database_sha256": "88cbda9f628f443e797c47a37e40079c9651cc4da059866af5cdb15945920701",
+        "expected": "8287112315725a7be61323cb96695741c4f612792d8630c5c09da0bdcd793e10"
+      }
+    ],
+    "validation-cf65a76c2ca339d6": [
+      {
+        "path": "databases/public/culture_company.sqlite",
+        "database_sha256": "9b56e417d4795e66607075ba1406b7a0c8831db02d651908f09c3aa94cee1fa8",
+        "expected": "798955438b7dd4f3e354140dde35706f80d14c1d884bc7d97a876b5123875c3e"
+      },
+      {
+        "path": "databases/evaluation/original/culture_company.sqlite",
+        "database_sha256": "d73d31db2c91dadeb67b8ed0c9366fbbe7658774dfa110161c168ee13e781820",
+        "expected": "66ca3db7cd1f0650d830a8c096ac779dc492225712d615bc57f06d4d1a282064"
+      },
+      {
+        "path": "databases/evaluation/variant/culture_company.sqlite",
+        "database_sha256": "f63778f2d11857d1b3885f8413d4c5da8425624050f3e76ca21384666564c6a6",
+        "expected": "f2380832e81ac75401679d0e8425282ea8944417e1ca9ed220dfd513c5d30a46"
+      }
+    ],
+    "validation-d70a542e503e4a1e": [
+      {
+        "path": "databases/public/customers_and_invoices.sqlite",
+        "database_sha256": "e2a2d7b06f33939421cd9caba8a3484679d1cb43b0212ea53b9d4e7e4afb189b",
+        "expected": "8f5bc112cd24937705cf148cefef664ff66e0a7dfc5c82aa428d58a7e2f9a1cd"
+      },
+      {
+        "path": "databases/evaluation/original/customers_and_invoices.sqlite",
+        "database_sha256": "19621a734777eefff77544c93f5da387f086e53b9dc0aa6266bc2da55dbd7103",
+        "expected": "5f50f3667920517b944c73a6e856d0e59cdfddbab29b2c0a09124e46b31e6285"
+      },
+      {
+        "path": "databases/evaluation/variant/customers_and_invoices.sqlite",
+        "database_sha256": "2d4eaadb7ed2200e58298ff1e14b53f6e2b059e40fa71a86a465cff6dd44646c",
+        "expected": "ec1718d37cba511a57226a032111cd911ba9c9b04e22ae3b6ab5392140ef86a1"
+      }
+    ],
+    "validation-e53b4e10a90eb2c7": [
+      {
+        "path": "databases/public/local_govt_mdm.sqlite",
+        "database_sha256": "7cb5ad32b564fbb6c816834555b1fd11c72aa740297f11b8df261f450ed70d26",
+        "expected": "b717b3c9a6ef04df5c491760aeb8255f9b23135839e22ac8841054816e58d622"
+      },
+      {
+        "path": "databases/evaluation/original/local_govt_mdm.sqlite",
+        "database_sha256": "d0ebfc3700908467260642cd68906225899d55f4932a2fa65f84001f871f396c",
+        "expected": "e6dad2daedd993df4edd2d85f66d104598eb8ba71e18496dde607067f0171265"
+      },
+      {
+        "path": "databases/evaluation/variant/local_govt_mdm.sqlite",
+        "database_sha256": "8d1e577f4580ab20e10333b7eec7e9750680d1096b1bb5bf818ccd0e5fbc7ec7",
+        "expected": "86c18ffcfd5da6e831e885be166f9326ffd313ea4cd3b5c5e1c4c31ee4c97d95"
+      }
+    ],
+    "validation-3288dc4cebb243fe": [
+      {
+        "path": "databases/public/products_for_hire.sqlite",
+        "database_sha256": "b428800257b50c05fed08c246df2f9b4fbf91037b95d8e089d2d1fbb5a549b9b",
+        "expected": "f9adde19b0de40a4c6f24d8de8f2c853b3cc5d5ffcd42df6197155bd64e52295"
+      },
+      {
+        "path": "databases/evaluation/original/products_for_hire.sqlite",
+        "database_sha256": "f8ee0888cf7788ae89576350484a5045fe8416c727ba5f623096540c82c89c3f",
+        "expected": "792573ea9230480b7de8ee649aad59159febcb5060646bf279fae86fab6f9a37"
+      },
+      {
+        "path": "databases/evaluation/variant/products_for_hire.sqlite",
+        "database_sha256": "5bd72cfff4a69493be9f38b51d528e8cb19557cf6f8ba1f88cdce7758a137e69",
+        "expected": "51fc2d16b550189382c27a110c8a29bdf1ae77eb0fb5c00dd1fa4a9122981ea1"
+      }
+    ],
+    "validation-c22e5499b1593f40": [
+      {
+        "path": "databases/public/architecture.sqlite",
+        "database_sha256": "addc7b9a3f57624c705869ba98c355bdb966521d1de738b88c8a63858536ce84",
+        "expected": "0b36943bddd272b51ddcda6c991f165d40def1827fff6236ed747f946f045699"
+      },
+      {
+        "path": "databases/evaluation/original/architecture.sqlite",
+        "database_sha256": "ea405f3511d01a3f7d688fbec2b214b7fb82ed9f5795f424a0e1a655f704d406",
+        "expected": "a8ae6dfa57e9e69c1f0f66aafc841997ba17844dce9c135fd1d2d6970237f0f9"
+      },
+      {
+        "path": "databases/evaluation/variant/architecture.sqlite",
+        "database_sha256": "96829bd97dcae4bdb0b06970235a2a9883a035995e7c12c146081879283ced93",
+        "expected": "239ea7b60c95bfe5b6d2866e46e15af1dfe69513fa9bc50eb834dec53581ae92"
+      }
+    ],
+    "validation-3d91e3eb70e7a1ee": [
+      {
+        "path": "databases/public/department_store.sqlite",
+        "database_sha256": "7968c73cea57d5c39e1fb919aedbfa8e37696036d53aab55f84dd70e136c83d7",
+        "expected": "8e0d4ab06630077b044be880fdb88820eea0f6a4db8f4dc1c5cc3a11fa2425a4"
+      },
+      {
+        "path": "databases/evaluation/original/department_store.sqlite",
+        "database_sha256": "48cd35afc5b1b2eb9c10817ef20e5ce77f607d5cf27d8aeff6171446f2b904a2",
+        "expected": "d40019b45ffc912f81c6ce747fa578c81e4100b0e9496b45014c8080a350fc1c"
+      },
+      {
+        "path": "databases/evaluation/variant/department_store.sqlite",
+        "database_sha256": "c2baf73f00b8d44788064729b36c4295dd7382c7f9d8a648c6ffd0e3150e4933",
+        "expected": "77f1a0718230c5d5773896b2063c4ed9442c2a6ceeac2c221dffd594dc0b011f"
+      }
+    ],
+    "validation-69f87ab68f157c15": [
+      {
+        "path": "databases/public/music_1.sqlite",
+        "database_sha256": "ea91ad8658666390f96740e15928be1fed8327dc0706621dda2256ef0f5f202d",
+        "expected": "7990489593ca41211218900a3e148464cf948996a540eb85aa1dd451a11dac14"
+      },
+      {
+        "path": "databases/evaluation/original/music_1.sqlite",
+        "database_sha256": "e6f56185952431c5cf6c036e463a8e8755ea9ff3e2cbe14f5ac3ebe2e850b603",
+        "expected": "7990489593ca41211218900a3e148464cf948996a540eb85aa1dd451a11dac14"
+      },
+      {
+        "path": "databases/evaluation/variant/music_1.sqlite",
+        "database_sha256": "cca83cb7adea4cc1de8335e39349b27306071c7e25af1c27833549c9de3e4567",
+        "expected": "2c4df339b9712b8994803d3ec3389bca8e01070ee4edbb8bfa24e4cd58849639"
+      }
+    ],
+    "validation-0eb1fb5e47ed829f": [
+      {
+        "path": "databases/public/wrestler.sqlite",
+        "database_sha256": "7b82a4227c6e498420c3fe5ebc2ac9bb930a8c9091ef86e6e4bedd9123b0feef",
+        "expected": "76d1dd4ab422cf2db5e6153206fe2844beb35db75f00c2727f16d1b1acdbf7dc"
+      },
+      {
+        "path": "databases/evaluation/original/wrestler.sqlite",
+        "database_sha256": "ef538c66862d997561619be1ac1b0c488bc54e7171ad33f7fe6195e903619ae4",
+        "expected": "526119a22ad6137757d261c4bea9a9d85c27943a597855a7ae6c51d24b1da83d"
+      },
+      {
+        "path": "databases/evaluation/variant/wrestler.sqlite",
+        "database_sha256": "c90abe741d096bc40be0ed95cea889d65b6603a923e97d37da7830782e92b20e",
+        "expected": "ffe6447a6860b17e1b54a237be24e3135c1bd3bf4f4a542ba1b3ae7ead613b7a"
+      }
+    ],
+    "validation-7896499011c15fde": [
+      {
+        "path": "databases/public/journal_committee.sqlite",
+        "database_sha256": "6419b48792167b7759edbe199904885b09e76fa1d547716e2313094f751d4904",
+        "expected": "e4a3e6a510da870213d6a40e3356105b89652c08399a2e0c02e20fbed5be16db"
+      },
+      {
+        "path": "databases/evaluation/original/journal_committee.sqlite",
+        "database_sha256": "669e6bc2ca07838e7a3d225b190387fc003e267d3a9fc4ae03056f5699dfae39",
+        "expected": "e4a3e6a510da870213d6a40e3356105b89652c08399a2e0c02e20fbed5be16db"
+      },
+      {
+        "path": "databases/evaluation/variant/journal_committee.sqlite",
+        "database_sha256": "bf0dd04f80d6e21c0aeea321a1b3e443cf3558aa370e64c7f8a56711a39607bd",
+        "expected": "d91d53d2a89be36ca783547eb29a7dc7737341a322b0178fc124d328ad0faaad"
+      }
+    ],
+    "validation-88f375ef94d12f68": [
+      {
+        "path": "databases/public/e_learning.sqlite",
+        "database_sha256": "02530c3f5b28b3adec986e63181e701ca48472463b4258982c88e6340e7f8077",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/e_learning.sqlite",
+        "database_sha256": "dc06b485f9e041c8af060593fb31746ad1f97b07543ca69a94560dd6c89f3d1b",
+        "expected": "42101289e8bdf1e283a33e972c627b726515e1fdb855906ecee6e8ad47705177"
+      },
+      {
+        "path": "databases/evaluation/variant/e_learning.sqlite",
+        "database_sha256": "876e75f65530edf70da65725aae4cbd8b9f338bfb8e58ffb0948963a52aceece",
+        "expected": "1b0ca2933ef68fccd0cb25e2802b1958c758b2631f22295ce68e3272288673ac"
+      }
+    ],
+    "validation-0407f698a3a86c0a": [
+      {
+        "path": "databases/public/dorm_1.sqlite",
+        "database_sha256": "3d52143466a97a9daec7a63adfff1d54f6018ec74a329ec6f9ac178c770e1800",
+        "expected": "9ea42212715043550c2be12f38f5a6ee0c8cd23a97be27481693e1c482ab3e3d"
+      },
+      {
+        "path": "databases/evaluation/original/dorm_1.sqlite",
+        "database_sha256": "2f836de861ed2b67679990d12b57814feda426f88e62509201277a7200a2c20b",
+        "expected": "88d1797c88ef0503b5f4c5b179f051388f7581c7fb21cfd3d92174070dacb051"
+      },
+      {
+        "path": "databases/evaluation/variant/dorm_1.sqlite",
+        "database_sha256": "5f8c9de6dfa3864aecf09f3bcfa20f77cf8a86dcdf408b257a6ec1fa6b9249f9",
+        "expected": "53b72cfb5ab948cd969e8c9eda45e3b3fd42682dadeae690b1dc89bc0c3bd0da"
+      }
+    ],
+    "validation-137394c19b2b5678": [
+      {
+        "path": "databases/public/company_employee.sqlite",
+        "database_sha256": "931b8c72e1e1f161a085753810b2ed3203cd00c10a182706e87e262b5d98f491",
+        "expected": "f837797508e292e13a766bffb0bc682059fecf10f415c4100ca235dab2168411"
+      },
+      {
+        "path": "databases/evaluation/original/company_employee.sqlite",
+        "database_sha256": "86574c9edbecd80ded437d9439d6f81def0973816b1c8af8d007335e62565378",
+        "expected": "bd778ce1348325dd4eca42fe2d64782c4ba61b84b5b0992383e61044cf08722d"
+      },
+      {
+        "path": "databases/evaluation/variant/company_employee.sqlite",
+        "database_sha256": "b25152b86f6f70dd9c207e82303b78efbb947bf90122b5e2c88a014e62dc9d4b",
+        "expected": "bd778ce1348325dd4eca42fe2d64782c4ba61b84b5b0992383e61044cf08722d"
+      }
+    ],
+    "validation-5d1ecaadd27fb6a2": [
+      {
+        "path": "databases/public/restaurant_1.sqlite",
+        "database_sha256": "02b0b91f615921558e7ffd9f5d04dcc235e5b06dde1fc9f29970f86130718d0b",
+        "expected": "d6a3fcd967a4fade05cde96b47107cf90ba0732d70e070ce5e94ed0879da54a7"
+      },
+      {
+        "path": "databases/evaluation/original/restaurant_1.sqlite",
+        "database_sha256": "f5295466d92e97bd241caa942228793c09b2c1e42382337fbb5d90a6d797de0b",
+        "expected": "d6a3fcd967a4fade05cde96b47107cf90ba0732d70e070ce5e94ed0879da54a7"
+      },
+      {
+        "path": "databases/evaluation/variant/restaurant_1.sqlite",
+        "database_sha256": "33903651321430c6014e636180822689a71fd515a672bb12ab393c4d9e7f812f",
+        "expected": "d6a3fcd967a4fade05cde96b47107cf90ba0732d70e070ce5e94ed0879da54a7"
+      }
+    ],
+    "validation-89448784d1f33b1c": [
+      {
+        "path": "databases/public/sports_competition.sqlite",
+        "database_sha256": "442bfc73da43a06f72798bdab392df1df24d61e997a2f4db948597ce80abcf1b",
+        "expected": "b478efa9c4e7254413649c3b9a07a8ee14d668fe2ffe76fdb55591b354d6836c"
+      },
+      {
+        "path": "databases/evaluation/original/sports_competition.sqlite",
+        "database_sha256": "ae8f322b30d1634e2cf0e3e9f033082096d469152a567e0e3014c000386f7c2f",
+        "expected": "4c0505e816da3beb057b140c0b1325f3060532c66c334db8ed83492af5cc5d5d"
+      },
+      {
+        "path": "databases/evaluation/variant/sports_competition.sqlite",
+        "database_sha256": "85ac4be8e4ccf7fad47427c693853c449dc58abf2ce0e4380980828a7e5953b9",
+        "expected": "0f298e22b9f76cd4982606dcba439a5cf1ba20436dc1c3d9a1b77e000ed459eb"
+      }
+    ],
+    "validation-fac51d810a95c200": [
+      {
+        "path": "databases/public/e_government.sqlite",
+        "database_sha256": "cf495bbf09bcee9281f73c10a270194a895bf93a73fc9b02d4c3cff06de7ae2c",
+        "expected": "8d80812b40f61b4250737e23b3a9acfee82dcceb81eef65adedd45550dee2282"
+      },
+      {
+        "path": "databases/evaluation/original/e_government.sqlite",
+        "database_sha256": "3fd703754d0334da78878f0f2544c7b44c75a7e86dee938d4f0ebd033c265636",
+        "expected": "3f7a6bc9d8669d15db3c2f1f3771b577777ff07f8c12e4380115ac6e3e72f54e"
+      },
+      {
+        "path": "databases/evaluation/variant/e_government.sqlite",
+        "database_sha256": "82a1e9543cff54957aae5ea980926f445bd75a59559310a6d68585d21d2966e8",
+        "expected": "b8c6d46c197ea61559ccb27a2a64cef76b0a745c714064aa0b6a5daf21fb7b33"
+      }
+    ],
+    "validation-6f87c063a9e335f0": [
+      {
+        "path": "databases/public/roller_coaster.sqlite",
+        "database_sha256": "642307c60f004c0b01ce66ea084be733b5408f7270062fd4da5135a217e2c983",
+        "expected": "a13bfc4f0a1cc87a0476755c17972ddd04aa1faf55fe6ce7b4f29b0092e037f1"
+      },
+      {
+        "path": "databases/evaluation/original/roller_coaster.sqlite",
+        "database_sha256": "d0b3dcaf97a601063cf65b05fd251b223d22e75e7f05d4bad9539f0fb368b6c6",
+        "expected": "ab9206e2a52dc70dfcbc79d3c21d29b5f2721822849ba3e37512f99df099c001"
+      },
+      {
+        "path": "databases/evaluation/variant/roller_coaster.sqlite",
+        "database_sha256": "a3de49a8bc92adba162d3052f66bbfb48c78c1b9627cdd1a84fe6a4a782816eb",
+        "expected": "ab9206e2a52dc70dfcbc79d3c21d29b5f2721822849ba3e37512f99df099c001"
+      }
+    ],
+    "validation-b0b931cefe38be42": [
+      {
+        "path": "databases/public/entertainment_awards.sqlite",
+        "database_sha256": "012ac46431b18425698edd1bd2e61c053f358a84f74b85b005adfb2b20c5a85f",
+        "expected": "9a9c4b0ced77bc32f80fe4455767ce19d5ced5c09323902a295f42af850652af"
+      },
+      {
+        "path": "databases/evaluation/original/entertainment_awards.sqlite",
+        "database_sha256": "35c7b2b1532c63139784543c2465b9a149f9c46c925c1316f9e78b45e054c32b",
+        "expected": "9a9c4b0ced77bc32f80fe4455767ce19d5ced5c09323902a295f42af850652af"
+      },
+      {
+        "path": "databases/evaluation/variant/entertainment_awards.sqlite",
+        "database_sha256": "3c2e06732779500cf01e88e92e8e883b996300964c85dc96b296bf087b39a1c7",
+        "expected": "9a9c4b0ced77bc32f80fe4455767ce19d5ced5c09323902a295f42af850652af"
+      }
+    ],
+    "validation-0edb7ecbb4dd054b": [
+      {
+        "path": "databases/public/program_share.sqlite",
+        "database_sha256": "ab960198b7b0c0028bd4e43238771adeebfededb127fbc1e34cabceb6616a039",
+        "expected": "ebc7f7502c8d819236a487dfdcd61597c532dd0d506c90b5d1ea742a0a4183a5"
+      },
+      {
+        "path": "databases/evaluation/original/program_share.sqlite",
+        "database_sha256": "76b2a7ef2e13b04c3085998e08c7c9224a1c195b76073b29e96b2bdb007c98c6",
+        "expected": "0d9bf10068f7e82a7bb88c5b94de1ea243293efda5d4a6a36f07efecb1828583"
+      },
+      {
+        "path": "databases/evaluation/variant/program_share.sqlite",
+        "database_sha256": "839f3be5591369f50f6b53f2552854a8f6a9cf781fa409005dc529e6b3bd5264",
+        "expected": "0d9bf10068f7e82a7bb88c5b94de1ea243293efda5d4a6a36f07efecb1828583"
+      }
+    ],
+    "validation-7df47fb7fd5104dc": [
+      {
+        "path": "databases/public/customer_deliveries.sqlite",
+        "database_sha256": "0b58e23303df440fc113ff46ce4176b88004528c6d339de23c7cc46db4d803ec",
+        "expected": "9004597657d89521c9afe846a5dffa6f3222a05cddc359f793dd80f406f54a32"
+      },
+      {
+        "path": "databases/evaluation/original/customer_deliveries.sqlite",
+        "database_sha256": "e4d269a357190432d3f0b154070dccf1cc5f7f7715571c1597e2fdd9ee47d485",
+        "expected": "85284622f53a243832042807b0b4849e8ccdf762461f87dc835d20be2ee0206f"
+      },
+      {
+        "path": "databases/evaluation/variant/customer_deliveries.sqlite",
+        "database_sha256": "f4b0a92c61ac70d0544fe96de990ffd5b35eaf6c3403244bce10575462c96b99",
+        "expected": "b98289ccccbdde2b01430f5ba0bac7ddf0247a90b5c6e7595997df9e0982d5ec"
+      }
+    ],
+    "validation-e030d845801dc09b": [
+      {
+        "path": "databases/public/wedding.sqlite",
+        "database_sha256": "1a224eb9d1bf5f42eb27aa89290ee731c2a82caa491c3a641378194a3cb334be",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/wedding.sqlite",
+        "database_sha256": "d73acad10719e5616f4ded960b5341a0e34e7c5780f5182bb996b5887c5a6f6e",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/variant/wedding.sqlite",
+        "database_sha256": "88cbda9f628f443e797c47a37e40079c9651cc4da059866af5cdb15945920701",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      }
+    ],
+    "validation-e968a702198d6058": [
+      {
+        "path": "databases/public/culture_company.sqlite",
+        "database_sha256": "9b56e417d4795e66607075ba1406b7a0c8831db02d651908f09c3aa94cee1fa8",
+        "expected": "ef26faf523634b4aa262b4f7ea009d7a072e728271708a660226fcb60379323f"
+      },
+      {
+        "path": "databases/evaluation/original/culture_company.sqlite",
+        "database_sha256": "d73d31db2c91dadeb67b8ed0c9366fbbe7658774dfa110161c168ee13e781820",
+        "expected": "85af112676200c94a457f057ce4d7e09c12c8fb855b924e62bc9d568aefa25ad"
+      },
+      {
+        "path": "databases/evaluation/variant/culture_company.sqlite",
+        "database_sha256": "f63778f2d11857d1b3885f8413d4c5da8425624050f3e76ca21384666564c6a6",
+        "expected": "76ad6dc7cad51b91c66c9df7b54139dd2e71d9caf3fac08bfa6d8c8b7b10f2ae"
+      }
+    ],
+    "validation-d44f9c5697538a6a": [
+      {
+        "path": "databases/public/customers_and_invoices.sqlite",
+        "database_sha256": "e2a2d7b06f33939421cd9caba8a3484679d1cb43b0212ea53b9d4e7e4afb189b",
+        "expected": "a61c274a6ea45c0f1574a77c7ac581236525c56eb6fa5c2204b20bc82f96ed68"
+      },
+      {
+        "path": "databases/evaluation/original/customers_and_invoices.sqlite",
+        "database_sha256": "19621a734777eefff77544c93f5da387f086e53b9dc0aa6266bc2da55dbd7103",
+        "expected": "815ecc1daadd0d5eeeb3159bc5a21fecd0fccc89399d1e85c9abe27cf1ba33d9"
+      },
+      {
+        "path": "databases/evaluation/variant/customers_and_invoices.sqlite",
+        "database_sha256": "2d4eaadb7ed2200e58298ff1e14b53f6e2b059e40fa71a86a465cff6dd44646c",
+        "expected": "4e08d2b4cfff2e15dcbb85ef563b5a1d2d1c9cc027f3cddd0ebebdd691d29a97"
+      }
+    ],
+    "validation-d5436c6173d57687": [
+      {
+        "path": "databases/public/local_govt_mdm.sqlite",
+        "database_sha256": "7cb5ad32b564fbb6c816834555b1fd11c72aa740297f11b8df261f450ed70d26",
+        "expected": "e6a552925e563ff2b84cfaa347dab27b872a1000d92fb475b8d8b54784311a40"
+      },
+      {
+        "path": "databases/evaluation/original/local_govt_mdm.sqlite",
+        "database_sha256": "d0ebfc3700908467260642cd68906225899d55f4932a2fa65f84001f871f396c",
+        "expected": "986253259cad7b95b30b75a0450009200b01e549827ec83c5b857511f711ad25"
+      },
+      {
+        "path": "databases/evaluation/variant/local_govt_mdm.sqlite",
+        "database_sha256": "8d1e577f4580ab20e10333b7eec7e9750680d1096b1bb5bf818ccd0e5fbc7ec7",
+        "expected": "f0929f75189ee47f31cadced0801357abd95e81f1af7dbb950bb55e8b4d06f6e"
+      }
+    ],
+    "validation-34c0d80638e5872e": [
+      {
+        "path": "databases/public/products_for_hire.sqlite",
+        "database_sha256": "b428800257b50c05fed08c246df2f9b4fbf91037b95d8e089d2d1fbb5a549b9b",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/products_for_hire.sqlite",
+        "database_sha256": "f8ee0888cf7788ae89576350484a5045fe8416c727ba5f623096540c82c89c3f",
+        "expected": "20973fbf885e4869c6a7541a19a6ac91d084237a07aa25a6a6f1383f894d8466"
+      },
+      {
+        "path": "databases/evaluation/variant/products_for_hire.sqlite",
+        "database_sha256": "5bd72cfff4a69493be9f38b51d528e8cb19557cf6f8ba1f88cdce7758a137e69",
+        "expected": "f85808fdebf5dcf408b7f47d72e9dd29ae0c149fa98e3969a5310f00125be987"
+      }
+    ],
+    "validation-76a4149a244deca0": [
+      {
+        "path": "databases/public/architecture.sqlite",
+        "database_sha256": "addc7b9a3f57624c705869ba98c355bdb966521d1de738b88c8a63858536ce84",
+        "expected": "d7db50a75cd7e5beabcce6c85d7f71d6e674dd28d882e6bbbce86107b4b6c5e7"
+      },
+      {
+        "path": "databases/evaluation/original/architecture.sqlite",
+        "database_sha256": "ea405f3511d01a3f7d688fbec2b214b7fb82ed9f5795f424a0e1a655f704d406",
+        "expected": "35770d2721ea75cf371d3dcf4b06de7f5e02c5d10b0f65e98e68fbe6416352b0"
+      },
+      {
+        "path": "databases/evaluation/variant/architecture.sqlite",
+        "database_sha256": "96829bd97dcae4bdb0b06970235a2a9883a035995e7c12c146081879283ced93",
+        "expected": "08df3392f3002165413be2c818f1317c9afb7182d8749d1c031830e6e04e88ce"
+      }
+    ],
+    "validation-0f3276a7323abe16": [
+      {
+        "path": "databases/public/department_store.sqlite",
+        "database_sha256": "7968c73cea57d5c39e1fb919aedbfa8e37696036d53aab55f84dd70e136c83d7",
+        "expected": "250e824526ebe349bfd9f73e03f77b1a5a2f414ac164f44ca15dee42fa426803"
+      },
+      {
+        "path": "databases/evaluation/original/department_store.sqlite",
+        "database_sha256": "48cd35afc5b1b2eb9c10817ef20e5ce77f607d5cf27d8aeff6171446f2b904a2",
+        "expected": "250e824526ebe349bfd9f73e03f77b1a5a2f414ac164f44ca15dee42fa426803"
+      },
+      {
+        "path": "databases/evaluation/variant/department_store.sqlite",
+        "database_sha256": "c2baf73f00b8d44788064729b36c4295dd7382c7f9d8a648c6ffd0e3150e4933",
+        "expected": "250e824526ebe349bfd9f73e03f77b1a5a2f414ac164f44ca15dee42fa426803"
+      }
+    ],
+    "validation-20a72a6329ea98f5": [
+      {
+        "path": "databases/public/music_1.sqlite",
+        "database_sha256": "ea91ad8658666390f96740e15928be1fed8327dc0706621dda2256ef0f5f202d",
+        "expected": "3f30c2639c00adaa6fb63c3c0994acc01e933d7e2f78b43826568b89b4cf162c"
+      },
+      {
+        "path": "databases/evaluation/original/music_1.sqlite",
+        "database_sha256": "e6f56185952431c5cf6c036e463a8e8755ea9ff3e2cbe14f5ac3ebe2e850b603",
+        "expected": "3f30c2639c00adaa6fb63c3c0994acc01e933d7e2f78b43826568b89b4cf162c"
+      },
+      {
+        "path": "databases/evaluation/variant/music_1.sqlite",
+        "database_sha256": "cca83cb7adea4cc1de8335e39349b27306071c7e25af1c27833549c9de3e4567",
+        "expected": "a38e172eff67154137b90b5cb97893945320ea67da9bf0ec4e1865042297a726"
+      }
+    ],
+    "validation-34aaf5028e00a1e4": [
+      {
+        "path": "databases/public/wrestler.sqlite",
+        "database_sha256": "7b82a4227c6e498420c3fe5ebc2ac9bb930a8c9091ef86e6e4bedd9123b0feef",
+        "expected": "2c89c468fff24b469162830df1a3549e73a2f1d2379419f146aad054cd5e86ae"
+      },
+      {
+        "path": "databases/evaluation/original/wrestler.sqlite",
+        "database_sha256": "ef538c66862d997561619be1ac1b0c488bc54e7171ad33f7fe6195e903619ae4",
+        "expected": "2c89c468fff24b469162830df1a3549e73a2f1d2379419f146aad054cd5e86ae"
+      },
+      {
+        "path": "databases/evaluation/variant/wrestler.sqlite",
+        "database_sha256": "c90abe741d096bc40be0ed95cea889d65b6603a923e97d37da7830782e92b20e",
+        "expected": "2c89c468fff24b469162830df1a3549e73a2f1d2379419f146aad054cd5e86ae"
+      }
+    ],
+    "validation-e978a5f0f55e548c": [
+      {
+        "path": "databases/public/journal_committee.sqlite",
+        "database_sha256": "6419b48792167b7759edbe199904885b09e76fa1d547716e2313094f751d4904",
+        "expected": "d6953680d2c0d45152617d530aaf6e9a87fd1dbff6982dff01e355e192a92557"
+      },
+      {
+        "path": "databases/evaluation/original/journal_committee.sqlite",
+        "database_sha256": "669e6bc2ca07838e7a3d225b190387fc003e267d3a9fc4ae03056f5699dfae39",
+        "expected": "1047b99e610fa399cfbfd8f0905dcd4d85a053b27a814ce10b63f42af1dd64d7"
+      },
+      {
+        "path": "databases/evaluation/variant/journal_committee.sqlite",
+        "database_sha256": "bf0dd04f80d6e21c0aeea321a1b3e443cf3558aa370e64c7f8a56711a39607bd",
+        "expected": "8da461b14085b9380b5d4bb9578f80b407fc8d8831dc3892c09649b7ac469177"
+      }
+    ],
+    "validation-cdd57474e4812622": [
+      {
+        "path": "databases/public/e_learning.sqlite",
+        "database_sha256": "02530c3f5b28b3adec986e63181e701ca48472463b4258982c88e6340e7f8077",
+        "expected": "994458080ae07e765990220e27638e977f4d63c8c6225091268adaa6157c0733"
+      },
+      {
+        "path": "databases/evaluation/original/e_learning.sqlite",
+        "database_sha256": "dc06b485f9e041c8af060593fb31746ad1f97b07543ca69a94560dd6c89f3d1b",
+        "expected": "dbd720f30c2e2231cde22b4707b9bddaa2ecb3f07a6ba82a7fd0b02d92c3788e"
+      },
+      {
+        "path": "databases/evaluation/variant/e_learning.sqlite",
+        "database_sha256": "876e75f65530edf70da65725aae4cbd8b9f338bfb8e58ffb0948963a52aceece",
+        "expected": "522add0cad0ef482f288af3e3b0f6438aaa297ca9c6587944a174c750d32e0ec"
+      }
+    ],
+    "validation-56804612f43fa49b": [
+      {
+        "path": "databases/public/dorm_1.sqlite",
+        "database_sha256": "3d52143466a97a9daec7a63adfff1d54f6018ec74a329ec6f9ac178c770e1800",
+        "expected": "0df317979e1df882a8748774fcfdd57b4fccb063f7e9217383316319119ab31b"
+      },
+      {
+        "path": "databases/evaluation/original/dorm_1.sqlite",
+        "database_sha256": "2f836de861ed2b67679990d12b57814feda426f88e62509201277a7200a2c20b",
+        "expected": "f561e4efb1e2e60421b998c9d0b026fc9b692005ec50c75f289a885a1b92a230"
+      },
+      {
+        "path": "databases/evaluation/variant/dorm_1.sqlite",
+        "database_sha256": "5f8c9de6dfa3864aecf09f3bcfa20f77cf8a86dcdf408b257a6ec1fa6b9249f9",
+        "expected": "61df397d236a4d18b04bb76a8c891e78bfa90a05e867addb1381e5b927256954"
+      }
+    ],
+    "validation-34dc16c5398be753": [
+      {
+        "path": "databases/public/company_employee.sqlite",
+        "database_sha256": "931b8c72e1e1f161a085753810b2ed3203cd00c10a182706e87e262b5d98f491",
+        "expected": "a61c274a6ea45c0f1574a77c7ac581236525c56eb6fa5c2204b20bc82f96ed68"
+      },
+      {
+        "path": "databases/evaluation/original/company_employee.sqlite",
+        "database_sha256": "86574c9edbecd80ded437d9439d6f81def0973816b1c8af8d007335e62565378",
+        "expected": "aa291573b0f24743eb36abdfde6f7a5aa0575dfd6e9e0403187786ac6032b671"
+      },
+      {
+        "path": "databases/evaluation/variant/company_employee.sqlite",
+        "database_sha256": "b25152b86f6f70dd9c207e82303b78efbb947bf90122b5e2c88a014e62dc9d4b",
+        "expected": "9f41809e87b9432fa948c47b1c8878232bccfa4ae9e064fc1d77a746879ba09e"
+      }
+    ],
+    "validation-c9d671c14d02f55b": [
+      {
+        "path": "databases/public/restaurant_1.sqlite",
+        "database_sha256": "02b0b91f615921558e7ffd9f5d04dcc235e5b06dde1fc9f29970f86130718d0b",
+        "expected": "30be271eb8108a40af986156752097576aacadc93ceeb02a0dd49be9fba31558"
+      },
+      {
+        "path": "databases/evaluation/original/restaurant_1.sqlite",
+        "database_sha256": "f5295466d92e97bd241caa942228793c09b2c1e42382337fbb5d90a6d797de0b",
+        "expected": "f59f91d8692517bba35fd2453560cb05268388b5d0bb0390345664f31bff00bd"
+      },
+      {
+        "path": "databases/evaluation/variant/restaurant_1.sqlite",
+        "database_sha256": "33903651321430c6014e636180822689a71fd515a672bb12ab393c4d9e7f812f",
+        "expected": "30be271eb8108a40af986156752097576aacadc93ceeb02a0dd49be9fba31558"
+      }
+    ],
+    "validation-aae2724405be5c02": [
+      {
+        "path": "databases/public/sports_competition.sqlite",
+        "database_sha256": "442bfc73da43a06f72798bdab392df1df24d61e997a2f4db948597ce80abcf1b",
+        "expected": "b91f637d704dc41f7c4b7f846ea4c34605c29ff401d2d1137ba08e32c351ad73"
+      },
+      {
+        "path": "databases/evaluation/original/sports_competition.sqlite",
+        "database_sha256": "ae8f322b30d1634e2cf0e3e9f033082096d469152a567e0e3014c000386f7c2f",
+        "expected": "b91f637d704dc41f7c4b7f846ea4c34605c29ff401d2d1137ba08e32c351ad73"
+      },
+      {
+        "path": "databases/evaluation/variant/sports_competition.sqlite",
+        "database_sha256": "85ac4be8e4ccf7fad47427c693853c449dc58abf2ce0e4380980828a7e5953b9",
+        "expected": "b91f637d704dc41f7c4b7f846ea4c34605c29ff401d2d1137ba08e32c351ad73"
+      }
+    ],
+    "validation-741ca93b599363fd": [
+      {
+        "path": "databases/public/e_government.sqlite",
+        "database_sha256": "cf495bbf09bcee9281f73c10a270194a895bf93a73fc9b02d4c3cff06de7ae2c",
+        "expected": "212eda71ddd8d0f7a5d39b8fd340351149ef383e005675c92c8a8eeb08ffcddb"
+      },
+      {
+        "path": "databases/evaluation/original/e_government.sqlite",
+        "database_sha256": "3fd703754d0334da78878f0f2544c7b44c75a7e86dee938d4f0ebd033c265636",
+        "expected": "5e1f4d92c399f2311cfdb2d634c6bcc60fdcd6749b5e721ba4c0726af3accd75"
+      },
+      {
+        "path": "databases/evaluation/variant/e_government.sqlite",
+        "database_sha256": "82a1e9543cff54957aae5ea980926f445bd75a59559310a6d68585d21d2966e8",
+        "expected": "212eda71ddd8d0f7a5d39b8fd340351149ef383e005675c92c8a8eeb08ffcddb"
+      }
+    ],
+    "validation-02f77affeeb4f92d": [
+      {
+        "path": "databases/public/roller_coaster.sqlite",
+        "database_sha256": "642307c60f004c0b01ce66ea084be733b5408f7270062fd4da5135a217e2c983",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/roller_coaster.sqlite",
+        "database_sha256": "d0b3dcaf97a601063cf65b05fd251b223d22e75e7f05d4bad9539f0fb368b6c6",
+        "expected": "eeb2857748f99b14f13a2b3ec045dc8a2c51a291f57314f895ecdc945d5b15cd"
+      },
+      {
+        "path": "databases/evaluation/variant/roller_coaster.sqlite",
+        "database_sha256": "a3de49a8bc92adba162d3052f66bbfb48c78c1b9627cdd1a84fe6a4a782816eb",
+        "expected": "eeb2857748f99b14f13a2b3ec045dc8a2c51a291f57314f895ecdc945d5b15cd"
+      }
+    ],
+    "validation-a2dca3d2d035fa59": [
+      {
+        "path": "databases/public/entertainment_awards.sqlite",
+        "database_sha256": "012ac46431b18425698edd1bd2e61c053f358a84f74b85b005adfb2b20c5a85f",
+        "expected": "51d8c6bf2d4ff18ac228b0f67b7e7fcff13126e6a19e20daf49bdb3356fde902"
+      },
+      {
+        "path": "databases/evaluation/original/entertainment_awards.sqlite",
+        "database_sha256": "35c7b2b1532c63139784543c2465b9a149f9c46c925c1316f9e78b45e054c32b",
+        "expected": "d0d36eebdd5e16b29fdf118c3ef4c0e423e82d00fa15877036ded13be3f40a01"
+      },
+      {
+        "path": "databases/evaluation/variant/entertainment_awards.sqlite",
+        "database_sha256": "3c2e06732779500cf01e88e92e8e883b996300964c85dc96b296bf087b39a1c7",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      }
+    ],
+    "validation-4a37f9727ac82a31": [
+      {
+        "path": "databases/public/program_share.sqlite",
+        "database_sha256": "ab960198b7b0c0028bd4e43238771adeebfededb127fbc1e34cabceb6616a039",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/program_share.sqlite",
+        "database_sha256": "76b2a7ef2e13b04c3085998e08c7c9224a1c195b76073b29e96b2bdb007c98c6",
+        "expected": "d87249564119963ed9946c659dd222626186d7152bebb80ac72c6e13ecbf4149"
+      },
+      {
+        "path": "databases/evaluation/variant/program_share.sqlite",
+        "database_sha256": "839f3be5591369f50f6b53f2552854a8f6a9cf781fa409005dc529e6b3bd5264",
+        "expected": "d87249564119963ed9946c659dd222626186d7152bebb80ac72c6e13ecbf4149"
+      }
+    ],
+    "validation-531aa9ff080445d6": [
+      {
+        "path": "databases/public/customer_deliveries.sqlite",
+        "database_sha256": "0b58e23303df440fc113ff46ce4176b88004528c6d339de23c7cc46db4d803ec",
+        "expected": "9129f9e8435ecace6b3e4a252960f1aaa3ad2b01206d955ce3306bd661a2244f"
+      },
+      {
+        "path": "databases/evaluation/original/customer_deliveries.sqlite",
+        "database_sha256": "e4d269a357190432d3f0b154070dccf1cc5f7f7715571c1597e2fdd9ee47d485",
+        "expected": "18df800152d9d0b5c83839bc8feb775115e93a46c0669988722562d047e872aa"
+      },
+      {
+        "path": "databases/evaluation/variant/customer_deliveries.sqlite",
+        "database_sha256": "f4b0a92c61ac70d0544fe96de990ffd5b35eaf6c3403244bce10575462c96b99",
+        "expected": "5744e2125c0a1d533a8fa3a387dbc11ba45641efb9f5b8a756de231d6d15b952"
+      }
+    ],
+    "validation-f839d77d08df4dfa": [
+      {
+        "path": "databases/public/wedding.sqlite",
+        "database_sha256": "1a224eb9d1bf5f42eb27aa89290ee731c2a82caa491c3a641378194a3cb334be",
+        "expected": "a77d24ca8a4c8af8461aefb131a5e70ded5ac7d3acd71f0007909a1fc1b8afc8"
+      },
+      {
+        "path": "databases/evaluation/original/wedding.sqlite",
+        "database_sha256": "d73acad10719e5616f4ded960b5341a0e34e7c5780f5182bb996b5887c5a6f6e",
+        "expected": "a77d24ca8a4c8af8461aefb131a5e70ded5ac7d3acd71f0007909a1fc1b8afc8"
+      },
+      {
+        "path": "databases/evaluation/variant/wedding.sqlite",
+        "database_sha256": "88cbda9f628f443e797c47a37e40079c9651cc4da059866af5cdb15945920701",
+        "expected": "592214998a5f19f80c142e893d33c5e4dca73cb1cdce2dccd4d16184298b4d1c"
+      }
+    ],
+    "validation-aee6e8c41e83cad0": [
+      {
+        "path": "databases/public/culture_company.sqlite",
+        "database_sha256": "9b56e417d4795e66607075ba1406b7a0c8831db02d651908f09c3aa94cee1fa8",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/culture_company.sqlite",
+        "database_sha256": "d73d31db2c91dadeb67b8ed0c9366fbbe7658774dfa110161c168ee13e781820",
+        "expected": "be5a76ab85d691a470b75ab0512a788ef56b61a9cdeff723cbb3b5151294837a"
+      },
+      {
+        "path": "databases/evaluation/variant/culture_company.sqlite",
+        "database_sha256": "f63778f2d11857d1b3885f8413d4c5da8425624050f3e76ca21384666564c6a6",
+        "expected": "a4cbf5ee0a19b8a026fe81834e131e762861b3d3b59a9340bf136d7792d0ad7b"
+      }
+    ],
+    "validation-1d4d4619bfd66581": [
+      {
+        "path": "databases/public/customers_and_invoices.sqlite",
+        "database_sha256": "e2a2d7b06f33939421cd9caba8a3484679d1cb43b0212ea53b9d4e7e4afb189b",
+        "expected": "a61c274a6ea45c0f1574a77c7ac581236525c56eb6fa5c2204b20bc82f96ed68"
+      },
+      {
+        "path": "databases/evaluation/original/customers_and_invoices.sqlite",
+        "database_sha256": "19621a734777eefff77544c93f5da387f086e53b9dc0aa6266bc2da55dbd7103",
+        "expected": "a5e0bf2c88c1930cf0f0b7c7938a972812a1ee785a14ac19f8f8f2fc4403b86b"
+      },
+      {
+        "path": "databases/evaluation/variant/customers_and_invoices.sqlite",
+        "database_sha256": "2d4eaadb7ed2200e58298ff1e14b53f6e2b059e40fa71a86a465cff6dd44646c",
+        "expected": "69c75f737a19ccda40ef8e267fbe8332c58dd5d25f605e9d96b86c50e2e4620f"
+      }
+    ],
+    "validation-36ce398902e7135d": [
+      {
+        "path": "databases/public/local_govt_mdm.sqlite",
+        "database_sha256": "7cb5ad32b564fbb6c816834555b1fd11c72aa740297f11b8df261f450ed70d26",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/local_govt_mdm.sqlite",
+        "database_sha256": "d0ebfc3700908467260642cd68906225899d55f4932a2fa65f84001f871f396c",
+        "expected": "7e0cc4bcefd0230d7301d866746d6f608eb40bc23899b3bdb53b5c58b85f680c"
+      },
+      {
+        "path": "databases/evaluation/variant/local_govt_mdm.sqlite",
+        "database_sha256": "8d1e577f4580ab20e10333b7eec7e9750680d1096b1bb5bf818ccd0e5fbc7ec7",
+        "expected": "7e4eb984ec0e8e0bd28d8716b88804b2bf195cfaa342495b82bc15ca532308fb"
+      }
+    ],
+    "validation-3938199b48c562f6": [
+      {
+        "path": "databases/public/products_for_hire.sqlite",
+        "database_sha256": "b428800257b50c05fed08c246df2f9b4fbf91037b95d8e089d2d1fbb5a549b9b",
+        "expected": "cc4f10ba4367bd631e9050a1be16731aed2542a30ff64da773e74fd3df1889f9"
+      },
+      {
+        "path": "databases/evaluation/original/products_for_hire.sqlite",
+        "database_sha256": "f8ee0888cf7788ae89576350484a5045fe8416c727ba5f623096540c82c89c3f",
+        "expected": "edcac492978748a8957b32239a78d32edfcb47e62112f14ea0b0a18942dd30bb"
+      },
+      {
+        "path": "databases/evaluation/variant/products_for_hire.sqlite",
+        "database_sha256": "5bd72cfff4a69493be9f38b51d528e8cb19557cf6f8ba1f88cdce7758a137e69",
+        "expected": "422f3f429d491609efeb9d550490489b61a50a9a7171a841e067fd6e25ec4e3e"
+      }
+    ],
+    "validation-14253c0fc3a4dc0d": [
+      {
+        "path": "databases/public/architecture.sqlite",
+        "database_sha256": "addc7b9a3f57624c705869ba98c355bdb966521d1de738b88c8a63858536ce84",
+        "expected": "9a1e56216aff4ac1f7d5150f139bbb69a55d429831642bfb07b412c6b8669927"
+      },
+      {
+        "path": "databases/evaluation/original/architecture.sqlite",
+        "database_sha256": "ea405f3511d01a3f7d688fbec2b214b7fb82ed9f5795f424a0e1a655f704d406",
+        "expected": "b37d5858bc4c3403756f40f6f28d8022d6ebcc909cf37b92437850c48045905f"
+      },
+      {
+        "path": "databases/evaluation/variant/architecture.sqlite",
+        "database_sha256": "96829bd97dcae4bdb0b06970235a2a9883a035995e7c12c146081879283ced93",
+        "expected": "0cb110146214d746ab72233f9d7e9711e574ac95642d78873199f4fff7ce0cdb"
+      }
+    ],
+    "validation-c59e9d51a3799267": [
+      {
+        "path": "databases/public/department_store.sqlite",
+        "database_sha256": "7968c73cea57d5c39e1fb919aedbfa8e37696036d53aab55f84dd70e136c83d7",
+        "expected": "4135bb88ca19740f6d63c8cdd224909a706569fdfb2c211d1acf56ca61e7326e"
+      },
+      {
+        "path": "databases/evaluation/original/department_store.sqlite",
+        "database_sha256": "48cd35afc5b1b2eb9c10817ef20e5ce77f607d5cf27d8aeff6171446f2b904a2",
+        "expected": "82bfd0d3f1081ebf747e6c01c28fd8b08fdc7ba3337d469e0c6120bfe343b2cb"
+      },
+      {
+        "path": "databases/evaluation/variant/department_store.sqlite",
+        "database_sha256": "c2baf73f00b8d44788064729b36c4295dd7382c7f9d8a648c6ffd0e3150e4933",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      }
+    ],
+    "validation-520d75479d567121": [
+      {
+        "path": "databases/public/music_1.sqlite",
+        "database_sha256": "ea91ad8658666390f96740e15928be1fed8327dc0706621dda2256ef0f5f202d",
+        "expected": "516c4dd946e2588678be1ed7a7e4410b6d51987fdcdb651659a6c996c4811295"
+      },
+      {
+        "path": "databases/evaluation/original/music_1.sqlite",
+        "database_sha256": "e6f56185952431c5cf6c036e463a8e8755ea9ff3e2cbe14f5ac3ebe2e850b603",
+        "expected": "516c4dd946e2588678be1ed7a7e4410b6d51987fdcdb651659a6c996c4811295"
+      },
+      {
+        "path": "databases/evaluation/variant/music_1.sqlite",
+        "database_sha256": "cca83cb7adea4cc1de8335e39349b27306071c7e25af1c27833549c9de3e4567",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      }
+    ],
+    "validation-d112266c1828a7ca": [
+      {
+        "path": "databases/public/wrestler.sqlite",
+        "database_sha256": "7b82a4227c6e498420c3fe5ebc2ac9bb930a8c9091ef86e6e4bedd9123b0feef",
+        "expected": "02867b3a7b9e52a7014657906e14e3c7de79b883fd4e190d9a7f3c2c9ffb58e4"
+      },
+      {
+        "path": "databases/evaluation/original/wrestler.sqlite",
+        "database_sha256": "ef538c66862d997561619be1ac1b0c488bc54e7171ad33f7fe6195e903619ae4",
+        "expected": "7543e87edde8385052a93fdd3fcb6494b8d32d161d74d45d267b80be710e4eed"
+      },
+      {
+        "path": "databases/evaluation/variant/wrestler.sqlite",
+        "database_sha256": "c90abe741d096bc40be0ed95cea889d65b6603a923e97d37da7830782e92b20e",
+        "expected": "c138e742745486387ed8bb1b198274c60a362937b4112a7e02968a8da2aa5c07"
+      }
+    ],
+    "validation-82b67fd858c9d8d4": [
+      {
+        "path": "databases/public/journal_committee.sqlite",
+        "database_sha256": "6419b48792167b7759edbe199904885b09e76fa1d547716e2313094f751d4904",
+        "expected": "c5c341c2cde5072d057538ada2158ec03a6aa0fc607e45da80d6e2852498e9d7"
+      },
+      {
+        "path": "databases/evaluation/original/journal_committee.sqlite",
+        "database_sha256": "669e6bc2ca07838e7a3d225b190387fc003e267d3a9fc4ae03056f5699dfae39",
+        "expected": "81a951263615bdfa065503f2b015a73d21fabf225d45ecc5d6189094fb65fbbc"
+      },
+      {
+        "path": "databases/evaluation/variant/journal_committee.sqlite",
+        "database_sha256": "bf0dd04f80d6e21c0aeea321a1b3e443cf3558aa370e64c7f8a56711a39607bd",
+        "expected": "81a951263615bdfa065503f2b015a73d21fabf225d45ecc5d6189094fb65fbbc"
+      }
+    ],
+    "validation-fc40627f0b0bab17": [
+      {
+        "path": "databases/public/e_learning.sqlite",
+        "database_sha256": "02530c3f5b28b3adec986e63181e701ca48472463b4258982c88e6340e7f8077",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/e_learning.sqlite",
+        "database_sha256": "dc06b485f9e041c8af060593fb31746ad1f97b07543ca69a94560dd6c89f3d1b",
+        "expected": "19b7c427975c4e8174ea788c66a8fb283708274c61e95cdd6acae5c87d2c61fe"
+      },
+      {
+        "path": "databases/evaluation/variant/e_learning.sqlite",
+        "database_sha256": "876e75f65530edf70da65725aae4cbd8b9f338bfb8e58ffb0948963a52aceece",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      }
+    ],
+    "validation-d6427352ac250d9e": [
+      {
+        "path": "databases/public/dorm_1.sqlite",
+        "database_sha256": "3d52143466a97a9daec7a63adfff1d54f6018ec74a329ec6f9ac178c770e1800",
+        "expected": "e122ef4311f25ca6a3da99a7188d404ae928fb02c654211ab41d7834481eae46"
+      },
+      {
+        "path": "databases/evaluation/original/dorm_1.sqlite",
+        "database_sha256": "2f836de861ed2b67679990d12b57814feda426f88e62509201277a7200a2c20b",
+        "expected": "5f71b8da3d4f4869c09323f83e5a2cd152570c70ea986d53c2cdb421f85329f0"
+      },
+      {
+        "path": "databases/evaluation/variant/dorm_1.sqlite",
+        "database_sha256": "5f8c9de6dfa3864aecf09f3bcfa20f77cf8a86dcdf408b257a6ec1fa6b9249f9",
+        "expected": "a61c274a6ea45c0f1574a77c7ac581236525c56eb6fa5c2204b20bc82f96ed68"
+      }
+    ],
+    "validation-c8ff43a0c0154538": [
+      {
+        "path": "databases/public/company_employee.sqlite",
+        "database_sha256": "931b8c72e1e1f161a085753810b2ed3203cd00c10a182706e87e262b5d98f491",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/company_employee.sqlite",
+        "database_sha256": "86574c9edbecd80ded437d9439d6f81def0973816b1c8af8d007335e62565378",
+        "expected": "335ab7e18d598c5c5e090342e8404bfe816e4be8e8a5e14261f1b8bcb5d5d7ca"
+      },
+      {
+        "path": "databases/evaluation/variant/company_employee.sqlite",
+        "database_sha256": "b25152b86f6f70dd9c207e82303b78efbb947bf90122b5e2c88a014e62dc9d4b",
+        "expected": "cd8c02ec733b81e47e417eda792b7d45aa39ab6d5f74fa8d38f3410e8cca55f3"
+      }
+    ],
+    "validation-136348e30ccdd152": [
+      {
+        "path": "databases/public/restaurant_1.sqlite",
+        "database_sha256": "02b0b91f615921558e7ffd9f5d04dcc235e5b06dde1fc9f29970f86130718d0b",
+        "expected": "805ff8c370d07df2a9795c173b18b3fbc42c03178fd0c04f8c9046c4ea8e3984"
+      },
+      {
+        "path": "databases/evaluation/original/restaurant_1.sqlite",
+        "database_sha256": "f5295466d92e97bd241caa942228793c09b2c1e42382337fbb5d90a6d797de0b",
+        "expected": "8dbd3da0963bc4deb8ec819b8b197d431ba9a2d4106a28bff3f95fc10ea8e7c2"
+      },
+      {
+        "path": "databases/evaluation/variant/restaurant_1.sqlite",
+        "database_sha256": "33903651321430c6014e636180822689a71fd515a672bb12ab393c4d9e7f812f",
+        "expected": "805ff8c370d07df2a9795c173b18b3fbc42c03178fd0c04f8c9046c4ea8e3984"
+      }
+    ],
+    "validation-d22c3a920b525b66": [
+      {
+        "path": "databases/public/sports_competition.sqlite",
+        "database_sha256": "442bfc73da43a06f72798bdab392df1df24d61e997a2f4db948597ce80abcf1b",
+        "expected": "70bb3becb7c534933c8c31f040c94996e85f7f9d1d5407d63032271407faf667"
+      },
+      {
+        "path": "databases/evaluation/original/sports_competition.sqlite",
+        "database_sha256": "ae8f322b30d1634e2cf0e3e9f033082096d469152a567e0e3014c000386f7c2f",
+        "expected": "70bb3becb7c534933c8c31f040c94996e85f7f9d1d5407d63032271407faf667"
+      },
+      {
+        "path": "databases/evaluation/variant/sports_competition.sqlite",
+        "database_sha256": "85ac4be8e4ccf7fad47427c693853c449dc58abf2ce0e4380980828a7e5953b9",
+        "expected": "70bb3becb7c534933c8c31f040c94996e85f7f9d1d5407d63032271407faf667"
+      }
+    ],
+    "validation-329b35a3d5144055": [
+      {
+        "path": "databases/public/e_government.sqlite",
+        "database_sha256": "cf495bbf09bcee9281f73c10a270194a895bf93a73fc9b02d4c3cff06de7ae2c",
+        "expected": "c44860679680f71d3f00170da70326afc90e91829e697098c9fda6124cce6c1c"
+      },
+      {
+        "path": "databases/evaluation/original/e_government.sqlite",
+        "database_sha256": "3fd703754d0334da78878f0f2544c7b44c75a7e86dee938d4f0ebd033c265636",
+        "expected": "3052834a6bd1788d3264c46ba2aea01657d6b598baf57d92fbc2d6d86a7e0add"
+      },
+      {
+        "path": "databases/evaluation/variant/e_government.sqlite",
+        "database_sha256": "82a1e9543cff54957aae5ea980926f445bd75a59559310a6d68585d21d2966e8",
+        "expected": "3052834a6bd1788d3264c46ba2aea01657d6b598baf57d92fbc2d6d86a7e0add"
+      }
+    ],
+    "validation-e271aa282462bdf7": [
+      {
+        "path": "databases/public/roller_coaster.sqlite",
+        "database_sha256": "642307c60f004c0b01ce66ea084be733b5408f7270062fd4da5135a217e2c983",
+        "expected": "8e3d5fd55069689f7ff8ae37521467480a37c26e934e00d3bb33ee5c2e403097"
+      },
+      {
+        "path": "databases/evaluation/original/roller_coaster.sqlite",
+        "database_sha256": "d0b3dcaf97a601063cf65b05fd251b223d22e75e7f05d4bad9539f0fb368b6c6",
+        "expected": "42fb0eb6ddeb62164d055e6d170c6ebe6c859b57250ee3983cb679c26497c43f"
+      },
+      {
+        "path": "databases/evaluation/variant/roller_coaster.sqlite",
+        "database_sha256": "a3de49a8bc92adba162d3052f66bbfb48c78c1b9627cdd1a84fe6a4a782816eb",
+        "expected": "42fb0eb6ddeb62164d055e6d170c6ebe6c859b57250ee3983cb679c26497c43f"
+      }
+    ],
+    "validation-3b364d78c765531e": [
+      {
+        "path": "databases/public/entertainment_awards.sqlite",
+        "database_sha256": "012ac46431b18425698edd1bd2e61c053f358a84f74b85b005adfb2b20c5a85f",
+        "expected": "84f84dfd2e99d75f65073ab03dd9d7f798bfd90e92ba1b698ba1daae815c6dde"
+      },
+      {
+        "path": "databases/evaluation/original/entertainment_awards.sqlite",
+        "database_sha256": "35c7b2b1532c63139784543c2465b9a149f9c46c925c1316f9e78b45e054c32b",
+        "expected": "9a9c4b0ced77bc32f80fe4455767ce19d5ced5c09323902a295f42af850652af"
+      },
+      {
+        "path": "databases/evaluation/variant/entertainment_awards.sqlite",
+        "database_sha256": "3c2e06732779500cf01e88e92e8e883b996300964c85dc96b296bf087b39a1c7",
+        "expected": "9a9c4b0ced77bc32f80fe4455767ce19d5ced5c09323902a295f42af850652af"
+      }
+    ],
+    "validation-af3b43994c850366": [
+      {
+        "path": "databases/public/program_share.sqlite",
+        "database_sha256": "ab960198b7b0c0028bd4e43238771adeebfededb127fbc1e34cabceb6616a039",
+        "expected": "b91f637d704dc41f7c4b7f846ea4c34605c29ff401d2d1137ba08e32c351ad73"
+      },
+      {
+        "path": "databases/evaluation/original/program_share.sqlite",
+        "database_sha256": "76b2a7ef2e13b04c3085998e08c7c9224a1c195b76073b29e96b2bdb007c98c6",
+        "expected": "20973fbf885e4869c6a7541a19a6ac91d084237a07aa25a6a6f1383f894d8466"
+      },
+      {
+        "path": "databases/evaluation/variant/program_share.sqlite",
+        "database_sha256": "839f3be5591369f50f6b53f2552854a8f6a9cf781fa409005dc529e6b3bd5264",
+        "expected": "20973fbf885e4869c6a7541a19a6ac91d084237a07aa25a6a6f1383f894d8466"
+      }
+    ],
+    "validation-d379eea4a2b59524": [
+      {
+        "path": "databases/public/customer_deliveries.sqlite",
+        "database_sha256": "0b58e23303df440fc113ff46ce4176b88004528c6d339de23c7cc46db4d803ec",
+        "expected": "e9779728f7f04801d036eaaefdfb4168ff8cb4e11e23d4a2fabb39553991f790"
+      },
+      {
+        "path": "databases/evaluation/original/customer_deliveries.sqlite",
+        "database_sha256": "e4d269a357190432d3f0b154070dccf1cc5f7f7715571c1597e2fdd9ee47d485",
+        "expected": "340610c8c7a67277fe5c5e1cc854ec38db10b3cc7650822c244b36381090576e"
+      },
+      {
+        "path": "databases/evaluation/variant/customer_deliveries.sqlite",
+        "database_sha256": "f4b0a92c61ac70d0544fe96de990ffd5b35eaf6c3403244bce10575462c96b99",
+        "expected": "cdec0ddf090df025226704b7fddd854ee7f790c4bea6d3af32337bd3241c395c"
+      }
+    ],
+    "validation-f279ebe82ac5bb54": [
+      {
+        "path": "databases/public/wedding.sqlite",
+        "database_sha256": "1a224eb9d1bf5f42eb27aa89290ee731c2a82caa491c3a641378194a3cb334be",
+        "expected": "71012fe5c34c0e81a8060d69277e3bad4dcad340c44444e6efd691e50b6db5b2"
+      },
+      {
+        "path": "databases/evaluation/original/wedding.sqlite",
+        "database_sha256": "d73acad10719e5616f4ded960b5341a0e34e7c5780f5182bb996b5887c5a6f6e",
+        "expected": "7fd08c4e1f62d4fe8bdb428edbdfc596b039244b7cba707578a8db0ed7d1917f"
+      },
+      {
+        "path": "databases/evaluation/variant/wedding.sqlite",
+        "database_sha256": "88cbda9f628f443e797c47a37e40079c9651cc4da059866af5cdb15945920701",
+        "expected": "ac8603bb213939bef89641046091de5eaaf5cb8eaba1d6dd487e50e632815ada"
+      }
+    ],
+    "validation-1321fd5435f4cf5f": [
+      {
+        "path": "databases/public/culture_company.sqlite",
+        "database_sha256": "9b56e417d4795e66607075ba1406b7a0c8831db02d651908f09c3aa94cee1fa8",
+        "expected": "72d995ef6fe2c4083f534a1c1f5fa4fdbc009e68ed60e4629ff349c0a41da2fa"
+      },
+      {
+        "path": "databases/evaluation/original/culture_company.sqlite",
+        "database_sha256": "d73d31db2c91dadeb67b8ed0c9366fbbe7658774dfa110161c168ee13e781820",
+        "expected": "2843418f169cf1de8e3d0c8299149a67cd5881c8efb5f0c90fa8279e0d5d1f3c"
+      },
+      {
+        "path": "databases/evaluation/variant/culture_company.sqlite",
+        "database_sha256": "f63778f2d11857d1b3885f8413d4c5da8425624050f3e76ca21384666564c6a6",
+        "expected": "2843418f169cf1de8e3d0c8299149a67cd5881c8efb5f0c90fa8279e0d5d1f3c"
+      }
+    ],
+    "validation-a0e12c20a24ba6f2": [
+      {
+        "path": "databases/public/customers_and_invoices.sqlite",
+        "database_sha256": "e2a2d7b06f33939421cd9caba8a3484679d1cb43b0212ea53b9d4e7e4afb189b",
+        "expected": "a61c274a6ea45c0f1574a77c7ac581236525c56eb6fa5c2204b20bc82f96ed68"
+      },
+      {
+        "path": "databases/evaluation/original/customers_and_invoices.sqlite",
+        "database_sha256": "19621a734777eefff77544c93f5da387f086e53b9dc0aa6266bc2da55dbd7103",
+        "expected": "c1c90238ba4bb02afe3369530713aed7aeced3074427bfc381b2477c0dce66e5"
+      },
+      {
+        "path": "databases/evaluation/variant/customers_and_invoices.sqlite",
+        "database_sha256": "2d4eaadb7ed2200e58298ff1e14b53f6e2b059e40fa71a86a465cff6dd44646c",
+        "expected": "c1c90238ba4bb02afe3369530713aed7aeced3074427bfc381b2477c0dce66e5"
+      }
+    ],
+    "validation-afa9c2ecf222f328": [
+      {
+        "path": "databases/public/local_govt_mdm.sqlite",
+        "database_sha256": "7cb5ad32b564fbb6c816834555b1fd11c72aa740297f11b8df261f450ed70d26",
+        "expected": "8e3d5fd55069689f7ff8ae37521467480a37c26e934e00d3bb33ee5c2e403097"
+      },
+      {
+        "path": "databases/evaluation/original/local_govt_mdm.sqlite",
+        "database_sha256": "d0ebfc3700908467260642cd68906225899d55f4932a2fa65f84001f871f396c",
+        "expected": "440895ec5b2ab0a3e1115494d6ec8c1ad8c4e4cf7678a6cef948ac322c2279ef"
+      },
+      {
+        "path": "databases/evaluation/variant/local_govt_mdm.sqlite",
+        "database_sha256": "8d1e577f4580ab20e10333b7eec7e9750680d1096b1bb5bf818ccd0e5fbc7ec7",
+        "expected": "9eaecc9325b60a4e2a79a56e9f87d9429055cec2be4c8a54bceead7bab9df218"
+      }
+    ],
+    "validation-c9574968cd2efd5c": [
+      {
+        "path": "databases/public/products_for_hire.sqlite",
+        "database_sha256": "b428800257b50c05fed08c246df2f9b4fbf91037b95d8e089d2d1fbb5a549b9b",
+        "expected": "a61c274a6ea45c0f1574a77c7ac581236525c56eb6fa5c2204b20bc82f96ed68"
+      },
+      {
+        "path": "databases/evaluation/original/products_for_hire.sqlite",
+        "database_sha256": "f8ee0888cf7788ae89576350484a5045fe8416c727ba5f623096540c82c89c3f",
+        "expected": "0337b8b9f022224d8bdbd6ff50bb3ba76667f8590607cab4ffb927252dd90942"
+      },
+      {
+        "path": "databases/evaluation/variant/products_for_hire.sqlite",
+        "database_sha256": "5bd72cfff4a69493be9f38b51d528e8cb19557cf6f8ba1f88cdce7758a137e69",
+        "expected": "a61c274a6ea45c0f1574a77c7ac581236525c56eb6fa5c2204b20bc82f96ed68"
+      }
+    ],
+    "validation-024d54bb9d654160": [
+      {
+        "path": "databases/public/architecture.sqlite",
+        "database_sha256": "addc7b9a3f57624c705869ba98c355bdb966521d1de738b88c8a63858536ce84",
+        "expected": "c89b01feb3edc9ce1412086c8ee50cae6c29236db23928799ab8f102298139a6"
+      },
+      {
+        "path": "databases/evaluation/original/architecture.sqlite",
+        "database_sha256": "ea405f3511d01a3f7d688fbec2b214b7fb82ed9f5795f424a0e1a655f704d406",
+        "expected": "a0fde33649abef14f223b4a34d7c476701055a3f8d5ebea9ad241638ea546710"
+      },
+      {
+        "path": "databases/evaluation/variant/architecture.sqlite",
+        "database_sha256": "96829bd97dcae4bdb0b06970235a2a9883a035995e7c12c146081879283ced93",
+        "expected": "00b951f8cf0cfa5b7b1843f43678d29e85bc8bb9c299777d3401d56fbdfab3dd"
+      }
+    ],
+    "validation-8f54c3bff6ab1797": [
+      {
+        "path": "databases/public/department_store.sqlite",
+        "database_sha256": "7968c73cea57d5c39e1fb919aedbfa8e37696036d53aab55f84dd70e136c83d7",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/department_store.sqlite",
+        "database_sha256": "48cd35afc5b1b2eb9c10817ef20e5ce77f607d5cf27d8aeff6171446f2b904a2",
+        "expected": "e76c08f48683aca5044a7dd78b29f17e4ca63b204969bb95db1c0bf906babc63"
+      },
+      {
+        "path": "databases/evaluation/variant/department_store.sqlite",
+        "database_sha256": "c2baf73f00b8d44788064729b36c4295dd7382c7f9d8a648c6ffd0e3150e4933",
+        "expected": "f763c779834cfbb4a9a4a96ddb7266e097c660ca561098803bab92ab096e194c"
+      }
+    ],
+    "validation-162091e91ee345b7": [
+      {
+        "path": "databases/public/music_1.sqlite",
+        "database_sha256": "ea91ad8658666390f96740e15928be1fed8327dc0706621dda2256ef0f5f202d",
+        "expected": "ee3ff2fa072d55684e4f047d0b1dc3a2f6189a86dbaaffa7357f4c11715b1f6e"
+      },
+      {
+        "path": "databases/evaluation/original/music_1.sqlite",
+        "database_sha256": "e6f56185952431c5cf6c036e463a8e8755ea9ff3e2cbe14f5ac3ebe2e850b603",
+        "expected": "ee3ff2fa072d55684e4f047d0b1dc3a2f6189a86dbaaffa7357f4c11715b1f6e"
+      },
+      {
+        "path": "databases/evaluation/variant/music_1.sqlite",
+        "database_sha256": "cca83cb7adea4cc1de8335e39349b27306071c7e25af1c27833549c9de3e4567",
+        "expected": "54da49f3d0de22d42206bdb1d75c514b188265c64525e7e3dcf076bdf48bf6af"
+      }
+    ],
+    "validation-cb8c55ba2b7f46b9": [
+      {
+        "path": "databases/public/wrestler.sqlite",
+        "database_sha256": "7b82a4227c6e498420c3fe5ebc2ac9bb930a8c9091ef86e6e4bedd9123b0feef",
+        "expected": "f3436694812d78065f25067557e388fb1eb6f072f5b9aa6ed80b572fb7bf6704"
+      },
+      {
+        "path": "databases/evaluation/original/wrestler.sqlite",
+        "database_sha256": "ef538c66862d997561619be1ac1b0c488bc54e7171ad33f7fe6195e903619ae4",
+        "expected": "f3436694812d78065f25067557e388fb1eb6f072f5b9aa6ed80b572fb7bf6704"
+      },
+      {
+        "path": "databases/evaluation/variant/wrestler.sqlite",
+        "database_sha256": "c90abe741d096bc40be0ed95cea889d65b6603a923e97d37da7830782e92b20e",
+        "expected": "67cd06e43342590d7caf12d30ac4a96f0e914d4e798e13f15c94e0758d82b0ff"
+      }
+    ],
+    "validation-70b637ea23cc769c": [
+      {
+        "path": "databases/public/journal_committee.sqlite",
+        "database_sha256": "6419b48792167b7759edbe199904885b09e76fa1d547716e2313094f751d4904",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/journal_committee.sqlite",
+        "database_sha256": "669e6bc2ca07838e7a3d225b190387fc003e267d3a9fc4ae03056f5699dfae39",
+        "expected": "6689b0b5decf0833d618a21cced1d86d16a2ad24234e5b490aed6462b18978b9"
+      },
+      {
+        "path": "databases/evaluation/variant/journal_committee.sqlite",
+        "database_sha256": "bf0dd04f80d6e21c0aeea321a1b3e443cf3558aa370e64c7f8a56711a39607bd",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      }
+    ],
+    "validation-c519bc86fc0f6a9d": [
+      {
+        "path": "databases/public/e_learning.sqlite",
+        "database_sha256": "02530c3f5b28b3adec986e63181e701ca48472463b4258982c88e6340e7f8077",
+        "expected": "0cc8a7f1a5eb89c123b86d6a79876e56afceafcf8d858360a06e462c91dc7795"
+      },
+      {
+        "path": "databases/evaluation/original/e_learning.sqlite",
+        "database_sha256": "dc06b485f9e041c8af060593fb31746ad1f97b07543ca69a94560dd6c89f3d1b",
+        "expected": "7aac9ee41366d83f2c34cb1cfaf0a4258717a567830a1fae6526e8cdfb60ae3f"
+      },
+      {
+        "path": "databases/evaluation/variant/e_learning.sqlite",
+        "database_sha256": "876e75f65530edf70da65725aae4cbd8b9f338bfb8e58ffb0948963a52aceece",
+        "expected": "e0c68ce50b9e46c8b377e69b5f000bab4e6972b7b1b570e2a048a6117035e41a"
+      }
+    ],
+    "validation-9eeaccd2f6fe2c6f": [
+      {
+        "path": "databases/public/dorm_1.sqlite",
+        "database_sha256": "3d52143466a97a9daec7a63adfff1d54f6018ec74a329ec6f9ac178c770e1800",
+        "expected": "0294884aa7e1ff2aed4b84115ab8eb909c61fa74a7286b8d5ce1f6b00c076b3e"
+      },
+      {
+        "path": "databases/evaluation/original/dorm_1.sqlite",
+        "database_sha256": "2f836de861ed2b67679990d12b57814feda426f88e62509201277a7200a2c20b",
+        "expected": "6e003004f04ee98b2bcb7827b1f90b87f49ef227b2d5992da1ef0161ae30d5d8"
+      },
+      {
+        "path": "databases/evaluation/variant/dorm_1.sqlite",
+        "database_sha256": "5f8c9de6dfa3864aecf09f3bcfa20f77cf8a86dcdf408b257a6ec1fa6b9249f9",
+        "expected": "51d1a405b560abf2cab7b728fbb759af58809ebbeefc456c6190bcb378c87f73"
+      }
+    ]
+  },
+  "ids": [
+    "validation-3c4d5ecbd3a4ffc8",
+    "validation-a402046f584d4813",
+    "validation-8be8e9f30c5ed3cc",
+    "validation-bb46eb4c224f4193",
+    "validation-fff3bd324494b9bb",
+    "validation-cf4f7eb157c5f56f",
+    "validation-6d8add77db18ef60",
+    "validation-83b76ccf03ae3d7a",
+    "validation-1e5f20eb954308a2",
+    "validation-60551b2217de7d97",
+    "validation-52bfe326b751abaf",
+    "validation-9a3d5d1c1dfe328b",
+    "validation-fa96b1ccd568803a",
+    "validation-536cac19f45fc4fc",
+    "validation-6ff42b00b3afd128",
+    "validation-1b6e5a6dd2d6aa32",
+    "validation-b21ef0b87ce0afd3",
+    "validation-ab68d815813fb4b7",
+    "validation-2feff7a83ef167ff",
+    "validation-a75b7764fcacce68",
+    "validation-0e21eef6ed8ada4e",
+    "validation-de306200a6efff23",
+    "validation-ca9775c857b7431d",
+    "validation-f76a31ffe49ff88d",
+    "validation-61511bf35997c117",
+    "validation-c1adc4cfbb04e562",
+    "validation-f1a67e3024ea10f2",
+    "validation-ed6f64d1f362df5a",
+    "validation-fad437395e6b6486",
+    "validation-30b61a74da23f747",
+    "validation-889009eee36761d6",
+    "validation-3625496ea0b7be64",
+    "validation-15c0ae475aa5b12c",
+    "validation-085ce3159bf51a4d",
+    "validation-5cca36d225fdead7",
+    "validation-2c892f2ef042cedd",
+    "validation-de485b76b4616b8e",
+    "validation-4b4f8024a5980978",
+    "validation-f1ea6b8f0e7f285d",
+    "validation-e3956a7be9311093",
+    "validation-e1927c97d2899fdd",
+    "validation-5dad6a54f441726e",
+    "validation-5cf3b447b4af02c2",
+    "validation-f763b72754a444d8",
+    "validation-ef4c177afd66ae16",
+    "validation-2643a95fe295b32a",
+    "validation-0a26d7c1c332029e",
+    "validation-e313605ab240e9e5",
+    "validation-80d75a584db5c4e7",
+    "validation-cf65a76c2ca339d6",
+    "validation-d70a542e503e4a1e",
+    "validation-e53b4e10a90eb2c7",
+    "validation-3288dc4cebb243fe",
+    "validation-c22e5499b1593f40",
+    "validation-3d91e3eb70e7a1ee",
+    "validation-69f87ab68f157c15",
+    "validation-0eb1fb5e47ed829f",
+    "validation-7896499011c15fde",
+    "validation-88f375ef94d12f68",
+    "validation-0407f698a3a86c0a",
+    "validation-137394c19b2b5678",
+    "validation-5d1ecaadd27fb6a2",
+    "validation-89448784d1f33b1c",
+    "validation-fac51d810a95c200",
+    "validation-6f87c063a9e335f0",
+    "validation-b0b931cefe38be42",
+    "validation-0edb7ecbb4dd054b",
+    "validation-7df47fb7fd5104dc",
+    "validation-e030d845801dc09b",
+    "validation-e968a702198d6058",
+    "validation-d44f9c5697538a6a",
+    "validation-d5436c6173d57687",
+    "validation-34c0d80638e5872e",
+    "validation-76a4149a244deca0",
+    "validation-0f3276a7323abe16",
+    "validation-20a72a6329ea98f5",
+    "validation-34aaf5028e00a1e4",
+    "validation-e978a5f0f55e548c",
+    "validation-cdd57474e4812622",
+    "validation-56804612f43fa49b",
+    "validation-34dc16c5398be753",
+    "validation-c9d671c14d02f55b",
+    "validation-aae2724405be5c02",
+    "validation-741ca93b599363fd",
+    "validation-02f77affeeb4f92d",
+    "validation-a2dca3d2d035fa59",
+    "validation-4a37f9727ac82a31",
+    "validation-531aa9ff080445d6",
+    "validation-f839d77d08df4dfa",
+    "validation-aee6e8c41e83cad0",
+    "validation-1d4d4619bfd66581",
+    "validation-36ce398902e7135d",
+    "validation-3938199b48c562f6",
+    "validation-14253c0fc3a4dc0d",
+    "validation-c59e9d51a3799267",
+    "validation-520d75479d567121",
+    "validation-d112266c1828a7ca",
+    "validation-82b67fd858c9d8d4",
+    "validation-fc40627f0b0bab17",
+    "validation-d6427352ac250d9e",
+    "validation-c8ff43a0c0154538",
+    "validation-136348e30ccdd152",
+    "validation-d22c3a920b525b66",
+    "validation-329b35a3d5144055",
+    "validation-e271aa282462bdf7",
+    "validation-3b364d78c765531e",
+    "validation-af3b43994c850366",
+    "validation-d379eea4a2b59524",
+    "validation-f279ebe82ac5bb54",
+    "validation-1321fd5435f4cf5f",
+    "validation-a0e12c20a24ba6f2",
+    "validation-afa9c2ecf222f328",
+    "validation-c9574968cd2efd5c",
+    "validation-024d54bb9d654160",
+    "validation-8f54c3bff6ab1797",
+    "validation-162091e91ee345b7",
+    "validation-cb8c55ba2b7f46b9",
+    "validation-70b637ea23cc769c",
+    "validation-c519bc86fc0f6a9d",
+    "validation-9eeaccd2f6fe2c6f"
+  ],
+  "bank_sha256": "ccb66ffc9214bb9484b278718acf7eae55afac7c4d4afa25ee03f74ad3fea6eb",
+  "gold_sql": {
+    "validation-3c4d5ecbd3a4ffc8": "SELECT Headquarters FROM company GROUP BY Headquarters HAVING COUNT(*)  >=  2",
+    "validation-a402046f584d4813": "SELECT Age FROM Student WHERE Fname = \"Linda\" AND Lname = \"Smith\";",
+    "validation-8be8e9f30c5ed3cc": "SELECT max(Silver) ,  min(Silver) FROM club_rank",
+    "validation-bb46eb4c224f4193": "SELECT organization_name FROM organizations ORDER BY date_formed ASC",
+    "validation-fff3bd324494b9bb": "SELECT avg(Speed) FROM roller_coaster",
+    "validation-cf4f7eb157c5f56f": "SELECT Name FROM artwork ORDER BY Name ASC",
+    "validation-6d8add77db18ef60": "SELECT name FROM program ORDER BY launch DESC LIMIT 1",
+    "validation-83b76ccf03ae3d7a": "SELECT count(*) FROM customers",
+    "validation-1e5f20eb954308a2": "SELECT name ,  open_date ,  organized_by FROM Church",
+    "validation-60551b2217de7d97": "SELECT category ,  count(*) FROM book_club GROUP BY category",
+    "validation-52bfe326b751abaf": "SELECT transaction_type ,  sum(transaction_amount) FROM Financial_transactions GROUP BY transaction_type",
+    "validation-9a3d5d1c1dfe328b": "SELECT T1.source_system_code ,  T1.master_customer_id ,  T2.council_tax_id FROM CMI_Cross_References AS T1 JOIN Parking_Fines AS T2 ON T1.cmi_cross_ref_id  =  T2.cmi_cross_ref_id",
+    "validation-fa96b1ccd568803a": "SELECT T1.good_or_bad_customer FROM customers AS T1 JOIN discount_coupons AS T2 ON T1.coupon_id  =  T2.coupon_id WHERE T2.coupon_amount  =  500",
+    "validation-536cac19f45fc4fc": "SELECT DISTINCT T1.type FROM mill AS T1 JOIN architect AS t2 ON T1.architect_id  =  T2.id WHERE T2.nationality  =  'American' OR T2.nationality  =  'Canadian'",
+    "validation-6ff42b00b3afd128": "SELECT supplier_id FROM Product_Suppliers GROUP BY supplier_id HAVING avg(total_amount_purchased)  >  50000 OR avg(total_amount_purchased)  <  30000",
+    "validation-1b6e5a6dd2d6aa32": "SELECT avg(T1.duration) FROM files AS T1 JOIN song AS T2 ON T1.f_id  =  T2.f_id WHERE T1.formats  =  \"mp3\" AND T2.resolution   <  800",
+    "validation-b21ef0b87ce0afd3": "SELECT T2.Name ,  T1.Elimination_Move FROM elimination AS T1 JOIN wrestler AS T2 ON T1.Wrestler_ID  =  T2.Wrestler_ID",
+    "validation-ab68d815813fb4b7": "SELECT T2.Name FROM journal_committee AS T1 JOIN editor AS T2 ON T1.Editor_ID  =  T2.Editor_ID JOIN journal AS T3 ON T1.Journal_ID  =  T3.Journal_ID WHERE T3.Sales  >  3000",
+    "validation-2feff7a83ef167ff": "SELECT count(DISTINCT student_id) FROM Student_Course_Enrolment",
+    "validation-a75b7764fcacce68": "SELECT count(*) ,  sex FROM student WHERE age  >  (SELECT avg(age) FROM student) GROUP BY sex",
+    "validation-0e21eef6ed8ada4e": "SELECT T3.Name ,  T2.Name FROM employment AS T1 JOIN people AS T2 ON T1.People_ID  =  T2.People_ID JOIN company AS T3 ON T1.Company_ID  =  T3.Company_ID",
+    "validation-de306200a6efff23": "SELECT Rating FROM Restaurant WHERE ResName = \"Subway\";",
+    "validation-ca9775c857b7431d": "SELECT name FROM club ORDER BY name DESC",
+    "validation-f76a31ffe49ff88d": "SELECT t3.individual_last_name FROM organizations AS t1 JOIN organization_contact_individuals AS t2 ON t1.organization_id  =  t2.organization_id JOIN individuals AS t3 ON t2.individual_id  =  t3.individual_id WHERE t1.uk_vat_number  =  (SELECT max(uk_vat_number) FROM organizations) ORDER BY t2.date_contact_to ASC LIMIT 1",
+    "validation-61511bf35997c117": "SELECT Name FROM country WHERE Languages != \"German\"",
+    "validation-c1adc4cfbb04e562": "SELECT TYPE ,  COUNT(*) FROM artwork GROUP BY TYPE",
+    "validation-f1a67e3024ea10f2": "SELECT count(DISTINCT program_id) FROM broadcast WHERE time_of_day  =  'Night'",
+    "validation-ed6f64d1f362df5a": "SELECT count(DISTINCT payment_method) FROM customers",
+    "validation-fad437395e6b6486": "SELECT name FROM church ORDER BY open_date DESC",
+    "validation-30b61a74da23f747": "SELECT T1.title ,  T3.book_title FROM movie AS T1 JOIN culture_company AS T2 ON T1.movie_id  =  T2.movie_id JOIN book_club AS T3 ON T3.book_club_id  =  T2.book_club_id WHERE T2.incorporated_in  =  'China'",
+    "validation-889009eee36761d6": "SELECT transaction_id FROM Financial_transactions WHERE transaction_amount  >  (SELECT avg(transaction_amount) FROM Financial_transactions)",
+    "validation-3625496ea0b7be64": "SELECT DISTINCT T2.source_system_code FROM customer_master_index AS T1 JOIN cmi_cross_references AS T2 ON T1.master_customer_id  =  T2.master_customer_id WHERE T1.cmi_details  =  'Gottlieb ,  Becker and Wyman'",
+    "validation-15c0ae475aa5b12c": "SELECT customer_id ,  sum(amount_paid) FROM Payments GROUP BY customer_id ORDER BY sum(amount_paid) DESC LIMIT 1",
+    "validation-085ce3159bf51a4d": "SELECT max(T1.length_meters) ,  T2.name FROM bridge AS T1 JOIN architect AS T2 ON T1.architect_id  =  T2.id",
+    "validation-5cca36d225fdead7": "SELECT DISTINCT customer_id FROM Customer_Orders WHERE order_date  >  (SELECT min(order_date) FROM Customer_Orders WHERE order_status_code  =  \"Cancelled\")",
+    "validation-2c892f2ef042cedd": "SELECT count(*) FROM files WHERE duration LIKE \"4:%\"",
+    "validation-de485b76b4616b8e": "SELECT Name FROM wrestler ORDER BY Days_held DESC",
+    "validation-4b4f8024a5980978": "SELECT Name FROM editor WHERE Age  >  25",
+    "validation-f1ea6b8f0e7f285d": "SELECT T1.student_id ,  T2.middle_name FROM Student_Course_Enrolment AS T1 JOIN Students AS T2 ON T1.student_id  =  T2.student_id GROUP BY T1.student_id HAVING COUNT(*)  <=  2",
+    "validation-e3956a7be9311093": "SELECT avg(age) ,  max(age) ,  sex FROM student GROUP BY sex",
+    "validation-e1927c97d2899fdd": "SELECT Headquarters ,  COUNT(*) FROM company GROUP BY Headquarters",
+    "validation-5dad6a54f441726e": "SELECT TIME FROM Student JOIN Visits_Restaurant ON Student.StuID = Visits_Restaurant.StuID JOIN Restaurant ON Visits_Restaurant.ResID = Restaurant.ResID WHERE Student.Fname = \"Linda\" AND Student.Lname = \"Smith\" AND Restaurant.ResName = \"Subway\";",
+    "validation-5cf3b447b4af02c2": "SELECT country FROM competition EXCEPT SELECT country FROM competition WHERE competition_type  =  'Friendly'",
+    "validation-f763b72754a444d8": "SELECT t1.form_name FROM forms AS t1 JOIN party_forms AS t2 ON t1.form_id  =  t2.form_id GROUP BY t2.form_id ORDER BY count(*) DESC LIMIT 1",
+    "validation-ef4c177afd66ae16": "SELECT count(*) FROM country WHERE country_id NOT IN ( SELECT country_id FROM roller_coaster WHERE LENGTH  >  3000 )",
+    "validation-2643a95fe295b32a": "SELECT sum(Num_of_Audience) FROM festival_detail",
+    "validation-0a26d7c1c332029e": "SELECT name FROM program WHERE origin != 'Beijing'",
+    "validation-e313605ab240e9e5": "SELECT customer_name FROM customers EXCEPT SELECT t1.customer_name FROM customers AS t1 JOIN customer_addresses AS t2 ON t1.customer_id  =  t2.customer_id JOIN addresses AS t3 ON t2.address_id  =  t3.address_id WHERE t3.state_province_county  =  'California'",
+    "validation-80d75a584db5c4e7": "SELECT open_date ,  count(*) FROM church GROUP BY open_date",
+    "validation-cf65a76c2ca339d6": "SELECT DISTINCT publisher FROM book_club",
+    "validation-d70a542e503e4a1e": "SELECT T1.invoice_date ,  T1.order_id ,  T2.order_details FROM Invoices AS T1 JOIN Orders AS T2 ON T1.order_id  =  T2.order_id",
+    "validation-e53b4e10a90eb2c7": "SELECT count(*) FROM rent_arrears",
+    "validation-3288dc4cebb243fe": "SELECT daily_hire_cost FROM Products_for_hire WHERE product_name LIKE '%Book%'",
+    "validation-c22e5499b1593f40": "SELECT T1.id ,  T1.name ,  T1.gender FROM architect AS T1 JOIN bridge AS T2 ON T1.id  =  T2.architect_id GROUP BY T1.id HAVING count(*)  =  2 UNION SELECT T1.id ,  T1.name ,  T1.gender FROM architect AS T1 JOIN mill AS T2 ON T1.id  =  T2.architect_id GROUP BY T1.id HAVING count(*)  =  1",
+    "validation-3d91e3eb70e7a1ee": "SELECT T1.supplier_name ,  T1.supplier_phone FROM Suppliers AS T1 JOIN supplier_addresses AS T2 ON T1.supplier_id  =  T2.supplier_id JOIN addresses AS T3 ON T2.address_id  =  T3.address_id ORDER BY T3.address_details",
+    "validation-69f87ab68f157c15": "SELECT count(*) ,  formats FROM files GROUP BY formats",
+    "validation-0eb1fb5e47ed829f": "SELECT Name ,  LOCATION FROM wrestler",
+    "validation-7896499011c15fde": "SELECT Name FROM editor WHERE editor_id NOT IN (SELECT editor_id FROM journal_committee)",
+    "validation-88f375ef94d12f68": "SELECT date_of_latest_logon FROM Students WHERE family_name  =  \"Jaskolski\" OR family_name  =  \"Langosh\"",
+    "validation-0407f698a3a86c0a": "SELECT fname ,  lname FROM student WHERE major != (SELECT major FROM student GROUP BY major ORDER BY count(*) DESC LIMIT 1)",
+    "validation-137394c19b2b5678": "SELECT Headquarters FROM company ORDER BY Sales_in_Billion DESC LIMIT 1",
+    "validation-5d1ecaadd27fb6a2": "SELECT ResName , Rating FROM Restaurant ORDER BY Rating DESC LIMIT 1;",
+    "validation-89448784d1f33b1c": "SELECT Competition_type ,  Country FROM competition",
+    "validation-fac51d810a95c200": "SELECT individual_first_name ,  individual_middle_name ,  individual_last_name FROM individuals ORDER BY individual_last_name",
+    "validation-6f87c063a9e335f0": "SELECT Speed FROM roller_coaster ORDER BY LENGTH DESC LIMIT 1",
+    "validation-b0b931cefe38be42": "SELECT DISTINCT T2.Type FROM nomination AS T1 JOIN artwork AS T2 ON T1.Artwork_ID  =  T2.Artwork_ID JOIN festival_detail AS T3 ON T1.Festival_ID  =  T3.Festival_ID WHERE T3.Year  =  2007",
+    "validation-0edb7ecbb4dd054b": "SELECT name FROM program EXCEPT SELECT t1.name FROM program AS t1 JOIN broadcast AS t2 ON t1.program_id  =  t2.program_id WHERE t2.Time_of_day  =  \"Morning\"",
+    "validation-7df47fb7fd5104dc": "SELECT route_name FROM Delivery_Routes ORDER BY route_name",
+    "validation-e030d845801dc09b": "SELECT open_date FROM church GROUP BY open_date HAVING count(*)  >=  2",
+    "validation-e968a702198d6058": "SELECT YEAR ,  book_title ,  publisher FROM book_club ORDER BY YEAR DESC",
+    "validation-d44f9c5697538a6a": "SELECT transaction_type ,  sum(transaction_amount) FROM Financial_transactions GROUP BY transaction_type",
+    "validation-d5436c6173d57687": "SELECT cmi_cross_ref_id FROM cmi_cross_references EXCEPT SELECT cmi_cross_ref_id FROM parking_fines",
+    "validation-34c0d80638e5872e": "SELECT product_id FROM products_booked GROUP BY product_id HAVING count(*)  =  3",
+    "validation-76a4149a244deca0": "SELECT DISTINCT T1.name ,  T1.nationality FROM architect AS T1 JOIN mill AS t2 ON T1.id  =  T2.architect_id",
+    "validation-0f3276a7323abe16": "SELECT product_type_code FROM products GROUP BY product_type_code HAVING avg(product_price)  >  (SELECT avg(product_price) FROM products)",
+    "validation-20a72a6329ea98f5": "SELECT avg(rating) ,  avg(resolution) FROM song WHERE languages  =  \"bangla\"",
+    "validation-34aaf5028e00a1e4": "SELECT Reign FROM wrestler GROUP BY Reign ORDER BY COUNT(*) DESC LIMIT 1",
+    "validation-e978a5f0f55e548c": "SELECT T2.Name ,  T3.Theme FROM journal_committee AS T1 JOIN editor AS T2 ON T1.Editor_ID  =  T2.Editor_ID JOIN journal AS T3 ON T1.Journal_ID  =  T3.Journal_ID",
+    "validation-cdd57474e4812622": "SELECT address_line_1 FROM Course_Authors_and_Tutors",
+    "validation-56804612f43fa49b": "SELECT count(*) FROM dorm_amenity",
+    "validation-34dc16c5398be753": "SELECT T3.Name ,  COUNT(*) FROM employment AS T1 JOIN people AS T2 ON T1.People_ID  =  T2.People_ID JOIN company AS T3 ON T1.Company_ID  =  T3.Company_ID GROUP BY T3.Name",
+    "validation-c9d671c14d02f55b": "SELECT ResName FROM Restaurant;",
+    "validation-aae2724405be5c02": "SELECT count(*) FROM club_rank WHERE Total  <  10",
+    "validation-741ca93b599363fd": "SELECT organization_name FROM organizations WHERE organization_name LIKE \"%Party%\"",
+    "validation-02f77affeeb4f92d": "SELECT Status FROM roller_coaster GROUP BY Status HAVING COUNT(*)  >  2",
+    "validation-a2dca3d2d035fa59": "SELECT Num_of_Audience FROM festival_detail WHERE YEAR  =  2008 OR YEAR  =  2010",
+    "validation-4a37f9727ac82a31": "SELECT t1.name FROM channel AS t1 JOIN broadcast AS t2 ON t1.channel_id  =  t2.channel_id WHERE t2.time_of_day  =  'Morning' INTERSECT SELECT t1.name FROM channel AS t1 JOIN broadcast AS t2 ON t1.channel_id  =  t2.channel_id WHERE t2.time_of_day  =  'Night'",
+    "validation-531aa9ff080445d6": "SELECT t2.state_province_county ,  count(*) FROM customer_addresses AS t1 JOIN addresses AS t2 ON t1.address_id  =  t2.address_id GROUP BY t2.state_province_county",
+    "validation-f839d77d08df4dfa": "SELECT name ,  open_date FROM church ORDER BY open_date DESC LIMIT 3",
+    "validation-aee6e8c41e83cad0": "SELECT T2.company_name FROM movie AS T1 JOIN culture_company AS T2 ON T1.movie_id  =  T2.movie_id WHERE T1.year  =  1999",
+    "validation-1d4d4619bfd66581": "SELECT product_id ,  count(DISTINCT order_id) FROM Order_items GROUP BY product_id",
+    "validation-36ce398902e7135d": "SELECT T1.council_tax_id FROM Rent_Arrears AS T1 JOIN CMI_Cross_References AS T2 ON T1.cmi_cross_ref_id  =  T2.cmi_cross_ref_id JOIN Customer_Master_Index AS T3 ON T3.master_customer_id  =  T2.master_customer_id WHERE T3.cmi_details != 'Schmidt ,  Kertzmann and Lubowitz'",
+    "validation-3938199b48c562f6": "SELECT T1.customer_id ,  T1.first_name ,  count(*) FROM Customers AS T1 JOIN bookings AS T2 ON T1.customer_id  =  T2.customer_id GROUP BY T1.customer_id",
+    "validation-14253c0fc3a4dc0d": "SELECT DISTINCT T1.name FROM mill AS T1 JOIN architect AS t2 ON T1.architect_id  =  T2.id JOIN bridge AS T3 ON T3.architect_id  =  T2.id WHERE T3.length_meters  >  80",
+    "validation-c59e9d51a3799267": "SELECT T1.staff_name FROM staff AS T1 JOIN staff_department_assignments AS T2 ON T1.staff_id  =  T2.staff_id GROUP BY T2.staff_id HAVING COUNT (*)  >  1",
+    "validation-520d75479d567121": "SELECT DISTINCT artist_name FROM song WHERE languages  =  \"english\" EXCEPT SELECT DISTINCT artist_name FROM song WHERE rating  >  8",
+    "validation-d112266c1828a7ca": "SELECT T2.Name ,  T1.Team FROM elimination AS T1 JOIN wrestler AS T2 ON T1.Wrestler_ID  =  T2.Wrestler_ID ORDER BY T2.Days_held DESC",
+    "validation-82b67fd858c9d8d4": "SELECT Name FROM editor WHERE Age  =  24 OR Age  =  25",
+    "validation-fc40627f0b0bab17": "SELECT T1.course_name FROM Courses AS T1 JOIN Student_Course_Enrolment AS T2 ON T1.course_id  =  T2.course_id GROUP BY T1.course_name ORDER BY COUNT(*) DESC LIMIT 1",
+    "validation-d6427352ac250d9e": "SELECT T1.fname ,  T1.lname FROM student AS T1 JOIN lives_in AS T2 ON T1.stuid  =  T2.stuid WHERE T2.dormid IN (SELECT T3.dormid FROM has_amenity AS T3 JOIN dorm_amenity AS T4 ON T3.amenid  =  T4.amenid WHERE T4.amenity_name  =  'TV Lounge')",
+    "validation-c8ff43a0c0154538": "SELECT T2.Name FROM employment AS T1 JOIN people AS T2 ON T1.People_ID  =  T2.People_ID JOIN company AS T3 ON T1.Company_ID  =  T3.Company_ID WHERE T3.Sales_in_Billion  >  200",
+    "validation-136348e30ccdd152": "SELECT sum(Spent) FROM Student JOIN Visits_Restaurant ON Student.StuID = Visits_Restaurant.StuID WHERE Student.Fname = \"Linda\" AND Student.Lname = \"Smith\";",
+    "validation-d22c3a920b525b66": "SELECT name FROM player WHERE points  >  (SELECT avg(points) FROM player)",
+    "validation-329b35a3d5144055": "SELECT DISTINCT form_type_code FROM forms",
+    "validation-e271aa282462bdf7": "SELECT T1.name ,  T1.area ,  T1.population FROM country AS T1 JOIN roller_coaster AS T2 ON T1.Country_ID  =  T2.Country_ID WHERE T2.speed  >  60 INTERSECT SELECT T1.name ,  T1.area ,  T1.population FROM country AS T1 JOIN roller_coaster AS T2 ON T1.Country_ID  =  T2.Country_ID WHERE T2.speed  <  55",
+    "validation-3b364d78c765531e": "SELECT TYPE FROM artwork GROUP BY TYPE ORDER BY COUNT(*) DESC LIMIT 1",
+    "validation-af3b43994c850366": "SELECT count(*) FROM program",
+    "validation-d379eea4a2b59524": "SELECT customer_email ,  customer_name FROM customers WHERE payment_method  =  'Visa'",
+    "validation-f279ebe82ac5bb54": "SELECT min(age) ,  max(age) ,  avg(age) FROM people",
+    "validation-1321fd5435f4cf5f": "SELECT title ,  director FROM movie WHERE YEAR  <=  2000 ORDER BY gross_worldwide DESC LIMIT 1",
+    "validation-a0e12c20a24ba6f2": "SELECT T2.customer_first_name ,  T1.customer_id FROM Accounts AS T1 JOIN Customers AS T2 ON T1.customer_id  =  T2.customer_id GROUP BY T1.customer_id HAVING count(*)  >=  2",
+    "validation-afa9c2ecf222f328": "SELECT T2.cmi_cross_ref_id ,  T2.master_customer_id ,  count(*) FROM Business_Rates AS T1 JOIN CMI_Cross_References AS T2 ON T1.cmi_cross_ref_id  =  T2.cmi_cross_ref_id GROUP BY T2.cmi_cross_ref_id",
+    "validation-c9574968cd2efd5c": "SELECT product_name ,  product_description FROM products_for_hire WHERE product_type_code  =  'Cutlery' AND daily_hire_cost  <  20",
+    "validation-024d54bb9d654160": "SELECT name FROM mill WHERE name LIKE '%Moulin%'",
+    "validation-8f54c3bff6ab1797": "SELECT DISTINCT T3.product_name FROM customer_orders AS T1 JOIN order_items AS T2 ON T1.order_id  =  T2.order_id JOIN products AS T3 ON T2.product_id  =  T3.product_id GROUP BY T3.product_id HAVING COUNT (DISTINCT T1.customer_id)  >=  2",
+    "validation-162091e91ee345b7": "SELECT T1.artist_name FROM artist AS T1 JOIN song AS T2 ON T1.artist_name  =  T2.artist_name WHERE T2.languages  =  \"bangla\" GROUP BY T2.artist_name ORDER BY count(*) DESC LIMIT 3",
+    "validation-cb8c55ba2b7f46b9": "SELECT Elimination_Move FROM Elimination WHERE Team  =  \"Team Orton\"",
+    "validation-70b637ea23cc769c": "SELECT T1.Name FROM editor AS T1 JOIN journal_committee AS T2 ON T1.Editor_ID  =  T2.Editor_ID GROUP BY T1.Name HAVING COUNT(*)  >=  2",
+    "validation-c519bc86fc0f6a9d": "SELECT subject_name FROM SUBJECTS",
+    "validation-9eeaccd2f6fe2c6f": "SELECT avg(T1.age) ,  T3.dorm_name FROM student AS T1 JOIN lives_in AS T2 ON T1.stuid  =  T2.stuid JOIN dorm AS T3 ON T3.dormid  =  T2.dormid GROUP BY T3.dorm_name"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "mode": "qwen",
+  "controller": "plan_constraint_v4",
+  "use_adapter": true,
+  "use_hints": true,
+  "use_retrieval": true,
+  "use_variants": true,
+  "review_matched": "risk",
+  "max_completions": 4,
+  "max_new_tokens": 512,
+  "seed": 42,
+  "max_retries_per_observation": 1,
+  "max_contract_checks": 3
+}

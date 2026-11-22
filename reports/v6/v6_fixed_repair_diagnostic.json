@@ -1,0 +1,51 @@
+{
+  "dataset": {
+    "source": "artifacts/prepared_data/v6/generator/holdout.jsonl",
+    "contexts": 109,
+    "distinct_tasks": 22,
+    "schemas": 16,
+    "rule": "All incremental train-holdout tasks with repair_failed_context. One earliest sample, then earliest attempt, per task. No correct check yet; original episode failed.",
+    "source_sha256": "0a23da8faccda22476c6461fb9f1ff12bd17c8e1d632851909c59db949e1799b",
+    "prompts_sha256": "998eb102aea0f1db06f3d8ca9f28deb99aa45ad8dbc7151d165c5f82188ddb4d",
+    "prefixes_sha256": "f67d116cf72ba747d0910c6fb53251ab90ca9ede5d7b19bc150e611ffeed4294"
+  },
+  "old": {
+    "identity": {
+      "adapter": "artifacts/adapters/onpolicy_v001/epoch_02",
+      "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+      "config_sha256": "98916aadbc66212d64e595e87698f7aace3d13777f5ece11938957327fdcf2af",
+      "device": "cuda",
+      "generations_sha256": "053fda64ecabec967633ee4edeaca726a5dae724705279d98fdf38e50e5495ca"
+    },
+    "outcomes": {
+      "non_check": 22
+    },
+    "actions": {
+      "repair_hint": 22
+    },
+    "new_checks": 0
+  },
+  "generator": {
+    "identity": {
+      "adapter": "artifacts/adapters/v6_generator/epoch_01",
+      "adapter_sha256": "372bd6dcaf9f7506a585b09ebb6db0a4d62431da9f40ee54c207ebbb5d6a2a79",
+      "config_sha256": "98916aadbc66212d64e595e87698f7aace3d13777f5ece11938957327fdcf2af",
+      "device": "cuda",
+      "generations_sha256": "bea629af5faca23911940022bfb716a315594f8393d7c05c77941dc12f3f27c1"
+    },
+    "outcomes": {
+      "non_check": 22
+    },
+    "actions": {
+      "repair_hint": 22
+    },
+    "new_checks": 0
+  },
+  "paired_correct": {
+    "wins": 0,
+    "losses": 0,
+    "both_correct": 0,
+    "neither_correct": 22
+  },
+  "method": "Actual historical prompt and matching replayed public prefix. One unconstrained greedy model action, normalized and duplicate-checked using the deployed SQL functions. Each valid new check is submitted immediately and independently graded on the official three train instances; non-check actions have no subsequent rollout here. Same incremental holdout used for both models; diagnostic not used for checkpoint selection."
+}

@@ -1,0 +1,117 @@
+{
+  "method": "Same first-check router and greedy single offline Qwen/V7-family LoRA under CUDA bfloat16; only adapter differs. One predeclared training configuration, one epoch; full three-instance scoring after predictions. Earlier teacher and init training touched official train, including tasks held out from this update. No test used.",
+  "splits": {
+    "holdout": {
+      "groups": {
+        "all": {
+          "n": 98,
+          "original_v7_router": 89,
+          "distilled_v7_router": 76,
+          "wins": 1,
+          "losses": 14
+        },
+        "initial_public_pass": {
+          "n": 44,
+          "original_v7_router": 43,
+          "distilled_v7_router": 43,
+          "wins": 0,
+          "losses": 0
+        },
+        "initial_public_fail": {
+          "n": 54,
+          "original_v7_router": 46,
+          "distilled_v7_router": 33,
+          "wins": 1,
+          "losses": 14
+        }
+      },
+      "baseline_predictions_sha256": "9662e20e04f1b86179e478b7cd622c2e25b619e1730369f02e720acf02c0a0d7",
+      "student_predictions_sha256": "69672fba8c86088196f065962c3866ad511cdea5c6d4aad89e92bf73f91d3d73"
+    },
+    "validation": {
+      "groups": {
+        "all": {
+          "n": 120,
+          "original_v7_router": 98,
+          "distilled_v7_router": 95,
+          "wins": 1,
+          "losses": 4
+        },
+        "initial_public_pass": {
+          "n": 63,
+          "original_v7_router": 57,
+          "distilled_v7_router": 56,
+          "wins": 1,
+          "losses": 2
+        },
+        "initial_public_fail": {
+          "n": 57,
+          "original_v7_router": 41,
+          "distilled_v7_router": 39,
+          "wins": 0,
+          "losses": 2
+        }
+      },
+      "baseline_predictions_sha256": "cfd0f35a158a738156001a3ac904b59f480a6341b88b1fb181dd1216bb3170d2",
+      "student_predictions_sha256": "3644d3f27a255332d849f961f7777ded7a86ad4c27907df22af203d6f4df78a9"
+    }
+  },
+  "router_sha256": "292dfed2f863d0e2b60410a06829fc307a3ec38cc10c68f82d0f004e711ee4db",
+  "base_adapter_sha256": "2af3b904143eaffbf4a76267357c30f474a9c7408b38c76bc5f9ee8d63394aab",
+  "distilled_adapter_sha256": "f0a9153afd77897fdb2c2a1795d7fe68651837a5aeb9d2b532a330c964999111",
+  "update_data": {
+    "scope": "Only the prior 382-task official train subset in 94 databases. The 98 held-out tasks in 24 other train databases were excluded from this update. Older adapters in the teacher/student initialization used the official training corpus. Validation and test excluded from new fitting. One example per training task; no pure fallbacks; verified accepted model actions lead to an officially correct submitted SQL.",
+    "branch_data": {
+      "fail": {
+        "branch": "fail",
+        "fit_tasks_in_route": 228,
+        "tasks_with_candidate_actions": 203,
+        "officially_correct_distinct_tasks": 197,
+        "support": {
+          "check": 193,
+          "submit": 194
+        },
+        "chosen": {
+          "check": 193,
+          "submit": 4
+        },
+        "source": "runs/v10_onpolicy_train",
+        "sha256": {
+          "predictions.json": "2ac2c7dc328e9947d143c1a7c86d367569585b63efe73edadba708e0a6a66684",
+          "decisions.jsonl": "ee635945acfb4a6a70eb66a33881a32afc6f854f78821b06cda4af2a7335a60f",
+          "generations.jsonl": "8fd2b4f007c35368eb9fcb0556567ff143aa28983121fe9901012352df0f05c6"
+        }
+      },
+      "pass": {
+        "branch": "pass",
+        "fit_tasks_in_route": 154,
+        "tasks_with_candidate_actions": 105,
+        "officially_correct_distinct_tasks": 93,
+        "support": {
+          "submit": 93,
+          "check": 35
+        },
+        "chosen": {
+          "submit": 93
+        },
+        "source": "runs/routed_distill/teacher_v7_pass",
+        "sha256": {
+          "predictions.json": "a7e4c0c4e5c22eded11af3e310ff21d0b79c2dc82ff1c327b6acfef2d3113665",
+          "decisions.jsonl": "0f5a2fa3fee7891ce79ec791d31fff465967ede39993ac1716c1c58f82790028",
+          "generations.jsonl": "5ac0e50815721f552a20bcb95c98a9522f05a25ecc2819997262b7bf9a856bf2"
+        }
+      }
+    },
+    "training_examples": 279,
+    "states": {
+      "fail_check": 182,
+      "pass_submit": 93,
+      "fail_submit": 4
+    },
+    "train_sha256": "2a26ce25e9ce28dd40fb3b6247b021f558a58743650ae68428521c7aa10e7e2d",
+    "split_sha256": "3a374d00a176a1fc224c1d029c9b5e011e990dfab176b3dff40f68bdcc3d2ec7",
+    "initial_adapter_sha256": "2af3b904143eaffbf4a76267357c30f474a9c7408b38c76bc5f9ee8d63394aab",
+    "schema_count": 94
+  },
+  "train_metadata_sha256": "c268ace3da6aad8097a9fe2eb47d8a9ab6d09e29d417bc5feb73c664a09ad9a2"
+}

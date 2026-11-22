@@ -1,0 +1,51 @@
+{
+  "selected_at": "2026-11-13T04:50:04.488966+00:00",
+  "rule": "Max validation correct; new ties use fewer model calls then experiment name. Promote only if greater than v1 validation correct; otherwise retain v1.",
+  "new_experiment": "e13_review_risk",
+  "new_config": "submission/configs/review_v2_risk.json",
+  "default_experiment": "e13_review_risk",
+  "locked_config": "submission/configs/review_v2_selected.json",
+  "config_sha256": "d8165e0bc4e8b75b04d4e8c71838aadc7e943f58d9bd939ec12656ecf1075fc2",
+  "adapter_path": "artifacts/adapters/onpolicy_v001/epoch_02",
+  "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+  "base_revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+  "test_metrics_used": false,
+  "validation": [
+    {
+      "experiment": "e03_qwen3_lora",
+      "correct": 81,
+      "n": 120,
+      "accuracy": 67.5,
+      "model_calls": 71,
+      "mean_tool_calls": 2.8833333333333333,
+      "source": "runs/e03_qwen3_lora/validation/r001"
+    },
+    {
+      "experiment": "e12_review_onpolicy",
+      "correct": 87,
+      "n": 120,
+      "accuracy": 72.5,
+      "model_calls": 299,
+      "mean_tool_calls": 3.625,
+      "source": "runs/e12_review_onpolicy/validation/r001"
+    },
+    {
+      "experiment": "e13_review_risk",
+      "correct": 87,
+      "n": 120,
+      "accuracy": 72.5,
+      "model_calls": 288,
+      "mean_tool_calls": 3.533333333333333,
+      "source": "runs/e13_review_risk/validation/r001"
+    },
+    {
+      "experiment": "e14_review_off",
+      "correct": 79,
+      "n": 120,
+      "accuracy": 65.83333333333333,
+      "model_calls": 195,
+      "mean_tool_calls": 2.7583333333333333,
+      "source": "runs/e14_review_off/validation/r001"
+    }
+  ]
+}

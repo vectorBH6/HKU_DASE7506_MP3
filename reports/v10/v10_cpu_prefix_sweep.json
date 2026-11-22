@@ -1,0 +1,843 @@
+{
+  "scope": "Validation-only comparison. Official CPU prefixes completed before V10 was frozen; feedback-only CPU arms without a device field were included. Draft, GPU, and previous V8/V9 tails excluded.",
+  "method": "A single frozen V8 struct continuation, retaining all actual prefix actions and observations. Exact repeated prefix predictions share computation; entire trajectories and same config/adapter identities are separately identified. Three-case labels opened for grading after rollout. No future test decisions based on per-test outputs.",
+  "n": 120,
+  "source_runs": 28,
+  "distinct_full_prefix_predictions": 26,
+  "distinct_config_adapter_and_predictions": 27,
+  "unique_task_prefixes": 862,
+  "v10_correct": 100,
+  "suffix_sha256": "829ed79c383726fe64f6a0dd1b87b59d6e287a9702fcda9723123f4ebbec12e5",
+  "runs": {
+    "runs/a01_no_hints/validation/r001": {
+      "policy": "feedback",
+      "config": {
+        "mode": "feedback",
+        "use_hints": false,
+        "use_retrieval": false,
+        "use_variants": true
+      },
+      "adapter_sha256": null,
+      "config_and_adapter_digest": "ea0e4ccad339f348bcaa2aea7c9a62b873c3a609de842949bf88db19be97e05c",
+      "prefix_sha256": "da9dd80f8012c877b54e9b517ea8bab10d7093c3848191e1f66a07230c1ec924",
+      "source_predictions_sha256": "ef6a3399950ef714481389e5e84b674d83d2dade42dc8cc58e74325b7949cdfc",
+      "source_correct": 48,
+      "correct": 90,
+      "paired_v10": {
+        "wins": 0,
+        "losses": 10,
+        "net": -10
+      },
+      "total_checks_and_tools": 451,
+      "max_tools": 7,
+      "continuation_sha256": "b66cd3b08646e2fc3c20f1002f72f34dcf67ee169a32238344cb6445a8137011"
+    },
+    "runs/a02_no_variants/validation/r001": {
+      "policy": "feedback",
+      "config": {
+        "mode": "feedback",
+        "use_hints": true,
+        "use_retrieval": false,
+        "use_variants": false
+      },
+      "adapter_sha256": null,
+      "config_and_adapter_digest": "ff88c991bdd601fb6b085576507b82bce404bd02ab74de9c8fa30346989383c9",
+      "prefix_sha256": "f8f3b2c3cb0ac935e74212c5006578932e28242fef8d370eba24b8d16fd7bc2e",
+      "source_predictions_sha256": "2744b627b544c8db739de84b0e58d96920766478281c0fc8995112d42caeaa73",
+      "source_correct": 73,
+      "correct": 90,
+      "paired_v10": {
+        "wins": 0,
+        "losses": 10,
+        "net": -10
+      },
+      "total_checks_and_tools": 446,
+      "max_tools": 7,
+      "continuation_sha256": "134b42b7832f07e4849fe68a55736da168756ce3792c9cc28be9b898f9c85f2b"
+    },
+    "runs/a03_no_retrieval/validation/r001": {
+      "policy": "qwen",
+      "config": {
+        "mode": "qwen",
+        "use_hints": true,
+        "use_retrieval": false,
+        "use_variants": true,
+        "use_adapter": true,
+        "max_completions": 2,
+        "max_new_tokens": 256,
+        "seed": 42
+      },
+      "adapter_sha256": "68c9c4bf5ecef524d69f88b937ec1223d67edfb8240504801d3d26e8caed0555",
+      "config_and_adapter_digest": "fdcfe65a994a18afe32e563dd5bc1d10a478802e80ed3d0ca77178edfbaa20b7",
+      "prefix_sha256": "6f22253890ae3db6b7996afe9e3f7354a0d4c8f291579dc509cfac3a89f55d6a",
+      "source_predictions_sha256": "c6c97188bec1fd7718613c3403115cdea9ea104e3372a9d33ad8646018a17ced",
+      "source_correct": 82,
+      "correct": 94,
+      "paired_v10": {
+        "wins": 1,
+        "losses": 7,
+        "net": -6
+      },
+      "total_checks_and_tools": 488,
+      "max_tools": 8,
+      "continuation_sha256": "b1b076b2f60698a565272bf1331d2978b7ec28233a3654873d3d90ef6991dcef"
+    },
+    "runs/e01_feedback_cpu/validation/r001": {
+      "policy": "feedback",
+      "config": {
+        "mode": "feedback",
+        "use_hints": true,
+        "use_retrieval": false,
+        "use_variants": true
+      },
+      "adapter_sha256": null,
+      "config_and_adapter_digest": "c1b35ce753b3381283b05169eb20c8c2a541a34fdf9a60e06d216d88f3e04039",
+      "prefix_sha256": "f8f3b2c3cb0ac935e74212c5006578932e28242fef8d370eba24b8d16fd7bc2e",
+      "source_predictions_sha256": "bde666b7e3b50d4f4d30ff2a3ff6971ff8d1b0ef7b48f2124f7a958f1b7c655c",
+      "source_correct": 73,
+      "correct": 90,
+      "paired_v10": {
+        "wins": 0,
+        "losses": 10,
+        "net": -10
+      },
+      "total_checks_and_tools": 446,
+      "max_tools": 7,
+      "continuation_sha256": "134b42b7832f07e4849fe68a55736da168756ce3792c9cc28be9b898f9c85f2b"
+    },
+    "runs/e02_qwen3_base/validation/r001": {
+      "policy": "qwen",
+      "config": {
+        "mode": "qwen",
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "use_adapter": false,
+        "max_completions": 2,
+        "max_new_tokens": 256,
+        "seed": 42
+      },
+      "adapter_sha256": null,
+      "config_and_adapter_digest": "4e78afe294f92606c3dcbb7ea0fecebbd3a92b4d37a4040dace852ce63ea06dc",
+      "prefix_sha256": "691afa737c01d4e5868018b3d2dfc296e3ddc607f24a3b662a1a467eabcb6751",
+      "source_predictions_sha256": "04936cfd280c472423d4b61b5d6bc16e99291468425266a781dba35d92201ea2",
+      "source_correct": 72,
+      "correct": 90,
+      "paired_v10": {
+        "wins": 0,
+        "losses": 10,
+        "net": -10
+      },
+      "total_checks_and_tools": 520,
+      "max_tools": 8,
+      "continuation_sha256": "7df9333623aab29f18c416fd28a40ad92e836ce93a041d6435a08687ac1bea06"
+    },
+    "runs/e03_qwen3_lora/validation/r001": {
+      "policy": "qwen",
+      "config": {
+        "mode": "qwen",
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "use_adapter": true,
+        "max_completions": 2,
+        "max_new_tokens": 256,
+        "seed": 42
+      },
+      "adapter_sha256": "68c9c4bf5ecef524d69f88b937ec1223d67edfb8240504801d3d26e8caed0555",
+      "config_and_adapter_digest": "0df2167918bf636333363b5a6f6c909b0888eb0dfa4c761d368840b65e8b68f4",
+      "prefix_sha256": "2ce3103dbdbc00390dac3497db5fd69fac0cc2b791abd966bd4d8d97d10576f5",
+      "source_predictions_sha256": "97835dec7e46c4c4c54053d5fbeb8e8f2a64ec00486548ad2d1db8cc0baa295c",
+      "source_correct": 81,
+      "correct": 93,
+      "paired_v10": {
+        "wins": 0,
+        "losses": 7,
+        "net": -7
+      },
+      "total_checks_and_tools": 543,
+      "max_tools": 8,
+      "continuation_sha256": "47309ccc7590afb9ca38856462e7e6eaadb72d9c7c70bb2acfeb69d0e54f58b5"
+    },
+    "runs/e11_review_old_adapter/validation/r002": {
+      "policy": "review_v2",
+      "config": {
+        "mode": "qwen",
+        "controller": "review_v2",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "always",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42
+      },
+      "adapter_sha256": "68c9c4bf5ecef524d69f88b937ec1223d67edfb8240504801d3d26e8caed0555",
+      "config_and_adapter_digest": "469118e28c833cc1b4c255225b0e952d0e6bfbd9286873a5260721ff2003be0d",
+      "prefix_sha256": "f9dd165197395828089cd709a7ef199826b84fc1adb21335da69564baf2452b7",
+      "source_predictions_sha256": "4482e8edc63287cae709fc380f1a9003c0042a9c35eb8630a9e687ddb67e97fc",
+      "source_correct": 81,
+      "correct": 93,
+      "paired_v10": {
+        "wins": 0,
+        "losses": 7,
+        "net": -7
+      },
+      "total_checks_and_tools": 598,
+      "max_tools": 8,
+      "continuation_sha256": "c662020e99ec846e2718e2f2820dde3bdbe47abf1fa732a7d9412c3ab9886d5a"
+    },
+    "runs/e12_review_onpolicy/validation/r001": {
+      "policy": "review_v2",
+      "config": {
+        "mode": "qwen",
+        "controller": "review_v2",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "always",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42
+      },
+      "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+      "config_and_adapter_digest": "761b7599a34765fd5e4db6d916b81c9b7bf7fdfa0b463a9d37d5c6fb9b029fff",
+      "prefix_sha256": "b77aae15ce0daa55a47fc55db237e8619279f5163bd8f4d1fb2b690c232cbffc",
+      "source_predictions_sha256": "e623d25beb4373eb4398573c96d4e542bff800c9c51dc835579ea5d1065ff3e5",
+      "source_correct": 87,
+      "correct": 94,
+      "paired_v10": {
+        "wins": 2,
+        "losses": 8,
+        "net": -6
+      },
+      "total_checks_and_tools": 557,
+      "max_tools": 8,
+      "continuation_sha256": "8465d76fb5c892ac12dad3b20a80a2876c44e5806318d838ed86eb713c9b448e"
+    },
+    "runs/e13_review_risk/validation/r001": {
+      "policy": "review_v2",
+      "config": {
+        "mode": "qwen",
+        "controller": "review_v2",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42
+      },
+      "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+      "config_and_adapter_digest": "ce0800df4264e188a93673e5a56c378108911d99050a4063133a45cc971a2ee4",
+      "prefix_sha256": "823c60294c992895aa8537e46e07915bc91f3892b97e9f6e52b3bba835c1e7eb",
+      "source_predictions_sha256": "ad27ed25c92ef733915e6e6895a3d0538a4c7f9f48d06905d53aba0606360074",
+      "source_correct": 87,
+      "correct": 94,
+      "paired_v10": {
+        "wins": 2,
+        "losses": 8,
+        "net": -6
+      },
+      "total_checks_and_tools": 548,
+      "max_tools": 8,
+      "continuation_sha256": "28aa9450b0acbcaeef2ac04401a53e63958b0708841bc6241c578ba328a7fd30"
+    },
+    "runs/e14_review_off/validation/r001": {
+      "policy": "review_v2",
+      "config": {
+        "mode": "qwen",
+        "controller": "review_v2",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "off",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42
+      },
+      "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+      "config_and_adapter_digest": "dc314aa7e6ae87adec6e6a24b10974b9fb7800fb5eeabe6d01eccee78f1062f5",
+      "prefix_sha256": "b03f186338820aaf3b79c405086878f84557b0cfd7b102f9b2af959e629122b9",
+      "source_predictions_sha256": "ac4e838fd27042834f62889939bdeb3b9ad4083c995b72f2d5508ab6f0f1abf0",
+      "source_correct": 79,
+      "correct": 93,
+      "paired_v10": {
+        "wins": 0,
+        "losses": 7,
+        "net": -7
+      },
+      "total_checks_and_tools": 482,
+      "max_tools": 8,
+      "continuation_sha256": "3d34561cec1bb43db244f2f763e967edf9d8449302e41eada99d913579075c43"
+    },
+    "runs/e20_recovery4/validation/r001": {
+      "policy": "recovery_v3",
+      "config": {
+        "mode": "qwen",
+        "controller": "recovery_v3",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1
+      },
+      "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+      "config_and_adapter_digest": "387749818abdb6649759394c3ae9cd8f9f7864c21aff21475faa53c1be15fced",
+      "prefix_sha256": "8feb34122d3b39fb646620a0358580993ad5fa3f1e2b26641c7133c442d2ce13",
+      "source_predictions_sha256": "0f6c7354f33c6b2ad35f876fc054b705ddd85fff037d817d2a5046c3693d4470",
+      "source_correct": 89,
+      "correct": 94,
+      "paired_v10": {
+        "wins": 2,
+        "losses": 8,
+        "net": -6
+      },
+      "total_checks_and_tools": 548,
+      "max_tools": 8,
+      "continuation_sha256": "6155132e4a5475c4605892685d880581f89fcd887c6a56acdcace95cbaff020f"
+    },
+    "runs/e21_recovery6/validation/r001": {
+      "policy": "recovery_v3",
+      "config": {
+        "mode": "qwen",
+        "controller": "recovery_v3",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 6,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1
+      },
+      "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+      "config_and_adapter_digest": "ef230a96315930b2baa0a165a43a09f11488b957e5603018142a5f712aae28b7",
+      "prefix_sha256": "5c08050e03579c2ae760daa1be74e97e17541ff1b9d0f5d957310f49f1eb29ae",
+      "source_predictions_sha256": "b20184816f8c6c1dce9a2e5b5c4572fb1f9984e2feb3b43280176a4d6dbbab65",
+      "source_correct": 89,
+      "correct": 94,
+      "paired_v10": {
+        "wins": 2,
+        "losses": 8,
+        "net": -6
+      },
+      "total_checks_and_tools": 548,
+      "max_tools": 8,
+      "continuation_sha256": "d23afe615c353d85bbcd033b017af4dfef40a075a2cf6df45b19e4748ae49308"
+    },
+    "runs/e31_feedback_old_weights/validation/r002": {
+      "policy": "feedback_v4",
+      "config": {
+        "mode": "qwen",
+        "controller": "feedback_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1
+      },
+      "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+      "config_and_adapter_digest": "f1753b36ccb46bd9dfe075c842e99694c43baac399ca53dee17f9b8569bd3c6a",
+      "prefix_sha256": "f7a5760b5404d83ad645ef5c20fbaa89d60c76562050d8f052b665f7bbf93e3e",
+      "source_predictions_sha256": "75857749eff1adde87640606fb653cf5045928f6969177a248a4ed427b239ccb",
+      "source_correct": 83,
+      "correct": 92,
+      "paired_v10": {
+        "wins": 0,
+        "losses": 8,
+        "net": -8
+      },
+      "total_checks_and_tools": 537,
+      "max_tools": 8,
+      "continuation_sha256": "f47893326d826fd7f02a85f9c9b7c5fa91757a59b08513e4389cfe46fc14a2e5"
+    },
+    "runs/e33_feedback_new_weights/validation/r001": {
+      "policy": "feedback_v4",
+      "config": {
+        "mode": "qwen",
+        "controller": "feedback_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1
+      },
+      "adapter_sha256": "3deda01e89b10e00524bfce83ae27aaeb415a4291f4f0b5691d1b5e65f780b81",
+      "config_and_adapter_digest": "71cc6d54a7c3aef15171543a230a69c238da70d5235d758c8589afeb206fb555",
+      "prefix_sha256": "25443d98ebcca533cd5b0b51a539658faa5663fa8d08ea64f9647649aa449531",
+      "source_predictions_sha256": "d93b652a66b7c3938bb21f62e513e45a9640503416ece2b83b4eec6811553899",
+      "source_correct": 89,
+      "correct": 97,
+      "paired_v10": {
+        "wins": 0,
+        "losses": 3,
+        "net": -3
+      },
+      "total_checks_and_tools": 555,
+      "max_tools": 8,
+      "continuation_sha256": "a971e7fba27d5e0bbdaabf333bdb41842bfde8abd6905d4983dda9f6ea29c128"
+    },
+    "runs/e34_feedback_variant/validation/r001": {
+      "policy": "semantic_v4",
+      "config": {
+        "mode": "qwen",
+        "controller": "semantic_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 2
+      },
+      "adapter_sha256": "3deda01e89b10e00524bfce83ae27aaeb415a4291f4f0b5691d1b5e65f780b81",
+      "config_and_adapter_digest": "9a554dfdd145fef50a98333011d3fdd95e59b1e29ddbc07bbd91cfed52c80b5c",
+      "prefix_sha256": "63628df20212db0ed772235b95ab368d80ee5cc9f4c16e213927eb1ccb7c3e99",
+      "source_predictions_sha256": "ddd0d21a5cbd013152a820124b7c808b1bd4b26fd87b232c970088112bbe233a",
+      "source_correct": 95,
+      "correct": 100,
+      "paired_v10": {
+        "wins": 0,
+        "losses": 0,
+        "net": 0
+      },
+      "total_checks_and_tools": 558,
+      "max_tools": 8,
+      "continuation_sha256": "807a19bb76531aa67c3d33b1e0a7573b3d1d7ca02d65cb40369ee26310bce2f1"
+    },
+    "runs/e36_semantic_old_weights/validation/r001": {
+      "policy": "semantic_v4",
+      "config": {
+        "mode": "qwen",
+        "controller": "semantic_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 2
+      },
+      "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+      "config_and_adapter_digest": "8934b06cf341c60898f17e14c74ce09d1185884e36ddabd7c8cfba17c47baf38",
+      "prefix_sha256": "28bf3a2500240d45c60733ed6650f3a6d0d11d5798daf4d09c397daa51c8efe3",
+      "source_predictions_sha256": "6c79d37234e43e6d21fc0fdd575d967cbbb73e7651c300a5860f5c73f0449bdb",
+      "source_correct": 87,
+      "correct": 94,
+      "paired_v10": {
+        "wins": 0,
+        "losses": 6,
+        "net": -6
+      },
+      "total_checks_and_tools": 542,
+      "max_tools": 8,
+      "continuation_sha256": "1c976051d13392dc98054f69fea967d54abda069d41176581bc6dfcf68d3cde0"
+    },
+    "runs/e37_contract_old_weights/validation/r001": {
+      "policy": "contract_v4",
+      "config": {
+        "mode": "qwen",
+        "controller": "contract_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 2
+      },
+      "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+      "config_and_adapter_digest": "6a9a9d0e9a8901197fa24d0bcf949081310b76ccfa55ad76d283945feb7b6eb3",
+      "prefix_sha256": "de26067f62a6bcc5f4c235423eba503b7a8d0351bf72e11c3ec41f3a0abaca0e",
+      "source_predictions_sha256": "f06485febe61c940627cdfded4a48436879310f9f3723be24826956fb8d63c9a",
+      "source_correct": 92,
+      "correct": 97,
+      "paired_v10": {
+        "wins": 2,
+        "losses": 5,
+        "net": -3
+      },
+      "total_checks_and_tools": 550,
+      "max_tools": 8,
+      "continuation_sha256": "e46f29676accdf261253a012bc5acdfae6e83b560b734fbdb64fa339abb2f041"
+    },
+    "runs/e38_recovery_epoch1/validation/r001": {
+      "policy": "recovery_v3",
+      "config": {
+        "mode": "qwen",
+        "controller": "recovery_v3",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1
+      },
+      "adapter_sha256": "3deda01e89b10e00524bfce83ae27aaeb415a4291f4f0b5691d1b5e65f780b81",
+      "config_and_adapter_digest": "d31303357185f0db28523f8a56750ff7520571e77bacc506aa2bbd1e2302d57e",
+      "prefix_sha256": "de7b15796dea1ff2a993c00e580642919a33f0f7e41244c62f5c277f2145aba0",
+      "source_predictions_sha256": "174bce8a79f1e9f19ab521a6398d9b022cbd310c068435ec7e73e52b949cbd75",
+      "source_correct": 86,
+      "correct": 93,
+      "paired_v10": {
+        "wins": 1,
+        "losses": 8,
+        "net": -7
+      },
+      "total_checks_and_tools": 557,
+      "max_tools": 8,
+      "continuation_sha256": "7c9c198101cfa188320b255665615db7ea27f971a8946b67c7d8b3ed7da7049b"
+    },
+    "runs/e39_constraint_old_weights/validation/r001": {
+      "policy": "constraint_v4",
+      "config": {
+        "mode": "qwen",
+        "controller": "constraint_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 3
+      },
+      "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+      "config_and_adapter_digest": "2e2047c06bb999689170c2cde247887f4c573f2ca7197fc277566fa1bcd24319",
+      "prefix_sha256": "0fca4752439441a42f765828abb88792499bb85122440d51182da2e48a543c5a",
+      "source_predictions_sha256": "3638c0dda3a977c845d68d7c7ed4eb3ac6066b43f9edc978fcf33944d9f3c24f",
+      "source_correct": 92,
+      "correct": 97,
+      "paired_v10": {
+        "wins": 2,
+        "losses": 5,
+        "net": -3
+      },
+      "total_checks_and_tools": 551,
+      "max_tools": 8,
+      "continuation_sha256": "f37ba8e65cecd8fa8bef02571c1dff178c17c003fa83fd25f2c6ecbe6f4a5025"
+    },
+    "runs/e50_v5_baseline/validation/r001": {
+      "policy": "contract_v4",
+      "config": {
+        "mode": "qwen",
+        "controller": "contract_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 2
+      },
+      "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+      "config_and_adapter_digest": "6a9a9d0e9a8901197fa24d0bcf949081310b76ccfa55ad76d283945feb7b6eb3",
+      "prefix_sha256": "de26067f62a6bcc5f4c235423eba503b7a8d0351bf72e11c3ec41f3a0abaca0e",
+      "source_predictions_sha256": "67b8a362edfb25d81dccee3e03846c0c44887bc790b3b2b84b33dc36a8a9ae0d",
+      "source_correct": 92,
+      "correct": 97,
+      "paired_v10": {
+        "wins": 2,
+        "losses": 5,
+        "net": -3
+      },
+      "total_checks_and_tools": 550,
+      "max_tools": 8,
+      "continuation_sha256": "e46f29676accdf261253a012bc5acdfae6e83b560b734fbdb64fa339abb2f041"
+    },
+    "runs/e51_v5_arch_hints/validation/r002": {
+      "policy": "search_v5",
+      "config": {
+        "mode": "qwen",
+        "controller": "search_v5",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 6,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 2,
+        "recover_retrieve": true,
+        "second_pass": false,
+        "multiplicity_probe": false,
+        "hint_review": true
+      },
+      "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+      "config_and_adapter_digest": "6d196ed12b10962195b675061609877accf637965def9e00f9ba8d5491c5dbfd",
+      "prefix_sha256": "21b388a4cc8ebd0c32ec30cb51810eaf203a4aed64c8d09c7a82351b93941519",
+      "source_predictions_sha256": "e5df5549789248a90baf60058c2c2e62becc5b049004f6fe0b340d6a4c89b846",
+      "source_correct": 93,
+      "correct": 98,
+      "paired_v10": {
+        "wins": 4,
+        "losses": 6,
+        "net": -2
+      },
+      "total_checks_and_tools": 572,
+      "max_tools": 8,
+      "continuation_sha256": "9ade28e2dcfcf26a2ca3af6fa6e29f04536d5063177214c7ec6085dfd49a2cbb"
+    },
+    "runs/e51_v5_arch_recover/validation/r001": {
+      "policy": "search_v5",
+      "config": {
+        "mode": "qwen",
+        "controller": "search_v5",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 6,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 2,
+        "recover_retrieve": true,
+        "second_pass": false,
+        "multiplicity_probe": false
+      },
+      "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+      "config_and_adapter_digest": "2056bcaad4c4fe7ec2a7e34b0782aad565fcf58804357b0481b12a7474687802",
+      "prefix_sha256": "f830f7a6c57bd22552ca576bff5bc4a6e758bb1c47b08423fc6fd7a0c7c1b19c",
+      "source_predictions_sha256": "c259e245105f0cac788ffe071b2ed26f326ebc60c9c20d628f0af5d06de75747",
+      "source_correct": 92,
+      "correct": 97,
+      "paired_v10": {
+        "wins": 2,
+        "losses": 5,
+        "net": -3
+      },
+      "total_checks_and_tools": 568,
+      "max_tools": 8,
+      "continuation_sha256": "01f664da1247f457f06ba1b30c11d65a4392b01964dcbb5129c9a20ff855aa10"
+    },
+    "runs/e52_v5_grpo_contract/validation/r001": {
+      "policy": "contract_v4",
+      "config": {
+        "mode": "qwen",
+        "controller": "contract_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 2
+      },
+      "adapter_sha256": "f78c4892cefb329e55c648697ba1f97a103bc2179d73d780673d9d52d3eff108",
+      "config_and_adapter_digest": "89a0c4266ced17e853dfe27470e22dc5c63f708fa6386e61d3a30ccd1f498ff1",
+      "prefix_sha256": "810f74118bf26468da3c16e13f183676ce01343832fb189c02d8afc23fcc20e0",
+      "source_predictions_sha256": "83eb07f5e0acf8289971941c1e1561ddb2792a822861f604ae55809f1f53a2ae",
+      "source_correct": 92,
+      "correct": 98,
+      "paired_v10": {
+        "wins": 1,
+        "losses": 3,
+        "net": -2
+      },
+      "total_checks_and_tools": 552,
+      "max_tools": 8,
+      "continuation_sha256": "a0f132a8395b93ac59ee8d598eb64e4236e54aeb5dcf85ff4dd6b44af87cc968"
+    },
+    "runs/e53_v5_grpo_search/validation/r001": {
+      "policy": "search_v5",
+      "config": {
+        "mode": "qwen",
+        "controller": "search_v5",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 6,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 2,
+        "recover_retrieve": true,
+        "second_pass": false,
+        "multiplicity_probe": false,
+        "hint_review": true
+      },
+      "adapter_sha256": "f78c4892cefb329e55c648697ba1f97a103bc2179d73d780673d9d52d3eff108",
+      "config_and_adapter_digest": "2ac0b8fbd4dcf87b862d13c67329c6fe457e5b0b17f1858ed29277f0d080ae1e",
+      "prefix_sha256": "b14f50dcafa047c62630ba8ef72b434f1eb7217061c3155d008a70d262987a20",
+      "source_predictions_sha256": "838e8503ba1300cb3e4276ab3ec9ef128d5dfdd7f8d1a0e7b3579f25fbb2982c",
+      "source_correct": 92,
+      "correct": 97,
+      "paired_v10": {
+        "wins": 2,
+        "losses": 5,
+        "net": -3
+      },
+      "total_checks_and_tools": 576,
+      "max_tools": 8,
+      "continuation_sha256": "46caf05312d431b8233bfde96145da2fb3e2c790182e0db2f93903446fc93c6a"
+    },
+    "runs/e60_v6_generator/validation/r001": {
+      "policy": "contract_v4",
+      "config": {
+        "mode": "qwen",
+        "controller": "contract_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 2
+      },
+      "adapter_sha256": "372bd6dcaf9f7506a585b09ebb6db0a4d62431da9f40ee54c207ebbb5d6a2a79",
+      "config_and_adapter_digest": "4055dacdd433a8771b301c5b4ea816909abc05feb7b3572174dcb5e678cc3d90",
+      "prefix_sha256": "d188cc6ec2260803b3784e3434b6bf0f2619491ff60ae1f490aa6fea207a31ec",
+      "source_predictions_sha256": "473d8da77465ad0ccfdf69c1aa347c06b4ec9554469b43274cc323e00715e537",
+      "source_correct": 86,
+      "correct": 93,
+      "paired_v10": {
+        "wins": 1,
+        "losses": 8,
+        "net": -7
+      },
+      "total_checks_and_tools": 556,
+      "max_tools": 8,
+      "continuation_sha256": "a41ad02835431bd9365583410686c20550b7e203231ebc47cec4e0de2ad0fa5a"
+    },
+    "runs/e61_v6_chooser/validation/r001": {
+      "policy": "contract_v4",
+      "config": {
+        "mode": "qwen",
+        "controller": "contract_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 2
+      },
+      "adapter_sha256": "8deb404604ca4711c3044c096fc277de76688d042548c55d2c30b92519409983",
+      "config_and_adapter_digest": "da9bac8d754678512fed79f03a70ba0851d0772e117cd0237ea08a069a4bc51b",
+      "prefix_sha256": "cc3d2e566cb26fd9eefeaf5870e3576470c8655eee227532fe85ee1ec2fe46fe",
+      "source_predictions_sha256": "4d5043bcae997a0380b6ee7b2788a8c7d64a780fde948c650c0fc8f7686c9af6",
+      "source_correct": 85,
+      "correct": 96,
+      "paired_v10": {
+        "wins": 0,
+        "losses": 4,
+        "net": -4
+      },
+      "total_checks_and_tools": 536,
+      "max_tools": 8,
+      "continuation_sha256": "65a83a511403c4accc8831545bb90c4a1d1152cf2ca86f4928bbc99fcee21d8a"
+    },
+    "runs/e70_v7_ordinary/validation/r001": {
+      "policy": "contract_v4",
+      "config": {
+        "mode": "qwen",
+        "controller": "contract_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 2
+      },
+      "adapter_sha256": "f61831f653d96f4f8ef88e122701883a2441154b256b3e2eca5875b237b20100",
+      "config_and_adapter_digest": "672c63c925a37d5196384a4be08d5aa51b0465246d6d9ada5e7e7d627e412742",
+      "prefix_sha256": "107bffc03fc6f1e0e54451616428b4cec82f4b07739d8d2f9f05637f413a7f7d",
+      "source_predictions_sha256": "33dacaa0bbda486304fb74dbb0f11b1ec0b5587f26679b6f66948eb64501aaca",
+      "source_correct": 88,
+      "correct": 96,
+      "paired_v10": {
+        "wins": 0,
+        "losses": 4,
+        "net": -4
+      },
+      "total_checks_and_tools": 549,
+      "max_tools": 8,
+      "continuation_sha256": "40d3c25ea8cadf924e5b3d7707a6e5553c0ca26734ed26c45f2239622a884e34"
+    },
+    "runs/e71_v7_paired/validation/r001": {
+      "policy": "contract_v4",
+      "config": {
+        "mode": "qwen",
+        "controller": "contract_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 2
+      },
+      "adapter_sha256": "2af3b904143eaffbf4a76267357c30f474a9c7408b38c76bc5f9ee8d63394aab",
+      "config_and_adapter_digest": "886c1194ac08419d63108cef9cd7c9193d41a582acdd692a5c4d9f5181fe5ebb",
+      "prefix_sha256": "83b0dcbc13abbd1a6e68b67b42a6c0b29aace650f8c39c54f718f8d347b719f9",
+      "source_predictions_sha256": "a7e264adc3affce157e01bddab9b65eb3dd4ad2decc89408ffa4634767466c52",
+      "source_correct": 93,
+      "correct": 96,
+      "paired_v10": {
+        "wins": 1,
+        "losses": 5,
+        "net": -4
+      },
+      "total_checks_and_tools": 550,
+      "max_tools": 8,
+      "continuation_sha256": "b77547f318dd9aea229fe4d138d8372e08d22ee87b410d8a8dc21f4269e82e50"
+    }
+  }
+}

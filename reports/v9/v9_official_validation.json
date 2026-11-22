@@ -1,0 +1,185 @@
+{
+  "split": "validation",
+  "official_sha256": {
+    "references_sha256": "5bfdd63ca75dd6b58c4ae3a7c72227ecfe0315655721ecaaef8e412ec3d6521d",
+    "bank_sha256": "ccb66ffc9214bb9484b278718acf7eae55afac7c4d4afa25ee03f74ad3fea6eb",
+    "manifest_sha256": "bf7a517249ebe31b9cad8cbf5d6598fde98316d89f9aa1172cae3ad83289a6bc",
+    "scorer_sha256": "87870af26173fbe6d8994e4de179fb272ef1fadf7dcaafc2e7b4c814c61ec95b",
+    "executor_sha256": "4ecc3839728d68bd83f0d2a52cdd8392fd76dbaec3e54a19422118dee587b471"
+  },
+  "v8": {
+    "run": "runs/e82_v8_struct/validation/r001",
+    "started_at": "2026-11-20T10:39:16.086234+00:00",
+    "n": 120,
+    "correct": 96,
+    "accuracy_percent": 80.0,
+    "original_wrong": 73,
+    "visibly_wrong_draft": 57,
+    "visibly_wrong_draft_repaired": 40,
+    "public_matching_final": 110,
+    "public_matching_final_still_wrong": 14,
+    "no_public_matching_candidate": 10,
+    "ambiguous_draft": 16,
+    "ambiguous_draft_repaired": 10,
+    "original_right": 47,
+    "preserved": 46,
+    "original_right_regressed": 1,
+    "mean_charged_tools": 4.583333333333333,
+    "max_charged_tools": 8,
+    "charged_tool_counts": {
+      "check": 320,
+      "schema": 110,
+      "repair_hint": 120
+    },
+    "total_charged_tools": 550,
+    "generations": {
+      "total": 275,
+      "tasks_with_generations": 110,
+      "max_per_task": 4,
+      "max_new_tokens_per_generation": 384,
+      "max_total_new_tokens_per_task": 400,
+      "total_new_tokens": 8708,
+      "repository": "Qwen/Qwen3-0.6B",
+      "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+      "adapter_sha256": "2af3b904143eaffbf4a76267357c30f474a9c7408b38c76bc5f9ee8d63394aab",
+      "total_parameters": 606142464
+    },
+    "resources": {
+      "cpu_affinity": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "offline": true,
+      "device": "cpu",
+      "prediction_peak_process_tree_rss_bytes": 4143042560,
+      "stages": {
+        "prediction": {
+          "wall_seconds": 3044.856514266001,
+          "cpu_user_seconds": 11824.87,
+          "cpu_system_seconds": 291.4,
+          "cpu_seconds": 12116.27,
+          "gnu_time_max_rss_bytes": 5233328128,
+          "address_space_limit_gib": 0
+        },
+        "scoring": {
+          "wall_seconds": 3.472155740000744,
+          "cpu_user_seconds": 9.77,
+          "cpu_system_seconds": 2.18,
+          "cpu_seconds": 11.95,
+          "gnu_time_max_rss_bytes": 36831232,
+          "address_space_limit_gib": 2
+        }
+      },
+      "total_cpu_seconds": 12128.22,
+      "total_wall_seconds": 3048.3286700060016
+    },
+    "config_sha256": "829ed79c383726fe64f6a0dd1b87b59d6e287a9702fcda9723123f4ebbec12e5",
+    "run_files_sha256": {
+      "score.json": "18f6db7c3da2e51993362fc0b6cc327f1e27859f4ea4ef2e0a5f347abe90521d",
+      "predictions.json": "2a4926adf07e9c4dd6d9dd0b077d82bce26e7b176e313db11baf32d9abe56377",
+      "generations.jsonl": "f2de64ca6eb4716c0fb03ef8eb93f105c02d8e21d55ae38768e073cace7fe920",
+      "run_metadata.json": "ae15776884d72b263fa722fd22fb20153b6564b8c483cff2204450651aca0820"
+    }
+  },
+  "candidate": {
+    "run": "runs/e90_v9_combined/validation/r001",
+    "started_at": "2026-11-22T02:47:04.159653+00:00",
+    "n": 120,
+    "correct": 98,
+    "accuracy_percent": 81.66666666666667,
+    "original_wrong": 73,
+    "visibly_wrong_draft": 57,
+    "visibly_wrong_draft_repaired": 41,
+    "public_matching_final": 112,
+    "public_matching_final_still_wrong": 14,
+    "no_public_matching_candidate": 8,
+    "ambiguous_draft": 16,
+    "ambiguous_draft_repaired": 11,
+    "original_right": 47,
+    "preserved": 46,
+    "original_right_regressed": 1,
+    "mean_charged_tools": 4.6,
+    "max_charged_tools": 8,
+    "charged_tool_counts": {
+      "check": 322,
+      "schema": 110,
+      "repair_hint": 120
+    },
+    "total_charged_tools": 552,
+    "generations": {
+      "total": 275,
+      "tasks_with_generations": 110,
+      "max_per_task": 4,
+      "max_new_tokens_per_generation": 384,
+      "max_total_new_tokens_per_task": 400,
+      "total_new_tokens": 8708,
+      "repository": "Qwen/Qwen3-0.6B",
+      "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+      "adapter_sha256": "2af3b904143eaffbf4a76267357c30f474a9c7408b38c76bc5f9ee8d63394aab",
+      "total_parameters": 606142464
+    },
+    "resources": {
+      "cpu_affinity": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "offline": true,
+      "device": "cpu",
+      "prediction_peak_process_tree_rss_bytes": 4004974592,
+      "stages": {
+        "prediction": {
+          "wall_seconds": 1267.8492724730004,
+          "cpu_user_seconds": 4814.85,
+          "cpu_system_seconds": 208.28,
+          "cpu_seconds": 5023.13,
+          "gnu_time_max_rss_bytes": 5231988736,
+          "address_space_limit_gib": 0
+        },
+        "scoring": {
+          "wall_seconds": 2.6735917160003737,
+          "cpu_user_seconds": 7.57,
+          "cpu_system_seconds": 1.62,
+          "cpu_seconds": 9.19,
+          "gnu_time_max_rss_bytes": 36864000,
+          "address_space_limit_gib": 2
+        }
+      },
+      "total_cpu_seconds": 5032.32,
+      "total_wall_seconds": 1270.5228641890008
+    },
+    "config_sha256": "1d0897c2d65716b91d37f1995252dd9d7bfd88bef233010159ca384b5fc1b852",
+    "run_files_sha256": {
+      "score.json": "97b168f896d88870f7bb97c1ffb07f2826585dbc7c9a3fc3f3531e47ce5480f7",
+      "predictions.json": "1786e8f1e73aba76a7972afb4de231c670999cd95e36d030cb9d50fdc2996fb8",
+      "generations.jsonl": "79fb7394cb67d3b117a9ea346ac3924f9895e51c016f827da7f99511b5437401",
+      "run_metadata.json": "5fa16d835987e839530ad5a78bbec9c5ad5533e3844c081be601f9ac8822fd4b"
+    }
+  },
+  "candidate_vs_v8": {
+    "wins": 2,
+    "losses": 0,
+    "net": 2,
+    "stable_correct": 96,
+    "stable_incorrect": 22,
+    "accuracy_delta_percentage_points": 1.6666666666666667,
+    "mcnemar_exact_two_sided_p": 0.5,
+    "changed_final_sql": 3,
+    "same_model_inferences": 120,
+    "additional_charged_tools": 2,
+    "additional_generations": 0
+  },
+  "charged_prefix_vs_v8": {
+    "n": 120,
+    "definition": "Entire charged V8 trace is a prefix of the new trace, excluding submit",
+    "actions_same": 120,
+    "actions_different": 0,
+    "with_observations_same": 120,
+    "with_observations_different": 0,
+    "checks_same": 120,
+    "checks_different": 0
+  }
+}

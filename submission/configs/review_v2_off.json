@@ -1,0 +1,12 @@
+{
+  "mode": "qwen",
+  "controller": "review_v2",
+  "use_adapter": true,
+  "use_hints": true,
+  "use_retrieval": true,
+  "use_variants": true,
+  "review_matched": "off",
+  "max_completions": 4,
+  "max_new_tokens": 384,
+  "seed": 42
+}

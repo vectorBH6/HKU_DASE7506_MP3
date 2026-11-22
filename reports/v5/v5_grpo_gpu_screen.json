@@ -1,0 +1,290 @@
+[
+  {
+    "checkpoint": {
+      "path": "artifacts/adapters/grpo_v5/update_008",
+      "sha256": "4dfa538149e40d13e9577508a85fdfd596204376723dca945bdf3527ce95e2fa",
+      "updates": 8,
+      "groups": 45
+    },
+    "results": [
+      {
+        "label": "contract",
+        "run": "runs/dev_v5_grpo_update_008_contract/validation/r002",
+        "correct": 91,
+        "n": 120,
+        "device": "cuda",
+        "config": {
+          "mode": "qwen",
+          "controller": "contract_v4",
+          "use_adapter": true,
+          "use_hints": true,
+          "use_retrieval": true,
+          "use_variants": true,
+          "review_matched": "risk",
+          "max_completions": 4,
+          "max_new_tokens": 384,
+          "seed": 42,
+          "max_retries_per_observation": 1,
+          "max_contract_checks": 2
+        },
+        "adapter": "artifacts/adapters/grpo_v5/update_008",
+        "generations": 299,
+        "input_tokens": 304473,
+        "output_tokens": 9717,
+        "prediction_seconds": 462.5570906839994,
+        "scoring_seconds": 5.426073109999379,
+        "rss_bytes": 1793187840,
+        "mean_tool_calls": 3.625
+      },
+      {
+        "label": "search",
+        "run": "runs/dev_v5_grpo_update_008_search/validation/r001",
+        "correct": 92,
+        "n": 120,
+        "device": "cuda",
+        "config": {
+          "mode": "qwen",
+          "controller": "search_v5",
+          "use_adapter": true,
+          "use_hints": true,
+          "use_retrieval": true,
+          "use_variants": true,
+          "review_matched": "risk",
+          "max_completions": 6,
+          "max_new_tokens": 384,
+          "seed": 42,
+          "max_retries_per_observation": 1,
+          "max_contract_checks": 2,
+          "recover_retrieve": true,
+          "second_pass": false,
+          "multiplicity_probe": false,
+          "hint_review": true
+        },
+        "adapter": "artifacts/adapters/grpo_v5/update_008",
+        "generations": 390,
+        "input_tokens": 425119,
+        "output_tokens": 13561,
+        "prediction_seconds": 393.6638211700001,
+        "scoring_seconds": 3.170510851000472,
+        "rss_bytes": 1755914240,
+        "mean_tool_calls": 4.283333333333333
+      }
+    ]
+  },
+  {
+    "checkpoint": {
+      "path": "artifacts/adapters/grpo_v5/update_016",
+      "sha256": "f78c4892cefb329e55c648697ba1f97a103bc2179d73d780673d9d52d3eff108",
+      "updates": 16,
+      "groups": 59
+    },
+    "results": [
+      {
+        "label": "contract",
+        "run": "runs/dev_v5_grpo_update_016_contract/validation/r001",
+        "correct": 91,
+        "n": 120,
+        "device": "cuda",
+        "config": {
+          "mode": "qwen",
+          "controller": "contract_v4",
+          "use_adapter": true,
+          "use_hints": true,
+          "use_retrieval": true,
+          "use_variants": true,
+          "review_matched": "risk",
+          "max_completions": 4,
+          "max_new_tokens": 384,
+          "seed": 42,
+          "max_retries_per_observation": 1,
+          "max_contract_checks": 2
+        },
+        "adapter": "artifacts/adapters/grpo_v5/update_016",
+        "generations": 271,
+        "input_tokens": 279064,
+        "output_tokens": 9559,
+        "prediction_seconds": 483.8707424459999,
+        "scoring_seconds": 5.626554032000058,
+        "rss_bytes": 1882972160,
+        "mean_tool_calls": 3.4166666666666665
+      },
+      {
+        "label": "search",
+        "run": "runs/dev_v5_grpo_update_016_search/validation/r001",
+        "correct": 92,
+        "n": 120,
+        "device": "cuda",
+        "config": {
+          "mode": "qwen",
+          "controller": "search_v5",
+          "use_adapter": true,
+          "use_hints": true,
+          "use_retrieval": true,
+          "use_variants": true,
+          "review_matched": "risk",
+          "max_completions": 6,
+          "max_new_tokens": 384,
+          "seed": 42,
+          "max_retries_per_observation": 1,
+          "max_contract_checks": 2,
+          "recover_retrieve": true,
+          "second_pass": false,
+          "multiplicity_probe": false,
+          "hint_review": true
+        },
+        "adapter": "artifacts/adapters/grpo_v5/update_016",
+        "generations": 384,
+        "input_tokens": 426324,
+        "output_tokens": 13806,
+        "prediction_seconds": 388.8693494419995,
+        "scoring_seconds": 3.172186230999614,
+        "rss_bytes": 1771347968,
+        "mean_tool_calls": 4.308333333333334
+      }
+    ]
+  },
+  {
+    "checkpoint": {
+      "path": "artifacts/adapters/grpo_v5/update_032",
+      "sha256": "a980b052da758daeebc8eabcb8c1e3ca565c49444fa9b54ab72ace8d40b90488",
+      "updates": 32,
+      "groups": 124
+    },
+    "results": [
+      {
+        "label": "contract",
+        "run": "runs/dev_v5_grpo_update_032_contract/validation/r001",
+        "correct": 88,
+        "n": 120,
+        "device": "cuda",
+        "config": {
+          "mode": "qwen",
+          "controller": "contract_v4",
+          "use_adapter": true,
+          "use_hints": true,
+          "use_retrieval": true,
+          "use_variants": true,
+          "review_matched": "risk",
+          "max_completions": 4,
+          "max_new_tokens": 384,
+          "seed": 42,
+          "max_retries_per_observation": 1,
+          "max_contract_checks": 2
+        },
+        "adapter": "artifacts/adapters/grpo_v5/update_032",
+        "generations": 270,
+        "input_tokens": 281453,
+        "output_tokens": 10470,
+        "prediction_seconds": 477.7766583679995,
+        "scoring_seconds": 4.022760807999475,
+        "rss_bytes": 1925283840,
+        "mean_tool_calls": 3.3583333333333334
+      },
+      {
+        "label": "search",
+        "run": "runs/dev_v5_grpo_update_032_search/validation/r001",
+        "correct": 88,
+        "n": 120,
+        "device": "cuda",
+        "config": {
+          "mode": "qwen",
+          "controller": "search_v5",
+          "use_adapter": true,
+          "use_hints": true,
+          "use_retrieval": true,
+          "use_variants": true,
+          "review_matched": "risk",
+          "max_completions": 6,
+          "max_new_tokens": 384,
+          "seed": 42,
+          "max_retries_per_observation": 1,
+          "max_contract_checks": 2,
+          "recover_retrieve": true,
+          "second_pass": false,
+          "multiplicity_probe": false,
+          "hint_review": true
+        },
+        "adapter": "artifacts/adapters/grpo_v5/update_032",
+        "generations": 417,
+        "input_tokens": 472860,
+        "output_tokens": 16263,
+        "prediction_seconds": 455.1531433939999,
+        "scoring_seconds": 3.1219398799985356,
+        "rss_bytes": 1793978368,
+        "mean_tool_calls": 4.541666666666667
+      }
+    ]
+  },
+  {
+    "checkpoint": {
+      "path": "artifacts/adapters/grpo_v5/update_064",
+      "sha256": "4258b27ace6abf435d7abc61ab4852583864a246dc2290e297be0a6d1a818519",
+      "updates": 64,
+      "groups": 264
+    },
+    "results": [
+      {
+        "label": "contract",
+        "run": "runs/dev_v5_grpo_update_064_contract/validation/r001",
+        "correct": 91,
+        "n": 120,
+        "device": "cuda",
+        "config": {
+          "mode": "qwen",
+          "controller": "contract_v4",
+          "use_adapter": true,
+          "use_hints": true,
+          "use_retrieval": true,
+          "use_variants": true,
+          "review_matched": "risk",
+          "max_completions": 4,
+          "max_new_tokens": 384,
+          "seed": 42,
+          "max_retries_per_observation": 1,
+          "max_contract_checks": 2
+        },
+        "adapter": "artifacts/adapters/grpo_v5/update_064",
+        "generations": 248,
+        "input_tokens": 257077,
+        "output_tokens": 9251,
+        "prediction_seconds": 319.75878008900054,
+        "scoring_seconds": 3.8226094330002525,
+        "rss_bytes": 1769902080,
+        "mean_tool_calls": 3.2333333333333334
+      },
+      {
+        "label": "search",
+        "run": "runs/dev_v5_grpo_update_064_search/validation/r001",
+        "correct": 90,
+        "n": 120,
+        "device": "cuda",
+        "config": {
+          "mode": "qwen",
+          "controller": "search_v5",
+          "use_adapter": true,
+          "use_hints": true,
+          "use_retrieval": true,
+          "use_variants": true,
+          "review_matched": "risk",
+          "max_completions": 6,
+          "max_new_tokens": 384,
+          "seed": 42,
+          "max_retries_per_observation": 1,
+          "max_contract_checks": 2,
+          "recover_retrieve": true,
+          "second_pass": false,
+          "multiplicity_probe": false,
+          "hint_review": true
+        },
+        "adapter": "artifacts/adapters/grpo_v5/update_064",
+        "generations": 392,
+        "input_tokens": 442461,
+        "output_tokens": 13824,
+        "prediction_seconds": 400.7690346800009,
+        "scoring_seconds": 3.222939220000626,
+        "rss_bytes": 1794600960,
+        "mean_tool_calls": 4.516666666666667
+      }
+    ]
+  }
+]

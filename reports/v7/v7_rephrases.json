@@ -1,0 +1,279 @@
+{
+  "population": {
+    "frozen_utc": "2026-11-20T08:52:19.646322+00:00",
+    "script_sha256": "c7ecccc0c7d50a9114a34e87f3cb64c9fe6e6f95c0b7e867d6b4cd4e7956b660",
+    "original_public_sha256": "fad52da83dd9ffaa57a0273e79df823e75484d4544cd513dce7f7788d84c1617",
+    "rephrased_public_sha256": "d8a33b97e9138bca03dfeb52ec0404d2e60eaadbfb78170c26af783102755771",
+    "private_sha256": "fc39af6451a13a803f6de1ae39dd628b8b8db91a10a344752f2944f0d6699497",
+    "fit_questions_crosschecked": 296,
+    "pairs": 24,
+    "tasks": 48,
+    "method": "One supplementary English paraphrase for every member of the prespecified heldout population; only question text changed. No selection on predictions. Labels, schemas, initial SQL, support results and witnesses retained."
+  },
+  "arms": {
+    "baseline": {
+      "primary": {
+        "pairs": 24,
+        "keep": 24,
+        "repair": 0,
+        "both": 0,
+        "public_pass": 48,
+        "no_generation": 0,
+        "first_model_actions": {
+          "keep": {
+            "submit": 24
+          },
+          "repair": {
+            "submit": 24
+          }
+        }
+      },
+      "paraphrased": {
+        "pairs": 24,
+        "keep": 24,
+        "repair": 0,
+        "both": 0,
+        "public_pass": 48,
+        "no_generation": 0,
+        "first_model_actions": {
+          "keep": {
+            "submit": 24
+          },
+          "repair": {
+            "submit": 24
+          }
+        }
+      },
+      "paraphrased_by_category": {
+        "comparison_boundary": {
+          "pairs": 8,
+          "keep": 8,
+          "repair": 0,
+          "both": 0,
+          "public_pass": 16,
+          "no_generation": 0,
+          "first_model_actions": {
+            "keep": {
+              "submit": 8
+            },
+            "repair": {
+              "submit": 8
+            }
+          }
+        },
+        "entity_count": {
+          "pairs": 8,
+          "keep": 8,
+          "repair": 0,
+          "both": 0,
+          "public_pass": 16,
+          "no_generation": 0,
+          "first_model_actions": {
+            "keep": {
+              "submit": 8
+            },
+            "repair": {
+              "submit": 8
+            }
+          }
+        },
+        "join_multiplicity": {
+          "pairs": 8,
+          "keep": 8,
+          "repair": 0,
+          "both": 0,
+          "public_pass": 16,
+          "no_generation": 0,
+          "first_model_actions": {
+            "keep": {
+              "submit": 8
+            },
+            "repair": {
+              "submit": 8
+            }
+          }
+        }
+      },
+      "gained_both": 0,
+      "lost_both": 0,
+      "same_both": 0
+    },
+    "ordinary": {
+      "primary": {
+        "pairs": 24,
+        "keep": 24,
+        "repair": 0,
+        "both": 0,
+        "public_pass": 48,
+        "no_generation": 0,
+        "first_model_actions": {
+          "keep": {
+            "submit": 24
+          },
+          "repair": {
+            "submit": 24
+          }
+        }
+      },
+      "paraphrased": {
+        "pairs": 24,
+        "keep": 24,
+        "repair": 0,
+        "both": 0,
+        "public_pass": 48,
+        "no_generation": 0,
+        "first_model_actions": {
+          "keep": {
+            "submit": 24
+          },
+          "repair": {
+            "submit": 24
+          }
+        }
+      },
+      "paraphrased_by_category": {
+        "comparison_boundary": {
+          "pairs": 8,
+          "keep": 8,
+          "repair": 0,
+          "both": 0,
+          "public_pass": 16,
+          "no_generation": 0,
+          "first_model_actions": {
+            "keep": {
+              "submit": 8
+            },
+            "repair": {
+              "submit": 8
+            }
+          }
+        },
+        "entity_count": {
+          "pairs": 8,
+          "keep": 8,
+          "repair": 0,
+          "both": 0,
+          "public_pass": 16,
+          "no_generation": 0,
+          "first_model_actions": {
+            "keep": {
+              "submit": 8
+            },
+            "repair": {
+              "submit": 8
+            }
+          }
+        },
+        "join_multiplicity": {
+          "pairs": 8,
+          "keep": 8,
+          "repair": 0,
+          "both": 0,
+          "public_pass": 16,
+          "no_generation": 0,
+          "first_model_actions": {
+            "keep": {
+              "submit": 8
+            },
+            "repair": {
+              "submit": 8
+            }
+          }
+        }
+      },
+      "gained_both": 0,
+      "lost_both": 0,
+      "same_both": 0
+    },
+    "paired": {
+      "primary": {
+        "pairs": 24,
+        "keep": 24,
+        "repair": 3,
+        "both": 3,
+        "public_pass": 48,
+        "no_generation": 0,
+        "first_model_actions": {
+          "keep": {
+            "submit": 24
+          },
+          "repair": {
+            "submit": 21,
+            "check": 3
+          }
+        }
+      },
+      "paraphrased": {
+        "pairs": 24,
+        "keep": 24,
+        "repair": 0,
+        "both": 0,
+        "public_pass": 48,
+        "no_generation": 0,
+        "first_model_actions": {
+          "keep": {
+            "submit": 23,
+            "check": 1
+          },
+          "repair": {
+            "submit": 24
+          }
+        }
+      },
+      "paraphrased_by_category": {
+        "comparison_boundary": {
+          "pairs": 8,
+          "keep": 8,
+          "repair": 0,
+          "both": 0,
+          "public_pass": 16,
+          "no_generation": 0,
+          "first_model_actions": {
+            "keep": {
+              "submit": 8
+            },
+            "repair": {
+              "submit": 8
+            }
+          }
+        },
+        "entity_count": {
+          "pairs": 8,
+          "keep": 8,
+          "repair": 0,
+          "both": 0,
+          "public_pass": 16,
+          "no_generation": 0,
+          "first_model_actions": {
+            "keep": {
+              "submit": 8
+            },
+            "repair": {
+              "submit": 8
+            }
+          }
+        },
+        "join_multiplicity": {
+          "pairs": 8,
+          "keep": 8,
+          "repair": 0,
+          "both": 0,
+          "public_pass": 16,
+          "no_generation": 0,
+          "first_model_actions": {
+            "keep": {
+              "submit": 7,
+              "check": 1
+            },
+            "repair": {
+              "submit": 8
+            }
+          }
+        }
+      },
+      "gained_both": 0,
+      "lost_both": 3,
+      "same_both": 0
+    }
+  }
+}

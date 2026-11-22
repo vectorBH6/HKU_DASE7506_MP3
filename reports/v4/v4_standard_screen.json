@@ -1,0 +1,13 @@
+{
+  "best": {
+    "experiment": "dev_v4_e1_feedback",
+    "epoch": 1,
+    "config": "submission/configs/feedback_v4.json",
+    "correct": 89,
+    "n": 120,
+    "calls": 257,
+    "device": "cuda",
+    "source": "runs/dev_v4_e1_feedback/validation/r001"
+  },
+  "development_only": true
+}

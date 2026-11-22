@@ -1,0 +1,157 @@
+{
+  "best": {
+    "label": "incumbent_v4b",
+    "run": "runs/e42_contract_control/test/r001",
+    "correct": 184,
+    "n": 240,
+    "device": "cpu",
+    "config": {
+      "mode": "qwen",
+      "controller": "contract_v4",
+      "use_adapter": true,
+      "use_hints": true,
+      "use_retrieval": true,
+      "use_variants": true,
+      "review_matched": "risk",
+      "max_completions": 4,
+      "max_new_tokens": 384,
+      "seed": 42,
+      "max_retries_per_observation": 1,
+      "max_contract_checks": 2
+    },
+    "adapter": "artifacts/adapters/onpolicy_v001/epoch_02",
+    "generations": 601,
+    "input_tokens": 549627,
+    "output_tokens": 19085,
+    "prediction_seconds": 2481.9469012359987,
+    "scoring_seconds": 4.622142913998687,
+    "rss_bytes": 5009424384,
+    "mean_tool_calls": 3.654166666666667
+  },
+  "tests": [
+    {
+      "label": "architecture",
+      "run": "runs/e54_v5_arch_test/test/r001",
+      "correct": 182,
+      "n": 240,
+      "device": "cpu",
+      "config": {
+        "mode": "qwen",
+        "controller": "search_v5",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 6,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 2,
+        "recover_retrieve": true,
+        "second_pass": false,
+        "multiplicity_probe": false,
+        "hint_review": true
+      },
+      "adapter": "artifacts/adapters/onpolicy_v001/epoch_02",
+      "generations": 784,
+      "input_tokens": 766437,
+      "output_tokens": 26169,
+      "prediction_seconds": 4189.645319317999,
+      "scoring_seconds": 4.726052281999728,
+      "rss_bytes": 4285816832,
+      "mean_tool_calls": 4.295833333333333
+    },
+    {
+      "label": "grpo",
+      "run": "runs/e55_v5_grpo_test/test/r001",
+      "correct": 182,
+      "n": 240,
+      "device": "cpu",
+      "config": {
+        "mode": "qwen",
+        "controller": "contract_v4",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1,
+        "max_contract_checks": 2
+      },
+      "adapter": "artifacts/adapters/grpo_v5/update_016",
+      "generations": 577,
+      "input_tokens": 531054,
+      "output_tokens": 18842,
+      "prediction_seconds": 3069.8465495750006,
+      "scoring_seconds": 5.6221003490009025,
+      "rss_bytes": 4175482880,
+      "mean_tool_calls": 3.558333333333333
+    }
+  ],
+  "baseline": {
+    "label": "incumbent_v4b",
+    "run": "runs/e42_contract_control/test/r001",
+    "correct": 184,
+    "n": 240,
+    "device": "cpu",
+    "config": {
+      "mode": "qwen",
+      "controller": "contract_v4",
+      "use_adapter": true,
+      "use_hints": true,
+      "use_retrieval": true,
+      "use_variants": true,
+      "review_matched": "risk",
+      "max_completions": 4,
+      "max_new_tokens": 384,
+      "seed": 42,
+      "max_retries_per_observation": 1,
+      "max_contract_checks": 2
+    },
+    "adapter": "artifacts/adapters/onpolicy_v001/epoch_02",
+    "generations": 601,
+    "input_tokens": 549627,
+    "output_tokens": 19085,
+    "prediction_seconds": 2481.9469012359987,
+    "scoring_seconds": 4.622142913998687,
+    "rss_bytes": 5009424384,
+    "mean_tool_calls": 3.654166666666667
+  },
+  "paired_changes": {
+    "architecture": {
+      "wins": [
+        "test-437441d03fd77a78",
+        "test-1e07a43ae53c765a"
+      ],
+      "losses": [
+        "test-cd72991919cf7fa2",
+        "test-1f97cc01728786b5",
+        "test-26638bea5ca0e214",
+        "test-cbb4a16977299a25"
+      ]
+    },
+    "grpo": {
+      "wins": [
+        "test-574711dd6944dfd6",
+        "test-1e07a43ae53c765a",
+        "test-7574831b0d7f970e"
+      ],
+      "losses": [
+        "test-3cc4ebb971dc3959",
+        "test-17452a7f98a02c84",
+        "test-27f72c8c1d60b54c",
+        "test-6bc57359c1279f46",
+        "test-be30dba2f3e2f3da"
+      ]
+    }
+  },
+  "public_test_aggregate_used_for_deployment": true,
+  "test_task_labels_used_for_model_training_or_rules": false,
+  "selected_config_sha256": "98916aadbc66212d64e595e87698f7aace3d13777f5ece11938957327fdcf2af",
+  "selected_predictions_sha256": "87f96445210c731278da1fc09006ba472465926852a6356a8d4d207bc64a0c42",
+  "selected_score_sha256": "7b1ad561548dfe298f508621c225181b3af4b60fa9901762d32febd15cd8ec55"
+}

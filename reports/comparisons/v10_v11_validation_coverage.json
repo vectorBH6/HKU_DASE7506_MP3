@@ -1,0 +1,23 @@
+{
+  "method": "Rescore each distinct public-matching checked SQL at its actual legal submit prefix on all three validation instances. V10 full CPU run, V11 exact-prompt validation replay.",
+  "v10": {
+    "n": 120,
+    "correct": 100,
+    "oracle_checked_upper_bound": 104,
+    "incorrect_but_a_checked_correct_candidate_existed": 4,
+    "incorrect_no_public_match": 8,
+    "incorrect_with_only_false_public_matches": 8,
+    "source": "runs/e100_v10_semantic_struct/validation/r001/predictions.json",
+    "sha256": "38e6cc3561c1b3f06c0d4651fa88ad05162b47852625a945898233b03c4006da"
+  },
+  "v11": {
+    "n": 120,
+    "correct": 101,
+    "oracle_checked_upper_bound": 105,
+    "incorrect_but_a_checked_correct_candidate_existed": 4,
+    "incorrect_no_public_match": 7,
+    "incorrect_with_only_false_public_matches": 8,
+    "source": "runs/v11_prefix_probe/validation/predictions.json",
+    "sha256": "2b46c4b32a75c815d6b962b7745215a96755f2b6ed57249b8db806ebaaefca3d"
+  }
+}

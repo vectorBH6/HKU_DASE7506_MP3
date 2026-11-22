@@ -1,0 +1,622 @@
+{
+  "results": [
+    {
+      "experiment": "e03_qwen3_lora",
+      "split": "validation",
+      "run": "r001",
+      "source": "runs/e03_qwen3_lora/validation/r001",
+      "correct": 81,
+      "n": 120,
+      "accuracy": 67.5,
+      "prediction_seconds": 363.3546621530004,
+      "scoring_seconds": 2.674098118000984,
+      "mean_tool_calls": 2.8833333333333333,
+      "model_calls": 71,
+      "input_tokens": 54026,
+      "output_tokens": 2123,
+      "max_model_calls": 2,
+      "max_new_tokens": 89,
+      "max_tool_calls": 8,
+      "peak_rss_mib": 5018.1875,
+      "cpu_seconds": 1416.87,
+      "public_matches": 106,
+      "public_match_final_failed": 25,
+      "original_match_final_failed": 16,
+      "guard_reasons": {},
+      "model_selected_actions": {},
+      "tool_actions": {
+        "check": 207,
+        "schema": 57,
+        "retrieve": 57,
+        "submit": 120,
+        "repair_hint": 25
+      },
+      "device": "cpu",
+      "config": {
+        "mode": "qwen",
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "use_adapter": true,
+        "max_completions": 2,
+        "max_new_tokens": 256,
+        "seed": 42
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/sft_v002/epoch_03",
+        "sha256": "68c9c4bf5ecef524d69f88b937ec1223d67edfb8240504801d3d26e8caed0555"
+      },
+      "review_records": 0,
+      "model_accepted_proposals": 0,
+      "original_match_tasks": 63,
+      "original_match_final_changed": 0,
+      "affinity_changes": []
+    },
+    {
+      "experiment": "e03_qwen3_lora",
+      "split": "test",
+      "run": "r001",
+      "source": "runs/e03_qwen3_lora/test/r001",
+      "correct": 175,
+      "n": 240,
+      "accuracy": 72.91666666666667,
+      "prediction_seconds": 658.841990244,
+      "scoring_seconds": 4.501812439000787,
+      "mean_tool_calls": 3.441666666666667,
+      "model_calls": 169,
+      "input_tokens": 114160,
+      "output_tokens": 4879,
+      "max_model_calls": 2,
+      "max_new_tokens": 86,
+      "max_tool_calls": 8,
+      "peak_rss_mib": 5018.6953125,
+      "cpu_seconds": 2588.8900000000003,
+      "public_matches": 206,
+      "public_match_final_failed": 31,
+      "original_match_final_failed": 18,
+      "guard_reasons": {},
+      "model_selected_actions": {},
+      "tool_actions": {
+        "check": 477,
+        "schema": 134,
+        "retrieve": 134,
+        "repair_hint": 81,
+        "submit": 240
+      },
+      "device": "cpu",
+      "config": {
+        "mode": "qwen",
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "use_adapter": true,
+        "max_completions": 2,
+        "max_new_tokens": 256,
+        "seed": 42
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/sft_v002/epoch_03",
+        "sha256": "68c9c4bf5ecef524d69f88b937ec1223d67edfb8240504801d3d26e8caed0555"
+      },
+      "review_records": 0,
+      "model_accepted_proposals": 0,
+      "original_match_tasks": 106,
+      "original_match_final_changed": 0,
+      "affinity_changes": []
+    },
+    {
+      "experiment": "e11_review_old_adapter",
+      "split": "validation",
+      "run": "r002",
+      "source": "runs/e11_review_old_adapter/validation/r002",
+      "correct": 81,
+      "n": 120,
+      "accuracy": 67.5,
+      "prediction_seconds": 1943.8219618439998,
+      "scoring_seconds": 3.9053286269991077,
+      "mean_tool_calls": 3.575,
+      "model_calls": 295,
+      "input_tokens": 296556,
+      "output_tokens": 10433,
+      "max_model_calls": 4,
+      "max_new_tokens": 99,
+      "max_tool_calls": 7,
+      "peak_rss_mib": 4989.265625,
+      "cpu_seconds": 7650.84,
+      "public_matches": 103,
+      "public_match_final_failed": 22,
+      "original_match_final_failed": 16,
+      "guard_reasons": {
+        "model_query": 106,
+        "duplicate_action": 124,
+        "completion_cap_fallback": 203,
+        "unavailable_action": 55,
+        "malformed_proposal": 10
+      },
+      "model_selected_actions": {
+        "check": 105,
+        "execute": 1
+      },
+      "tool_actions": {
+        "check": 267,
+        "schema": 120,
+        "submit": 120,
+        "repair_hint": 41,
+        "execute": 1
+      },
+      "device": "cpu",
+      "config": {
+        "mode": "qwen",
+        "controller": "review_v2",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "always",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/sft_v002/epoch_03",
+        "sha256": "68c9c4bf5ecef524d69f88b937ec1223d67edfb8240504801d3d26e8caed0555"
+      },
+      "review_records": 498,
+      "model_accepted_proposals": 106,
+      "original_match_tasks": 63,
+      "original_match_final_changed": 0,
+      "affinity_changes": []
+    },
+    {
+      "experiment": "e12_review_onpolicy",
+      "split": "validation",
+      "run": "r001",
+      "source": "runs/e12_review_onpolicy/validation/r001",
+      "correct": 87,
+      "n": 120,
+      "accuracy": 72.5,
+      "prediction_seconds": 1986.4427460719999,
+      "scoring_seconds": 3.235577542998726,
+      "mean_tool_calls": 3.625,
+      "model_calls": 299,
+      "input_tokens": 297418,
+      "output_tokens": 9353,
+      "max_model_calls": 4,
+      "max_new_tokens": 160,
+      "max_tool_calls": 8,
+      "peak_rss_mib": 4989.69921875,
+      "cpu_seconds": 7899.8,
+      "public_matches": 104,
+      "public_match_final_failed": 17,
+      "original_match_final_failed": 6,
+      "guard_reasons": {
+        "model_hint_request": 77,
+        "model_query": 100,
+        "model_candidate_selection": 96,
+        "duplicate_action": 25,
+        "completion_cap_fallback": 40,
+        "prefer_matching_or_continue": 1
+      },
+      "model_selected_actions": {
+        "repair_hint": 77,
+        "check": 100,
+        "submit": 96
+      },
+      "tool_actions": {
+        "check": 238,
+        "schema": 120,
+        "repair_hint": 77,
+        "submit": 120
+      },
+      "device": "cpu",
+      "config": {
+        "mode": "qwen",
+        "controller": "review_v2",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "always",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/onpolicy_v001/epoch_02",
+        "sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613"
+      },
+      "review_records": 339,
+      "model_accepted_proposals": 273,
+      "original_match_tasks": 63,
+      "original_match_final_changed": 14,
+      "affinity_changes": []
+    },
+    {
+      "experiment": "e13_review_risk",
+      "split": "validation",
+      "run": "r001",
+      "source": "runs/e13_review_risk/validation/r001",
+      "correct": 87,
+      "n": 120,
+      "accuracy": 72.5,
+      "prediction_seconds": 2171.65464427,
+      "scoring_seconds": 3.391890394001166,
+      "mean_tool_calls": 3.533333333333333,
+      "model_calls": 288,
+      "input_tokens": 287684,
+      "output_tokens": 9166,
+      "max_model_calls": 4,
+      "max_new_tokens": 160,
+      "max_tool_calls": 8,
+      "peak_rss_mib": 4989.96875,
+      "cpu_seconds": 8640.13,
+      "public_matches": 104,
+      "public_match_final_failed": 17,
+      "original_match_final_failed": 6,
+      "guard_reasons": {
+        "model_hint_request": 76,
+        "model_query": 99,
+        "model_candidate_selection": 87,
+        "duplicate_action": 25,
+        "completion_cap_fallback": 40,
+        "prefer_matching_or_continue": 1
+      },
+      "model_selected_actions": {
+        "repair_hint": 76,
+        "check": 99,
+        "submit": 87
+      },
+      "tool_actions": {
+        "check": 237,
+        "schema": 111,
+        "repair_hint": 76,
+        "submit": 120
+      },
+      "device": "cpu",
+      "config": {
+        "mode": "qwen",
+        "controller": "review_v2",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/onpolicy_v001/epoch_02",
+        "sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613"
+      },
+      "review_records": 328,
+      "model_accepted_proposals": 262,
+      "original_match_tasks": 63,
+      "original_match_final_changed": 13,
+      "affinity_changes": [
+        {
+          "changed_at": "2026-11-13T04:20:44.710231+00:00",
+          "pid": 49434,
+          "from": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "to": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "all_threads_migrated": true,
+          "reason": "Reuse four faster CPU cores after e11 completed; preserve four-core limit. Heterogeneous/concurrent timings are descriptive only."
+        }
+      ]
+    },
+    {
+      "experiment": "e14_review_off",
+      "split": "validation",
+      "run": "r001",
+      "source": "runs/e14_review_off/validation/r001",
+      "correct": 79,
+      "n": 120,
+      "accuracy": 65.83333333333333,
+      "prediction_seconds": 2287.645425229999,
+      "scoring_seconds": 2.8193544629993994,
+      "mean_tool_calls": 2.7583333333333333,
+      "model_calls": 195,
+      "input_tokens": 195890,
+      "output_tokens": 6685,
+      "max_model_calls": 4,
+      "max_new_tokens": 160,
+      "max_tool_calls": 8,
+      "peak_rss_mib": 4989.81640625,
+      "cpu_seconds": 9100.769999999999,
+      "public_matches": 104,
+      "public_match_final_failed": 25,
+      "original_match_final_failed": 16,
+      "guard_reasons": {
+        "model_hint_request": 57,
+        "model_query": 79,
+        "model_candidate_selection": 37,
+        "duplicate_action": 22,
+        "completion_cap_fallback": 36
+      },
+      "model_selected_actions": {
+        "repair_hint": 57,
+        "check": 79,
+        "submit": 37
+      },
+      "tool_actions": {
+        "check": 217,
+        "schema": 57,
+        "repair_hint": 57,
+        "submit": 120
+      },
+      "device": "cpu",
+      "config": {
+        "mode": "qwen",
+        "controller": "review_v2",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "off",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/onpolicy_v001/epoch_02",
+        "sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613"
+      },
+      "review_records": 231,
+      "model_accepted_proposals": 173,
+      "original_match_tasks": 63,
+      "original_match_final_changed": 0,
+      "affinity_changes": [
+        {
+          "changed_at": "2026-11-13T04:20:44.724175+00:00",
+          "pid": 49684,
+          "from": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "to": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "all_threads_migrated": true,
+          "reason": "Reuse four faster CPU cores after e11 completed; preserve four-core limit. Heterogeneous/concurrent timings are descriptive only."
+        },
+        {
+          "changed_at": "2026-11-13T04:45:10.163258+00:00",
+          "stage": "prediction",
+          "pid": 49684,
+          "from": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "to": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "all_threads_migrated": true,
+          "reason": "Reuse four P cores after e12 completed; preserve four-core limit."
+        }
+      ]
+    },
+    {
+      "experiment": "e15_review_selected",
+      "split": "test",
+      "run": "r001",
+      "source": "runs/e15_review_selected/test/r001",
+      "correct": 181,
+      "n": 240,
+      "accuracy": 75.41666666666667,
+      "prediction_seconds": 2707.8483313180004,
+      "scoring_seconds": 4.457806238000558,
+      "mean_tool_calls": 3.629166666666667,
+      "model_calls": 598,
+      "input_tokens": 539721,
+      "output_tokens": 18591,
+      "max_model_calls": 4,
+      "max_new_tokens": 174,
+      "max_tool_calls": 8,
+      "peak_rss_mib": 4990.26953125,
+      "cpu_seconds": 10767.87,
+      "public_matches": 209,
+      "public_match_final_failed": 28,
+      "original_match_final_failed": 8,
+      "guard_reasons": {
+        "model_hint_request": 157,
+        "model_query": 197,
+        "model_candidate_selection": 187,
+        "duplicate_action": 54,
+        "completion_cap_fallback": 88,
+        "invalid_query": 2,
+        "prefer_matching_or_continue": 1
+      },
+      "model_selected_actions": {
+        "repair_hint": 157,
+        "check": 197,
+        "submit": 187
+      },
+      "tool_actions": {
+        "check": 484,
+        "schema": 230,
+        "repair_hint": 157,
+        "submit": 240
+      },
+      "device": "cpu",
+      "config": {
+        "mode": "qwen",
+        "controller": "review_v2",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/onpolicy_v001/epoch_02",
+        "sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613"
+      },
+      "review_records": 686,
+      "model_accepted_proposals": 541,
+      "original_match_tasks": 106,
+      "original_match_final_changed": 18,
+      "affinity_changes": []
+    }
+  ],
+  "paired_against_v1": [
+    {
+      "experiment": "e11_review_old_adapter",
+      "split": "validation",
+      "wins": [
+        "validation-3625496ea0b7be64",
+        "validation-d6427352ac250d9e",
+        "validation-1321fd5435f4cf5f"
+      ],
+      "losses": [
+        "validation-69f87ab68f157c15",
+        "validation-0407f698a3a86c0a",
+        "validation-c8ff43a0c0154538"
+      ],
+      "net_correct": 0,
+      "rescued_original_false_accepts": []
+    },
+    {
+      "experiment": "e12_review_onpolicy",
+      "split": "validation",
+      "wins": [
+        "validation-6d8add77db18ef60",
+        "validation-536cac19f45fc4fc",
+        "validation-15c0ae475aa5b12c",
+        "validation-f1ea6b8f0e7f285d",
+        "validation-34dc16c5398be753",
+        "validation-fc40627f0b0bab17",
+        "validation-d6427352ac250d9e",
+        "validation-1321fd5435f4cf5f",
+        "validation-a0e12c20a24ba6f2",
+        "validation-afa9c2ecf222f328"
+      ],
+      "losses": [
+        "validation-f1a67e3024ea10f2",
+        "validation-30b61a74da23f747",
+        "validation-0407f698a3a86c0a",
+        "validation-162091e91ee345b7"
+      ],
+      "net_correct": 6,
+      "rescued_original_false_accepts": [
+        "validation-6d8add77db18ef60",
+        "validation-536cac19f45fc4fc",
+        "validation-15c0ae475aa5b12c",
+        "validation-f1ea6b8f0e7f285d",
+        "validation-34dc16c5398be753",
+        "validation-fc40627f0b0bab17",
+        "validation-a0e12c20a24ba6f2",
+        "validation-afa9c2ecf222f328"
+      ]
+    },
+    {
+      "experiment": "e13_review_risk",
+      "split": "validation",
+      "wins": [
+        "validation-6d8add77db18ef60",
+        "validation-536cac19f45fc4fc",
+        "validation-15c0ae475aa5b12c",
+        "validation-f1ea6b8f0e7f285d",
+        "validation-34dc16c5398be753",
+        "validation-fc40627f0b0bab17",
+        "validation-d6427352ac250d9e",
+        "validation-1321fd5435f4cf5f",
+        "validation-a0e12c20a24ba6f2",
+        "validation-afa9c2ecf222f328"
+      ],
+      "losses": [
+        "validation-f1a67e3024ea10f2",
+        "validation-30b61a74da23f747",
+        "validation-0407f698a3a86c0a",
+        "validation-162091e91ee345b7"
+      ],
+      "net_correct": 6,
+      "rescued_original_false_accepts": [
+        "validation-6d8add77db18ef60",
+        "validation-536cac19f45fc4fc",
+        "validation-15c0ae475aa5b12c",
+        "validation-f1ea6b8f0e7f285d",
+        "validation-34dc16c5398be753",
+        "validation-fc40627f0b0bab17",
+        "validation-a0e12c20a24ba6f2",
+        "validation-afa9c2ecf222f328"
+      ]
+    },
+    {
+      "experiment": "e14_review_off",
+      "split": "validation",
+      "wins": [
+        "validation-d6427352ac250d9e",
+        "validation-1321fd5435f4cf5f"
+      ],
+      "losses": [
+        "validation-f1a67e3024ea10f2",
+        "validation-30b61a74da23f747",
+        "validation-0407f698a3a86c0a",
+        "validation-162091e91ee345b7"
+      ],
+      "net_correct": -2,
+      "rescued_original_false_accepts": []
+    },
+    {
+      "experiment": "e15_review_selected",
+      "split": "test",
+      "wins": [
+        "test-750c21e4ae9b7ad1",
+        "test-98793321209fc4df",
+        "test-43689cbe73aa8738",
+        "test-29fb575688847a8a",
+        "test-c51886fef2ae4a89",
+        "test-c24068af2f82d67b",
+        "test-e862c7ba561007a4",
+        "test-3cc4ebb971dc3959",
+        "test-17452a7f98a02c84",
+        "test-29422bbec9877658",
+        "test-b347bdf78d8ca898",
+        "test-469f22a3a541ed03",
+        "test-6bc57359c1279f46",
+        "test-5569c76b86e09542"
+      ],
+      "losses": [
+        "test-fa097b64a47cd1c2",
+        "test-a0a87f31df47b1b8",
+        "test-1cf7b117ba0cdf0a",
+        "test-7574831b0d7f970e",
+        "test-f062e74c848cfdcf",
+        "test-dd0d869b1db4e0c7",
+        "test-6f9f93313ff665be",
+        "test-4e6198c6940dca9e"
+      ],
+      "net_correct": 6,
+      "rescued_original_false_accepts": [
+        "test-98793321209fc4df",
+        "test-43689cbe73aa8738",
+        "test-29fb575688847a8a",
+        "test-b347bdf78d8ca898",
+        "test-469f22a3a541ed03"
+      ]
+    }
+  ]
+}

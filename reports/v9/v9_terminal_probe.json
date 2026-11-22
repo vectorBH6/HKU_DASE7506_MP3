@@ -1,0 +1,46 @@
+{
+  "method": "Validation-only V8 prefix replay, with the same frozen Qwen/LoRA doing new CPU generations. Two order-reversed votes on exactly two checked matches, one fresh SQL on no public match with a spare check. All three official instances scored after decisions.",
+  "baseline": 96,
+  "n": 120,
+  "combined_correct": 96,
+  "groups": {
+    "judge": {
+      "eligible": 39,
+      "decisions": {
+        "disagree_or_invalid": 27,
+        "agree_switch": 6,
+        "agree_keep": 6
+      },
+      "wins": 0,
+      "losses": 0,
+      "full_score_alone": 96
+    },
+    "regenerate": {
+      "eligible": 8,
+      "decisions": {
+        "duplicate_or_invalid": 4,
+        "new_check_failed": 4
+      },
+      "wins": 0,
+      "losses": 0,
+      "full_score_alone": 96
+    },
+    "original": {
+      "eligible": 73,
+      "decisions": {
+        "keep": 73
+      },
+      "wins": 0,
+      "losses": 0,
+      "full_score_alone": 96
+    }
+  },
+  "new_generations": 86,
+  "max_total_generations": 6,
+  "max_charged_tools": 8,
+  "code_sha256": "0a8e91dbcd225639294b3fa557b296f6c188b096bcbabc004d19d3f86654f412",
+  "base_predictions_sha256": "2a4926adf07e9c4dd6d9dd0b077d82bce26e7b176e313db11baf32d9abe56377",
+  "adapter_sha256": "2af3b904143eaffbf4a76267357c30f474a9c7408b38c76bc5f9ee8d63394aab",
+  "extra_log_sha256": "58aaf16352ae8ba9ad2d1160640398e17650a294055b2c8c0307044f7f33f99f",
+  "replay_predictions_sha256": "c28149f1f8194152599b061d339b329ba0995cbd375dfa3909c52fbb649730c9"
+}

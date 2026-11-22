@@ -1,0 +1,14 @@
+{
+  "all_checks_passed": true,
+  "train_only": true,
+  "records": 2740,
+  "unique_train_tasks": 480,
+  "max_target_tokens": 270,
+  "new_token_cap": 512,
+  "actions": {
+    "check": 1426,
+    "submit": 600,
+    "repair_hint": 150
+  },
+  "note": "One alternative single-epoch initialization from the old adapter, not an extra epoch appended to feedback_v4."
+}

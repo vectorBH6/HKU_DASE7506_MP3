@@ -1,0 +1,22 @@
+{
+  "protocol": "dase7506-sql-repair-v1",
+  "model": "Qwen/Qwen3-0.6B",
+  "model_revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+  "max_new_tokens": 384,
+  "temperature": 0.7,
+  "top_p": 0.8,
+  "top_k": 20,
+  "thinking": false,
+  "batch_size": 16,
+  "seed_base": 750608,
+  "builder_sha256": "61a403ef00a66d8225b3553399c04e52510d9d56891fe0fdd23d183934ea443e",
+  "prompt_inputs": "Question and complete schema only; no reference or feedback",
+  "wall_seconds": 149.96331205696333,
+  "peak_gpu_allocated_bytes": 4241466368,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "complete_splits": [
+    "train",
+    "validation",
+    "test"
+  ]
+}

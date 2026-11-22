@@ -1,0 +1,11 @@
+{
+  "method": "Fresh V12 validation. For each distinct publicly matching candidate, legally submit just after its true check, score all three instances. A public failure implies failure on at least one official instance.",
+  "n": 120,
+  "correct": 99,
+  "oracle_checked_candidate_upper_bound": 104,
+  "incorrect_final_with_correct_checked_candidate": 5,
+  "incorrect_without_correct_candidate": 16,
+  "incorrect_with_only_false_public_matches": 9,
+  "incorrect_no_public_match": 7,
+  "predictions_sha256": "8122814397322bd4c164223474327cc9a3937d041e4b74ae1d13e9d23745b3e5"
+}

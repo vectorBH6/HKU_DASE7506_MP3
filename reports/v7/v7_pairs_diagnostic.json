@@ -1,0 +1,238 @@
+{
+  "population": {
+    "pairs": 24,
+    "schemas": 12,
+    "public_sha256": "fad52da83dd9ffaa57a0273e79df823e75484d4544cd513dce7f7788d84c1617",
+    "private_sha256": "fc39af6451a13a803f6de1ae39dd628b8b8db91a10a344752f2944f0d6699497"
+  },
+  "method": "Full greedy controller. Each side must match support and every purpose-built hidden synthetic witness. Both means both sides independently correct on their own intent. First action refers to the raw first model generation; no_generation denotes controller-only decisions. This diagnostic evaluates train-origin synthetic schemas held out from incremental V7 training.",
+  "arms": {
+    "baseline": {
+      "overall": {
+        "pairs": 24,
+        "keep": 24,
+        "repair": 0,
+        "both": 0,
+        "public_pass": 48,
+        "no_generation": 0,
+        "first_model_actions": {
+          "keep": {
+            "submit": 24
+          },
+          "repair": {
+            "submit": 24
+          }
+        }
+      },
+      "by_category": {
+        "comparison_boundary": {
+          "pairs": 8,
+          "keep": 8,
+          "repair": 0,
+          "both": 0,
+          "public_pass": 16,
+          "no_generation": 0,
+          "first_model_actions": {
+            "keep": {
+              "submit": 8
+            },
+            "repair": {
+              "submit": 8
+            }
+          }
+        },
+        "entity_count": {
+          "pairs": 8,
+          "keep": 8,
+          "repair": 0,
+          "both": 0,
+          "public_pass": 16,
+          "no_generation": 0,
+          "first_model_actions": {
+            "keep": {
+              "submit": 8
+            },
+            "repair": {
+              "submit": 8
+            }
+          }
+        },
+        "join_multiplicity": {
+          "pairs": 8,
+          "keep": 8,
+          "repair": 0,
+          "both": 0,
+          "public_pass": 16,
+          "no_generation": 0,
+          "first_model_actions": {
+            "keep": {
+              "submit": 8
+            },
+            "repair": {
+              "submit": 8
+            }
+          }
+        }
+      },
+      "generations": 48,
+      "charged_tools": 96
+    },
+    "ordinary": {
+      "overall": {
+        "pairs": 24,
+        "keep": 24,
+        "repair": 0,
+        "both": 0,
+        "public_pass": 48,
+        "no_generation": 0,
+        "first_model_actions": {
+          "keep": {
+            "submit": 24
+          },
+          "repair": {
+            "submit": 24
+          }
+        }
+      },
+      "by_category": {
+        "comparison_boundary": {
+          "pairs": 8,
+          "keep": 8,
+          "repair": 0,
+          "both": 0,
+          "public_pass": 16,
+          "no_generation": 0,
+          "first_model_actions": {
+            "keep": {
+              "submit": 8
+            },
+            "repair": {
+              "submit": 8
+            }
+          }
+        },
+        "entity_count": {
+          "pairs": 8,
+          "keep": 8,
+          "repair": 0,
+          "both": 0,
+          "public_pass": 16,
+          "no_generation": 0,
+          "first_model_actions": {
+            "keep": {
+              "submit": 8
+            },
+            "repair": {
+              "submit": 8
+            }
+          }
+        },
+        "join_multiplicity": {
+          "pairs": 8,
+          "keep": 8,
+          "repair": 0,
+          "both": 0,
+          "public_pass": 16,
+          "no_generation": 0,
+          "first_model_actions": {
+            "keep": {
+              "submit": 8
+            },
+            "repair": {
+              "submit": 8
+            }
+          }
+        }
+      },
+      "generations": 48,
+      "charged_tools": 96
+    },
+    "paired": {
+      "overall": {
+        "pairs": 24,
+        "keep": 24,
+        "repair": 3,
+        "both": 3,
+        "public_pass": 48,
+        "no_generation": 0,
+        "first_model_actions": {
+          "keep": {
+            "submit": 24
+          },
+          "repair": {
+            "submit": 21,
+            "check": 3
+          }
+        }
+      },
+      "by_category": {
+        "comparison_boundary": {
+          "pairs": 8,
+          "keep": 8,
+          "repair": 0,
+          "both": 0,
+          "public_pass": 16,
+          "no_generation": 0,
+          "first_model_actions": {
+            "keep": {
+              "submit": 8
+            },
+            "repair": {
+              "submit": 8
+            }
+          }
+        },
+        "entity_count": {
+          "pairs": 8,
+          "keep": 8,
+          "repair": 2,
+          "both": 2,
+          "public_pass": 16,
+          "no_generation": 0,
+          "first_model_actions": {
+            "keep": {
+              "submit": 8
+            },
+            "repair": {
+              "check": 2,
+              "submit": 6
+            }
+          }
+        },
+        "join_multiplicity": {
+          "pairs": 8,
+          "keep": 8,
+          "repair": 1,
+          "both": 1,
+          "public_pass": 16,
+          "no_generation": 0,
+          "first_model_actions": {
+            "keep": {
+              "submit": 8
+            },
+            "repair": {
+              "submit": 7,
+              "check": 1
+            }
+          }
+        }
+      },
+      "generations": 51,
+      "charged_tools": 99
+    }
+  },
+  "pair_changes": {
+    "ordinary_vs_baseline": {
+      "both_gained": 0,
+      "both_lost": 0
+    },
+    "paired_vs_baseline": {
+      "both_gained": 3,
+      "both_lost": 0
+    },
+    "paired_vs_ordinary": {
+      "both_gained": 3,
+      "both_lost": 0
+    }
+  }
+}

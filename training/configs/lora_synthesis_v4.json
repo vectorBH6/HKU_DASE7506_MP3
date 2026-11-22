@@ -1,0 +1,26 @@
+{
+  "repository": "Qwen/Qwen3-0.6B",
+  "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+  "seed": 42,
+  "epochs": 1,
+  "learning_rate": 2e-05,
+  "batch_size": 1,
+  "gradient_accumulation": 16,
+  "max_length": 6144,
+  "rank": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "gradient_checkpointing": true,
+  "prepared_data": "artifacts/prepared_data/synthesis_v4",
+  "init_adapter": "artifacts/adapters/onpolicy_v001/epoch_02",
+  "target_only_logits": true
+}

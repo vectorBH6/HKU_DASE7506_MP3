@@ -1,0 +1,50 @@
+{
+  "run": "runs/e60_v6_generator/validation/r001",
+  "split": "validation",
+  "device": "cpu",
+  "n": 120,
+  "official_completed_run_n": 120,
+  "final_correct": 86,
+  "final_accuracy": 0.7166666666666667,
+  "tasks_with_correct_checked_candidate": 92,
+  "checked_candidate_coverage": 0.7666666666666667,
+  "correct_final_given_correct_checked_candidate": 86,
+  "selection_accuracy_given_coverage": 0.9347826086956522,
+  "final_failed_without_correct_checked_candidate": 28,
+  "final_failed_with_correct_checked_candidate": 6,
+  "correct_final_without_correct_checked_candidate": 0,
+  "official_checks_replayed": 244,
+  "tasks_with_public_match_incorrect_candidate": 26,
+  "public_match_incorrect_candidate_occurrences": 28,
+  "public_match_final_wrong": 21,
+  "costs": {
+    "model_generations": 312,
+    "mean_generations": 2.6,
+    "max_generations": 4,
+    "input_tokens": 321392,
+    "output_tokens": 10149,
+    "mean_charged_tools": 3.6166666666666667,
+    "max_charged_tools": 7,
+    "official_actions": {
+      "check": 244,
+      "schema": 110,
+      "repair_hint": 80,
+      "submit": 120
+    },
+    "prediction_wall_seconds": 1914.4771624119999,
+    "scoring_wall_seconds": 2.321668175999548,
+    "peak_process_tree_rss_bytes": 3963576320
+  },
+  "predictions_sha256": "473d8da77465ad0ccfdf69c1aa347c06b4ec9554469b43274cc323e00715e537",
+  "official_score_sha256": "9a669ca4235a6b1ddbf703ba349f23953ed88fe4fc68e0d5097e2b1a37f45d76",
+  "official_scorer_sha256": "87870af26173fbe6d8994e4de179fb272ef1fadf7dcaafc2e7b4c814c61ec95b",
+  "method": "Each actual check prefix was resubmitted offline and scored with all official instances. A task is covered if at least one such prefix passed. All rates are fractions.",
+  "paired": {
+    "baseline": "runs/e50_v5_baseline/validation/r001",
+    "baseline_correct": 92,
+    "wins": 1,
+    "losses": 7,
+    "stable_correct": 85,
+    "stable_incorrect": 27
+  }
+}

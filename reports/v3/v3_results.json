@@ -1,0 +1,475 @@
+{
+  "results": [
+    {
+      "experiment": "e13_review_risk",
+      "split": "validation",
+      "run": "r001",
+      "source": "runs/e13_review_risk/validation/r001",
+      "correct": 87,
+      "n": 120,
+      "accuracy": 72.5,
+      "prediction_seconds": 2171.65464427,
+      "scoring_seconds": 3.391890394001166,
+      "mean_tool_calls": 3.533333333333333,
+      "model_calls": 288,
+      "input_tokens": 287684,
+      "output_tokens": 9166,
+      "max_model_calls": 4,
+      "max_new_tokens": 160,
+      "max_tool_calls": 8,
+      "peak_rss_mib": 4989.96875,
+      "cpu_seconds": 8640.13,
+      "public_matches": 104,
+      "public_match_final_failed": 17,
+      "original_match_final_failed": 6,
+      "guard_reasons": {
+        "model_hint_request": 76,
+        "model_query": 99,
+        "model_candidate_selection": 87,
+        "duplicate_action": 25,
+        "completion_cap_fallback": 40,
+        "prefer_matching_or_continue": 1
+      },
+      "model_selected_actions": {
+        "repair_hint": 76,
+        "check": 99,
+        "submit": 87
+      },
+      "tool_actions": {
+        "check": 237,
+        "schema": 111,
+        "repair_hint": 76,
+        "submit": 120
+      },
+      "device": "cpu",
+      "config": {
+        "mode": "qwen",
+        "controller": "review_v2",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/onpolicy_v001/epoch_02",
+        "sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613"
+      },
+      "review_records": 328,
+      "model_accepted_proposals": 262,
+      "original_match_tasks": 63,
+      "original_match_final_changed": 13,
+      "affinity_changes": [
+        {
+          "changed_at": "2026-11-13T04:20:44.710231+00:00",
+          "pid": 49434,
+          "from": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "to": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "all_threads_migrated": true,
+          "reason": "Reuse four faster CPU cores after e11 completed; preserve four-core limit. Heterogeneous/concurrent timings are descriptive only."
+        }
+      ],
+      "duplicate_tasks": 22,
+      "duplicate_task_failures": 20,
+      "duplicate_proposals": 25,
+      "early_fallback_tasks": 5,
+      "early_fallback_failures": 4,
+      "recovery_retries": 0,
+      "accepted_recovery_retries": 0,
+      "recovery_tasks": 0,
+      "generation_cap_tasks": 27,
+      "early_fallback_ids": [
+        "validation-4a37f9727ac82a31",
+        "validation-cf65a76c2ca339d6",
+        "validation-d379eea4a2b59524",
+        "validation-de306200a6efff23",
+        "validation-f76a31ffe49ff88d"
+      ]
+    },
+    {
+      "experiment": "e15_review_selected",
+      "split": "test",
+      "run": "r001",
+      "source": "runs/e15_review_selected/test/r001",
+      "correct": 181,
+      "n": 240,
+      "accuracy": 75.41666666666667,
+      "prediction_seconds": 2707.8483313180004,
+      "scoring_seconds": 4.457806238000558,
+      "mean_tool_calls": 3.629166666666667,
+      "model_calls": 598,
+      "input_tokens": 539721,
+      "output_tokens": 18591,
+      "max_model_calls": 4,
+      "max_new_tokens": 174,
+      "max_tool_calls": 8,
+      "peak_rss_mib": 4990.26953125,
+      "cpu_seconds": 10767.87,
+      "public_matches": 209,
+      "public_match_final_failed": 28,
+      "original_match_final_failed": 8,
+      "guard_reasons": {
+        "model_hint_request": 157,
+        "model_query": 197,
+        "model_candidate_selection": 187,
+        "duplicate_action": 54,
+        "completion_cap_fallback": 88,
+        "invalid_query": 2,
+        "prefer_matching_or_continue": 1
+      },
+      "model_selected_actions": {
+        "repair_hint": 157,
+        "check": 197,
+        "submit": 187
+      },
+      "tool_actions": {
+        "check": 484,
+        "schema": 230,
+        "repair_hint": 157,
+        "submit": 240
+      },
+      "device": "cpu",
+      "config": {
+        "mode": "qwen",
+        "controller": "review_v2",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/onpolicy_v001/epoch_02",
+        "sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613"
+      },
+      "review_records": 686,
+      "model_accepted_proposals": 541,
+      "original_match_tasks": 106,
+      "original_match_final_changed": 18,
+      "affinity_changes": [],
+      "duplicate_tasks": 45,
+      "duplicate_task_failures": 28,
+      "duplicate_proposals": 54,
+      "early_fallback_tasks": 10,
+      "early_fallback_failures": 6,
+      "recovery_retries": 0,
+      "accepted_recovery_retries": 0,
+      "recovery_tasks": 0,
+      "generation_cap_tasks": 56,
+      "early_fallback_ids": [
+        "test-04a7c33d7b7e492d",
+        "test-19a86ac705aca208",
+        "test-6519a9a8c5a73d9d",
+        "test-8767a866984b3660",
+        "test-9340d819880240a5",
+        "test-a0a87f31df47b1b8",
+        "test-a2d3c742e0bdffaf",
+        "test-a821d5e40cab489b",
+        "test-ca31272fcc1eae9f",
+        "test-f9ee423b9cfcd416"
+      ]
+    },
+    {
+      "experiment": "e20_recovery4",
+      "split": "validation",
+      "run": "r001",
+      "source": "runs/e20_recovery4/validation/r001",
+      "correct": 89,
+      "n": 120,
+      "accuracy": 74.16666666666667,
+      "prediction_seconds": 1869.5570245460003,
+      "scoring_seconds": 3.019855494996591,
+      "mean_tool_calls": 3.5416666666666665,
+      "model_calls": 293,
+      "input_tokens": 295328,
+      "output_tokens": 9536,
+      "max_model_calls": 4,
+      "max_new_tokens": 160,
+      "max_tool_calls": 8,
+      "peak_rss_mib": 4990.04296875,
+      "cpu_seconds": 7424.55,
+      "public_matches": 104,
+      "public_match_final_failed": 15,
+      "original_match_final_failed": 5,
+      "guard_reasons": {
+        "model_hint_request": 76,
+        "model_query": 99,
+        "model_candidate_selection": 86,
+        "duplicate_action": 31,
+        "model_budget_fallback": 42,
+        "recovery_retry": 11,
+        "prefer_matching_or_continue": 1
+      },
+      "model_selected_actions": {
+        "repair_hint": 76,
+        "check": 99,
+        "submit": 86
+      },
+      "tool_actions": {
+        "check": 238,
+        "schema": 111,
+        "repair_hint": 76,
+        "submit": 120
+      },
+      "device": "cpu",
+      "config": {
+        "mode": "qwen",
+        "controller": "recovery_v3",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/onpolicy_v001/epoch_02",
+        "sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613"
+      },
+      "review_records": 346,
+      "model_accepted_proposals": 261,
+      "original_match_tasks": 63,
+      "original_match_final_changed": 14,
+      "affinity_changes": [],
+      "duplicate_tasks": 22,
+      "duplicate_task_failures": 18,
+      "duplicate_proposals": 31,
+      "early_fallback_tasks": 0,
+      "early_fallback_failures": 0,
+      "recovery_retries": 11,
+      "accepted_recovery_retries": 2,
+      "recovery_tasks": 11,
+      "generation_cap_tasks": 32,
+      "early_fallback_ids": []
+    },
+    {
+      "experiment": "e21_recovery6",
+      "split": "validation",
+      "run": "r001",
+      "source": "runs/e21_recovery6/validation/r001",
+      "correct": 89,
+      "n": 120,
+      "accuracy": 74.16666666666667,
+      "prediction_seconds": 2158.8856923800013,
+      "scoring_seconds": 2.3036609970004065,
+      "mean_tool_calls": 3.55,
+      "model_calls": 328,
+      "input_tokens": 348459,
+      "output_tokens": 11297,
+      "max_model_calls": 6,
+      "max_new_tokens": 160,
+      "max_tool_calls": 8,
+      "peak_rss_mib": 4989.7890625,
+      "cpu_seconds": 8599.04,
+      "public_matches": 105,
+      "public_match_final_failed": 16,
+      "original_match_final_failed": 5,
+      "guard_reasons": {
+        "model_hint_request": 76,
+        "model_query": 101,
+        "model_candidate_selection": 89,
+        "duplicate_action": 61,
+        "recovery_retry": 29,
+        "model_budget_fallback": 18,
+        "recovery_limit_fallback": 20,
+        "prefer_matching_or_continue": 1
+      },
+      "model_selected_actions": {
+        "repair_hint": 76,
+        "check": 101,
+        "submit": 89
+      },
+      "tool_actions": {
+        "check": 239,
+        "schema": 111,
+        "repair_hint": 76,
+        "submit": 120
+      },
+      "device": "cpu",
+      "config": {
+        "mode": "qwen",
+        "controller": "recovery_v3",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 6,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/onpolicy_v001/epoch_02",
+        "sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613"
+      },
+      "review_records": 395,
+      "model_accepted_proposals": 266,
+      "original_match_tasks": 63,
+      "original_match_final_changed": 14,
+      "affinity_changes": [],
+      "duplicate_tasks": 26,
+      "duplicate_task_failures": 20,
+      "duplicate_proposals": 61,
+      "early_fallback_tasks": 9,
+      "early_fallback_failures": 7,
+      "recovery_retries": 29,
+      "accepted_recovery_retries": 3,
+      "recovery_tasks": 26,
+      "generation_cap_tasks": 13,
+      "early_fallback_ids": [
+        "validation-085ce3159bf51a4d",
+        "validation-30b61a74da23f747",
+        "validation-4a37f9727ac82a31",
+        "validation-9eeaccd2f6fe2c6f",
+        "validation-c59e9d51a3799267",
+        "validation-cb8c55ba2b7f46b9",
+        "validation-cf65a76c2ca339d6",
+        "validation-e313605ab240e9e5",
+        "validation-f76a31ffe49ff88d"
+      ]
+    },
+    {
+      "experiment": "e22_recovery_selected",
+      "split": "test",
+      "run": "r001",
+      "source": "runs/e22_recovery_selected/test/r001",
+      "correct": 182,
+      "n": 240,
+      "accuracy": 75.83333333333333,
+      "prediction_seconds": 2655.307113064002,
+      "scoring_seconds": 4.495828038001491,
+      "mean_tool_calls": 3.65,
+      "model_calls": 610,
+      "input_tokens": 555690,
+      "output_tokens": 19275,
+      "max_model_calls": 4,
+      "max_new_tokens": 174,
+      "max_tool_calls": 8,
+      "peak_rss_mib": 4990.2578125,
+      "cpu_seconds": 10563.34,
+      "public_matches": 210,
+      "public_match_final_failed": 28,
+      "original_match_final_failed": 8,
+      "guard_reasons": {
+        "model_hint_request": 157,
+        "model_query": 203,
+        "model_candidate_selection": 181,
+        "duplicate_action": 63,
+        "recovery_retry": 32,
+        "model_budget_fallback": 88,
+        "invalid_query": 5,
+        "recovery_limit_fallback": 5,
+        "prefer_matching_or_continue": 1
+      },
+      "model_selected_actions": {
+        "repair_hint": 157,
+        "check": 203,
+        "submit": 181
+      },
+      "tool_actions": {
+        "check": 489,
+        "schema": 230,
+        "repair_hint": 157,
+        "submit": 240
+      },
+      "device": "cpu",
+      "config": {
+        "mode": "qwen",
+        "controller": "recovery_v3",
+        "use_adapter": true,
+        "use_hints": true,
+        "use_retrieval": true,
+        "use_variants": true,
+        "review_matched": "risk",
+        "max_completions": 4,
+        "max_new_tokens": 384,
+        "seed": 42,
+        "max_retries_per_observation": 1
+      },
+      "adapter": {
+        "path": "/home/rvector/MP3_SQL_student_package/artifacts/adapters/onpolicy_v001/epoch_02",
+        "sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613"
+      },
+      "review_records": 735,
+      "model_accepted_proposals": 541,
+      "original_match_tasks": 106,
+      "original_match_final_changed": 20,
+      "affinity_changes": [],
+      "duplicate_tasks": 44,
+      "duplicate_task_failures": 27,
+      "duplicate_proposals": 63,
+      "early_fallback_tasks": 2,
+      "early_fallback_failures": 2,
+      "recovery_retries": 32,
+      "accepted_recovery_retries": 11,
+      "recovery_tasks": 32,
+      "generation_cap_tasks": 66,
+      "early_fallback_ids": [
+        "test-19a86ac705aca208",
+        "test-8767a866984b3660"
+      ]
+    }
+  ],
+  "paired_against_v2": [
+    {
+      "experiment": "e20_recovery4",
+      "split": "validation",
+      "wins": [
+        "validation-de306200a6efff23",
+        "validation-d379eea4a2b59524"
+      ],
+      "losses": [],
+      "net_correct": 2,
+      "rescued_baseline_early_fallbacks": [
+        "validation-d379eea4a2b59524",
+        "validation-de306200a6efff23"
+      ]
+    },
+    {
+      "experiment": "e21_recovery6",
+      "split": "validation",
+      "wins": [
+        "validation-de306200a6efff23",
+        "validation-d379eea4a2b59524"
+      ],
+      "losses": [],
+      "net_correct": 2,
+      "rescued_baseline_early_fallbacks": [
+        "validation-d379eea4a2b59524",
+        "validation-de306200a6efff23"
+      ]
+    },
+    {
+      "experiment": "e22_recovery_selected",
+      "split": "test",
+      "wins": [
+        "test-a0a87f31df47b1b8"
+      ],
+      "losses": [],
+      "net_correct": 1,
+      "rescued_baseline_early_fallbacks": [
+        "test-a0a87f31df47b1b8"
+      ]
+    }
+  ]
+}

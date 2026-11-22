@@ -1,0 +1,28 @@
+{
+  "method": "Compile explicit entity-level both, exclusion and union into set SQL. One fixed policy, official train/validation only; no test.",
+  "train_pool_first_new_public_match": {
+    "fit_ids": {
+      "total": 382,
+      "prior_covered": 303,
+      "with_novel_candidates": 8,
+      "public_match": 5,
+      "first_public_match_correct": 3,
+      "new_coverage": 2
+    },
+    "holdout_ids": {
+      "total": 98,
+      "prior_covered": 75,
+      "with_novel_candidates": 2,
+      "first_public_match_correct": 0,
+      "new_coverage": 0
+    }
+  },
+  "validation_v10": {
+    "baseline": 100,
+    "correct": 100,
+    "n": 120,
+    "wins": 0,
+    "losses": 0,
+    "max_tools": 8
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "train_only": true,
+  "baseline_correct": 437,
+  "contract_overlay_correct": 439,
+  "wins": [
+    "train-ab2329ba85fdb84e",
+    "train-a68cce7600203868"
+  ],
+  "losses": [],
+  "note": "Post-hoc diagnostic, not a live-model policy result. Real tool calls appended within original eight-call budget; no grading labels used for decisions."
+}

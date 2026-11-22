@@ -1,0 +1,18 @@
+{
+  "interrupted_runs": [
+    {
+      "run": "runs/dev_v5_grpo_update_008_contract/validation/r001",
+      "status": "interrupted",
+      "reason": "Coordinator replaced while resource monitor was active; incomplete bookkeeping preserved and excluded from selection. A fresh standard-runner reproduction follows.",
+      "excluded_from_selection": true
+    },
+    {
+      "run": "runs/e51_v5_arch_hints/validation/r001",
+      "status": "interrupted",
+      "reason": "Coordinator replaced while resource monitor was active; incomplete bookkeeping preserved and excluded from selection. A fresh standard-runner reproduction follows.",
+      "excluded_from_selection": true
+    }
+  ],
+  "GPU8_fresh_repeat_has_identical_predictions_and_tool_traces": true,
+  "no_incomplete_run_used_for_scores": true
+}

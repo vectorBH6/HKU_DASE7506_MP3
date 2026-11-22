@@ -1,0 +1,10 @@
+{
+  "mode": "qwen",
+  "use_hints": true,
+  "use_retrieval": true,
+  "use_variants": true,
+  "use_adapter": false,
+  "max_completions": 2,
+  "max_new_tokens": 256,
+  "seed": 42
+}

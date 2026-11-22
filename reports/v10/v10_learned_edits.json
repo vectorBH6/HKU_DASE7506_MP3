@@ -1,0 +1,78 @@
+{
+  "fit": {
+    "fit_pairs": 936,
+    "distinct_single_site_rules": 110,
+    "cross_schema_rules": 12,
+    "supports": [
+      [
+        3,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ]
+  },
+  "heldout_tasks": 98,
+  "baseline_oracle": 75,
+  "executed_unique_new_per_task_total": 63,
+  "tasks_with_proposal": 41,
+  "public_matching": 24,
+  "correct_new_sql": 17,
+  "tasks_with_correct_new_sql": 14,
+  "tasks_without_old_correct": 23,
+  "incremental_covered_tasks": 0,
+  "combined_pool_oracle": 75,
+  "incremental_fitting_remaining_old_pool_budget": 0,
+  "new_check_limit": 5,
+  "max_actions": 6,
+  "scope": "382 official train fit tasks; positives are training gold and officially correct V8 pool members, negatives are wrong pool members; >=2 source databases and 2 tasks. Novel edits conditioned on parent/argument, bound SQL subtrees and operators; no task-specific output identifiers, strings, or arbitrary numbers. Held out 98 other train tasks. Reference V8 pool deduplicated by SQL only. Fixed edit ordering: training database support, task support, stable rule order. Evaluate first five unseen candidates from draft and four raw hints per task on legal independent draft/schema/hint trajectories. Combined pool oracle describes separate budgeted policies, not achieved end-to-end selection. No validation or test used.",
+  "source_sha256": {
+    "scripts/probe_v10_learned_edits.py": "66f61e27ef784fdd8a53cc776e881f09bef7c838ae876ddb43c8daba9ec6a2ff",
+    "artifacts/prepared_data/v6/split.json": "3a374d00a176a1fc224c1d029c9b5e011e990dfab176b3dff40f68bdcc3d2ec7",
+    "runs/v8_pool_train/train_pool.jsonl": "9eccb81592de169b4d81887af2b05655f17673fc6b33c34b0d9cb18f7839d2f2",
+    "mp3_sql/data/train_references.json": "def39effca9b1efe78f7316d71739111b8c8290dd0897db5e6655293fca24da7",
+    "mp3_sql/score.py": "87870af26173fbe6d8994e4de179fb272ef1fadf7dcaafc2e7b4c814c61ec95b"
+  }
+}

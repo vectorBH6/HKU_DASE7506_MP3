@@ -1,0 +1,40 @@
+{
+  "locked_utc": "2026-11-20T06:15:15.427120+00:00",
+  "plan_sha256": "3995cc731493b723bd2a7e9be01ae249d3dbf97dd265e8efeba2741343e5b91a",
+  "inference_config": "submission/configs/contract_v4_selected.json",
+  "config_sha256": "98916aadbc66212d64e595e87698f7aace3d13777f5ece11938957327fdcf2af",
+  "rows": {
+    "baseline": {
+      "adapter": "artifacts/adapters/onpolicy_v001/epoch_02",
+      "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+      "validation_run": "runs/e50_v5_baseline/validation/r001",
+      "validation_correct": 92,
+      "validation_covered": 92,
+      "validation_generations": 278,
+      "holdout_correct": 94,
+      "holdout_covered": 94
+    },
+    "generator": {
+      "adapter": "artifacts/adapters/v6_generator/epoch_01",
+      "adapter_sha256": "372bd6dcaf9f7506a585b09ebb6db0a4d62431da9f40ee54c207ebbb5d6a2a79",
+      "validation_run": "runs/e60_v6_generator/validation/r001",
+      "validation_correct": 86,
+      "validation_covered": 92,
+      "validation_generations": 312,
+      "holdout_correct": 87,
+      "holdout_covered": 88
+    },
+    "chooser": {
+      "adapter": "artifacts/adapters/v6_chooser/epoch_01",
+      "adapter_sha256": "8deb404604ca4711c3044c096fc277de76688d042548c55d2c30b92519409983",
+      "validation_run": "runs/e61_v6_chooser/validation/r001",
+      "validation_correct": 85,
+      "validation_covered": 85,
+      "validation_generations": 249,
+      "holdout_correct": 82,
+      "holdout_covered": 82
+    }
+  },
+  "eligible": [],
+  "selected_for_test": null
+}

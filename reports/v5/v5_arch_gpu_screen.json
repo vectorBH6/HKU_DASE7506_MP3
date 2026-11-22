@@ -1,0 +1,24 @@
+[
+  {
+    "label": "recover",
+    "experiment": "dev_v5_search_recover",
+    "run": "runs/dev_v5_search_recover/validation/r001",
+    "config": "submission/configs/search_v5_recover.json",
+    "correct": 94,
+    "n": 120,
+    "generations": 322,
+    "prediction_seconds": 431.707245392,
+    "development_gpu_only": true
+  },
+  {
+    "label": "review",
+    "experiment": "dev_v5_search_review",
+    "run": "runs/dev_v5_search_review/validation/r001",
+    "config": "submission/configs/search_v5_review.json",
+    "correct": 91,
+    "n": 120,
+    "generations": 462,
+    "prediction_seconds": 663.3052528210001,
+    "development_gpu_only": true
+  }
+]

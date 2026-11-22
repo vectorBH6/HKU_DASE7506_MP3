@@ -1,0 +1,38 @@
+{
+  "experiment": "e03_qwen3_lora",
+  "config": "submission/configs/qwen3_lora.json",
+  "correct": 81,
+  "n": 120,
+  "prediction_seconds": 363.3546621530004,
+  "validation_score_sha256": "8e6eaed0f3abae7d652273dee7663916b0592bb93c7bca87f3ecad319ff4897c",
+  "selected_at": "2026-11-12T03:49:55.894296+00:00",
+  "rule": "highest validation correct count; ties prefer lower prediction time",
+  "test_metrics_used": false,
+  "candidates": [
+    {
+      "experiment": "e01_feedback_cpu",
+      "config": "submission/configs/feedback_cpu.json",
+      "correct": 73,
+      "n": 120,
+      "prediction_seconds": 0.9887850350005465,
+      "validation_score_sha256": "8272702d6fed2946373c61173e953b39530ad031ef572449f20d7686956d71ab"
+    },
+    {
+      "experiment": "e02_qwen3_base",
+      "config": "submission/configs/qwen3_base.json",
+      "correct": 72,
+      "n": 120,
+      "prediction_seconds": 387.20254064500114,
+      "validation_score_sha256": "069fdb8026101c204dfe43eaeaf31244e8dfe65ad1db88a3e145f9e71147243e"
+    },
+    {
+      "experiment": "e03_qwen3_lora",
+      "config": "submission/configs/qwen3_lora.json",
+      "correct": 81,
+      "n": 120,
+      "prediction_seconds": 363.3546621530004,
+      "validation_score_sha256": "8e6eaed0f3abae7d652273dee7663916b0592bb93c7bca87f3ecad319ff4897c"
+    }
+  ],
+  "adapter": "artifacts/adapters/sft_v002/epoch_03"
+}

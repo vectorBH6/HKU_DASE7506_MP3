@@ -1,0 +1,182 @@
+{
+  "all_checks_passed": true,
+  "train_only": true,
+  "selection_uses_CPU_validation_only": true,
+  "test_metrics_used": false,
+  "default_promoted": true,
+  "adapter_sha256": "3deda01e89b10e00524bfce83ae27aaeb415a4291f4f0b5691d1b5e65f780b81",
+  "runs": [
+    {
+      "experiment": "e31_feedback_old_weights",
+      "split": "validation",
+      "source": "runs/e31_feedback_old_weights/validation/r002",
+      "correct": 83,
+      "n": 120,
+      "model_calls": 281,
+      "max_model_calls": 4,
+      "max_new_tokens": 140,
+      "max_tool_calls": 6,
+      "prediction_seconds": 1702.423982155,
+      "scoring_seconds": 2.496484964998672,
+      "CPU_affinity": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "predictions_sha256": "75857749eff1adde87640606fb653cf5045928f6969177a248a4ed427b239ccb",
+      "score_sha256": "853359fb032b8b2b230be6078c1ff4ee888d141ecb231ac9e934245ebcb8ecc7"
+    },
+    {
+      "experiment": "e33_feedback_new_weights",
+      "split": "validation",
+      "source": "runs/e33_feedback_new_weights/validation/r001",
+      "correct": 89,
+      "n": 120,
+      "model_calls": 265,
+      "max_model_calls": 4,
+      "max_new_tokens": 97,
+      "max_tool_calls": 7,
+      "prediction_seconds": 1859.590976034,
+      "scoring_seconds": 3.36707058599859,
+      "CPU_affinity": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "predictions_sha256": "d93b652a66b7c3938bb21f62e513e45a9640503416ece2b83b4eec6811553899",
+      "score_sha256": "83615663f190afc6530fe2ae6626d5d354778c849d96232fad10c36cc605ceb5"
+    },
+    {
+      "experiment": "e34_feedback_variant",
+      "split": "validation",
+      "source": "runs/e34_feedback_variant/validation/r001",
+      "correct": 95,
+      "n": 120,
+      "model_calls": 254,
+      "max_model_calls": 4,
+      "max_new_tokens": 106,
+      "max_tool_calls": 7,
+      "prediction_seconds": 1765.6355722329972,
+      "scoring_seconds": 2.28920153099898,
+      "CPU_affinity": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "predictions_sha256": "ddd0d21a5cbd013152a820124b7c808b1bd4b26fd87b232c970088112bbe233a",
+      "score_sha256": "9976ca0a30c08ce05912b58e3ac8d3218a326d40502bc34b2edee0840ca771c5"
+    },
+    {
+      "experiment": "e36_semantic_old_weights",
+      "split": "validation",
+      "source": "runs/e36_semantic_old_weights/validation/r001",
+      "correct": 87,
+      "n": 120,
+      "model_calls": 269,
+      "max_model_calls": 4,
+      "max_new_tokens": 140,
+      "max_tool_calls": 7,
+      "prediction_seconds": 3190.3412016660004,
+      "scoring_seconds": 3.400011865000124,
+      "CPU_affinity": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "predictions_sha256": "6c79d37234e43e6d21fc0fdd575d967cbbb73e7651c300a5860f5c73f0449bdb",
+      "score_sha256": "9629c27d5aa7753918eac91b503b16755f93b47f21a4be9cf32de3e219f36d6a"
+    },
+    {
+      "experiment": "e37_contract_old_weights",
+      "split": "validation",
+      "source": "runs/e37_contract_old_weights/validation/r001",
+      "correct": 92,
+      "n": 120,
+      "model_calls": 278,
+      "max_model_calls": 4,
+      "max_new_tokens": 160,
+      "max_tool_calls": 8,
+      "prediction_seconds": 1488.6567823439982,
+      "scoring_seconds": 2.73046791300294,
+      "CPU_affinity": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "predictions_sha256": "f06485febe61c940627cdfded4a48436879310f9f3723be24826956fb8d63c9a",
+      "score_sha256": "c1399191a3f40a64237ee73c83f8e2f40cd216352473e0b178b1e3cb415c8d96"
+    },
+    {
+      "experiment": "e38_recovery_epoch1",
+      "split": "validation",
+      "source": "runs/e38_recovery_epoch1/validation/r001",
+      "correct": 86,
+      "n": 120,
+      "model_calls": 253,
+      "max_model_calls": 4,
+      "max_new_tokens": 120,
+      "max_tool_calls": 7,
+      "prediction_seconds": 1432.877289871998,
+      "scoring_seconds": 2.8185772090000683,
+      "CPU_affinity": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "predictions_sha256": "174bce8a79f1e9f19ab521a6398d9b022cbd310c068435ec7e73e52b949cbd75",
+      "score_sha256": "f1cb0d52cd9899c2d1c1f059ad5cbbd98a49f86ff8dd27196a468ddea7a447b2"
+    },
+    {
+      "experiment": "e39_constraint_old_weights",
+      "split": "validation",
+      "source": "runs/e39_constraint_old_weights/validation/r001",
+      "correct": 92,
+      "n": 120,
+      "model_calls": 278,
+      "max_model_calls": 4,
+      "max_new_tokens": 160,
+      "max_tool_calls": 8,
+      "prediction_seconds": 1840.6327736300009,
+      "scoring_seconds": 3.2990063230026863,
+      "CPU_affinity": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "predictions_sha256": "3638c0dda3a977c845d68d7c7ed4eb3ac6066b43f9edc978fcf33944d9f3c24f",
+      "score_sha256": "5e8584ea7b056f431115043292cd7b9c0845645fcb87bed42b2a0e2327b45268"
+    },
+    {
+      "experiment": "e35_feedback_selected",
+      "split": "test",
+      "source": "runs/e35_feedback_selected/test/r001",
+      "correct": 180,
+      "n": 240,
+      "model_calls": 552,
+      "max_model_calls": 4,
+      "max_new_tokens": 138,
+      "max_tool_calls": 8,
+      "prediction_seconds": 3172.8721027499996,
+      "scoring_seconds": 4.523359644001175,
+      "CPU_affinity": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "predictions_sha256": "f619959b2255a5dd2174bd949fa04e5136df819735147a526814a7889bc6b05b",
+      "score_sha256": "16ae4568edd352480507939ff5e1ba75e4dab4162ab7cb30f844e7824c7af628"
+    }
+  ],
+  "single_venv": "/home/rvector/MP3_SQL_student_package/.venv",
+  "peer_reviews_created": false,
+  "dist_created": false,
+  "source_note": "Controller/model implementations match snapshots. Entry point gained only dispatch branches during development; selected test dispatcher matches final source."
+}

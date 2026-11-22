@@ -1,0 +1,10 @@
+{
+  "promoted_at": "2026-11-13T04:51:46.526327+00:00",
+  "basis": "Frozen validation-only v2_selection.json",
+  "experiment": "e13_review_risk",
+  "selected_config_sha256": "d8165e0bc4e8b75b04d4e8c71838aadc7e943f58d9bd939ec12656ecf1075fc2",
+  "previous_config": "submission/configs/selected_v1.json",
+  "test_score_existed_at_promotion": false,
+  "adapter_path": "artifacts/adapters/onpolicy_v001/epoch_02",
+  "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613"
+}

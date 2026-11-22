@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-11-16T00:16:45.387659+00:00",
+  "official_files": 497,
+  "official_modified": [],
+  "baseline": {
+    "README.md": "bca5e7017f638ca450916e5d8d05775280f5191e7c9113a5b34a47395d46f7e0",
+    "README_cn.md": "386c51423783f816b2d3824efefe3a45d9b86a89fd7a290155f58b1279d2cbd9",
+    "submission/configs/selected.json": "98916aadbc66212d64e595e87698f7aace3d13777f5ece11938957327fdcf2af",
+    "submission/configs/contract_v4_selected.json": "98916aadbc66212d64e595e87698f7aace3d13777f5ece11938957327fdcf2af",
+    "scripts/run_selected.sh": "f4e3900085cac054b3e48c0b46c3fdd066a9a6c5d28de68803039b31ed89d611",
+    "submission/outputs/test.json": "87f96445210c731278da1fc09006ba472465926852a6356a8d4d207bc64a0c42",
+    "submission/outputs/test-score.json": "7b1ad561548dfe298f508621c225181b3af4b60fa9901762d32febd15cd8ec55",
+    "artifacts/adapters/onpolicy_v001/epoch_02/adapter_model.safetensors": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613"
+  },
+  "base_files": {
+    "artifacts/models/Qwen3-0.6B/config.json": "660db3b73d788119c04535e48cf9be5f55bc3100841a718637ae695b442f27dd",
+    "artifacts/models/Qwen3-0.6B/model.safetensors": "f47f71177f32bcd101b7573ec9171e6a57f4f4d31148d38e382306f42996874b",
+    "artifacts/models/Qwen3-0.6B/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "artifacts/models/Qwen3-0.6B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+    "artifacts/models/Qwen3-0.6B/merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "artifacts/models/Qwen3-0.6B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "artifacts/models/Qwen3-0.6B/README.md": "1ab64a26fcb3b461423b89a433a8c858f1bf8d4086f979cbb3ff878d47cf20e9",
+    "artifacts/models/Qwen3-0.6B/LICENSE": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+    "artifacts/models/Qwen3-0.6B/generation_config.json": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2"
+  },
+  "current_best": {
+    "correct": 184,
+    "n": 240
+  }
+}

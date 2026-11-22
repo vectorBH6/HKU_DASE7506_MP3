@@ -1,0 +1,104 @@
+{
+  "split": "validation",
+  "method": "Saved V7 prefix independently replayed to identical tool observations; no new LM invocations. Each continuation and each checked-candidate prefix graded with the unchanged official three-instance scorer. These are replay diagnostics; fresh validation runs are separate.",
+  "n": 120,
+  "instances_per_final": 3,
+  "replayed_prefixes_per_arm": 120,
+  "v7_baseline_correct": 93,
+  "v7_run": "runs/e71_v7_paired/validation/r001",
+  "v7_predictions_sha256": "a7e264adc3affce157e01bddab9b65eb3dd4ad2decc89408ffa4634767466c52",
+  "v7_score_sha256": "d7f0fe3f0067fee763918f7a1d0db6af6cb478e73baef6ecf09c43b69a775c23",
+  "validation_bank_sha256": "ccb66ffc9214bb9484b278718acf7eae55afac7c4d4afa25ee03f74ad3fea6eb",
+  "validation_references_sha256": "5bfdd63ca75dd6b58c4ae3a7c72227ecfe0315655721ecaaef8e412ec3d6521d",
+  "official_environment_sha256": "ede4a3042c254ba005676d9f7686f2d8f8cc0569cea156ebdd7ab661f97010ee",
+  "official_scorer_sha256": "87870af26173fbe6d8994e4de179fb272ef1fadf7dcaafc2e7b4c814c61ec95b",
+  "v8_lock_sha256": "3572da71ef0a0291effbd216be461d343a35f840ab069744cec87381124d4ee5",
+  "replay_script_sha256": "9aaadc947263608be5014a57428afa9f1c16d45d83758837339e9d2271d439e5",
+  "artifacts_sha256": {
+    "submission/configs/v8_first.json": "010224ade7daaa1c69a3b5c39e7baea2fee693ba552cb84f683aaa199900b296",
+    "submission/configs/v8_choose.json": "37c965724a493f0d219542c0c087deacb5553c8078336646b68ec5e6de87b3b9",
+    "submission/configs/v8_struct.json": "829ed79c383726fe64f6a0dd1b87b59d6e287a9702fcda9723123f4ebbec12e5",
+    "submission/sql_repair_agent/review_pool_v8.py": "95fed9603de988ce818c57f89b0feac4ef34954f9d924044e719f455fad3b1d3",
+    "submission/sql_repair_agent/pool_edits_v8.py": "8710c44dd3db4e2c9e3eb379c6c0953d6d4ae0140d9ef361f95fa0ef05f7c8d3",
+    "submission/sql_repair_agent/pool_rank_v8.py": "5c74ef21e057b662b54158fb3115e8acec9a9de829a55b1c2d6e8c450dd35777",
+    "submission/configs/pool_v8_weights.json": "84df88169b7e815973cb95d111854f2d53bd63d02413cd29c89cf843f4f6ed03",
+    "submission/submission.py": "5c64e986a55984a2de96e1b420ca664732081981c41dfd1def1c082a8b37c9fc"
+  },
+  "arms": {
+    "first": {
+      "correct": 95,
+      "failed": 25,
+      "paired_vs_v7": {
+        "wins": 6,
+        "losses": 4,
+        "net": 2
+      },
+      "tasks_with_suffix_check": 62,
+      "tasks_with_new_public_match": 49,
+      "tasks_with_correct_checked_candidate": 100,
+      "final_fail_with_correct_checked_candidate": 5,
+      "final_fail_without_correct_checked_candidate": 20,
+      "final_fail_with_any_public_match": 13,
+      "final_fail_without_any_public_match": 12,
+      "final_changed_vs_v7": 49,
+      "suffix_tool_calls": 131,
+      "total_tool_calls": 542,
+      "predictions_content_sha256": "881d968e4bc96a0086e7cc51f1e5d496b646a75e136419a50da3b60c7a7c0996"
+    },
+    "choose": {
+      "correct": 94,
+      "failed": 26,
+      "paired_vs_v7": {
+        "wins": 3,
+        "losses": 2,
+        "net": 1
+      },
+      "tasks_with_suffix_check": 62,
+      "tasks_with_new_public_match": 49,
+      "tasks_with_correct_checked_candidate": 100,
+      "final_fail_with_correct_checked_candidate": 6,
+      "final_fail_without_correct_checked_candidate": 20,
+      "final_fail_with_any_public_match": 14,
+      "final_fail_without_any_public_match": 12,
+      "final_changed_vs_v7": 13,
+      "suffix_tool_calls": 131,
+      "total_tool_calls": 542,
+      "predictions_content_sha256": "6a4cf1ff3d8cf7bc4ffbc5e51377b258359b4659935f642410f6695f8aae6fc1"
+    },
+    "struct": {
+      "correct": 96,
+      "failed": 24,
+      "paired_vs_v7": {
+        "wins": 5,
+        "losses": 2,
+        "net": 3
+      },
+      "tasks_with_suffix_check": 68,
+      "tasks_with_new_public_match": 51,
+      "tasks_with_correct_checked_candidate": 102,
+      "final_fail_with_correct_checked_candidate": 6,
+      "final_fail_without_correct_checked_candidate": 18,
+      "final_fail_with_any_public_match": 14,
+      "final_fail_without_any_public_match": 10,
+      "final_changed_vs_v7": 15,
+      "suffix_tool_calls": 139,
+      "total_tool_calls": 550,
+      "predictions_content_sha256": "b77547f318dd9aea229fe4d138d8372e08d22ee87b410d8a8dc21f4269e82e50"
+    }
+  },
+  "choose_vs_first": {
+    "same_charged_actions_and_observations": 120,
+    "wins": 2,
+    "losses": 3,
+    "net": -1
+  },
+  "struct_vs_choose": {
+    "tasks_with_new_structure_checks": 6,
+    "extra_checks": 8,
+    "tasks_with_new_structure_public_match": 2,
+    "tasks_with_new_structure_correct_check": 2,
+    "wins": 2,
+    "losses": 0,
+    "net": 2
+  }
+}

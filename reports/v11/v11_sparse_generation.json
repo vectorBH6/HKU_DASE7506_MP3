@@ -1,0 +1,86 @@
+{
+  "scope": "Development validation only. Independent SQL from target question, official schema and expected column names; fresh deterministic decode using the same frozen V4 adapter. Exact V11 submitted SQL must have checked as public match with 0 or 1 expected rows, funds for a real check (+schema if missing), and generation allowance. Inspect only read-only SQL in returned JSON; ignore action label. Score all new public matches after decisions. Candidate pool upper bound combines old actual checks and one new SQL per eligible task; frozen selector uses V8 choose coefficients, source tags, and fixed +0.12 replacement margin.",
+  "all": {
+    "n": 120,
+    "eligible": 70,
+    "states": {
+      "not_eligible": 50,
+      "new_public_match": 27,
+      "invalid_or_no_sql": 1,
+      "new_public_failed": 31,
+      "duplicate": 11
+    },
+    "correct_new_sql": 19,
+    "false_public_match_new_sql": 8,
+    "already_had_correct_candidate": 64,
+    "formerly_uncovered_eligible": 6,
+    "newly_covered": 1,
+    "previously_wrong_final_can_be_repaired_with_new_sql": 1,
+    "baseline_score": 101,
+    "frozen_selector_score": 101,
+    "frozen_selector_switches": 1,
+    "frozen_selector_wins": 0,
+    "frozen_selector_losses": 0
+  },
+  "empty": {
+    "n": 33,
+    "eligible": 32,
+    "states": {
+      "new_public_match": 14,
+      "invalid_or_no_sql": 1,
+      "new_public_failed": 12,
+      "duplicate": 5,
+      "not_eligible": 1
+    },
+    "correct_new_sql": 8,
+    "false_public_match_new_sql": 6,
+    "already_had_correct_candidate": 26,
+    "formerly_uncovered_eligible": 6,
+    "newly_covered": 1,
+    "previously_wrong_final_can_be_repaired_with_new_sql": 1,
+    "baseline_score": 25,
+    "frozen_selector_score": 25,
+    "frozen_selector_switches": 0,
+    "frozen_selector_wins": 0,
+    "frozen_selector_losses": 0
+  },
+  "one_row": {
+    "n": 41,
+    "eligible": 38,
+    "states": {
+      "new_public_match": 13,
+      "new_public_failed": 19,
+      "duplicate": 6,
+      "not_eligible": 3
+    },
+    "correct_new_sql": 11,
+    "false_public_match_new_sql": 2,
+    "already_had_correct_candidate": 38,
+    "formerly_uncovered_eligible": 0,
+    "newly_covered": 0,
+    "previously_wrong_final_can_be_repaired_with_new_sql": 0,
+    "baseline_score": 35,
+    "frozen_selector_score": 35,
+    "frozen_selector_switches": 1,
+    "frozen_selector_wins": 0,
+    "frozen_selector_losses": 0
+  },
+  "original_covered": 105,
+  "new_covered": 106,
+  "baseline_false_public_matches_with_no_correct_candidate": 8,
+  "new_generations": 70,
+  "new_tools": 62,
+  "max_total_generations": 5,
+  "max_tools": 8,
+  "cpu_affinity": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "adapter_sha256": "3deda01e89b10e00524bfce83ae27aaeb415a4291f4f0b5691d1b5e65f780b81",
+  "config_sha256": "c419fd5ea7f5c2b0e83c60ba9c122b09eeec9aca4e45d7ce06b8db0d1dca679f",
+  "prefix_sha256": "2b46c4b32a75c815d6b962b7745215a96755f2b6ed57249b8db806ebaaefca3d",
+  "new_log_sha256": "496103d95799e08238a59e26bb28bdc9983276681e542bbb2b7948da236b7ba5",
+  "code_sha256": "9f02138b9afe889eab4ef9d3dec39955060608cdb362dd1fc769b2c457e0dce5"
+}

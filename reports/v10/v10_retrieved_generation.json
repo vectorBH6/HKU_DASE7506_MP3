@@ -1,0 +1,101 @@
+{
+  "method": "Fixed terminal intervention, official retrieve by target question and output headers. Input does not include failed draft SQL. Compare identical prompts with or without the top two allowed official training exemplars from the 382 fit tasks; both arms read identical schema and make real checks. Only public matches replace a publicly failing final SQL. Val: V10 archived-V4-prefix replay; train: deterministic low-cost raw-hint prefix on 98 train tasks from other databases, using zero model calls before the intervention. Different prefixes preclude comparing their absolute scores. No test access.",
+  "script_sha256": "0a69e3c3dba8166dd78c521e3af80589836322fc4e4b1636c2092bb9e23718df",
+  "adapter_sha256": "3deda01e89b10e00524bfce83ae27aaeb415a4291f4f0b5691d1b5e65f780b81",
+  "cpu_affinity": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "validation": {
+    "n": 120,
+    "baseline": 100,
+    "publicly_failed": 8,
+    "eligible": 4,
+    "arms": {
+      "control": {
+        "correct": 101,
+        "wins": 1,
+        "losses": 0,
+        "decisions": {
+          "check_failed": 2,
+          "invalid_action": 1,
+          "publicly_matched": 1
+        },
+        "new_generations": 4,
+        "max_generations_per_task": 5,
+        "max_tools_per_task": 8,
+        "extra_tools": 7,
+        "new_generation_log_sha256": "72b00e3dd3233569c782727828a4043ba37746c98d667840196eac21735e62ad"
+      },
+      "retrieved": {
+        "correct": 101,
+        "wins": 1,
+        "losses": 0,
+        "decisions": {
+          "invalid_action": 2,
+          "check_failed": 1,
+          "publicly_matched": 1
+        },
+        "new_generations": 4,
+        "max_generations_per_task": 5,
+        "max_tools_per_task": 8,
+        "extra_tools": 6,
+        "new_generation_log_sha256": "c41b8ad7a57bbec719fa3f29ff0c2f8605c8e610596a946a19d2d26efdcb2839"
+      }
+    },
+    "source": {
+      "prefix": "runs/v10_prefix_probe/validation/predictions.json",
+      "prefix_sha256": "dcb25496596a089fc2dee38c9a34d3d62fd6c3c184aa84c52f16994382dd2d9d",
+      "model_log_sha256": "3d0dec9ff1660cc868d5499416a0f6a5b8a3327913e2e3e6c9846aea7e564001"
+    },
+    "demonstration_only_paired_wins": 0,
+    "demonstration_only_paired_losses": 0
+  },
+  "train": {
+    "n": 98,
+    "baseline": 64,
+    "publicly_failed": 20,
+    "eligible": 20,
+    "arms": {
+      "control": {
+        "correct": 74,
+        "wins": 10,
+        "losses": 0,
+        "decisions": {
+          "publicly_matched": 11,
+          "check_failed": 4,
+          "invalid_action": 4,
+          "invalid_sql": 1
+        },
+        "new_generations": 20,
+        "max_generations_per_task": 1,
+        "max_tools_per_task": 8,
+        "extra_tools": 35,
+        "new_generation_log_sha256": "e0cc6f835b9fb0649e7b1582e3d1cd9a4d581899f120388fb00dd6933b31eea2"
+      },
+      "retrieved": {
+        "correct": 72,
+        "wins": 8,
+        "losses": 0,
+        "decisions": {
+          "check_failed": 6,
+          "publicly_matched": 9,
+          "invalid_action": 4,
+          "invalid_sql": 1
+        },
+        "new_generations": 20,
+        "max_generations_per_task": 1,
+        "max_tools_per_task": 8,
+        "extra_tools": 35,
+        "new_generation_log_sha256": "f09556785fcb5c695124f54a739ed438e60f691273a98f0f32894af2264ee431"
+      }
+    },
+    "source": {
+      "prefix": "Deterministic draft/schema/hints, reserve two tools; first public match or draft fallback."
+    },
+    "demonstration_only_paired_wins": 1,
+    "demonstration_only_paired_losses": 3
+  }
+}

@@ -1,0 +1,557 @@
+{
+  "scope": "Validation-only simulated assignment of previously evaluated teachers, using only their identical first tool observation. V11 per-question outcomes uniquely determined by its archived independently scored replay: exactly one changed final answer and exactly one win, zero losses vs V10. No new evaluation run, SQL generation, or test reads.",
+  "groups": {
+    "all": {
+      "v8": {
+        "n": 120,
+        "correct": 96,
+        "vs": {
+          "draft": {
+            "wins": 50,
+            "losses": 1
+          },
+          "v8": {
+            "wins": 0,
+            "losses": 0
+          },
+          "v9": {
+            "wins": 0,
+            "losses": 2
+          },
+          "v10": {
+            "wins": 1,
+            "losses": 5
+          },
+          "v11": {
+            "wins": 1,
+            "losses": 6
+          }
+        }
+      },
+      "v9": {
+        "n": 120,
+        "correct": 98,
+        "vs": {
+          "draft": {
+            "wins": 52,
+            "losses": 1
+          },
+          "v8": {
+            "wins": 2,
+            "losses": 0
+          },
+          "v9": {
+            "wins": 0,
+            "losses": 0
+          },
+          "v10": {
+            "wins": 2,
+            "losses": 4
+          },
+          "v11": {
+            "wins": 2,
+            "losses": 5
+          }
+        }
+      },
+      "v10": {
+        "n": 120,
+        "correct": 100,
+        "vs": {
+          "draft": {
+            "wins": 54,
+            "losses": 1
+          },
+          "v8": {
+            "wins": 5,
+            "losses": 1
+          },
+          "v9": {
+            "wins": 4,
+            "losses": 2
+          },
+          "v10": {
+            "wins": 0,
+            "losses": 0
+          },
+          "v11": {
+            "wins": 0,
+            "losses": 1
+          }
+        }
+      },
+      "v11": {
+        "n": 120,
+        "correct": 101,
+        "vs": {
+          "draft": {
+            "wins": 55,
+            "losses": 1
+          },
+          "v8": {
+            "wins": 6,
+            "losses": 1
+          },
+          "v9": {
+            "wins": 5,
+            "losses": 2
+          },
+          "v10": {
+            "wins": 1,
+            "losses": 0
+          },
+          "v11": {
+            "wins": 0,
+            "losses": 0
+          }
+        }
+      },
+      "draft": {
+        "n": 120,
+        "correct": 47,
+        "vs": {
+          "draft": {
+            "wins": 0,
+            "losses": 0
+          },
+          "v8": {
+            "wins": 1,
+            "losses": 50
+          },
+          "v9": {
+            "wins": 1,
+            "losses": 52
+          },
+          "v10": {
+            "wins": 1,
+            "losses": 54
+          },
+          "v11": {
+            "wins": 1,
+            "losses": 55
+          }
+        }
+      },
+      "v8_pass_v11_fail": {
+        "n": 120,
+        "correct": 101,
+        "vs": {
+          "draft": {
+            "wins": 55,
+            "losses": 1
+          },
+          "v8": {
+            "wins": 5,
+            "losses": 0
+          },
+          "v9": {
+            "wins": 4,
+            "losses": 1
+          },
+          "v10": {
+            "wins": 2,
+            "losses": 1
+          },
+          "v11": {
+            "wins": 1,
+            "losses": 1
+          }
+        }
+      },
+      "v9_pass_v11_fail": {
+        "n": 120,
+        "correct": 102,
+        "vs": {
+          "draft": {
+            "wins": 56,
+            "losses": 1
+          },
+          "v8": {
+            "wins": 6,
+            "losses": 0
+          },
+          "v9": {
+            "wins": 4,
+            "losses": 0
+          },
+          "v10": {
+            "wins": 3,
+            "losses": 1
+          },
+          "v11": {
+            "wins": 2,
+            "losses": 1
+          }
+        }
+      }
+    },
+    "draft_public_match": {
+      "v8": {
+        "n": 63,
+        "correct": 56,
+        "vs": {
+          "draft": {
+            "wins": 10,
+            "losses": 1
+          },
+          "v8": {
+            "wins": 0,
+            "losses": 0
+          },
+          "v9": {
+            "wins": 0,
+            "losses": 1
+          },
+          "v10": {
+            "wins": 1,
+            "losses": 1
+          },
+          "v11": {
+            "wins": 1,
+            "losses": 1
+          }
+        }
+      },
+      "v9": {
+        "n": 63,
+        "correct": 57,
+        "vs": {
+          "draft": {
+            "wins": 11,
+            "losses": 1
+          },
+          "v8": {
+            "wins": 1,
+            "losses": 0
+          },
+          "v9": {
+            "wins": 0,
+            "losses": 0
+          },
+          "v10": {
+            "wins": 2,
+            "losses": 1
+          },
+          "v11": {
+            "wins": 2,
+            "losses": 1
+          }
+        }
+      },
+      "v10": {
+        "n": 63,
+        "correct": 56,
+        "vs": {
+          "draft": {
+            "wins": 10,
+            "losses": 1
+          },
+          "v8": {
+            "wins": 1,
+            "losses": 1
+          },
+          "v9": {
+            "wins": 1,
+            "losses": 2
+          },
+          "v10": {
+            "wins": 0,
+            "losses": 0
+          },
+          "v11": {
+            "wins": 0,
+            "losses": 0
+          }
+        }
+      },
+      "v11": {
+        "n": 63,
+        "correct": 56,
+        "vs": {
+          "draft": {
+            "wins": 10,
+            "losses": 1
+          },
+          "v8": {
+            "wins": 1,
+            "losses": 1
+          },
+          "v9": {
+            "wins": 1,
+            "losses": 2
+          },
+          "v10": {
+            "wins": 0,
+            "losses": 0
+          },
+          "v11": {
+            "wins": 0,
+            "losses": 0
+          }
+        }
+      },
+      "draft": {
+        "n": 63,
+        "correct": 47,
+        "vs": {
+          "draft": {
+            "wins": 0,
+            "losses": 0
+          },
+          "v8": {
+            "wins": 1,
+            "losses": 10
+          },
+          "v9": {
+            "wins": 1,
+            "losses": 11
+          },
+          "v10": {
+            "wins": 1,
+            "losses": 10
+          },
+          "v11": {
+            "wins": 1,
+            "losses": 10
+          }
+        }
+      },
+      "v8_pass_v11_fail": {
+        "n": 63,
+        "correct": 56,
+        "vs": {
+          "draft": {
+            "wins": 10,
+            "losses": 1
+          },
+          "v8": {
+            "wins": 0,
+            "losses": 0
+          },
+          "v9": {
+            "wins": 0,
+            "losses": 1
+          },
+          "v10": {
+            "wins": 1,
+            "losses": 1
+          },
+          "v11": {
+            "wins": 1,
+            "losses": 1
+          }
+        }
+      },
+      "v9_pass_v11_fail": {
+        "n": 63,
+        "correct": 57,
+        "vs": {
+          "draft": {
+            "wins": 11,
+            "losses": 1
+          },
+          "v8": {
+            "wins": 1,
+            "losses": 0
+          },
+          "v9": {
+            "wins": 0,
+            "losses": 0
+          },
+          "v10": {
+            "wins": 2,
+            "losses": 1
+          },
+          "v11": {
+            "wins": 2,
+            "losses": 1
+          }
+        }
+      }
+    },
+    "draft_public_mismatch": {
+      "v8": {
+        "n": 57,
+        "correct": 40,
+        "vs": {
+          "draft": {
+            "wins": 40,
+            "losses": 0
+          },
+          "v8": {
+            "wins": 0,
+            "losses": 0
+          },
+          "v9": {
+            "wins": 0,
+            "losses": 1
+          },
+          "v10": {
+            "wins": 0,
+            "losses": 4
+          },
+          "v11": {
+            "wins": 0,
+            "losses": 5
+          }
+        }
+      },
+      "v9": {
+        "n": 57,
+        "correct": 41,
+        "vs": {
+          "draft": {
+            "wins": 41,
+            "losses": 0
+          },
+          "v8": {
+            "wins": 1,
+            "losses": 0
+          },
+          "v9": {
+            "wins": 0,
+            "losses": 0
+          },
+          "v10": {
+            "wins": 0,
+            "losses": 3
+          },
+          "v11": {
+            "wins": 0,
+            "losses": 4
+          }
+        }
+      },
+      "v10": {
+        "n": 57,
+        "correct": 44,
+        "vs": {
+          "draft": {
+            "wins": 44,
+            "losses": 0
+          },
+          "v8": {
+            "wins": 4,
+            "losses": 0
+          },
+          "v9": {
+            "wins": 3,
+            "losses": 0
+          },
+          "v10": {
+            "wins": 0,
+            "losses": 0
+          },
+          "v11": {
+            "wins": 0,
+            "losses": 1
+          }
+        }
+      },
+      "v11": {
+        "n": 57,
+        "correct": 45,
+        "vs": {
+          "draft": {
+            "wins": 45,
+            "losses": 0
+          },
+          "v8": {
+            "wins": 5,
+            "losses": 0
+          },
+          "v9": {
+            "wins": 4,
+            "losses": 0
+          },
+          "v10": {
+            "wins": 1,
+            "losses": 0
+          },
+          "v11": {
+            "wins": 0,
+            "losses": 0
+          }
+        }
+      },
+      "draft": {
+        "n": 57,
+        "correct": 0,
+        "vs": {
+          "draft": {
+            "wins": 0,
+            "losses": 0
+          },
+          "v8": {
+            "wins": 0,
+            "losses": 40
+          },
+          "v9": {
+            "wins": 0,
+            "losses": 41
+          },
+          "v10": {
+            "wins": 0,
+            "losses": 44
+          },
+          "v11": {
+            "wins": 0,
+            "losses": 45
+          }
+        }
+      },
+      "v8_pass_v11_fail": {
+        "n": 57,
+        "correct": 45,
+        "vs": {
+          "draft": {
+            "wins": 45,
+            "losses": 0
+          },
+          "v8": {
+            "wins": 5,
+            "losses": 0
+          },
+          "v9": {
+            "wins": 4,
+            "losses": 0
+          },
+          "v10": {
+            "wins": 1,
+            "losses": 0
+          },
+          "v11": {
+            "wins": 0,
+            "losses": 0
+          }
+        }
+      },
+      "v9_pass_v11_fail": {
+        "n": 57,
+        "correct": 45,
+        "vs": {
+          "draft": {
+            "wins": 45,
+            "losses": 0
+          },
+          "v8": {
+            "wins": 5,
+            "losses": 0
+          },
+          "v9": {
+            "wins": 4,
+            "losses": 0
+          },
+          "v10": {
+            "wins": 1,
+            "losses": 0
+          },
+          "v11": {
+            "wins": 0,
+            "losses": 0
+          }
+        }
+      }
+    }
+  }
+}

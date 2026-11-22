@@ -1,0 +1,41 @@
+{
+  "selected_at": "2026-11-13T08:12:15.497549+00:00",
+  "rule": "Max validation correct; ties prefer fewer model calls, then experiment name. Promote only if strictly above v2 87/120.",
+  "new_experiment": "e20_recovery4",
+  "new_config": "submission/configs/recovery_v3_4.json",
+  "locked_config": "submission/configs/recovery_v3_selected.json",
+  "config_sha256": "ba05520092aa3223ac7f576f3330083e115b91adb494887f307e8b701aa64e97",
+  "promote": true,
+  "default_experiment": "e20_recovery4",
+  "test_metrics_used": false,
+  "adapter_path": "artifacts/adapters/onpolicy_v001/epoch_02",
+  "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+  "base_revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+  "validation": [
+    {
+      "experiment": "e13_review_risk",
+      "correct": 87,
+      "n": 120,
+      "accuracy": 72.5,
+      "model_calls": 288,
+      "source": "runs/e13_review_risk/validation/r001"
+    },
+    {
+      "experiment": "e20_recovery4",
+      "correct": 89,
+      "n": 120,
+      "accuracy": 74.16666666666667,
+      "model_calls": 293,
+      "source": "runs/e20_recovery4/validation/r001"
+    },
+    {
+      "experiment": "e21_recovery6",
+      "correct": 89,
+      "n": 120,
+      "accuracy": 74.16666666666667,
+      "model_calls": 328,
+      "source": "runs/e21_recovery6/validation/r001"
+    }
+  ],
+  "previous_default_config": "submission/configs/selected_v2.json"
+}

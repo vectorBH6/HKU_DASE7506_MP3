@@ -1,0 +1,30 @@
+{
+  "population": "98 held-out official train questions, 4 previously logged V5 rollouts per question, V5 trajectories share a question and are not independent observations. V5 prefixes and incumbent differ from V8.",
+  "method": "Use frozen V9 phrase rules. Keep the archived submission unless exactly one distinct public-matching checked SQL satisfies the learned requirements. Grade changed decisions by exact SQL in the same rollout's official three-instance checked_candidates labels; use original outcome on unchanged decisions.",
+  "inputs_sha256": {
+    "runs/v5_train_coverage/episodes.jsonl": "8da68321a0714538cb1edacec1f63d65e588469cd5bc621251123533d949b279",
+    "mp3_sql/data/train.jsonl": "562d6d54cbfac83829cf528a3b8ca5f101994c9fe5b1a502519beba328900f65",
+    "mp3_sql/data/train_references.json": "def39effca9b1efe78f7316d71739111b8c8290dd0897db5e6655293fca24da7",
+    "artifacts/prepared_data/v6/split.json": "3a374d00a176a1fc224c1d029c9b5e011e990dfab176b3dff40f68bdcc3d2ec7",
+    "scripts/probe_v9_intent.py": "472c3968c187e078ef1e1a2ee4fca3940845ab9a2d971a48906bb115188b3c5c",
+    "reports/v9_intent_probe.json": "2ee118d2089d71d7b78a438554a2dc0a3603fe9872712ab7b0fcb4a49b12921a"
+  },
+  "episodes": 392,
+  "questions": 98,
+  "samples_per_question": 4,
+  "graded_episodes": 392,
+  "unresolved_changes": 0,
+  "changed_episodes": 1,
+  "changed_questions": 1,
+  "correct_before": 346,
+  "correct_after": 346,
+  "wins": 0,
+  "losses": 0,
+  "net": 0,
+  "questions_with_net_gain": 0,
+  "questions_with_net_loss": 0,
+  "any_of_four_correct_before": 96,
+  "any_of_four_correct_after": 96,
+  "extra_tool_calls": 0,
+  "extra_model_calls": 0
+}

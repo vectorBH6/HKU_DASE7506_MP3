@@ -1,0 +1,13 @@
+{
+  "all_checks_passed": true,
+  "full_test_three_instances": true,
+  "default_factory": "SemanticAgent",
+  "fresh_task_memory": true,
+  "inventory_before_final_check_record_bytes": 12118306,
+  "inventory_hashes_verified": 459,
+  "canonical_raw_copies": true,
+  "local_document_links_checked": 53,
+  "single_venv": "/home/rvector/MP3_SQL_student_package/.venv",
+  "test_correct": 180,
+  "test_n": 240
+}

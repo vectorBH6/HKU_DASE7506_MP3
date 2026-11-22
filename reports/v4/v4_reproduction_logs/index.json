@@ -1,0 +1,407 @@
+[
+  {
+    "source": "runs/e31_feedback_old_weights/validation/r002/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e31_feedback_old_weights__validation__r002__generations.jsonl.gz",
+    "raw_sha256": "af965665fb4f4ca0f01be31ab754d066d8f29706f3062cdccb988bf3fa1d8703"
+  },
+  {
+    "source": "runs/e31_feedback_old_weights/validation/r002/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e31_feedback_old_weights__validation__r002__decisions.jsonl.gz",
+    "raw_sha256": "98e8774bb46d677961bf68efad6ed665d08274cf79604fdb6edb3b5978d75842"
+  },
+  {
+    "source": "runs/e31_feedback_old_weights/validation/r002/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__e31_feedback_old_weights__validation__r002__predictions.json.gz",
+    "raw_sha256": "75857749eff1adde87640606fb653cf5045928f6969177a248a4ed427b239ccb"
+  },
+  {
+    "source": "runs/e33_feedback_new_weights/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e33_feedback_new_weights__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "02c99933ea51c3ef76f21ba492f1084a9751cdba92ed1ac92a108c1d4f168060"
+  },
+  {
+    "source": "runs/e33_feedback_new_weights/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e33_feedback_new_weights__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "7d07ee18d171d140cbe591330d8cdbc0f016f2f033da98415d7d8919909dc3b3"
+  },
+  {
+    "source": "runs/e33_feedback_new_weights/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__e33_feedback_new_weights__validation__r001__predictions.json.gz",
+    "raw_sha256": "d93b652a66b7c3938bb21f62e513e45a9640503416ece2b83b4eec6811553899"
+  },
+  {
+    "source": "runs/e34_feedback_variant/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e34_feedback_variant__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "3d0dec9ff1660cc868d5499416a0f6a5b8a3327913e2e3e6c9846aea7e564001"
+  },
+  {
+    "source": "runs/e34_feedback_variant/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e34_feedback_variant__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "506a7c8e8b09edc3a5a4a8f6ae82dbaae3748a293a61ebaabb41eb0d1817a61c"
+  },
+  {
+    "source": "runs/e34_feedback_variant/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__e34_feedback_variant__validation__r001__predictions.json.gz",
+    "raw_sha256": "ddd0d21a5cbd013152a820124b7c808b1bd4b26fd87b232c970088112bbe233a"
+  },
+  {
+    "source": "runs/e36_semantic_old_weights/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e36_semantic_old_weights__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "88c225d52093e6f0b12cea86c19d73b380e7b05545c8b994c93d46f045371536"
+  },
+  {
+    "source": "runs/e36_semantic_old_weights/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e36_semantic_old_weights__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "f3ba15200207a35eb032f8a36cd2466c80a8fb47fac64c5e0f83056d57052c03"
+  },
+  {
+    "source": "runs/e36_semantic_old_weights/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__e36_semantic_old_weights__validation__r001__predictions.json.gz",
+    "raw_sha256": "6c79d37234e43e6d21fc0fdd575d967cbbb73e7651c300a5860f5c73f0449bdb"
+  },
+  {
+    "source": "runs/e37_contract_old_weights/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e37_contract_old_weights__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "9f134f43bee5bd067f133462293e5dbc02948e12ef067c3211b8b6999f15e804"
+  },
+  {
+    "source": "runs/e37_contract_old_weights/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e37_contract_old_weights__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "6180717b7c129f070c2f0697f7ccc42900eec240f19e3a5662da6037c59bf8c4"
+  },
+  {
+    "source": "runs/e37_contract_old_weights/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__e37_contract_old_weights__validation__r001__predictions.json.gz",
+    "raw_sha256": "f06485febe61c940627cdfded4a48436879310f9f3723be24826956fb8d63c9a"
+  },
+  {
+    "source": "runs/e38_recovery_epoch1/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e38_recovery_epoch1__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "462d841bc2f2e8675c94a81e73e13e49a3002e952d57b767605fa00aee9426c3"
+  },
+  {
+    "source": "runs/e38_recovery_epoch1/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e38_recovery_epoch1__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "32a46afe07e873df740540454eafa44e77d482cca3d5021fb0c5228f8e45c97b"
+  },
+  {
+    "source": "runs/e38_recovery_epoch1/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__e38_recovery_epoch1__validation__r001__predictions.json.gz",
+    "raw_sha256": "174bce8a79f1e9f19ab521a6398d9b022cbd310c068435ec7e73e52b949cbd75"
+  },
+  {
+    "source": "runs/e39_constraint_old_weights/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e39_constraint_old_weights__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "3deab5c62477b059d58f2ef34483689f4b75adb958bb57ba31d84b2e331a936f"
+  },
+  {
+    "source": "runs/e39_constraint_old_weights/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e39_constraint_old_weights__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "88bcfb75f889c77c8d83d0dcc19559d83105276f6ff7cac6386f9f2e1339f388"
+  },
+  {
+    "source": "runs/e39_constraint_old_weights/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__e39_constraint_old_weights__validation__r001__predictions.json.gz",
+    "raw_sha256": "3638c0dda3a977c845d68d7c7ed4eb3ac6066b43f9edc978fcf33944d9f3c24f"
+  },
+  {
+    "source": "runs/e35_feedback_selected/test/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e35_feedback_selected__test__r001__generations.jsonl.gz",
+    "raw_sha256": "425134a9a5178e13e9f0385142ef989e650420dc7485a06f53589a3c3a33afdf"
+  },
+  {
+    "source": "runs/e35_feedback_selected/test/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e35_feedback_selected__test__r001__decisions.jsonl.gz",
+    "raw_sha256": "02e71c896c548a9f28f008565ba4a1a3a7a7e4bfc4539019e243a223c334a066"
+  },
+  {
+    "source": "runs/e35_feedback_selected/test/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__e35_feedback_selected__test__r001__predictions.json.gz",
+    "raw_sha256": "f619959b2255a5dd2174bd949fa04e5136df819735147a526814a7889bc6b05b"
+  },
+  {
+    "source": "runs/e42_contract_control/test/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e42_contract_control__test__r001__generations.jsonl.gz",
+    "raw_sha256": "fdb54c8f342b3c5cdf4fff390be827b53dde99b7a80fbd03e0fa1b6fb5e9cb9e"
+  },
+  {
+    "source": "runs/e42_contract_control/test/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e42_contract_control__test__r001__decisions.jsonl.gz",
+    "raw_sha256": "ab9ce6a36f74fbf5098dfa7e830d419a87bb24b09073d2bf6785fe063ed1d621"
+  },
+  {
+    "source": "runs/e42_contract_control/test/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__e42_contract_control__test__r001__predictions.json.gz",
+    "raw_sha256": "87f96445210c731278da1fc09006ba472465926852a6356a8d4d207bc64a0c42"
+  },
+  {
+    "source": "runs/e30_feedback_collection/train/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e30_feedback_collection__train__r001__generations.jsonl.gz",
+    "raw_sha256": "c15306d44c9b910dadb036afd6ba6747f358332814b6f5831326234d577a4a5e"
+  },
+  {
+    "source": "runs/e30_feedback_collection/train/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__e30_feedback_collection__train__r001__decisions.jsonl.gz",
+    "raw_sha256": "47d622f0fb7a7fceafd97dd8f1b1c58ad982e5291005b718e5e1545481ba7369"
+  },
+  {
+    "source": "runs/e30_feedback_collection/train/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__e30_feedback_collection__train__r001__predictions.json.gz",
+    "raw_sha256": "252fc0d3cc2784e9e1d3c7f75b4264729758308c35c5c62c752c8656a27651e8"
+  },
+  {
+    "source": "runs/dev_v4_extra_plan/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_extra_plan__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "e7b2126ac151e6349b5548a45c1fa3dbaf910754989b1fafd1a0ef279ee28516"
+  },
+  {
+    "source": "runs/dev_v4_extra_plan/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_extra_plan__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "56074f977e0f9dbe9d6c30e5863b850686fd4d3636d12164f6933ce8f5e00b9f"
+  },
+  {
+    "source": "runs/dev_v4_extra_plan/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_extra_plan__validation__r001__predictions.json.gz",
+    "raw_sha256": "0aafcb5b9753d4cbc5835a41ec432a7f0e09f7f78a2b9fe4394ca19737c497db"
+  },
+  {
+    "source": "runs/dev_v4_e1_feedback/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_feedback__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "be03ce7e4915f2f608608623fc5cbbd7ec9c120ef9d056827f2b29e9d3b5102f"
+  },
+  {
+    "source": "runs/dev_v4_e1_feedback/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_feedback__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "9752703a7d1948b1c36e64061d9cd6c86a299d7cba48041c02e921507070a12a"
+  },
+  {
+    "source": "runs/dev_v4_e1_feedback/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_feedback__validation__r001__predictions.json.gz",
+    "raw_sha256": "b477c2fae3a80fcbffbc83f710f4a4f11bfb88bb9f11088df25e6a248b362466"
+  },
+  {
+    "source": "runs/dev_v4_extra_recovery/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_extra_recovery__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "454cc577f3418ad7777f7f58c02d1dac3937ddf5d05073e177189bcf26f7c808"
+  },
+  {
+    "source": "runs/dev_v4_extra_recovery/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_extra_recovery__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "f435798d0c98ff003b51036d64f566bb056042a5415e00d6e4bf979cb47fa28b"
+  },
+  {
+    "source": "runs/dev_v4_extra_recovery/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_extra_recovery__validation__r001__predictions.json.gz",
+    "raw_sha256": "8e2dac236205b24cb2d8cd21e54549ff91a08068a5c3fa0d3b985cfa87f1de44"
+  },
+  {
+    "source": "runs/dev_v4_extra_plan_constraint/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_extra_plan_constraint__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "ecbb15972e04f0130227f180251318ad921caf93c9e5fd24abdd1502a46c883d"
+  },
+  {
+    "source": "runs/dev_v4_extra_plan_constraint/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_extra_plan_constraint__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "8435a2b247d629488688f58a0dfdcc97c5bccc250daff3aa70dc56487763219d"
+  },
+  {
+    "source": "runs/dev_v4_extra_plan_constraint/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_extra_plan_constraint__validation__r001__predictions.json.gz",
+    "raw_sha256": "4e1792d5c86c6a0b85c528d7d31bbb6a16c455cfde6757f8eaa3c308e0152f18"
+  },
+  {
+    "source": "runs/dev_v4_e1_prefer_model/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_prefer_model__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "3e3eaa45e0e39c022bce3f7bf4f8e3fa854963d26961ede3737d3a3f96fae186"
+  },
+  {
+    "source": "runs/dev_v4_e1_prefer_model/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_prefer_model__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "9752703a7d1948b1c36e64061d9cd6c86a299d7cba48041c02e921507070a12a"
+  },
+  {
+    "source": "runs/dev_v4_e1_prefer_model/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_prefer_model__validation__r001__predictions.json.gz",
+    "raw_sha256": "d0f60e4894b84107ffebfbe0eb18f6d2466968f79722d6e89be4658ab8fd5951"
+  },
+  {
+    "source": "runs/dev_v4_e2_semantic/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e2_semantic__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "ca0f2ac65e7e93c304cd2a1a16a296606c631432f24b5ca46a7cb784afe6bf69"
+  },
+  {
+    "source": "runs/dev_v4_e2_semantic/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e2_semantic__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "9731877e76bd9aed57bda4bee3d118f10d90f9056efa452614bfab47de58c8d8"
+  },
+  {
+    "source": "runs/dev_v4_e2_semantic/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e2_semantic__validation__r001__predictions.json.gz",
+    "raw_sha256": "ceeb42abd21fda2bf2d7587655b267ced99fff353ddbba555333e9d211dc78ae"
+  },
+  {
+    "source": "runs/dev_v4_e1_semantic/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_semantic__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "02a5d0fbf6d17dfa86faac75af2a9e19e1dd9484ee309754c77ef6d2a1a34888"
+  },
+  {
+    "source": "runs/dev_v4_e1_semantic/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_semantic__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "8ab695d77332443f3b563add7dc7efe7477a4ecf385192b161f64c089c724684"
+  },
+  {
+    "source": "runs/dev_v4_e1_semantic/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_semantic__validation__r001__predictions.json.gz",
+    "raw_sha256": "e14001a38abb812fb38878e607f3705705f28cedebc0d897143e50cf39db1a1b"
+  },
+  {
+    "source": "runs/dev_v4_e2_recovery/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e2_recovery__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "38402efe8adb73a00c4f515fcfd47f128de656b325d43f3b5840bd19d0c0e653"
+  },
+  {
+    "source": "runs/dev_v4_e2_recovery/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e2_recovery__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "ce29c682aa472acb464b9b5ee0860876a1fb6c4eff9018932d06e958303f5bff"
+  },
+  {
+    "source": "runs/dev_v4_e2_recovery/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e2_recovery__validation__r001__predictions.json.gz",
+    "raw_sha256": "730164c413e0cb1877abfb7372c1ea44bcd26136ec9613948fbb2057600effcc"
+  },
+  {
+    "source": "runs/dev_v4_extra_constraint/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_extra_constraint__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "2bacd9dfafe717df05e1bb9abf277863557a334983c60d0f78595b5f5b822e3d"
+  },
+  {
+    "source": "runs/dev_v4_extra_constraint/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_extra_constraint__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "67aa418c170f246035556aa4111e82dc569070c0decb6d81d228626a8eda5d92"
+  },
+  {
+    "source": "runs/dev_v4_extra_constraint/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_extra_constraint__validation__r001__predictions.json.gz",
+    "raw_sha256": "79aa9fbc174e158816ce699c364d355df57eb4add6e2610e57f2bf5370af1ffd"
+  },
+  {
+    "source": "runs/dev_v4_e2_contract/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e2_contract__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "3f273d2500e90fdf979db2fd8da540ef8d7f548b261912cda4e8270395c0b560"
+  },
+  {
+    "source": "runs/dev_v4_e2_contract/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e2_contract__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "73c9d13fbe17db08c82c81a1b1d5fd786c44040f6114581c39007c3eb610c961"
+  },
+  {
+    "source": "runs/dev_v4_e2_contract/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e2_contract__validation__r001__predictions.json.gz",
+    "raw_sha256": "30e8117c45b115ee38e31c6fe2a6a8c47d42788095d57128b0c18b2bca8c7561"
+  },
+  {
+    "source": "runs/dev_v4_e1_recovery6/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_recovery6__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "02d4b921fcdcc3b9dc90bc93af118b9e22a4341e9dcdf6babdd79bad329bc4ea"
+  },
+  {
+    "source": "runs/dev_v4_e1_recovery6/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_recovery6__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "715aa06a3e6c62110e15bdbdb86136d738c63deaf28b7dae721dca36c7894015"
+  },
+  {
+    "source": "runs/dev_v4_e1_recovery6/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_recovery6__validation__r001__predictions.json.gz",
+    "raw_sha256": "32c0f6ff7a645a650a86e81f51a385f9a9a6aae7ff30970c0ed00b828ef4de84"
+  },
+  {
+    "source": "runs/dev_v4_e1_contract/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_contract__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "05fd12d1abfa8df2c59538477750b7fcb56406b6582a5515ac74fb16289fea89"
+  },
+  {
+    "source": "runs/dev_v4_e1_contract/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_contract__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "5adb0cddd5aa60461c4d44d3f37cf51c47eaa5b6c77508e0c86db37bb1d96703"
+  },
+  {
+    "source": "runs/dev_v4_e1_contract/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_contract__validation__r001__predictions.json.gz",
+    "raw_sha256": "a09877cad10887398891af411657b8c996492d7ae1d886884d541db9e75703de"
+  },
+  {
+    "source": "runs/dev_v4_e1_feedback6/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_feedback6__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "8e60e7208851da87ca60a186e5dd196449c26568ec69a1ef10039523dc4e533e"
+  },
+  {
+    "source": "runs/dev_v4_e1_feedback6/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_feedback6__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "257cbbb2390a1fb1fde95247080ab78fae67af6e52c64ca3e17372bb72103789"
+  },
+  {
+    "source": "runs/dev_v4_e1_feedback6/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_feedback6__validation__r001__predictions.json.gz",
+    "raw_sha256": "6a89a6253bd6ce170944cb0c08e21b043620f5ee12ac31a117aebe283d2ba9f1"
+  },
+  {
+    "source": "runs/dev_v4_e1_recovery/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_recovery__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "696a0f0298ef64e127d9cb46f036f2e9643d634a42a05ccd7dc582580d13f39a"
+  },
+  {
+    "source": "runs/dev_v4_e1_recovery/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_recovery__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "34fee47f0f59119cc5038092c17105ae9cf6ff5a9af3f6a4cde63865b2730f14"
+  },
+  {
+    "source": "runs/dev_v4_e1_recovery/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e1_recovery__validation__r001__predictions.json.gz",
+    "raw_sha256": "534df422f5c969a33f855f49ff19ee65e3c580c1e3b7169603e9df0404f26333"
+  },
+  {
+    "source": "runs/dev_v4_e2_feedback/validation/r001/generations.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e2_feedback__validation__r001__generations.jsonl.gz",
+    "raw_sha256": "979824e7e3b66382ea9a9de6cc4221efc0b9bd62a5b4844af212d519c61b0773"
+  },
+  {
+    "source": "runs/dev_v4_e2_feedback/validation/r001/decisions.jsonl",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e2_feedback__validation__r001__decisions.jsonl.gz",
+    "raw_sha256": "3e669e2148ea5eccb73366951df9f9703eff9ad5b89564ae7a06d39e7c98c2c5"
+  },
+  {
+    "source": "runs/dev_v4_e2_feedback/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__dev_v4_e2_feedback__validation__r001__predictions.json.gz",
+    "raw_sha256": "3456df7cadfd4e8297db820b1c0f9c10d31a0a5b0fbcb321db0d2664cdef705c"
+  },
+  {
+    "source": "submission/outputs/v4b-test.json",
+    "compressed": "reports/v4_reproduction_logs/submission__outputs__v4b-test.json.gz",
+    "raw_sha256": "87f96445210c731278da1fc09006ba472465926852a6356a8d4d207bc64a0c42"
+  },
+  {
+    "source": "submission/outputs/v3-test.json",
+    "compressed": "reports/v4_reproduction_logs/submission__outputs__v3-test.json.gz",
+    "raw_sha256": "57a1650a7297752a38e8869770bf4fe584f3e02170f0365832b29ff1b492c1cb"
+  },
+  {
+    "source": "submission/outputs/v4-test.json",
+    "compressed": "reports/v4_reproduction_logs/submission__outputs__v4-test.json.gz",
+    "raw_sha256": "f619959b2255a5dd2174bd949fa04e5136df819735147a526814a7889bc6b05b"
+  },
+  {
+    "source": "runs/e22_recovery_selected/test/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__e22_recovery_selected__test__r001__predictions.json.gz",
+    "raw_sha256": "57a1650a7297752a38e8869770bf4fe584f3e02170f0365832b29ff1b492c1cb"
+  },
+  {
+    "source": "runs/e20_recovery4/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__e20_recovery4__validation__r001__predictions.json.gz",
+    "raw_sha256": "0f6c7354f33c6b2ad35f876fc054b705ddd85fff037d817d2a5046c3693d4470"
+  },
+  {
+    "source": "runs/e21_recovery6/validation/r001/predictions.json",
+    "compressed": "reports/v4_reproduction_logs/runs__e21_recovery6__validation__r001__predictions.json.gz",
+    "raw_sha256": "b20184816f8c6c1dce9a2e5b5c4572fb1f9984e2feb3b43280176a4d6dbbab65"
+  }
+]

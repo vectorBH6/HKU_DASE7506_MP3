@@ -1,0 +1,26 @@
+{
+  "all_checks_passed": true,
+  "selected_experiment": "e42_contract_control",
+  "default_factory": "ContractAgent",
+  "fresh_task_memory": true,
+  "control_identical_to_validation": true,
+  "selection_precedes_control_test": true,
+  "public_test_aggregate_used_for_deployment": true,
+  "test_question_labels_used_for_training_or_rules": false,
+  "original_v4_runtime_audit_is_historical": true,
+  "single_venv": "/home/rvector/MP3_SQL_student_package/.venv",
+  "canonical_exact_copy_of_selected_raw_result": true,
+  "control": {
+    "correct": 184,
+    "n": 240,
+    "model_calls": 601,
+    "max_model_calls": 4,
+    "max_new_tokens": 174,
+    "max_tool_calls": 8,
+    "prediction_seconds": 2481.343641737003,
+    "scoring_seconds": 4.527758270000049,
+    "peak_rss_mib": 4990.8984375
+  },
+  "control_predictions_sha256": "87f96445210c731278da1fc09006ba472465926852a6356a8d4d207bc64a0c42",
+  "control_score_sha256": "7b1ad561548dfe298f508621c225181b3af4b60fa9901762d32febd15cd8ec55"
+}

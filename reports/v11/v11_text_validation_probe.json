@@ -1,0 +1,19 @@
+{
+  "scope": "Validation with exact prompt-by-prompt CPU V4 output reuse and real official public tools, no fresh model inference",
+  "n": 120,
+  "v10": 100,
+  "v11": 101,
+  "wins": 1,
+  "losses": 0,
+  "independently_equal_full_episodes": 120,
+  "max_tools": 8,
+  "check_verified_failures": 8,
+  "other_episodes_identical": 112,
+  "failed_searches_kept_original": 4,
+  "extra_checks": 7,
+  "changed_final_sql": 1,
+  "matching_generation_prompts": 254,
+  "entrypoint_sha256": "932f6287641d3213d6b053880dad888d400160edcad9fb7de394729c8e38e909",
+  "config_sha256": "c419fd5ea7f5c2b0e83c60ba9c122b09eeec9aca4e45d7ce06b8db0d1dca679f",
+  "predictions_sha256": "2b46c4b32a75c815d6b962b7745215a96755f2b6ed57249b8db806ebaaefca3d"
+}

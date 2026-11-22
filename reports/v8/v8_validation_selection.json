@@ -1,0 +1,31 @@
+{
+  "selected": "struct",
+  "outcomes": {
+    "V7": {
+      "correct": 93,
+      "mean_tools": 3.425,
+      "score_sha256": "d7f0fe3f0067fee763918f7a1d0db6af6cb478e73baef6ecf09c43b69a775c23",
+      "path": "runs/e71_v7_paired/validation/r001"
+    },
+    "first": {
+      "correct": 95,
+      "mean_tools": 4.516666666666667,
+      "score_sha256": "79622d6b28523bbeb61a549181a0262a76b766b8c4749c4d8a94bac899c6cb74",
+      "path": "runs/e80_v8_first/validation/r001"
+    },
+    "choose": {
+      "correct": 94,
+      "mean_tools": 4.516666666666667,
+      "score_sha256": "413df27e4665de2b15581f80858f9fbc230b668c3122aa5708712c2d10bd13f3",
+      "path": "runs/e81_v8_choose/validation/r001"
+    },
+    "struct": {
+      "correct": 96,
+      "mean_tools": 4.583333333333333,
+      "score_sha256": "18f6db7c3da2e51993362fc0b6cc327f1e27859f4ea4ef2e0a5f347abe90521d",
+      "path": "runs/e82_v8_struct/validation/r001"
+    }
+  },
+  "official_lock_sha256": "3572da71ef0a0291effbd216be461d343a35f840ab069744cec87381124d4ee5",
+  "locked_utc": "2026-11-20T11:30:04.449396+00:00"
+}

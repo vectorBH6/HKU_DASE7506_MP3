@@ -1,0 +1,32 @@
+[
+  {
+    "source": "runs/e20_recovery4/validation/r001/generations.jsonl",
+    "compressed": "reports/recovery_logs/e20_recovery4_validation_r001_generations.jsonl.gz",
+    "raw_sha256": "3038e531a136f89046ae55efb9c64e6d3471891d334198c4d6d717b751622c90"
+  },
+  {
+    "source": "runs/e20_recovery4/validation/r001/decisions.jsonl",
+    "compressed": "reports/recovery_logs/e20_recovery4_validation_r001_decisions.jsonl.gz",
+    "raw_sha256": "7599aec7ae771c8548d20651732f6c15ce08ee57263261fc6e73809aeb395264"
+  },
+  {
+    "source": "runs/e21_recovery6/validation/r001/generations.jsonl",
+    "compressed": "reports/recovery_logs/e21_recovery6_validation_r001_generations.jsonl.gz",
+    "raw_sha256": "57a24e70f51b550846c4655ea8415e5605b91cce35c85209686250e63c918ef6"
+  },
+  {
+    "source": "runs/e21_recovery6/validation/r001/decisions.jsonl",
+    "compressed": "reports/recovery_logs/e21_recovery6_validation_r001_decisions.jsonl.gz",
+    "raw_sha256": "9a0f27d4ae7811b132dbf4bdddacf7407b024b630b7179d1e075794835e38272"
+  },
+  {
+    "source": "runs/e22_recovery_selected/test/r001/generations.jsonl",
+    "compressed": "reports/recovery_logs/e22_recovery_selected_test_r001_generations.jsonl.gz",
+    "raw_sha256": "a2d8731f4bb4cc4f97a9302c574ad8ca94875d599ac044fc4aa458e3ffac9c2e"
+  },
+  {
+    "source": "runs/e22_recovery_selected/test/r001/decisions.jsonl",
+    "compressed": "reports/recovery_logs/e22_recovery_selected_test_r001_decisions.jsonl.gz",
+    "raw_sha256": "36bfc9f9909200315c81f3017fc1d6ae57a19d87c51fc43ef33a0d07e8d47b10"
+  }
+]

@@ -1,0 +1,198 @@
+{
+  "validation": {
+    "arms": {
+      "baseline": {
+        "run": "runs/e50_v5_baseline/validation/r001",
+        "score_sha256": "ec9252d2b9657e8be9b496e1d645f85f1bfa0c9380db5507dc3cb34b3d314e68",
+        "n": 120,
+        "correct": 92,
+        "accuracy_percent": 76.66666666666667,
+        "original_wrong": 73,
+        "visibly_wrong_draft": 57,
+        "visibly_wrong_draft_repaired": 36,
+        "public_matching_final_still_wrong": 15,
+        "ambiguous_draft": 16,
+        "ambiguous_draft_repaired": 9,
+        "original_right": 47,
+        "preserved": 47,
+        "all_wrong_drafts_repaired": 45,
+        "vs_baseline": {
+          "repaired": 0,
+          "regressed": 0
+        },
+        "generations": 278,
+        "mean_charged_tools": 3.5,
+        "max_generations": 4,
+        "max_generated_tokens": 160,
+        "max_charged_tools": 8,
+        "wall_seconds": {
+          "prediction": 1480.486362153,
+          "scoring": 2.7193786279999586
+        },
+        "peak_rss_bytes": 3932270592
+      },
+      "ordinary": {
+        "run": "runs/e70_v7_ordinary/validation/r001",
+        "score_sha256": "bf76897f3a832d82701ac19870e98af892af7344f38ca2b000bd151bad78a636",
+        "n": 120,
+        "correct": 88,
+        "accuracy_percent": 73.33333333333333,
+        "original_wrong": 73,
+        "visibly_wrong_draft": 57,
+        "visibly_wrong_draft_repaired": 36,
+        "public_matching_final_still_wrong": 19,
+        "ambiguous_draft": 16,
+        "ambiguous_draft_repaired": 5,
+        "original_right": 47,
+        "preserved": 47,
+        "all_wrong_drafts_repaired": 41,
+        "vs_baseline": {
+          "repaired": 2,
+          "regressed": 6
+        },
+        "generations": 248,
+        "mean_charged_tools": 3.2083333333333335,
+        "max_generations": 4,
+        "max_generated_tokens": 139,
+        "max_charged_tools": 7,
+        "wall_seconds": {
+          "prediction": 1512.1646583249985,
+          "scoring": 2.773201539999718
+        },
+        "peak_rss_bytes": 4951154688
+      },
+      "paired": {
+        "run": "runs/e71_v7_paired/validation/r001",
+        "score_sha256": "d7f0fe3f0067fee763918f7a1d0db6af6cb478e73baef6ecf09c43b69a775c23",
+        "n": 120,
+        "correct": 93,
+        "accuracy_percent": 77.5,
+        "original_wrong": 73,
+        "visibly_wrong_draft": 57,
+        "visibly_wrong_draft_repaired": 37,
+        "public_matching_final_still_wrong": 15,
+        "ambiguous_draft": 16,
+        "ambiguous_draft_repaired": 9,
+        "original_right": 47,
+        "preserved": 47,
+        "all_wrong_drafts_repaired": 46,
+        "vs_baseline": {
+          "repaired": 2,
+          "regressed": 1
+        },
+        "generations": 275,
+        "mean_charged_tools": 3.425,
+        "max_generations": 4,
+        "max_generated_tokens": 384,
+        "max_charged_tools": 8,
+        "wall_seconds": {
+          "prediction": 1689.0365498419978,
+          "scoring": 2.8214469850026944
+        },
+        "peak_rss_bytes": 4485869568
+      }
+    },
+    "paired_vs_ordinary": {
+      "repaired": 6,
+      "regressed": 1
+    }
+  },
+  "test": {
+    "arms": {
+      "baseline": {
+        "run": "runs/e42_contract_control/test/r001",
+        "score_sha256": "7b1ad561548dfe298f508621c225181b3af4b60fa9901762d32febd15cd8ec55",
+        "n": 240,
+        "correct": 184,
+        "accuracy_percent": 76.66666666666667,
+        "original_wrong": 152,
+        "visibly_wrong_draft": 134,
+        "visibly_wrong_draft_repaired": 90,
+        "public_matching_final_still_wrong": 27,
+        "original_right": 88,
+        "preserved": 88,
+        "ambiguous_draft": 18,
+        "ambiguous_draft_repaired": 6,
+        "all_wrong_drafts_repaired": 96,
+        "vs_baseline": {
+          "repaired": 0,
+          "regressed": 0
+        },
+        "generations": 601,
+        "mean_charged_tools": 3.654166666666667,
+        "max_generations": 4,
+        "max_generated_tokens": 174,
+        "max_charged_tools": 8,
+        "wall_seconds": {
+          "prediction": 2481.9469012359987,
+          "scoring": 4.622142913998687
+        },
+        "peak_rss_bytes": 5009424384
+      },
+      "ordinary": {
+        "run": "runs/e72_v7_ordinary_test/test/r001",
+        "score_sha256": "ff0414fb1a56557c825c1b0e9a8a3cfb7db0741ebd4596425b74eac300c05072",
+        "n": 240,
+        "correct": 178,
+        "accuracy_percent": 74.16666666666667,
+        "original_wrong": 152,
+        "visibly_wrong_draft": 134,
+        "visibly_wrong_draft_repaired": 86,
+        "public_matching_final_still_wrong": 30,
+        "original_right": 88,
+        "preserved": 88,
+        "ambiguous_draft": 18,
+        "ambiguous_draft_repaired": 4,
+        "all_wrong_drafts_repaired": 90,
+        "vs_baseline": {
+          "repaired": 4,
+          "regressed": 10
+        },
+        "generations": 563,
+        "mean_charged_tools": 3.4875,
+        "max_generations": 4,
+        "max_generated_tokens": 174,
+        "max_charged_tools": 8,
+        "wall_seconds": {
+          "prediction": 3022.9104085440013,
+          "scoring": 5.477484201001062
+        },
+        "peak_rss_bytes": 4215562240
+      },
+      "paired": {
+        "run": "runs/e73_v7_paired_test/test/r001",
+        "score_sha256": "841868ebd4e73a2a95322cb07778a19c537b58ef830b426e38919896b83f3f51",
+        "n": 240,
+        "correct": 187,
+        "accuracy_percent": 77.91666666666667,
+        "original_wrong": 152,
+        "visibly_wrong_draft": 134,
+        "visibly_wrong_draft_repaired": 88,
+        "public_matching_final_still_wrong": 23,
+        "original_right": 88,
+        "preserved": 88,
+        "ambiguous_draft": 18,
+        "ambiguous_draft_repaired": 11,
+        "all_wrong_drafts_repaired": 99,
+        "vs_baseline": {
+          "repaired": 7,
+          "regressed": 4
+        },
+        "generations": 596,
+        "mean_charged_tools": 3.6041666666666665,
+        "max_generations": 4,
+        "max_generated_tokens": 174,
+        "max_charged_tools": 8,
+        "wall_seconds": {
+          "prediction": 3094.381007346001,
+          "scoring": 4.572660286998143
+        },
+        "peak_rss_bytes": 5009367040
+      }
+    },
+    "paired_vs_ordinary": {
+      "repaired": 11,
+      "regressed": 2
+    }
+  }
+}

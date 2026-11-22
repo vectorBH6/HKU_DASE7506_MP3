@@ -1,0 +1,75 @@
+{
+  "exploratory": true,
+  "used_for_selection": false,
+  "n": 22,
+  "original_population": {
+    "source": "artifacts/prepared_data/v6/generator/holdout.jsonl",
+    "contexts": 109,
+    "distinct_tasks": 22,
+    "schemas": 16,
+    "rule": "All incremental train-holdout tasks with repair_failed_context. One earliest sample, then earliest attempt, per task. No correct check yet; original episode failed.",
+    "source_sha256": "0a23da8faccda22476c6461fb9f1ff12bd17c8e1d632851909c59db949e1799b",
+    "prompts_sha256": "998eb102aea0f1db06f3d8ca9f28deb99aa45ad8dbc7151d165c5f82188ddb4d",
+    "prefixes_sha256": "f67d116cf72ba747d0910c6fb53251ab90ca9ede5d7b19bc150e611ffeed4294"
+  },
+  "original_result_sha256": "bde43de5d7ed164b3f0eedd765f669a2caaf29274c0b683151d3b12960f918f0",
+  "first_action_counts": {
+    "old": {
+      "repair_hint": 22
+    },
+    "generator": {
+      "repair_hint": 22
+    }
+  },
+  "identical_next_model_prompts": 22,
+  "post_initial_prefix_tools": {
+    "repair_hint": 22
+  },
+  "old": {
+    "outcomes": {
+      "new_incorrect": 7,
+      "new_correct": 15
+    },
+    "proposed_tools": {
+      "check": 22
+    },
+    "guard_reasons": {
+      "model_query": 22
+    },
+    "identity": {
+      "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+      "first_generations_sha256": "053fda64ecabec967633ee4edeaca726a5dae724705279d98fdf38e50e5495ca",
+      "model_config_sha256": "98916aadbc66212d64e595e87698f7aace3d13777f5ece11938957327fdcf2af",
+      "first_population_sha256": "43da9b787578260175e425f50633b3a623dfabf29f32268477d4a16312753f9e",
+      "decisions_sha256": "710011dd5b254ec99e9f6b9c40c07a1f280b494572ea6ffa6192aa2f470bf98c",
+      "generations_sha256": "55a214ddb39f1da76660f8c32d6b7c2992e9cefaa6b9590f271e3fd67990c242"
+    }
+  },
+  "generator": {
+    "outcomes": {
+      "new_incorrect": 10,
+      "new_correct": 12
+    },
+    "proposed_tools": {
+      "check": 22
+    },
+    "guard_reasons": {
+      "model_query": 22
+    },
+    "identity": {
+      "adapter_sha256": "372bd6dcaf9f7506a585b09ebb6db0a4d62431da9f40ee54c207ebbb5d6a2a79",
+      "first_generations_sha256": "bea629af5faca23911940022bfb716a315594f8393d7c05c77941dc12f3f27c1",
+      "model_config_sha256": "98916aadbc66212d64e595e87698f7aace3d13777f5ece11938957327fdcf2af",
+      "first_population_sha256": "43da9b787578260175e425f50633b3a623dfabf29f32268477d4a16312753f9e",
+      "decisions_sha256": "acaf1ce7db60cc296523a7cef19abe40eff32ab132fea73685f09d17cd627a66",
+      "generations_sha256": "20e8f4d8602b6c6b13e141221178a63ad44980007ff1c2589ba9191405abaee5"
+    }
+  },
+  "paired_correct": {
+    "wins": 1,
+    "losses": 4,
+    "both_correct": 11,
+    "neither_immediate_correct_check": 6
+  },
+  "method": "Post-hoc continuation of all original 22 tasks. Replayed the deployed controller from the start using original greedy action text for its first generation, then official public tools (including the common cached hint), preserving all automatic steps and controller memory. Next normal proposal classified by the production guard before retry or fallback. Grader independently replays each accepted new SQL through all three train instances. An additional accepted action other than check does not have its own rollout."
+}

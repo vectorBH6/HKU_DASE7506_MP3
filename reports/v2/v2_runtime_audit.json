@@ -1,0 +1,22 @@
+{
+  "all_checks_passed": true,
+  "official_test_correct": 181,
+  "official_test_n": 240,
+  "score_unchanged_copy_sha256": "80d0e9402d64e6c7d357f3a6b52f576e22e1ee324913c8fcbac0ccd72f866671",
+  "predictions_unchanged_copy_sha256": "ff3f267bf73a1994d6b924848890930a619c7dc6478b6c334c0d6c5aa00c7d6f",
+  "default_config_matches_frozen_selection_and_test": true,
+  "inference_sources_match_validation_snapshots": true,
+  "model_loaded_once": true,
+  "model_calls": 598,
+  "max_model_calls": 4,
+  "max_new_tokens": 174,
+  "max_tool_calls": 8,
+  "prediction_seconds": 2707.8483313180004,
+  "scoring_seconds": 4.457806238000558,
+  "peak_process_tree_rss_bytes": 4399611904,
+  "adapter_sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613",
+  "old_score_preserved": "runs/e03_qwen3_lora/test/r001/score.json",
+  "single_venv": "/home/rvector/MP3_SQL_student_package/.venv",
+  "peer_reviews_created": false,
+  "dist_created": false
+}

@@ -1,0 +1,26 @@
+{
+  "official_files_checked": 497,
+  "official_files_modified": [],
+  "database_validation": "unchanged mp3_sql.check_data",
+  "base_and_tokenizer_files_checked": 9,
+  "base_files_modified": [],
+  "only_lora_A_B_trainable": true,
+  "adapters": [
+    {
+      "path": "artifacts/adapters/onpolicy_v001/epoch_01",
+      "tensor_count": 392,
+      "parameters": 10092544,
+      "bytes": 40423145,
+      "sha256": "44684f3943d692112da5dc8ac80c9b8a5bfa9a5c99a82f6e8f365270317609f8"
+    },
+    {
+      "path": "artifacts/adapters/onpolicy_v001/epoch_02",
+      "tensor_count": 392,
+      "parameters": 10092544,
+      "bytes": 40423145,
+      "sha256": "43d91619f16b1a7e4cb3358ad93cfc5f8ee447ff124640a8b5e2ff8ee44de613"
+    }
+  ],
+  "base_parameters": 596049920,
+  "total_parameters": 606142464
+}

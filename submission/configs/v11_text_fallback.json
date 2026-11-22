@@ -1,0 +1,23 @@
+{
+  "mode": "qwen",
+  "controller": "v11_text_fallback",
+  "adapter_sha256": "3deda01e89b10e00524bfce83ae27aaeb415a4291f4f0b5691d1b5e65f780b81",
+  "use_adapter": true,
+  "use_hints": true,
+  "use_retrieval": true,
+  "use_variants": true,
+  "review_matched": "risk",
+  "max_completions": 4,
+  "max_new_tokens": 384,
+  "seed": 42,
+  "max_retries_per_observation": 1,
+  "max_contract_checks": 2,
+  "review_pool_policy": "struct",
+  "replacement_margin": 0.12,
+  "text_family_order": [
+    "contains",
+    "nocase",
+    "full_name",
+    "prefix"
+  ]
+}
