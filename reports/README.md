@@ -1,6 +1,6 @@
 # Experiment reports
 
-Li Shanghang's V12 agent scored **99/120 on validation** and **191/240 on the public test** in fresh CPU runs. The final English report describes the controller, ablations, error analysis and reproduction procedure. [Final V12 report (Markdown)](v12/FINAL_REPORT.md) · [Final V12 report (PDF)](v12/FINAL_REPORT.pdf) · [Validation evidence](v12/v12_official_validation.json) · [Test evidence](v12/v12_official_test.json)
+Li Shanghang's V17 agent scored **194/240 (80.83%) on public test** and **102/120 (85.00%) on validation** in fresh four-core CPU runs. The report covers the agent loop, controlled ablations, resource use and reproduction. [Final V17 report (PDF)](v17/report.pdf) · [V17 measurements](v17/results.json) · [Previous V12 report](v12/FINAL_REPORT.md)
 
 | Version | Experiment | Report and primary evidence |
 | --- | --- | --- |
@@ -18,6 +18,7 @@ Li Shanghang's V12 agent scored **99/120 on validation** and **191/240 on the pu
 | [V11](v11/) | String-predicate repair after a failed V10 check | [Comparison report](comparisons/v10_v12_report.md) · [Validation](v11/v11_official_validation.json) · [Test](v11/v11_official_test.json) |
 | [V12](v12/) | String-predicate repair after a failed V9 check | [Final English report](v12/FINAL_REPORT.md) · [Coverage of validation candidates](v12/v12_validation_coverage.json) |
 | [V13 development probe](v13/) | Foreign-key path repair | [Training and validation evidence](v13/README.md) |
+| [V17](v17/report.pdf) | Join cardinality and surplus tables | [Final report (PDF)](v17/report.pdf) · [Fresh CPU results](v17/results.json) |
 
 [Cross-version comparisons](comparisons/) include the V10–V12 experiment report, the V10/V11 coverage audit, the teacher-distillation study and the shared V1/V2 reproduction logs.
 

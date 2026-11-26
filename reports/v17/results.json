@@ -1,0 +1,124 @@
+{
+  "validation": {
+    "correct": 102,
+    "n": 120,
+    "accuracy_percent": 85.0,
+    "fresh_cpu_generations": 275,
+    "identical_fresh_trajectories": 120,
+    "matching_paired_completions": 275,
+    "max_completions": 4,
+    "max_new_tokens_per_completion": 384,
+    "total_new_tokens": 8708,
+    "max_tools": 8,
+    "total_tools": 565,
+    "official_predictions_sha256": "543d9ae63d450286338910356663fa31cfdb35a0fadca6bcb6eacca891a8efd3",
+    "official_score_sha256": "cea8cd3b3a3b458943f1ab4883414fe47100df7cb637669d4dcf99f92e7a760d",
+    "resources": {
+      "cpus": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "stages": {
+        "prediction": {
+          "wall_seconds": 1576.1535750760013,
+          "peak_process_tree_rss_bytes": 3954208768,
+          "user_cpu_seconds": 5918.78,
+          "system_cpu_seconds": 250.85,
+          "max_rss_kib": 5110240
+        },
+        "scoring": {
+          "wall_seconds": 2.9051602600011392,
+          "peak_process_tree_rss_bytes": 90042368,
+          "user_cpu_seconds": 7.78,
+          "system_cpu_seconds": 1.8,
+          "max_rss_kib": 36324
+        }
+      }
+    },
+    "paired_comparison": {
+      "split": "validation",
+      "stages": [
+        "cardinality"
+      ],
+      "patch_model": false,
+      "baseline_v15": 102,
+      "correct": 102,
+      "n": 120,
+      "wins": 0,
+      "losses": 0,
+      "changed_sql": 2,
+      "changed_trajectory": 2,
+      "extra_tools": 1,
+      "max_tools": 8,
+      "max_completions": 4,
+      "total_tools": 565,
+      "archived_cpu_generations": 275,
+      "fresh_cpu_generations": 0,
+      "predictions_sha256": "0936c435ca4cb28c54714b7a5584a80478c16a4a06496d7b585889d997fc7092",
+      "score_sha256": "e1fcab686ad51b2331185a82587880c190a3377ef120e0ac27a7798e26a18006"
+    }
+  },
+  "test": {
+    "correct": 194,
+    "n": 240,
+    "accuracy_percent": 80.83333333333333,
+    "fresh_cpu_generations": 596,
+    "identical_fresh_trajectories": 240,
+    "matching_paired_completions": 596,
+    "max_completions": 4,
+    "max_new_tokens_per_completion": 174,
+    "total_new_tokens": 18323,
+    "max_tools": 8,
+    "total_tools": 1121,
+    "official_predictions_sha256": "f7e306bec50a96dd04fd3339bb11dd98a0bf57d079a816771914b83ee19650b5",
+    "official_score_sha256": "570ef5308a1e7237b880515aafe6564e385b6beccf377e41f4380a0c77f6b15f",
+    "resources": {
+      "cpus": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "stages": {
+        "prediction": {
+          "wall_seconds": 3385.742045033003,
+          "peak_process_tree_rss_bytes": 5064683520,
+          "user_cpu_seconds": 12944.34,
+          "system_cpu_seconds": 289.96,
+          "max_rss_kib": 5110404
+        },
+        "scoring": {
+          "wall_seconds": 6.719748554001853,
+          "peak_process_tree_rss_bytes": 93327360,
+          "user_cpu_seconds": 18.74,
+          "system_cpu_seconds": 5.05,
+          "max_rss_kib": 39620
+        }
+      }
+    },
+    "paired_comparison": {
+      "split": "test",
+      "stages": [
+        "cardinality"
+      ],
+      "patch_model": false,
+      "baseline_v15": 193,
+      "correct": 194,
+      "n": 240,
+      "wins": 1,
+      "losses": 0,
+      "changed_sql": 3,
+      "changed_trajectory": 3,
+      "extra_tools": 2,
+      "max_tools": 8,
+      "max_completions": 4,
+      "total_tools": 1121,
+      "archived_cpu_generations": 596,
+      "fresh_cpu_generations": 0,
+      "predictions_sha256": "dc94933e037a512b254ba061a9c63e37490db8444b19159b2360235d7969ac85",
+      "score_sha256": "73725708cd56db42b153838a7294a13355c0d722453664a2d0abd4e07b2a319c"
+    }
+  }
+}
